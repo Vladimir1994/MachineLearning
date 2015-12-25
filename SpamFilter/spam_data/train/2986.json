@@ -1,0 +1,9 @@
+{
+    "body": "Heyho! \n \n... and, sending the last mail: is it a Debian specific issue, or some local \nfeature of my KDE profile, or a KDE bug: recently (4.3 to 4.4, but I'm not \nsure exactly which updates triggered it), the pinentry window always comes \nup behind the kmail windows when I sign email. Confused me a bit at \nfirst... (luckily it is still modal relative to the kmail window, so the \nkmail composer gets greyed out, indicating that the pinentry might be \nsomewhere...) \n \nMostly everything related to KDE is experimental or qt-kde repository. \npinentry-qt4 is 0.8.0-1. \n \ncheers \n-- vbi \n \n-- \nDevelopment code can brick your network adapter, \nscramble your filesystems, open up severe security \nholes, or save your documents as OOXML \n -- Jonathan Corbet, Linux Weekly News", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Adrian von Bidder <avbidder@fortytwo.ch>", 
+    "subject": "pinentry window?"
+}

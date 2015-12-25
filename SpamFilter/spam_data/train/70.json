@@ -1,0 +1,9 @@
+{
+    "body": "Hi all. \n \nI´m working in a project that we would like to install in a touch-screen compact computer. My intention is to use Debian as the OS, and i'm searching for that kind of hardware with support for Debian/Linux. Most of them support Windows but it´s not clear if Debian will work as well. I've found some support for touch screens (some models), but not clear for integrated/compact systems. Someone knows where to look for?, or has some experience?, some URL? \n \nThanks in advance, \n-- \nJose Manuel Pérez (+34 943 018705) \nRedes y Sistemas / Sarea eta Sistemak \nRed Académica i2basque Sare Akademikoa \n-- \n \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/01C59D38-A97C-4794-AFB6-4370245E2F8E@i2basque.es", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?Q?Jose_Manuel_P=E9rez?= <jmperez@i2basque.es>", 
+    "subject": "Debian and touch-screens"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 8 Oct 2002, John Moylan wrote:\n> Hmm, speaking of cheap machines etc, has anyone tried this sort of\n> thing: http://www.mini-itx.com/projects/humidor64/ ? or more importantly\n> has anyone had any positive/negative experiences with the Via mini-itx\n> boards/via c3 processors.\n\nMy laptop has a Via C3 processor. I use Debian with a self-compiled\n2.4.19 kernel, and have had absolutely no problems with the chip at all\n(quite the opposite, in fact).\n\nI had to compile for \"686\" in order for 3D acceleration to work (the\nkernel has an option specifically for the Via C3), but I assume that was\na kernel problem rather than a hardware problem.\n\nTrevor Johnston\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Trevor Johnston <trevj@redbrick.dcu.ie>", 
+    "subject": "Re: [ILUG] mini-itx"
+}

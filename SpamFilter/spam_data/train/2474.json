@@ -1,0 +1,9 @@
+{
+    "body": "And you were exactly the person I figured would do so. \n\nOn Thu, 5 Sep 2002, Theo Van Dinter wrote:\n\n> On Thu, Sep 05, 2002 at 06:16:57PM -0500, Mike Burger wrote:\n> > You might be better asking this on the spamassassin-talk list. The folks \n> > there will almost definitely have an answer for this.\n> \n> I posted a fairly lengthy complete answer to this problem and how to\n> get around it in SA 2.41 on the spamassassin-talk list. :)\n> \n> \n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "Theo Van Dinter <felicity@kluge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Mike Burger <mburger@bubbanfriends.org>", 
+    "subject": "Re: [Razor-users] Problem with Razor 2.14 and Spamassassin 2.41"
+}

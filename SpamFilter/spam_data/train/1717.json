@@ -1,0 +1,9 @@
+{
+    "body": "Hi! \n \nI was toying around with getconf and was looking for options to print \nall configuration values. I've found there is a -a option for that. You \ncan find about it by running getconf with no arguments: \n \n--- \nrazvan@valhalla:~$ getconf \nUsage: getconf [-v specification] variable_name [pathname] \n getconf -a [pathname] \n--- \n \nHowever, the option is not printed when using the --help option: \n--- \nrazvan@valhalla:~$ getconf --help \nUsage: getconf [-v SPEC] VAR \n or: getconf [-v SPEC] PATH_VAR PATH \n \nGet the configuration value for variable VAR, or for variable PATH_VAR \nfor path PATH. If SPEC is given, give values for compilation \nenvironment SPEC. \n \nFor bug reporting instructions, please see: \n . \n--- \n \nMoreover, there is no documentation in the manual page about the -a \noption. Should this be corrected? Should I submit a feature request/bug \nreport on this issue? \n \nRazvan \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1270557630.17580.6.camel@valhalla", 
+    "to": [
+        "Debian User Mailing List <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Razvan Deaconescu <razvan@rosedu.org>", 
+    "subject": "Missing option in manual page for getconf"
+}

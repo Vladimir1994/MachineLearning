@@ -1,0 +1,9 @@
+{
+    "body": "One possible solution is using the \"nvidia-settings\"-Tool. \nYou can configure your display-settings in a GUI and save it \npermanently to an xorg file. \nI'm using this method since years and it works very well and flawlessly. \n \n[Screenshot] \nhttp://ourcraft.files.wordpress.com/2009/12/nvidia-settings.png \n \n \n- \nSebastian \n \n \n \nZitat von James Allsopp : \n \n> Hi, \n> I've a small 4:3 monitor which was working fine with Debian at about \n> 1152x864 (VGA connection) on a nvidia 9500GT with the proprietary drivers \n> (sorry want to experiment with CUDA so non-free wasn't an option). However, \n> I've just bought a new 1080p TV and connected it to the computer via HDMI. \n> This unfortunately has permanently knocked the resolution down on the \n> monitor to 800x600, which is next to unusable. Would anyone with a similar \n> configuration be willing to share an xorg.conf or share some advice on this. \n> I think I'd like the monitor to be either 1280x960, 1152x864, 1024x768 and \n> the TV to work at 1600x900 1366x768 or 1280x720. \n> \n> \n> Thanks for any help! \n> Jim \n> \n \n \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100518122107.112868rwr08lxasc@webmail.df.eu", 
+    "to": [
+        "James Allsopp <jamesaallsopp@googlemail.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Sebastian Weisgerber <sebastian@dystopianfuture.de>", 
+    "subject": "Re: Dual Monitors Twin View on Nvidia"
+}

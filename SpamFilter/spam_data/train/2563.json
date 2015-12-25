@@ -1,0 +1,9 @@
+{
+    "body": "hdparm -d1 /dev/hdc says Operation not Permitted.\nDVD playback is very jumpy.\nDoes someone have any ideas on what I can do yo get DMA transfers?\nThanks Alvie\n\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Alvie <bishop12@prodigy.net>", 
+    "subject": "RH 8 no DMA for DVD drive"
+}

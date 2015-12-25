@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 11 Apr 2010 19:30:14 -0500, Ron Johnson \nwrote: \n> On 2010-04-11 18:49, thib wrote: \n>> Ron Johnson wrote: \n>>> Yes, \"wire\" is slang for network cables, but SATA cables are actual \n>>> wires too and orders of magnitude slower than CPU/RAM transfer. \n>> \n>> This is true, but isn't relevant to what you suggested. \n>> Think about it some more. \n>> \n>> ... \n>> \n>> Oh yes. \n>> \n>> We'll never talk about this again, I promise. \n>> \n>> -thib \n>> \n>> PS I'll tell you something embarrassing about me if you find a SATA \n>> controller that can inflate. \n>> \n> \n> You're absolutely correct. This time... \n> \n \nI've used dd to push a copy of a working system onto larger drives in the \npast. So my misuse of the term \"migrate\" is me actually doing a copy of the \nworking system to a new, larger device and then zap the original. \n \nI'd hoped there was a block by block way to do it so I didn't have to set \nup the partitions & filesystems ahead of time but I suppose that part won't \nbe too painful. \n \nThe system is relatively idle during these types of surgeries because I \nboot from a live CD so the data on disk isn't churning. \n \nThanks to all who responded, it gave me a lot to consider for this type of \nproject. Like doing proper diffs afterwards to make sure everything landed \non the new device properly! \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/f6af5a3f47ea48bd1e0f695949793313@192.168.0.66", 
+    "to": [
+        "<debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "vr <debian-user@iotk.net>", 
+    "subject": "Re: Migrate OS to smaller =?UTF-8?Q?drive=3F?="
+}

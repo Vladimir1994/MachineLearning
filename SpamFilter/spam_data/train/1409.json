@@ -1,0 +1,7 @@
+{
+    "body": ">>>>> \"TP\" == Tim Peters writes:\n\n >> First test results using tokenizer.Tokenizer.tokenize_headers()\n >> unmodified. ... Second test results using\n >> mboxtest.MyTokenizer.tokenize_headers(). This uses all headers\n >> except Received, Data, and X-From_. ...\n\n TP> Try the latter again, but call the base tokenize_headers() too.\n\nSorry. I haven't found the time to try any more test runs. Perhaps\nlater today.\n\nJeremy", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "jeremy@alum.mit.edu (Jeremy Hylton)", 
+    "subject": "[Spambayes] understanding high false negative rate"
+}

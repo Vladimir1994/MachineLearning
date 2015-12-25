@@ -1,0 +1,9 @@
+{
+    "body": "speaking of things considered harmful, line lengths of over 80 chars\nare considered harmful. cut it out.\n\nOn Thu, Aug 08, 2002 at 11:27:59AM +0100, wintermute wrote:\n> Interesting. I've always wondered about things 'considered' to be bad. \n> Example the GOTO, most languages support a goto of some sort, so are\n> gotos really bad?\n\nif used properly, they actually can make code more readable. but those\nproper occasions are quite rare really. it's a good idea to avoid them\nsince over use of goto will create what niall calls \"write-only code.\"\nwhat a wonderful expression. my professors would spend entire lectures\nexplaining that concept, and yet three little words convey it so well.\n\nkevin\n\n-- \nkevin@suberic.net that a believer is happier than a skeptic is no more to\nfork()'ed on 37058400 the point than the fact that a drunken man is happier\nmeatspace place: home than a sober one. the happiness of credulity is a\nhttp://ie.suberic.net/~kevin cheap & dangerous quality -- g.b. shaw\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "wintermute <cout@eircom.net>"
+    ], 
+    "is_spam": false, 
+    "from": "kevin lyda <kevin+dated+1029235349.f17378@ie.suberic.net>", 
+    "subject": "Re: [ILUG] slashdot EW Dijkstra humor"
+}

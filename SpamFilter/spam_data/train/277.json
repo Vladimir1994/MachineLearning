@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 2010-04-15 at 07:25 -0500, Ron Johnson wrote: \n> On 2010-04-15 04:56, John A. Sullivan III wrote: \n> > Hello, all. We've installed acroread 8.1.7-0.1 from debian-multimedia. \n> > It is not seeing any of the printers on our cups print server. It just \n> > shows the custom lpr printer. How do we get it to see our printers like \n> > all the other applications in our KDE setup do? We are running Lenny + \n> > backports. Thanks - John \n> > \n> \n> Semi-OT from your question, but v8.1.7 is *really* old. Make that \n> really *REALLY* old. If you're running Stable and that's what's in \n> the Stable repos, then remove it an go directly to adobe to get the \n> latest version. \n \nI thought about doing that but it looks like the only deb is a 32 bit \none and we are running 64 bit :( \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1271339566.4177.19.camel@Family.pacifera.com", 
+    "to": [
+        "Ron Johnson <ron.l.johnson@cox.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"John A. Sullivan III\" <jsullivan@opensourcedevel.com>", 
+    "subject": "Re: acroread not seeing printers"
+}

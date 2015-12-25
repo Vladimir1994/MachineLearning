@@ -1,0 +1,9 @@
+{
+    "body": "Hello Russel, \n \nI am suspecting an issue on the server side. \nCan you provide a verbose log of the server side, \n \nRegards, \n \nFranklin \n \nOn Tue, 2010-04-06 at 20:00 -0700, Russell L. Carter wrote: \n> \n> On my main system I have two user accounts, 'rcarter' and 'sardine'. I \n> remove the .ssh directories from 'rcarter', 'sardine', and 'root'. I \n> create a new rsa key for rcarter (creates ~rcarter/.ssh) and then \n> ssh-copy-id -i the new key to sardine@localhost and root@localhost, \n> which creates a new .ssh directory with authorized_keys for each. \n> Then I ssh-add the new key to the agent as rcarter. \n> \n> 1. $ ssh sardine@localhost logs in w/o password \n> 2. $ ssh root@localhost asks for password \n> \n> This is reproducible on two 'testing' systems that have worked \n> flawlessly for at least two years each, but were both dist-upgraded \n> yesterday, and they now exhibit this same behavior. \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1270897313.3786.878.camel@solid.paris.klabs.be", 
+    "to": [
+        "\"Russell L. Carter\" <rcarter@pinyon.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Frank Lin PIAT <fpiat@klabs.be>", 
+    "subject": "Re: passwordless ssh root logins stopped working after testing   dist-upgrade"
+}

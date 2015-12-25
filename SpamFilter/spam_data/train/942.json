@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, 2010-05-14 at 21:47 -0500, Ron Johnson wrote: \n> On 05/14/2010 09:20 PM, John A. Sullivan III wrote: \n> [snip] \n> > \n> > I would disagree. It was quite enlightening to see one of our clients \n> > work in a highly paperless way. They received FAXes via email as pdfs, \n> > open them in Acrobat, deskew, ocr to grab text for other documents based \n> > on those faxes, make any annotations, and save the FAX into their \n> > directory structure. They receive construction drawings as large PDF \n> > files, bind them, optimize them, stamp them as received, approved, etc., \n> > mark them up for distribution without printing off sets of large plotter \n> > prints- all done with Acrobat and nothing specific to Windows. In fact, \n> > they are desperately trying to move away from Windows and Acrobat is the \n> > major stumbling block - John \n> > \n> \n> Wine/CrossOver? \n \nWith a lot of work one can get it to install but it does not print - \nthus it's pretty useless for everyday use - John \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1273894423.3747.5.camel@localhost", 
+    "to": [
+        "Ron Johnson <ron.l.johnson@cox.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"John A. Sullivan III\" <jsullivan@opensourcedevel.com>", 
+    "subject": "Re: Flash is open?"
+}

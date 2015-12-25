@@ -1,0 +1,9 @@
+{
+    "body": "On 27 Aug 2002 at 15:00, Rohit Khare wrote:\n> \n> DATAPOWER TECHNOLOGY ON Monday unveiled its network device\n> designed specifically to process XML data. Unlike competing\n> solutions that process XML data in software, DataPower's\n> device processes the data in hardware -- a technology\n> achievement that provides greater performance, according to\n> company officials.\n>\nSarvega seems to have a similar product. http://www.sarvega.com.", 
+    "to": [
+        "fork@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"John Evdemon\" <jevdemon@acm.org>", 
+    "subject": "Re: DataPower announces XML-in-silicon"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "http://www.hughes-family.org/bugzilla/show_bug.cgi?id=839\n\n\n\n\n\n------- Additional Comments From alan@rdrop.com 2002-09-05 22:22 -------\nI haven't tried 2.41 yet because it requires File::Spec, which barfs when\nspamassassin tries to use it. I haven't filed a bug yet because I suspect it's\nbecause I'm still running 5.005 perl because of reported compatibility issues\nwith 5.6 and later, but I probably will because I think there's too much legacy\nperl code to put up with major compatibility problems, and spamassassin didn't,\nat least in the quickest of looks, say it needed a newer one. The perl @ stuff\nwas bad enough... but this is all a separate soapbox...\n\n\n\n------- You are receiving this mail because: -------\nYou are the assignee for the bug, or are watching the assignee.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "spamassassin-devel@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "bugzilla-daemon@hughes-family.org", 
+    "subject": "[SAdev] [Bug 839] mailbox corruption not fixed with procmail 3.22"
+}

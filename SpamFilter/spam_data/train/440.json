@@ -1,0 +1,9 @@
+{
+    "body": "> \n> \n> \n>---- Original Message ---- \n>From: jgmb65@rezozer.net \n>To: debian-user@lists.debian.org \n>Subject: RE: non-ASCII environment \n>Date: Sat, 10 Apr 2010 00:14:14 +0800 \n> \n>>Hello List, \n>> \n>>I am writing some C code which involves ASCII characters: \n>>in C related books, we can find a lot of comments about \n>>ASCII character issues, as far as we are concern with portability. \n>> \n>>Nevertheless, something bothers me: where non-ASCII environment can \n>be found ? \n>> \n>>Furthermore, can such an environment be created on a Debian box ? \n>>The aim is to check the portability of my code. \n>> \n>>Thanks in advance, \n>>Jerome \n>> \n>> \n>> \n>>-- \n>>Jerome BENOIT \n>>jgmbenoit-at+rezozer*dot_net \n>> \n>> \n>>-- \n>>To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \n>>with a subject of \"unsubscribe\". Trouble? Contact \n>listmaster@lists.debian.org \n>>Archive: http://lists.debian.org/4BBF5256.40104@rezozer.net \n>> \nUsually the \"correct\" answer is to stick to the ANSI standard and all \nwill be well. However if you have some specific issue or some \nspecific questionable code, why not post it? \nLarry \n>> \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/380-22010459204526234@netptc.net", 
+    "to": [
+        "jgmb65@rezozer.net, debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "owens@netptc.net", 
+    "subject": "RE: non-ASCII environment"
+}

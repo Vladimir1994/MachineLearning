@@ -1,0 +1,9 @@
+{
+    "body": "> do you have any plans for Basket? \n> There is a Qt 4 port available Basket 2.0 Beta 1 (1.80). \n> \n> It didn't show any basket contents after installation to my home \n> directory, but that might have been a problem with the installer script in \n> the upstream archive. \n \nbasket is in under our radar. \nThe package should be reviewed before the upload. \n \nCheers, \n \nFathi \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/AANLkTinbtGGq10EqOvPR2IIopu2t4W1_WdgzX0TS7TwG@mail.csmining.org", 
+    "to": [
+        "Martin Steigerwald <Martin@lichtvoll.de>"
+    ], 
+    "is_spam": false, 
+    "from": "Fathi Boudra <fabo@debian.org>", 
+    "subject": "Re: plans for basket"
+}

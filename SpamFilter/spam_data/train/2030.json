@@ -1,0 +1,9 @@
+{
+    "body": "On Sat,10.Apr.10, 08:51:16, Clive McBarton wrote: \n \n> Certainly so. What I meant to ask is what to do if you (like the OP) \n> want automatic upgrades (downloaded and installed without the admin \n> present) but (unlike the OP) only use aptitude and never apt-get. \n \nIt doesn't matter. Mixing apt-get and aptitude is not a problem anymore. \n \nRegards, \nAndrei \n-- \nOfftopic discussions among Debian users and developers: \nhttp://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Andrei Popescu <andreimpopescu@csmining.org>", 
+    "subject": "Re: automate updates in Lenny"
+}

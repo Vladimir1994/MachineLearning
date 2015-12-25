@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, 2002-08-28 at 13:57, Michael Clark wrote:\n> To update spamassasin, all I need to do is install the new tar.gz \n> file as if it were a new installation? I don't need to stop incoming \n> mail or anything like that? Thanks, Mike\nIf you are using spamd, you will have to stop/restart it. \n\n-- \nLarry Rosenman http://www.lerctr.org/~ler\nPhone: +1 972-414-9812 E-Mail: ler@lerctr.org\nUS Mail: 1905 Steamboat Springs Drive, Garland, TX 75044-6749\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "Michael Clark <mclark@cdtmail.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Larry Rosenman <ler@lerctr.org>", 
+    "subject": "Re: [SAtalk] updating SA"
+}

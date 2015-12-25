@@ -1,0 +1,9 @@
+{
+    "body": "Hello, \n \nI've been using linux (debian) for about a year now, and although I'm no \nlonger scared of the command line I would like to do a little \nreading/studying of linux to get a better understanding of some of the more \nadvanced topics, or to see if I have learned a lot of the things that might \nbe taught in a university-linux/UNIX course. I'm sure that there is a lot of \nstuff that I've missed by just going at it with trial and error. Perhaps \nthere are some online courses posted to youtube, or a few books that someone \nmight like to recommend? I would be interested to know what types of things \none must learn to get \"linux-certification\" (I presume there is such a \nthing). \n \nRegards, \nJames", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Resources for learning Linux"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-15 13:55, Hugo Vanwoerkom wrote: \n> Ron Johnson wrote: \n>> On 2010-04-14 11:12, Hugo Vanwoerkom wrote: \n>>> Ron Johnson wrote: \n>>>> On 2010-04-13 15:53, Hugo Vanwoerkom wrote: \n>>>>> Hi, \n>>>>> \n>>>>> Anybody install a recent motherboard that they are happy with? \n>>>>> I am due for an upgrade and there are too many choices. \n>>>>> \n>>>> \n>>>> Come on, man... You should know the drill. \n>>>> \n>>>> Specify: \n>>>> \n>>>> o budget \n>>>> o needed features \n>>>> o preferred features \n>>>> \n>>> \n>>> budget - any \n>>> \n>>> needed features - desktop configuration, at least 2 PCI express slots \n>>> - ATX form factor \n>>> \n>>> preferred features - runs with Debian \n>>> \n>> \n>> ATX means you'll get lots of built-in features. I like my Gigabyte \n>> GA-MA780G-UD3H mobo with AM2+/AM2 socket. \n>> \n>> 8GM RAM, 6 SATA, 1 (or 2, I forget) rear eSATA, lots of USB, a front \n>> and rear Firewire and decent on-board audio. On-board ATI video with \n>> separate video RAM, but I installed a fanless NVIDIA card because the \n>> driver situation is *simple*, and it's fast. \n>> \n> \n> Too bad it's a NewEgg outofstock item: \n> http://www.newegg.com/Product/Product.aspx?Item=N82E16813128382 \n> \n \nProbably superseded by a newer model. \n \nDo you need/want: \no on-board video? \no latest/greatest CPU? \no Intel or AMD? \no to buy new RAM? \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC7798C.401@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: recent mobo recommendation"
+}

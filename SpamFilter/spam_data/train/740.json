@@ -1,0 +1,9 @@
+{
+    "body": "On Thursday, August 22, 2002, at 09:36 AM, Justin Mason wrote:\n\n>\n> \"Craig R.Hughes\" said:\n>\n>> I thought we'd sort of decided that after 2.40 we'd switch the\n>> meaning of the \"lang\" prefix to actually mean \"run these rules\n>> if language matches\", where \"language\" is what TextCat spits out\n>> for a message, as opposed to using the locale which is how\n>> things currently work.\n>\n> ah, right -- I'd forgotten that. :(\n>\n> doesn't help with the finding-broken-rules QA case though...\n\nIt does, if you have a corpus of german spam and nonspam to feed \nit, and you're not in a de locale.\n\nC\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "yyyy@spamassassin.taint.org (Justin Mason)"
+    ], 
+    "is_spam": false, 
+    "from": "\"Craig R.Hughes\" <craig@deersoft.com>", 
+    "subject": "Re: [SAtalk] German spam corpus / foreign language spam"
+}

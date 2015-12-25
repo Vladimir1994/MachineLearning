@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 06 May 2010 15:47:15 +0300, Aioanei Rares wrote: \n \n> Hi everyone, \n> \n> Can anyone tell me what package provides the KDE applet called \"LCD \n> Weather Station\"? \n> I found a bug in it and don't know against what should I report it \n> against. 'aptitude search' \n> and grep don't seem to help (or I'm having a blank moment). Thanks. \n \nThat widget should be in \"plasma-widgets-addons\". \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.05.06.14.11.07@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: KDE's LCD weather station applet"
+}

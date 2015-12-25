@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 02 May 2010 18:08:23 -0400, Mark Neidorff wrote: \n \n> I'm running updated Lenny. I just got a droid phone and wanted to mount \n> it on my Lenny box. So, I plugged the USB cable into the droid and the \n> computer. I expected to see an sd? device show up with partitions (like \n> sdb1, sdb2, etc.) but they don't show up. My primary HD shows up as \n> sda1-7. There are entries for sdb,c,d,e and sdf, but no partitions to \n> mount. \n> \n> What do I have to do to mount the Droid under Lenny? \n \nAfter connecting the phone, type \"dmesg\" to see what is going on. \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.05.03.05.51.48@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: Should be easy"
+}

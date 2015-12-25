@@ -1,0 +1,9 @@
+{
+    "body": "Hi Brandon, \n \nOn 30 Apr 2010, at 17:14, Brandon Moon wrote: \n \n[..] \n> I also tried attaching VisualVM to it, but I couldn't even see the \n> thread dump option. \nThe easiest way is to right-click on your application and invoke \n'Thread Dump' from a context menu. \n \nBye, \n-- \nTomas Hurka \nNetBeans Profiler http://profiler.netbeans.org \nVisualVM http://visualvm.dev.java.net \nSoftware Engineer, Developer Platforms Group \nSun Microsystems, Praha Czech Republic \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nJava-dev mailing list (Java-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "list Java-dev <java-dev@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Tomas Hurka <Tomas.Hurka@Sun.COM>", 
+    "subject": "Re: Problem detecting sleep in 10.6"
+}

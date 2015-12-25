@@ -1,0 +1,9 @@
+{
+    "body": "> if I only execute one command on true/false conditions, I prefer: \n> command && react_true || react_false \n> \n \nAlthough this generally works it is not correct: \n \nIf 'react_true' fails for some reason then 'react_false' is also executed. \n \n--Jasper. \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1270824632.2737.5.camel@dx2000.g48b", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Jasper <rjnoe@xs4all.nl>", 
+    "subject": "Re: Re: OT: Script to add line to file if it doesn't exist"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "I see that Robert S. Wojciechowski Jr. posted about this issue on 7/26,\nbut I don't see any responses. I get that error when calling razor-report\nfrom a sendmail alias, but not from the command line as a different user.\nThe way I solved it was to run \n\nrazor-admin -create\n\nand\n\nrazor-admin -discover\n\nwith a -home argument set to the global /etc/razor directory, which is\nexplicitly specified in the args to the alias pipe.\n\nThe manual page, which suggests that /etc/razor/razor-agent.conf will be\nloaded first, does not also say that razor-admin will then create a\n.razor directory in the user's home directory if it does not exist\n(although this /is/ pointed out in the razor-agents(1) page. This may\nlead to some minor confusion if the user is trying to set the discovery\nand other defaults for a default (e.g., /etc/razor) install. The\nworkaround is as I say above, namely, explicitly specify the path to\nrazorhome on the command line, e.g.\n\nrazor-admin -home=/etc/razor -create\nrazor-admin -home=/etc/razor -discover\n\nhth,\nSteve\n\n-- \nhesketh.com/inc. v: (919) 834-2552 f: (919) 834-2554 w: http://hesketh.com\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Dice - The leading online job board\nfor high-tech professionals. Search and apply for tech jobs today!\nhttp://seeker.dice.com/seeker.epl?rel_code=31\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "razor-users@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Steven Champeon <schampeo@hesketh.com>", 
+    "subject": "[Razor-users] can't call method \"log\" issue - solution"
+}

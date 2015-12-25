@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, Apr 6, 2010 at 7:51 AM, Sjoerd Hardeman \n wrote: \n> For a regular user, you need to be in the plugdev group to mount and \n> unmount. \n \ni am not familiar with those settings in linux. so i did some searching. \nhttp://wiki.debian.org/DebianDesktopHowTo \n \nwhich says: \n\"This is a problem with the way D-Bus figures out what groups you are \na member of. All users should be added to plugdev, netdev, and \noptionally powerdev, in /etc/groups. Any way of automating this in \nDebian?\" \n \ni look around in /etc/ and find there are 2 group files. \n \nmobildebian:/etc# nano group \ngroup group- \n \nim guessing i need to remove group [ which is empty ] and rename \ngroup- to be the group file. \n \ncorrect? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/j2xf8d5d4f31004060808se4b0fb28te15a1c3657fd9b5a@mail.csmining.org", 
+    "to": [
+        "debian-user <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "jeremy jozwik <jerjoz.forums@csmining.org>", 
+    "subject": "Re: Umont ownership?"
+}

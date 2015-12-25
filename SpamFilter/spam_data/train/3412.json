@@ -1,0 +1,9 @@
+{
+    "body": "Hi,\n\nhow about applying this to the default apt.conf shipped with the\nfreshrpms.net apt package? I found it a bit weird when the behaviour\nchanged between the old 0.3.x and the new 0.5.x versions so that when\ndoing a \"apt-get upgrade\", it wouldn't tell me *which* packages were to\nbe upgraded, just that it was about to upgrade something...\n\n--- apt.conf 2002-09-27 14:58:28.000000000 +0300\n+++ apt.conf 2002-10-03 21:38:05.000000000 +0300\n@@ -4,6 +4,7 @@\n Get \n {\n Download-Only \"false\";\n+ Show-Upgraded \"true\";\n };\n \n };\n\n-- \n\\/ille Skyttä\nville.skytta at iki.fi\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ville =?ISO-8859-1?Q?Skytt=E4?= <ville.skytta@iki.fi>", 
+    "subject": "apt.conf suggestion"
+}

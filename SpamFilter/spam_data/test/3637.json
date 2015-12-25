@@ -1,0 +1,8 @@
+{
+    "body": "Update of /cvsroot/spamassassin/spamassassin/masses\nIn directory usw-pr-cvs1:/tmp/cvs-serv6501/masses\n\nRemoved Files:\n Tag: b2_4_0\n evolve.cxx \nLog Message:\nremoved old evolver\n\n--- evolve.cxx DELETED ---\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-commits mailing list\nSpamassassin-commits@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-commits", 
+    "to": [
+        "spamassassin-commits@example.sourceforge.net"
+    ], 
+    "from": "Justin Mason <yyyyason@users.sourceforge.net>", 
+    "subject": "[SACVS] CVS: spamassassin/masses evolve.cxx,1.28,NONE"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "> I don't understand. How does sorting one folder add messages to\n> other folders? What do you use to sort?\n> \n\nSorry I wasn't clear. I am transferring messages from my inbox to other folders \nand since I am doing it from most recent to oldest, they appear in those \nfolders in the wrong order and need re-sorting.\n\n--\nrick\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Rick Baartman <baartman@lin12.triumf.ca>", 
+    "subject": "Re: Sorting"
+}

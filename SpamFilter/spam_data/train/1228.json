@@ -1,0 +1,9 @@
+{
+    "body": "use Perl Daily Headline Mailer\n\nPerl CMS Systems\n posted by ziggy on Tuesday September 03, @05:00 (tools)\n http://use.perl.org/article.pl?sid=02/09/02/1827239\n\n1998 Perl Conference CD Online\n posted by gnat on Tuesday September 03, @19:34 (news)\n http://use.perl.org/article.pl?sid=02/09/03/2334251\n\nBricolage 1.4.0 Escapes!\n posted by chip on Tuesday September 03, @19:57 (tools)\n http://use.perl.org/article.pl?sid=02/09/04/002204\n\n\n\n\nCopyright 1997-2002 pudge. All rights reserved.\n\n\n======================================================================\n\nYou have received this message because you subscribed to it\non use Perl. To stop receiving this and other\nmessages from use Perl, or to add more messages\nor change your preferences, please go to your user page.\n\n http://use.perl.org/my/messages/\n\nYou can log in and change your preferences from there.", 
+    "to": [
+        "yyyy-use-perl@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "pudge@perl.org", 
+    "subject": "[use Perl] Headlines for 2002-09-04"
+}

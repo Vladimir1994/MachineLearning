@@ -1,0 +1,9 @@
+{
+    "body": "On Thursday 29 August 2002 16:39 CET Mike Burger wrote:\n> >[...]\n> > re-check I find it immediately:\n> > :0fw\n> > * > | spamassassin -P\n> >\n> > Works perfectly now. Sorry for being such a pest! ;-)\n> >[...]\n>\n> I'm using SA via spamc/spamd, and a global /etc/procmail file. I'm\n> wondering if this would also work in that fashion.\n\nspamc will skip every file bigger than 250k on it's own. It's got the \ncommand line switch -s to change this value. But it doesn't hurt of course \nto use the procmail limit.\n\nMalte\n\n-- \n-- Coding is art.\n-- \n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "\"Malte S. Stretz\" <msquadrat.nospamplease@gmx.net>", 
+    "subject": "Re: [SAtalk] SA very slow (hangs?) on this message, or is it just me?"
+}

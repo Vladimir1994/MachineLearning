@@ -1,0 +1,9 @@
+{
+    "body": "Paul Chany: \n> \n> I have setup somewhere the JAVA_HOME environment variable, but don't \n> know where? \n \n~/.xsession? \n \nJ. \n-- \nWhen driving at night I find the headlights of oncoming vehicles very \nattractive. \n[Agree] [Disagree] \n ", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Jochen Schulz <ml@well-adjusted.de>", 
+    "subject": "Re: Where to find setup for env variable?"
+}

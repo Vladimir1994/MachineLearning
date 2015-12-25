@@ -1,0 +1,9 @@
+{
+    "body": "As list administrator, your authorization is requested for the\nfollowing mailing list posting:\n\n List: Irish Internet Users@iiu.taint.org\n From: yyyycc@hackwatch.com\n Subject: Re: [IIU] IE nameserver problems\n Reason: Post to moderated list\n\nAt your convenience, visit:\n\n http://iiu.taint.org/mailman/admindb/iiu\n \nto approve or deny the request.", 
+    "to": [
+        "iiu-admin@taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "iiu-admin@taint.org", 
+    "subject": "Irish Internet Users post from yyyycc@hackwatch.com requires approval"
+}

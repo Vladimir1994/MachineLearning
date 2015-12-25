@@ -1,0 +1,9 @@
+{
+    "body": "Try \n \napt-get install fakeroot devscripts build-essential \n \nIf it gives error then post your /etc/apt/sources.list \n \n \n \nOn Fri, Apr 30, 2010 at 4:07 PM, James Stuckey wrote: \n \n> \n> Have you tried \"apt-get update\" or \"aptitude update\" before trying to \n>> install these packages? \n>> \n>> \n> Yes, I did \"aptitude safe-upgrade\" after \"aptitude update\" and then \n> \"aptitude full-upgrade\". \n> \n> I selected \"n\" and it prompted me to \"downgrade the packages to testing\". \n> This means that the versions it had were newer than testing, i.e., from sid. \n> How could this be if I followed 2.7.3 of DR? According to that, my candidate \n> version is appropriately set: \n> \n> stuckey@debian:~$ cat /etc/apt/apt.conf \n> APT::Default-Release \"testing\"; \n> \n> \n> \n> \n \n \n-- \nWishing you the very best of everything, always!!! \nKousik Maiti(কৌশিক মাইতি) \nRegistered Linux User #474025 \nRegistered Ubuntu User # 28654", 
+    "to": [
+        "James Stuckey <jhstuckey@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Kousik Maiti <kousikster@csmining.org>", 
+    "subject": "Re: Aptitude Error"
+}

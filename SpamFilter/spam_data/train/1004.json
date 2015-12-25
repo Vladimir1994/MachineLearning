@@ -1,0 +1,9 @@
+{
+    "body": "On 05/12/2010 04:16 PM, Boyd Stephen Smith Jr. wrote: \n> On Wednesday 12 May 2010 16:04:07 Jordan Metzmeier wrote: \n>> This issue is because the new udev requires a> .31 kernel with \n>> sysrq_deprecated=n (I am going off memory here so don't quote me). This \n>> means you need to first upgrade to the squeeze kernel, reboot, then upgrade \n>> udev and proceed with the \"updgrade\". \n> \n> Added Tag: needs-to-be-in-release-notes \n \nTo heck with the Release Notes! This needs to be front and center \nwhen you when you do the \"apt-get update\". \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BEB1C75.6080800@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: Lenny to Squeeze upgrade problems"
+}

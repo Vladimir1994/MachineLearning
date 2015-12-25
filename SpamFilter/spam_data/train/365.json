@@ -1,0 +1,9 @@
+{
+    "body": "John P. Looney wrote:\n> I've two directories, that once upon a time contained the same files.\n> \n> Now, they don't.\n> \n> Is there a tool to merge the two - create a new directory where if the\n> files are the same, they aren't changed, if they are different, the one\n> with the most recent datestamp is used...\n\nJust for the record mc has a nice directory\ncomparison function. This is really nice\nwhen using the ftp VFS for e.g. Of course\nif you use something like ftpfs you can use\nthe previously mentioned tools.\n\nPádraig.\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Padraig Brady <padraig.brady@corvil.com>", 
+    "subject": "Re: [ILUG] directory merging"
+}

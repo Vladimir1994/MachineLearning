@@ -1,0 +1,9 @@
+{
+    "body": "Justin Mason writes:\n> Has anyone figured out what's up with this? Does someone out there\n> think that FoRK needs some MIME tutoring?\n\nI was puzzled at first, but I think I understand what happened.\n\nFirst, I approved the post because it didn't appear to be spam, even\nthough it wasn't from a member. I thought it was odd that someone\nwanted to send the MIME blurb to the list, but it was not really that\ndifferent from causing the New York Times web site to send a story to\nthe list. (Except that the bits here are antediluvian, but old bits are\na problem to be solved by social opporobrium, not technical constraints.)\n\nBut I think what actually happened is that some idiot got infected by\nKlez and had both FoRK and the pine-robot autoresponder address in their\nmailbox or addressbook, so Klez forged mail from fork@xent.com to the\nautoresponder, which responded. To FoRK.", 
+    "to": [
+        "fork@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Kragen Sitaker <kragen@pobox.com>", 
+    "subject": "Re: The MIME information you requested (last changed 3154 Feb 14)"
+}

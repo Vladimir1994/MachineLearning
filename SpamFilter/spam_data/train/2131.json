@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nThe next point release for the \"etch\" oldstable distribution, 4.0r9, is \nscheduled for Saturday, 22nd May. \n \nThis will be the final point release for etch, which will be moved to \narchive.debian.org in the near future. \n \nRegards, \n \nAdam \n \n \n-- \nTo UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1273775215.6385.453.camel@kaa.jungle.aubergine.my-net-space.net", 
+    "to": [
+        "debian-release@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Adam D. Barratt\" <adam@adam-barratt.org.uk>", 
+    "subject": "Upcoming etch point release"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, May 18, 2010 at 05:54:27PM -0500, Hugo Vanwoerkom was heard to say: \n> Sven Joachim wrote: \n> >>The following packages will be REMOVED: \n> >>... grub-legacy{a} ... \n \n [snip] \n \n> >>The following NEW packages will be installed: \n> >>... grub-pc{a} ... \n> >> \n> >>So why does aptitude pay no attention to my pin? \n> > \n> >Because it decides that the grub-legacy package is unused and can be \n> >removed despite the pin. Whether this is the right thing is debatable; \n> >I'm sure you find some bug reports about that if you dig into the long \n> >list of aptitude bugs. \n> > \n> \n> That explains it well, thanks \n \n It probably won't help, though. If grub-legacy was unused, it would \nsay \"grub-legacy{u}\". Instead it says \"grub-legacy{a}\", indicating that \nit was forced off the system by a conflicting package. \n \n Daniel \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100519140621.GC12104@emurlahn.burrows.local", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Burrows <dburrows@debian.org>", 
+    "subject": "Re: pinning + apt-get vs aptitude"
+}

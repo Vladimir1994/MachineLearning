@@ -1,0 +1,8 @@
+{
+    "body": "On Fri Sep 13 2002 at 17:55, Robert Elz wrote:\n\n> Date: Fri, 13 Sep 2002 11:26:30 +1000\n> From: Tony Nugent \n\n> | I can cut'n'paste from exmh's message display window into spawned\n> | gvim processes, but not into anything else.\n> \n> That's odd. I cut & paste between all kinds of windows (exmh into\n\nNot so odd, this issue came up several weeks ago (with no real\nresolution).\n\n> mozilla, xterm, another wish script of mine I use for DNS tasks (but\n> that one I guess is to be expected) netscape (when I used to use it,\n> but I suppose it and mozilla are the same codebase, approx) - in fact\n> I can't thing of anything it fails for, that I have noticed.\n> \n> What is an example of an \"anything else\" that it fails for for you?\n\nEverything else :) I can't even mark text in an exmh message window\nand then paste it into a terminal window, the cut buffer seems to be\ncompletely empty (and its previous contents are no longer there\neither).\n\n> kre\n\n BTW: talking of spring downunder... I'm in Queensland. It almost\n feels like early summer already (winters here are dry and warm,\n much better than cold wet miserable Melbourne :-) Despite some\n recent rain (first in months), we are already into a drought, with\n an El-Nino on the way it is only going to get worse... (the last\n one in the 90s caused one of the worst droughts ever seen here in\n aussie).\n\nCheers\nTony\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "from": "Tony Nugent <tony@linuxworks.com.au>", 
+    "subject": "Re: bad focus/click behaviours"
+}

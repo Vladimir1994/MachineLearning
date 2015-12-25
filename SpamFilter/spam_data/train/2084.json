@@ -1,0 +1,9 @@
+{
+    "body": "Kent West wrote: \n> I tried installing hpijs-ppds, but I still don't see the CM3530 \n> listed; I do now see a Color Laserjet 3550 (without the CM, and not \n> the 3530), but who knows if that'd work? Not me. \n> \n> The hplip-gui package is already installed, but running \"hplip-gui\" \n> did nothing. \"man hplip-gui\" did nothing (I thought all Debian \n> packages are supposed to have a man page, even if it does nothing more \n> than point to some other documentation?). (Looking in \n> /usr/share/doc/hplip-gui would have eventually maybe clued me to the \n> hp-toolbox, but thankfully you've already pointed me to it so I didn't \n> have to dig blindly.) \n> \n> The hp-toolbox said no device is set up, and to run hp-setup (as \n> root). It failed to automagically find my printer, but I chose to use \n> the Manual button and enter the printer's IP address, and now it \n> presents me with a list of six possible PPD drivers, none of which \n> have names very close at all to my printer (cm4730, cm6030, cm4730, \n> and Postscript variants of those). \n> \n> Arg. \n> \n> Thanks for the help though. At least I'm seeing stuff I've never seen \n> before. (And they say Windows is hard to configure. Pfft. (Sorry for \n> the ranting; I'm just frustrated. I really do love Debian, and really \n> do hate Windows.)) \n> \n \nSo I manually downloaded HPLIP from HP's web site \n(http://hplipopensource.com/hplip-web/downloads.html), but when I try to \nrun it, it complains about gcc not being installed. So I aptitude \ninstalled gcc, and then tried again, and it still complains about gcc \nnot being installed. \n \nArg! \n \n-- \nKent West ", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Kent West <westk@acu.edu>", 
+    "subject": "Re: How to Find a Printer Driver?"
+}

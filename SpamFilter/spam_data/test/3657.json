@@ -1,0 +1,8 @@
+{
+    "body": "Lets say we have an nfs server with nfsd running really high load. nfsstat\nwill tell you roughly how much traffic is going through with access,\ngetattr with either client or server but it won't tell you who is doing\nit. Is there any way on server side to determine what client is causing\nthe most usage, and on the client side, is there a way to determine which\nprocess?\n\n-- \nMel Gorman\nMSc Student, University of Limerick\nhttp://www.csn.ul.ie/~mel\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "from": "Mel <mel@csn.ul.ie>", 
+    "subject": "[ILUG] Tracking NFS users"
+}

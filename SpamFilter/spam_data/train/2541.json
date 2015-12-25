@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-08 22:36, green wrote: \n[snip] \n> \n> I am using mutt. I had procmail set up to drop messages in different maildir \n> boxes. Then I switched to mailfilter. And because it is such a pain when a \n> new mailing list is added (or whatever), \n \n?????? \n \nIt takes 30 seconds to pull up ~/.mailfilter in vim, duplicate an \nif-block and modify it. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBEB45B.1080806@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: ditching mutt"
+}

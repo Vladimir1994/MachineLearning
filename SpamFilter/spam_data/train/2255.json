@@ -1,0 +1,9 @@
+{
+    "body": "Matthias Saou wrote:\n> Well, I don't really find it consistent at all to use an rpm package\n> built against something that wasn't installed through rpm :-/\n\nOh well. Fair enough.\n\n> What I'd recommend in your case [...]\n\nUgh, way too much manual labor. :-)\n\nWhat I've done instead is to create a tiny little \"kernel.spec\" that\ninstalls no files but claims to produce a kernel package having version\nnumber `uname -r` for architecture `uname -p`. It also claims to\nprovide kernel-sources at the same version. That is enough to make\nalsa-driver.spec happy, and at least forms a reasonable representation\nof what my homemade kernel provides to the system. I should have\nthought of this approach sooner.\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ben Liblit <liblit@eecs.berkeley.edu>", 
+    "subject": "Re: alsa-driver.spec tweak for homemade kernels"
+}

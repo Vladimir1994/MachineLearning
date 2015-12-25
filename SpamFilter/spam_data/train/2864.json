@@ -1,0 +1,9 @@
+{
+    "body": "This MSDN mail thing reminds me of how I've documented this feature of\nSpamAssassin here so that our users understand it.\n\nI define \"Solicited Commercial Email\" vs \"Unsolicited Commercial Email\" -\nthe latter being SPAM. As SpamAssassin basically looks for \"Commercial\nEmail\", both get hit, and that's something they must understand.\n\nOur SA documentation further tells users to filter off their SCE before\napplying a SA rule - gets rid of 100% of the problem as the users know who\nis sending them SCE.\n\n-- \nCheers\n\nJason Haar\nInformation Security Manager, Trimble Navigation Ltd.\nPhone: +64 3 9635 377 Fax: +64 3 9635 417\nPGP Fingerprint: 7A2E 0407 C9A6 CAF6 2B9F 8422 C063 5EBB FE1D 66D1\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Jason Haar <Jason.Haar@trimble.co.nz>", 
+    "subject": "Re: [SAtalk] Microsoft developer newsletter tagged as spam"
+}

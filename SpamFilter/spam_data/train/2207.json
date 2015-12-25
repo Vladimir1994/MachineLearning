@@ -1,0 +1,9 @@
+{
+    "body": "On Thursday 06 May 2010 10:50:52 Facundo Aguilera wrote: \n> El Miércoles 05 Mayo 2010 17:24:49 Ana Guerrero escribió: \n> > Following Qt 4.6.2, uploaded a couple of weeks ago, KDE 4.4.3, has \n> > finally found its way to unstable in the last 48 hours. \n> \n> Just for add a good comment, I'm testing 4.4.3 and it working very good!! \n> Thanks!! \n \nWhile I've already aired my complaints, I haven't yet chimed in here. \n \nThank you! \n \nThe packaging work is greatly appreciated. The uploads to Sid are quite \ntimely and save me a lot of work. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

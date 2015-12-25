@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, Apr 29, 2010 at 2:56 PM, Luke Scott wrote: \n> I'm trying to make a program in C/C++ that blocks the mouse and keyboard \n> events on the local system (as if they didn't happen) and send them to \n> another machine over LAN. Essentially my end goal is to control computer B \n> with the mouse and keyboard from computer A. \n \nWrong list for this type of question, it has nothing to do with any \nprogramming language. \n \nLook at CGEvent and consider asking on the quartz dev list instead. \n \n-Shawn \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nObjc-language mailing list (Objc-language@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Luke Scott <luke@cywh.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Shawn Erickson <shawnce@csmining.org>", 
+    "subject": "Re: Mouse/Keyboard \"Hook\"?"
+}

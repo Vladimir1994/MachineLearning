@@ -1,0 +1,9 @@
+{
+    "body": "The system call works. \n \nAs does the call to FSEjectVolumeSync(), which surprised me, since I thought that if the NSWorkspace call failed then I must be missing some step. \n \n \nThanks, \nJim \n \nOn May 3, 2010, at 7:13 AM, James Bucanek wrote: \n \n> Jim O'Connor wrote (Sunday, May 2, 2010 11:27 PM -0800): \n> \n>> My alternative is to call system with hdiutil detach, which is ugly. \n> \n> I would have thought that the alternative would be to get the volume's FSVolumeRefNum and simply call FSEjectVolumeSync(), which is ultimately what (I believe) NSWorkspace does. \n> \n> This would require about eight lines of code, and really isn't that ugly. \n> \n> -- \n> James Bucanek \n> \n> \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nFilesystem-dev mailing list (Filesystem-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "James Bucanek <subscriber@gloaming.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Jim O'Connor <joconnor@orderndev.com>", 
+    "subject": "Re: differences between NSWorkspace unmountAndEjectDeviceAtURL and   unmountAndEjectDeviceAtPath"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Hi.\n\nBrian Fahrlander wrote:\n\n> What's it take to ensure we're covered against this kind of\n> childish/moronic/Microsoft-era problems?\n\nWell, I am checking the packet signatures while building the apt-tree.\nNot very pretty, not very fast, but it works.\n\nNonetheless:\ndid anyone ever play with this:\nhttp://distro.conectiva.com.br/pipermail/apt-rpm/2002-August/000653.html\n\n-- \nR!\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ralf Ertzinger <ralf@camperquake.de>", 
+    "subject": "Re: Apt repository authentication: it's time"
+}

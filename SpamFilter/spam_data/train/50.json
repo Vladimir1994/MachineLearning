@@ -1,0 +1,9 @@
+{
+    "body": "kevin lyda wrote:\n> On Mon, Aug 19, 2002 at 10:27:57AM +0100, Padraig Brady wrote:\n> \n>>>On Fri, Aug 16, 2002 at 05:26:33PM +0100, Padraig Brady wrote:\n>>>\n>>>>How can I repeat a string an arbitrary number\n>>>>of times in bash/sed/...\n>>>>\n>>>>I.E. I'm missing the repeat in the following:\n>>>>\n>>>>STRING=\"> \"\n>>>>NUMBER=3\n>>>>PREFIX=repeat $STRING $NUMBER\n>>>>echo $PREFIX\n>>>\n> \n> huh? i missed all this. do you want the string all on one line?\n> \n> the string repeated over and over, but with linebreaks in between,\n> this works:\n> \n> yes \"$STRING\" | head -\"$NUMBER\"\n> \n> use sed to remove the newline i guess if you want. the utilities yes,\n> head and sed are on pretty much every unix.\n\nGood. I actually looking at `yes` but I was in\nslow mode on Friday and didn't consider combining with `head`\n\nTo remove newlines then handiest is: tr -d '\\n'\n\nthanks,\nPádraig.\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "kevin lyda <kevin+dated+1030182374.2b7538@ie.suberic.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Padraig Brady <padraig.brady@corvil.com>", 
+    "subject": "Re: [ILUG] expanding a string multiple times"
+}

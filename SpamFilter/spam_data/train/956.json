@@ -1,0 +1,9 @@
+{
+    "body": "> > sh -c 'for f in \"`folders -recurse -fast`\" ; do sortm +\"$f\" ; done'\n\n> Thanks Tom and Jacob. The above works, but without the double quotes: i.e.\n>\n> sh -c 'for f in `folders -recurse -fast` ; do sortm +\"$f\" ; done'\n\nI may have a different version of \"sh\" than you do; the double quotes\naround the backticks work for my \"sh\".\n\n(In the more-than-you-really-wanted-to-know category, you're probably\nsafe without the double quotes. The only reason I put them in is that\nI have some pathologically-named folders, including folders whose\nnames contain spaces. If all your folders have safe names, you don't\nneed special quoting.)\n\n\n -Jacob\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "<exmh-users@spamassassin.taint.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Jacob Morzinski <yyyyorzins@MIT.EDU>", 
+    "subject": "Re: Sorting"
+}

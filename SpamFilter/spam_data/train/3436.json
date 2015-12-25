@@ -1,0 +1,9 @@
+{
+    "body": "On Sat, May 1, 2010 at 10:15 PM, Daniel Burrows wrote: \n \n> On Sat, May 01, 2010 at 10:09:32PM +0200, James Stuckey jhstuckey@csmining.org> was heard to say: \n> > On Sat, May 1, 2010 at 9:14 PM, Daniel Burrows \n> wrote: \n> > > Did you mean to drop debian-user? \n> > > \n> > > On Sat, May 01, 2010 at 06:29:55PM +0200, James Stuckey > > jhstuckey@csmining.org> was heard to say: \n> > > > I have the nvidia drivers, among other packages, from Sid. \n> > > \n> > > What's in your /etc/apt/sources.list? \n> > \n> > No I didn't, thanks. \n> > \n> > deb ftp://ftp.debian-multimedia.org squeeze main non-free \n> > \n> > deb http://ftp.de.debian.org/debian/ squeeze main contrib non-free \n> > #deb-src http://ftp.de.debian.org/debian/ squeeze main contrib non-free \n> > \n> > #deb http://ftp.de.debian.org/debian sid main contrib non-free \n> > deb-src http://ftp.de.debian.org/debian/ sid main contrib non-free \n> > \n> > deb http://security.debian.org/ squeeze/updates main contrib non-free \n> > #deb-src http://security.debian.org/ squeeze/updates main contrib \n> non-free \n> \n> That's the problem -- you have no (active) \"deb\" lines for unstable, \n> so apt doesn't know which packages are from it. \n> \n> Daniel \n> \n \nThe aptitude search ~Aunstable appears to just list all the packages in the \nrepository. As so with the other commands. The list of packages is so long \nthat gmail freezes when I try to past it in, and paste.debian.net tells me \nthat it is over 90kb and cannot be pasted.", 
+    "to": [
+        "Daniel Burrows <dburrows@debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Re: Aptitude Error"
+}

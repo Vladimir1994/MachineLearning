@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, 05 May 2010 13:15:50 +0200, Jochen Schulz wrote: \n \n> Camaleón: \n>> On Wed, 05 May 2010 10:36:34 +0100, John O Laoi wrote: \n>> \n>>> What would ye think of doing \n>>> \n>>> aptitude purge gnome \n>>> followed by \n>>> aptitude install gnome \n>>> \n>>> Is that likely to break lots of other things? \n> \n> Usually not, but I don't see the point in doing that. It appears you \n> would just reinstall the package with your bug in it. \n \nThe point is, \"which\" package? gnome-panel have all the point to be the \nculprit but, how we could know what is causing the mess? It can be a mix \nof several packages, it's hard to tell. \n \n>> How do you (you = people using Squeeze) usually run updates for GNOME? \n> \n> I run sid and in cases like these (don't run Gnome) I either downgrade \n> to the version in testing, use an archived version or just sit and wait. \n \nThen my vote goes to \"sit and wait\" :-) \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.05.05.13.37.00@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: curious gnome desktop behaviour after upgrade"
+}

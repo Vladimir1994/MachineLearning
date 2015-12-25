@@ -1,0 +1,7 @@
+{
+    "body": "[Jeremy Hylton]\n> Here's clarification of why I did:\n\nThat's pretty much what I had guessed. Thanks! One more to try:\n\n> First test results using tokenizer.Tokenizer.tokenize_headers()\n> unmodified. \n> ...\n> Second test results using mboxtest.MyTokenizer.tokenize_headers().\n> This uses all headers except Received, Data, and X-From_.\n> ...\n\nTry the latter again, but call the base tokenize_headers() too.", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "tim.one@comcast.net (Tim Peters)", 
+    "subject": "[Spambayes] understanding high false negative rate"
+}

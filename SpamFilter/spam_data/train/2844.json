@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 23 Jul 2002, Mike Masnick wrote:\n\n> Lately, a fairly large % of the spam I've been getting has been coming\n> from spam systems that forge my own address as the \"from\" address...\n\nInclude a random token with an expiration date with anything you send. \nValid whitelisting of From:you@here.net yet invalid random token would get \nblocked.\n\n> Those spam messages would get through any whitelist I set up\n> (especially since I email stuff to myself all the time). If\n> whitelists become more popular, I imagine spammers will resort to\n> doing that for the majority of their spams, making whitelists less\n> helpful.\n\nSpammers cannot be bothered to keep track if individual whitelists \nassociated with a given email address.\n \n> Plus, I'm still not sure how I feel about whitelists. I don't think I'm so\n> special that people should need to fill out a special form just to send me\n\nOf course you populate your whitelist with contents of your inbox minus \nspam, and then add manually stuff from your addressbook.\n\n> email. I could see certain friends of mine getting fairly annoyed\n> (especially those with multiple email addresses...).\n\nWhat's the point of multiple email addresses? They're a pain.\n\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [
+        "Mike Masnick <mike@techdirt.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Eugen Leitl <eugen@leitl.org>", 
+    "subject": "Re: Mossberg on 'ChoiceMail': \"In my tests, it cut my spam to  zero.\""
+}

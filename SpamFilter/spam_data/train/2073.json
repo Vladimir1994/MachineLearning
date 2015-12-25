@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-08 20:38, Cameron Hutchison wrote: \n> Ron Johnson writes: \n> \n>> # update-alternatives --install x-www-browser firefox \\ \n>> /usr/local/firefox/firefox 3 \n>> update-alternatives: error: alternative link is not absolute as it \n>> should be: x-www-browser \n> \n>> What am I doing wrong? \n> \n> The easiest way to see how this stuff works is to look at a postinst \n> script that already does it. Pick an existing alternative and look at \n> /var/lib/dpkg/info/$PACKAGE.postinst. \n \nExcellent idea. \n \n> I think you want this: \n> \n> # update-alternatives --install x-www-browser /usr/bin/x-www-browser \\ \n> /usr/local/firefox/firefox 3 \n> \n> That sets up /usr/local/firefox/firefox as an alternative for \n> /usr/sbin/x-www-browser . \n> \n \nUnfortunately, that's wrong. Peeking into iceape-browser.postinst, \nthough, gave me the answer. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBE8C22.80008@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: Need help installing an \"alternative\""
+}

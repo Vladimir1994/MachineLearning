@@ -1,0 +1,9 @@
+{
+    "body": "\"Good\" ol dos fdisk /mbr should do the twick\n\nBut...but... Jac, your a big linux head....why?\n\nregards,\nCW\n\n------------\nhi,\ni recently had to wipe linux from my pc but forgot to restore the original\nMBR (NT). Anyone know how i can do this? linux is entirely gone and no boot\nfloppy. formatting the entire disk doesn't do it either.\n\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"'jac1'\" <jac1@student.cs.ucc.ie>, ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "\"Wynne, Conor\" <conor_wynne@maxtor.com>", 
+    "subject": "RE: [ILUG] removing lilo"
+}

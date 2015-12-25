@@ -1,0 +1,9 @@
+{
+    "body": "take a look at http://www.pcworld.com/news/article/0,aid,102881,00.asp\n\n Andrey mailto:andr@sandy.ru\n\n\n\nBM> Does anyone do this already? Or is this a new concept? Or has this concept\nBM> been discussed before and abandoned for some reasons that I don't yet know?\nBM> I use the physical architecture of a basic web application as an example in\nBM> this post, but this concept could of course be applied to most server\nBM> systems. It would allow for the hardware-separation of volatile and\nBM> non-volatile disk images. It would be analogous to performing nightly\nBM> ghosting operations, only it would be more efficient and involve less (or\nBM> no) downtime.\n\nBM> Thanks for any opinions,\nBM> Ben", 
+    "to": [
+        "SECPROG Securityfocus <SECPROG@securityfocus.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Andrey Kolishak <andr@sandy.ru>", 
+    "subject": "Re: use of base image / delta image for automated recovery from attacks"
+}

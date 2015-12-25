@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 2010-04-19 at 20:34 -0500, John Hasler wrote: \n> Alan Ianson writes: \n> > All the stuff at debian-multimedia can't be included in debian for \n> > various reasons, mostly freedom I think, so you won't find it in \n> > debian at all. It's made for debian but it isn't debian. \n> \n> Most of it is Free Software but encumbered by actively-enforced \n> patents. d-mm.o has a non-free section for non-free stuff. \n \nThat's a much better description, thanks for the clarification. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1271739338.4132.1.camel@debian.ok.shawcable.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Alan Ianson <agianson@csmining.org>", 
+    "subject": "Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on   Lenny?"
+}

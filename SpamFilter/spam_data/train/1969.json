@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 27 Aug 2002, Rohit Khare wrote:\n\n> DATAPOWER TECHNOLOGY ON Monday unveiled its network device designed\n> specifically to process XML data. Unlike competing solutions that\n> process XML data in software, DataPower's device processes the data in\n> hardware -- a technology achievement that provides greater performance,\n> according to company officials.\n\nNow, to do this, we all know they have to be cracking the strong crypto used\non all transaction in order to process them... So this has some preaty heavy\nimplications, unless it's just BS.\n\n> Kelly explained that converting data into XML increases the file size up\n> to 20 times. This, he said, makes processing the data very taxing on\n> application servers; DataPower believes an inline device is the best\n> alternative.\n\nOr.... you could just not bloat it 20x to begin with. Nah! (that was the\nwhole point of XML afterall, to sell more CPUs - much like Oracle's use of\nJava allows them to sell 3x more CPU licenses due to the performance hit)\n\n> In addition to the large file sizes, security is also of paramount\n> importance in the world of XML.\n>\n> \"Today's firewalls are designed to inspect HTTP traffic only,\" Kelly\n> said. \"A SOAP packet with XML will go straight through a firewall.\n> Firewalls are blind to XML today.\"\n\nAgain, see above... they _are_ claiming to decode the crypto...\n\n> \"Our XG3 execution core converts XML to machine code,\" said Kelly,\n\nMmmmmmmmmmm, machine code, never a good idea ;)\n\n- Adam L. \"Duncan\" Beberg\n http://www.mithral.com/~beberg/\n beberg@mithral.com", 
+    "to": [
+        "Rohit Khare <khare@alumni.caltech.edu>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Adam L. Beberg\" <beberg@mithral.com>", 
+    "subject": "Re: DataPower announces XML-in-silicon"
+}

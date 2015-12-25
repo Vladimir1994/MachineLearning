@@ -1,0 +1,8 @@
+{
+    "body": "On Wed, 19 May 2010 11:33:02 -0500, Boyd Stephen Smith Jr. wrote: \n \n>> I took a look, the reason and cure is very simple -- having X to trunk \n>> it each time when started \n>> (http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=287876) whereas \n>> currently, my ~/.xsession-errors kept logs back to stone age. \n> \n> For what reason can't you simply modify you Xsession file to do as you \n> like? It is a conffile, so your changes would be preserved through \n> upgrades. \n \nRead the above url again, carefully. The answer is right there before you \neyes. You don't agree with it? \n \n-- \nTong (remove underscore(s) to reply) \n http://xpt.sourceforge.net/techdocs/ \n http://xpt.sourceforge.net/tools/ \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/ht52oh$485$1@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "T o n g <mlist4suntong@yahoo.com>", 
+    "subject": "Re: ~/.xsession-errors file grows way too big"
+}

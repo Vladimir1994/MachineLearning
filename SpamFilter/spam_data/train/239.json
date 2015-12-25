@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-07 Dotan Cohen wrote: \n> Can other KDE users please triage these dataloss bugs in Korganizer in KDE \n> 4.4: \n> \n> https://bugs.kde.org/show_bug.cgi?id=172464 \n> https://bugs.kde.org/show_bug.cgi?id=226394 \n> https://bugs.kde.org/show_bug.cgi?id=228674 \n> https://bugs.kde.org/show_bug.cgi?id=236563 \n> https://bugs.kde.org/show_bug.cgi?id=236658 \n> \n> Each one should take less than a minute to triage. \n> \n> Dataloss is a huge issue and I fear that it is not getting the \n> attention that it deserves. Hopefully if some other users confirm the \n> issues then the bugs will get priority. Thanks. \n \nI was not able to reproduce the bug and added that to the bug report. \n \nDiederik \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005071326.14497.didi.debian@cknow.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Diederik de Haas <didi.debian@cknow.org>", 
+    "subject": "Re: Bug 226394 NOT confirmed"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Leopard will see limited development releases. You will need to wait for rc1. \n \n--Jeremy \n \nOn Apr 23, 2010, at 09:21, Michael McCracken wrote: \n \n> It looks like 2.5.1_beta series is only up for 10.6 -- is a release \n> for 10.5 planned or was 2.5.0 the last 10.5 release? \n> \n> Sorry if this was discussed already, I did a quick search but didn't \n> see anything obvious. \n> \n> -mike \n> \n> On Thu, Apr 22, 2010 at 6:21 PM, Jeremy Huddleston wrote: \n>> http://xquartz.macosforge.org/trac/wiki/Releases#AutomaticUpdatesforBetaVersions \n>> \n>> On Apr 22, 2010, at 16:01, Jon Markle wrote: \n>> \n>>> Link please. \n>>> \n>>> Thanks, \n>>> \n>>> Jon \n>>> \n>>> On Apr 22, 2010, at 4:45 PM, Jeremy Huddleston wrote: \n>>> \n>>>> \n>>>> \n>>>> This was fixed in 2.5.1_beta1 3 weeks ago. 2.5.1_beta2 was just released a few minutes ago which also contains this (and other) fixes. \n>>>> \n>>>> --Jeremy \n>>> \n>> \n>> _______________________________________________ \n>> Do not post admin requests to the list. They will be ignored. \n>> X11-users mailing list (X11-users@lists.apple.com) \n>> Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/michael.mccracken%40gmail.com \n>> \n>> This email sent to michael.mccracken@csmining.org \n>> \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Michael McCracken <michael.mccracken@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Jeremy Huddleston <jeremyhu@apple.com>", 
+    "subject": "Re: cycle through windows causes freeze"
+}

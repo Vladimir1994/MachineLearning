@@ -1,0 +1,8 @@
+{
+    "body": "Date: Wed, 02 Oct 2002 11:39:13 -0500\n From: Hal DeVore \n Message-ID: \n\n | Restarting exmh was necessary.\n\nProbably not. Next time try clicking on the folder name in the\nsequences window for the sequence. That is, request that sequence\nbe the one displayed in the FTOC. If the sequence doesn't exist,\nit will be cleaned up then.\n\nPerhaps it would be nicer if flist would do it as well, but this\nis effective enough.\n\nkre\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "Hal DeVore <haldevore@acm.org>"
+    ], 
+    "from": "Robert Elz <kre@munnari.OZ.AU>", 
+    "subject": "Re: Another sequences window nit"
+}

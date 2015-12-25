@@ -1,0 +1,9 @@
+{
+    "body": "jeremy jozwik wrote: \n> im trying to type [copy from character map] power of 2. i can read \n> power of 2 on webpages but if i were to cope > paste from that page, \n> the power displays as a normal character 2. is this a \n> dpkg-reconfigure locales issue? \n> \n> how can i gain the ability to type a power of 2? \n> \n> \n \nAssuming you talk about this character: ², which is Unicode U+00b2, or \nSUPERSCRIPT TWO, just map your keyboard to do that for you. For example \nfor assigning the combination AltGr-2 (AltGr is the right-Alt, if not \nmarked as such): \n \nxmodmap -e \"keycode 0x0B = 2 at 0x010000b2\" \n \nTo automate this add that line in your .xsession or .xinitrc. \nFor many changes to the keyboard make your own .xmodmap file \nand add xmodmap .xmodmap in your .xsession or .xinitrc file. \n \nBest regards, \n Ionel \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC2C307.8020600@tue.nl", 
+    "to": [
+        "\"debian-user@lists.debian.org\" <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "=?UTF-8?B?SW9uZWwgTXVndXJlbCBDaW9iw65jxIM=?= <I.M.Ciobica@tue.nl>", 
+    "subject": "Re: cannot type power of 1 or 2, 4-9 are typeable."
+}

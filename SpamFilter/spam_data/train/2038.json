@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, May 19, 2010 at 4:13 AM, Jason T. Slack-Moehrle \n wrote: \n> It is not true, I am not looking for a free ride, I am looking to learn. I \n> think I get confused because of all the possiblities (View, DataSource, \n> Delegate, Controller, etc) I dont have a strong MVC background. \n \nI think you should pick up a book that covers MVC in the iPhone world. \n\"Beginning iPhone 3 Development\" by Dave Mark and JeffLaMarche is \nprobably your best bet. \n \n> I actually attended the Big Nerd Ranch with Aaron many years ago in 2002 in \n> Whitesburg Georgia. It was a fabulous week, but I made the mistake of never \n> using what I learned after that My job changed, had 3 kids ugh the list goes \n> on. \n> I was considering going again this summer as I have between semesters off. \n \nThat may be worthwhile. Even if you had retained your 2002-era BNR \nknowledge, the prevailing use of framework-provided view controllers \nin UIKit is a pretty significant change with lots of interesting (and \nmostly very positive) consequences. Even some Cocoa old-timers had a \nhard time grasping it at first--I'm living proof! That being said, I \ndon't know if BNR is covering a lot of iPhone material now (though I \nassume that's the case) or if they're still more Mac-focused, so check \nfirst. \n \n-- \n// jack \n// http://nuthole.com \n// http://learncocoa.org \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nObjc-language mailing list (Objc-language@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "\"Jason T. Slack-Moehrle\" <slackmoehrle@me.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Jack Nutting <jnutting@csmining.org>", 
+    "subject": "Re: class structure questions"
+}

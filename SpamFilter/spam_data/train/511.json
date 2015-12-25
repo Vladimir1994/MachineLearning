@@ -1,0 +1,9 @@
+{
+    "body": "Hess, Mtodd, /mth wrote:\n> Yes, it is very impressive. However, all of the most advanced content\n> filtering known to man is easily defeated by simply presenting the content\n> in the form of a graphic image (GIF, JPG, etc.). I'm surprised that more\n> spammers don't already do this. I know we have discussed this before, and\n> maybe we can detect this type of spam via the headers and with Razor/DCC (if\n> you're using them). But that sure narrows down the ruleset (maybe that's\n> good).\n\nDoesn't defeat this system at all. If you see that once, feed it into \nyour bayesian classifier, and it classifies the URLs used for the \nimages. Then next time it sees one, it knows with almost 100% accuracy \nthat an email with one of those URLs is definitely spam.\n\nIn many ways this is like Razor, which is why I'm hacking on a \ndistributed system to do this, to see if it's feasible to scale it globally.\n\nMatt.\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Hess, Mtodd, /mth\" <mth@Ingersoll.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Matt Sergeant <msergeant@startechgroup.co.uk>", 
+    "subject": "Re: [SAtalk] paulgraham.com article"
+}

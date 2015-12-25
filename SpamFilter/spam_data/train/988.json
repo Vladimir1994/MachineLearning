@@ -1,0 +1,9 @@
+{
+    "body": "Eugen Leitl said:\n\n> Spammers cannot be bothered to keep track if individual whitelists \n> associated with a given email address.\n\nBut it's a good bet that jm /at/ jmason.org, or someone-else /at/\njmason.org, is in jm /at/ jmason.org's whitelist.\n\n> Of course you populate your whitelist with contents of your inbox minus \n> spam, and then add manually stuff from your addressbook.\n\nall I can read there is \"manual\"...\n\n--j.\n\n-- \n'Justin Mason' => { url => 'http://jmason.org/', blog => 'http://taint.org/' }\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [
+        "Eugen Leitl <eugen@leitl.org>"
+    ], 
+    "is_spam": false, 
+    "from": "yyyy@spamassassin.taint.org (Justin Mason)", 
+    "subject": "Re: Mossberg on 'ChoiceMail': \"In my tests, it cut my spam to zero.\""
+}

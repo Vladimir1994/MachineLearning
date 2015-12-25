@@ -1,0 +1,9 @@
+{
+    "body": "> http://www.spamassassin.org\n> Is anyone besides me having problems getting to the site?\n\nWhat site is that one? Isn't this site on sourceforge the official\nhome page?\n\n http://spamassassin.sourceforge.net/\n\nBob", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "bob@proulx.com (Bob Proulx)", 
+    "subject": "Re: [SAtalk] http://www.spamassassin.org"
+}

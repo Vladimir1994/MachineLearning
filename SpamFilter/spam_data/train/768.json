@@ -1,0 +1,9 @@
+{
+    "body": "On 05/03/2010 12:50 AM, Diederik de Haas wrote: \n> That seems to me a good candidate for the kde list and then the kde-full list should be the kde-full \n> meta-package. \n \nforgot to mention.. \n \n> So that means for kde list: \n \nboth updated, thanks you. \n \n-- \nAddress: Daniel Baumann, Burgunderstrasse 3, CH-4562 Biberist \nEmail: daniel.baumann@panthera-systems.net \nInternet: http://people.panthera-systems.net/~daniel-baumann/ \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BE53D4E.8090408@debian.org", 
+    "to": [
+        "debian-live@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Baumann <daniel@debian.org>", 
+    "subject": "Re: kde-core list should be updated (live-helper)"
+}

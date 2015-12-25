@@ -1,0 +1,9 @@
+{
+    "body": "On 5/1/2010 12:45 PM, Ron Johnson wrote: \n> On 05/01/2010 04:50 AM, markus reichelt wrote: \n>> * Ron Johnson wrote: \n>> \n>>> The issue is that I'm trying to read some 2-3 year old \"movie\" \n>>> DVD-Rs and they're all at some point failing. \n>> \n>> Try another drive (best would be a dvd burner). \n>> \n>> Apart from that, you could try ddrescue and just plain copy the whole \n>> disc to an iso imagefile. \n> \n> ddrescue or gddrescue? \n> \n>> Also, check out vobcopy, it's my fav \n>> application to backup dvds. \n>> \n> \n> I'll try that. \n> \n \n \nIf you are interested in DVDs under Debian, note that a useful thing to \nknow about is the videolan project \n \nhttp://www.videolan.org/ \n \nThey provide libdvdcss and libdvdplay, useful libraries to install, \nwhich are not included in Debian. (non-DFSG) \n \n \n \nMAA \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BDC948E.2000209@allums.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Mark Allums <mark@allums.com>", 
+    "subject": "Re: DVD Paranoia?"
+}

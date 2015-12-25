@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nI recently upgraded most of my KDE programs to the KDE 4 versions, and \nfor one program I regretted it after only a few minutes. Here is a list \nof the regressions in kaffeine I noticed so far: \n \n- cannot save tracks from an audio CD as .ogg files anymore \n \n- does not display tracks when playing an audio CD, screen is black \n \n- stops playing audio CD after first track \n \n- window size is fixed, videos are resized to fit window size rather \n than the other way around \n \n- the settings menu is almost empty, nothing to configure anymore \n apparently \n \n- does not have a manual \n \nI'm not going to look any further but will rather go back to 0.8.7 and \nput it on hold. It feels like using an application that is maybe at \nversion 0.2, rather than a 1.0 release candidate. Given that kaffeine \n0.8 was a quite mature program with lots of features, I find this very \nsad. \n \nRegards, \n Sven \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87zl0ccger.fsf@turtle.gmx.de", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sven Joachim <svenjoac@gmx.de>", 
+    "subject": "Kaffeine is a mere shadow of itself"
+}

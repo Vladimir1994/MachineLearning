@@ -1,0 +1,9 @@
+{
+    "body": "2010-04-30 00:04, Marcelo Laia skrev: \n>> According to the debian site, however, the file is not available \n>> in squeeze: \n>> \n>> It seems to come from a cmex package. Can that package have \n>> changed and dropped the fmex* files? It now seems to contain \n>> cmex*-files instead, but I do not know if that is the correct interpretation. \n>> \n> \n> \n> Hummm! And now? What to do? \n> \n> If I do a search in i386 (I have both kernels), the results is the same! \n> What you suggest me? Contact to maintainers? Who is he/she? \n> \n \n \nAs you do not explicitly request the font to be used, I expected latex \nto choose some other font instead. Does it work if you run the command \nupdate-updmap and try again? \n \nOtherwise, I have two suggestions: \n \n1) Send and email to the debian-tex mailing list \n( ). That list is the official \nmaintainer address for texlive-base, according to \n( ). \n \n2) Report the problem as a bug. ( ). \n \nBefore doing any of those two, you should rewrite the example document \nto be as small and simple as possible (still showing the problem) and \nperhaps also translate the text to English. \n \nRegards \n \nJohan \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hrdo3l$np6$1@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?ISO-8859-1?Q?Johan_Gr=F6nqvist?= <johan.gronqvist@csmining.org>", 
+    "subject": "Re: [TexLive] This math formula work a few month a go, but  nowadays   it didn't work anymore"
+}

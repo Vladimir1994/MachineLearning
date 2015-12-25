@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 07 Oct 2002 08:01:24 +0200, Roi Dayan wrote:\n\n> When I try to use apt-get upgrade\n> it wants to install libusb while I got it\n> (same version)\n> and all collapse because of this.\n\n I had that too; I removed libusb (I don't think it needed --nodeps) and then 'apt-get -f install' and all was well.\n\n------------------------------------------------------------------------\nBrian Fahrländer Linux Zealot, Conservative, and Technomad\nEvansville, IN My Voyage: http://www.CounterMoon.com\nICQ 5119262\n------------------------------------------------------------------------\nangegangen, Schlange-Hüften, sein es ganz rüber jetzt. Bügel innen fest,\nweil es eine lange, süsse Fahrt ist. \n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Brian Fahrlander <kilroy@kamakiriad.com>", 
+    "subject": "Re: apt-get problem ?"
+}

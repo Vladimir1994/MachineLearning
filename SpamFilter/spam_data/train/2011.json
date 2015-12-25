@@ -1,0 +1,9 @@
+{
+    "body": "Hello everybody, \n \nI have a problem with my sound card (nVidia Corporation MCP67 High \nDefinition Audio | ALC662 High Definition Audio) and I would like you to \nindicate the best location and the best way for me to report the bug that I \nwill describe: \n \nAfter a fresh installation and setup of alsa, I only have sound in one of \ntwo outputs and the microphone does not work. After reading a lot of \ndocumentation about the subject, I found that inserting the line \"options \nsnd-hda-intel model = 3stack 6ch-index = 0\" in alsa-base.conf file I can \nmake my sound card work better, but with some problems, which are: \n \na) If I select the 6-channel mode (in kmix or alsa-mixer), the two sound \noutputs work but the microphone do not work. \nb) If I select the 2-channel mode (in kmix or alsa-mixer), the microphone \nworks but only one sound output works. \n \nYou do not agree with me that this is a bug? I've been experiencing it in \ndifferent distributions and several versions of the Linux kernel. As in \nseveral versions of ALSA. \n \nBefore you ask me, yes, I've tried all the options associated with ALC662 \ncodec ( \nhttp://www.mjmwired.net/kernel/Documentation/sound/alsa/HD-Audio-Models.txt) \nand the option mentioned above was that worked best. \n \n \n I am a novice user of Linux. So I ask you for help. How could I help solve \nthis problem? What is the right place to report this bug? \n \nThanks, \n \nMotherboard: ASUS M2N68-AM SE \nDebian Lenny \nSqueeze Debian / Sid", 
+    "to": [
+        "Debian <debian-user@lists.debian.org>, Debian KDE <debian-kde@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Leonardo Meira <serra.meira@csmining.org>", 
+    "subject": "Problem with ALC662 Intel HDA"
+}

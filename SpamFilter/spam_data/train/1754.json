@@ -1,0 +1,9 @@
+{
+    "body": "Justin Mason wrote:\n> Phil R Lawrence said:\n> \n> \n>>>something to watch out for is to use \"nomime\" => 1 in the Mail::Audit\n>>>ctor; the M:A folks changed the API there.\n>>\n>>What has MIME to do with it? I read in perldoc M:A that your suggestion \n>>is less expensive, but how does that help S:A?\n> \n> \n> M:A, for some reason, changes its base class depending on whether the\n> incoming message is mime or not. Therefore the Mail::Internet methods\n> suddenly become unavailable for MIME messages...\n> \n> (you do *not* want to know what I thought of that when I found it ;)\n\nAs a new user of SA, I guess I'm having trouble connecting the dots. If \nI understand you: If I don't use the \"nomime\" => 1 option and I recieve \nMIME mail, the Mail::Internet modules become unavailable.\n\nUnavailable for which? MA? SA? What do these methods do? Does this \nmean my incoming MIME mail won't be checked by SA unless I specify \n\"nomime\" => 1?\n\nThanks,\nPhil\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "Justin Mason <yyyy@example.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Phil R Lawrence <prlawrence@Lehigh.EDU>", 
+    "subject": "Re: [SAtalk] testing the install"
+}

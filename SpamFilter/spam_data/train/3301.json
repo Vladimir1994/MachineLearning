@@ -1,0 +1,7 @@
+{
+    "body": "> > - A program that acts both as a pop client and a pop server. You\n> > configure it by telling it about your real pop servers. You then\n> > point your mail reader to the pop server at localhost. When it\n> > receives a connection, it connects to the remote pop servers, reads\n> > your mail, and gives you only the non-spam.\n> \n> FYI, I'll never trust such a scheme: I have no tolerance for false\n> positives, and indeed do nothing to try to block spam on any of my email\n> accounts now for that reason. Deliver all suspected spam to a Spam folder\n> instead and I'd love it.\n\nAnother config parameter.\n\nThe filter could add a header file. Or a ~ to the subject if you like\nthat style. :-)\n\n--Guido van Rossum (home page: http://www.python.org/~guido/)", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "guido@python.org (Guido van Rossum)", 
+    "subject": "[Spambayes] Deployment"
+}

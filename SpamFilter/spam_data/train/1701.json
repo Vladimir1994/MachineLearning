@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, Aug 28, 2002 at 12:14:24AM +0100, Justin Mason wrote:\n> actually, I think procmail supports this directly. use DROPPRIVS=yes\n> at the top of the /etc/procmailrc.\n\nHey, look at that!\n\n DROPPRIVS If set to `yes' procmail will drop all privileges\n it might have had (suid or sgid). This is only\n useful if you want to guarantee that the bottom half\n of the /etc/procmailrc file is executed on behalf\n of the recipient.\n\nOf course, removing setuid/gid bits on programs that don't need it is\nalways a good idea. A general rule of system administration: don't give\nout permissions unless you absolutely need to. ;)\n\n-- \nRandomly Generated Tagline:\n\"The cardinal rule at our school is simple. No shooting at teachers. If\n you have to shoot a gun, shoot it at a student or an administrator.\"\n - \"Word Smart II\", from Princeton Review Pub.", 
+    "to": [
+        "Justin Mason <yyyy@example.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Theo Van Dinter <felicity@kluge.net>", 
+    "subject": "Re: FAQ: taint warnings from SA in /etc/procmailrc"
+}

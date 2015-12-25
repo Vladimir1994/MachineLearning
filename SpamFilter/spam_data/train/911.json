@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 2002-08-19 at 22:34, Angles Puglisi wrote:\n> Matthias Saou (matthias@egwn.net) wrote*:\n> >Then why bother : The new Red Hat Linux beta \"(null)\" is now available and\n> >should be announced anytime now. It contains rpm 4.1-0.81.\n> \n> Ahhh ... this is funny. Last night I upgraded to Limbo II (.93).\n> \n> Installed Limbo II kernel, Installed libstdc++ from rawhide (rpm -ivh) so the\n> newer apt would work, told apt it is OK to have multiple of libstdc++, copied\n> the actual rawhide \"libstdc++.so.5.0.0\" file to another directory, removed that\n> rawhide libstdc++ package, installed (rpm -ivh ) the Limbo II libstdc++ package\n> (new apt does not like it), make that symlink \"libstdc++.so.5\" point to that\n> rawhide file I moved earlier.\n\nYou can just recompile the apt source RPM, if it's the newer one. (Such\nas mine). There's no dependancies on libstdc++ other than binary ones.\n\nCurrently on release dwd2, which I'm using on my home rawhide box.\n(Obviously not production, since the old apt works fine on production\nboxes).\n\nNow... Does anyone know of a good way to delete \"old\" RPMS from a\ndirectory containing both \"new\" and \"old\" RPMS? Say I have\nblurb-0.1.0-1.i386.rpm, blurb-0.1.0-2.i386.rpm, and\nblurb-0.1.1-1.i386.rpm, and want to remove the blurb-0.1.0-* because of\nthe presence of blurb-0.1.1-1? Anyone have a convenient script?\n\nDave.\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Dave Cridland <dave@cridland.net>", 
+    "subject": "Re: advice on 7.3.92 to 7.3.93, and Apt compiling (oh joy)"
+}

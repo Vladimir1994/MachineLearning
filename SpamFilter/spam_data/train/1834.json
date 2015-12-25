@@ -1,0 +1,9 @@
+{
+    "body": "It seems to only support PPPoA and not PPPoE. You need one that supports\nPPPoE, if you want torun it in routed IP mode. If you are using it as a\nbridge, it'll probably work, but you'd be left leaving the computer on,\nwhich would defeat the purpose of getting a router.\n\nThe best router I've come accross is the Zyxel 643. Eircom supply this,\nbut if you have alook online you can probably find it cheaper to buy\nonline from America or the UK.\n\nHope this is useful,\nJoe\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "<decdelmur@iol.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "<joefitz@netsoc.ucd.ie>", 
+    "subject": "Re: [ILUG] adsl router modem combo"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Sat April 24 2010 07:00:37 Camaleón wrote: \n> Well, I admit my English is not the very best it could be, but for sure \n> the OP concern was \"32000 files/folders under a folder\" and if I read \n> ^^^^^^^^^^^^^^^^^^^^^^ \n> that in a correctly manner, it says something about *folders under a \n> folder*... I hope \"subdirectories = folders\" is still valid. \n \nHi Camaleón, \n \nIn English the slash is understood to mean \"or\". There is no limit of \n32000 files or folders under a folder in ext3. \n \nThere is a limit of 31998 directories under a directory. This is caused by \nthe ext3 hard link count limit being 32000. Two links are needed for the \nparent directory entry and the current directory's \".\", leaving only \n31998 links available for \"..\" links from subdirectories. \n \nThis limit is rarely encountered in practice because it is so much more \nefficient to use multiple directory levels, e.g.: \n \nparent- \n a- \n able \n alf \n b- \n beta \n bravo \n \n--Mike Bird \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201004240717.24641.mgb-debian@yosemite.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Mike Bird <mgb-debian@yosemite.net>", 
+    "subject": "Re: overcoming the 32k objects limit is ext3 - which file system to use?"
+}

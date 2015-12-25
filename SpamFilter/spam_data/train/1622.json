@@ -1,0 +1,9 @@
+{
+    "body": "On Fri May 14 2010 11:43:41 pm RyanJB wrote: \n> >If you want the latest I'd run either testing \n> >or unstable. I have both stable \n> >and unstable installed. \n> >Most of the time I run unstable. \n> \n> So considering that, the extra debian iso have practically no use since \n> later I'll be upgrading packets from sid anyway?? Any clarifications? \n \nI'm not sure what you mean. What is an \"extra\" iso? \n \nYou mean the full set of CD or DVD images? I find a net install works best \nnowadays. Then you just download and install packages as you want to. \n \nThe archive is simply huge now so it's a lot to download and burn unless you \nhave machines that are not connected to the net that you want to install or \nupdate. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005150002.41195.agianson@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Alan Ianson <agianson@csmining.org>", 
+    "subject": "Re: How to keep debian current??"
+}

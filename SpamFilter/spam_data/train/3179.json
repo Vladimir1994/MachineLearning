@@ -1,0 +1,9 @@
+{
+    "body": "> Oops, I tend to feel like that most times! I tend to feel that if we\n> have extremely good compilation tools, then those tools should be able\n> to do the inlining and optimisation far better than I could. That's the\n> theory anyway :) And there's always a tradeoff with inlining between\n> speed and memory bloat (which may sometimes be no tradeoff if swap\n> starts getting involved...)\n\nYes and I understand that argument, however.\nSometimes I find that if I don't try to write code in the least space\npossible or for example become lazy and say\n\n--Bad style\nBool q;\n\nIf(q)\n When I should say\nIf(q==true)\n \nOr\n\n--Bad optimization\n\nint a;\na=some_function();\nif(a) >\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"'ilug@linux.ie'\" <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Brian O'Donoghue\" <Brian.ODonoghue@kbs.ie>", 
+    "subject": "RE: [ILUG] slashdot EW Dijkstra humor"
+}

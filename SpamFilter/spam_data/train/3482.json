@@ -1,0 +1,9 @@
+{
+    "body": "There have been a number of releases since March 2009 so I'd like to know if the information on that page regarding the possible values of \"JVMVersion\" is still relevant: \n \nhttp://developer.apple.com/mac/library/documentation/Java/Reference/Java_InfoplistRef/Articles/JavaDictionaryInfo.plistKeys.html \n \nEspecially the part where it is written that the \"1.n*\" values are not recommended. \n \nThanks in advance. \n \n \nJean-Christophe Helary \n---------------------------------------- \nfun: http://mac4translators.blogspot.com \nwork: http://www.doublet.jp (ja/en > fr) \ntweets: http://twitter.com/brandelune \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nJava-dev mailing list (Java-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "list Java-dev <Java-dev@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Jean-Christophe Helary <jean.christophe.helary@csmining.org>", 
+    "subject": "Recommended values for JVMVersion ?"
+}

@@ -1,0 +1,8 @@
+{
+    "body": ">> Maybe use dummy packages, or rename the packages so that KDE 3.5 could \n>> remain installed, and not be forced to upgrade to Kde4. \n> \n> That ship has sailed and it isn't coming back.  KDE 3.5 is considered \n> dead.  Why some motivated person has not forked it yet has escaped me. \n> \n \nNot exactly forked, but maintained: \nhttp://apt.pearsoncomputing.net/ \n \n \n>  Still, either pales in \n> comparison to the KDE 3.5 as does KDE4 \n \nPlease, let me know what KDE 4 is missing for you. KDE 4.4 has only a \nhandful of regressions from KDE 3.5.10, and they are not dealbreakers. \nSome of those are addressed in KDE 4.5. \n \nThe \"KDE 4 sux\" time has passed. If you still have problems with KDE \n4, then please let me know what they are so that they can be fixed. \n \nThanks! \n \n \n-- \nDotan Cohen \n \nhttp://bido.com \nhttp://what-is-what.com \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/u2j880dece01005060559i8d269387ue479fb65b3fe4596@mail.csmining.org", 
+    "to": [
+        "debian-kde@lists.debian.org, debian-user@lists.debian.org"
+    ], 
+    "from": "Dotan Cohen <dotancohen@csmining.org>", 
+    "subject": "Re: Kde 3.5 ..."
+}

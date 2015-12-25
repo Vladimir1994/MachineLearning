@@ -1,0 +1,9 @@
+{
+    "body": "Did someone invert the spam filters? I'm getting almost nothing but spam on\nfork now...\n\n- Adam L. \"Duncan\" Beberg\n http://www.mithral.com/~beberg/\n beberg@mithral.com\n\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [
+        "<fork@spamassassin.taint.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Adam L. Beberg\" <beberg@mithral.com>", 
+    "subject": "spam maps"
+}

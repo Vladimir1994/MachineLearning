@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday, 2010-05-12, Mike Kasick wrote: \n> On Wed, May 12, 2010 at 10:48:43AM +0200, Richard Hartmann wrote: \n> > > - Disable \"kres-migrator\". Or at least add a debconf option to \n> > > kdepim-runtime presenting the option of running kres-migrator by \n> > > default or disabling it. \n> > \n> > Did you do any research as to what the longer-term implications \n> > of foregoing this might be? I am not saying there are any, I \n> > honestly don't know. \n> \n> There shouldn't be any long-term implications as long as the old KResource \n> code still exists. I'm assuming it's being deprecated as of KDE 4.4, but \n> I'd be surprised if it's removed in KDE 4.5, especially since delaying \n> migration is an official recommendation. \n \nThe KResource API is public API of KDE4, it can at best removed at the first \nKDE5 version (which is probably still several years away). \nSome of its plugins are public API as well (those from kdepimlibs) so they \nstay too. \nProblematic are plugins from kdepim, they can be replaced by respective \nAkonadi base resource implementations. \n \n> Once the DB mess is sorted out (KDE 4.5?), one can manually migrate the \n> data by running \"kres-migrator\". I actually did this accidentally. The \n> migrator _might_ also run if we remove the configuration bit, but I've not \n> tried. \n \nRight, I think it will run if it does not find its configuration, thus not \nknowing whether it has already run. \nCould lead to duplicated resources on Akonadi side though (if it has been run \nbefore). \n \nCheers, \nKevin", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Kevin Krammer <kevin.krammer@gmx.at>", 
+    "subject": "Re: KDE 4.4.3 upgrade eats 141 MB of /home"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Tabor J. Wells wrote:\n> And where does it say production-ready? http://razor.sourceforge.net\n> says at the top of the page:\n>\n> June 13, 2002 - Vipul's Razor v2 released! The first beta of Vipul's\n> Razor v2 is now available for public download.\n\n1) I think the code is still very much pre-beta.\n\n2) When you go to the \"Download\" page, it tells you \"Fetch the latest\nversions of razor-agents and razor-agents-sdk packages\" It is not at all\nclear that these are development packages.\n\nThe site is badly designed, and very misleading. IMO. The fact that the\nword \"beta\" appears in the middle of some introductory text on the front\npage is hardly a valid argument. (Well accepted software design \"fact\":\nUSERS DON'T READ *ANYTHING*)\n\nI get the impression that Vipul & co are deliberately trying to mislead\nusers into downloading the dev code in order to get more unwitting test\nsites.\n\nBut that's just my opinion, I could be wrong.\n\nrOD.\n\n--\nAnyway... long story short...\n...is a phrase whose origins are complicated and rambling.\n\n>> Doing the blogging thang again at http://www.groovymother.com/ ", 
+    "to": [
+        "\"Tabor J. Wells\" <razor-users@fsckit.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"rODbegbie\" <rOD@arsecandle.org>", 
+    "subject": "Re: [Razor-users] Authentication Error"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Hi\n\nOn Wed, 4 Sep 2002, Yannick Gingras wrote:\n\n> BTW thanks for all of you who provided interestiong insight. I'm playing with \n> gdb's dissassembler now but I don't think it's what a typical cracker would \n> use. Any hints on UNIX cracking tools ?\n\nThere's also an 'objdump' program, and 'biew' hex viewer/disassembler. A good \nstarting point to search is http://www.freshmeat.net/\n\nHowever, cracking and reverse engineering tools are not so ubiquitous on UNIX as \nthey are on Windows platform for two main reasons:\n\n1. The main customers of commercial Unices (Solaris, HP-UX, Aix, SCO...) are \nrespectable companies. They are ready to pay big bucks for software they need: the reputation matters.\n\n2. Most software for free and open source Unices like Linux and xBSD (this \nsoftware often may be used on commercial unices as well) is, well, free and \nopen source.\n\nRegards\n/Artem\n\n-- \n Artem Frolov \n/------------------------------------------------------------------\\\n Software Engineer, System Administrator \n Institute for System Programming, Russian Academy of Sciences \n Tel. +7 095 912-5317 (ext 4406), Cellular: +7 095 768-7067\n C7 40 CA 41 2A 18 89 D6 29 45 DF 50 75 13 6D 7A A4 87 2B 76\n\\------------------------------------------------------------------/\n\n------------------------------------------------------------------\nBasic Definitions of Science:\n If it's green or wiggles, it's biology.\n If it stinks, it's chemistry.\n If it doesn't work, it's physics.\n------------------------------------------------------------------", 
+    "to": [
+        "Yannick Gingras <ygingras@ygingras.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Artem Frolov <frolov@sigma.ispras.ru>", 
+    "subject": "Re: Secure Sofware Key"
+}

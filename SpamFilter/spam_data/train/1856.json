@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, Apr 30, 2010 at 10:15 AM, Camaleón wrote: \n \n> On Fri, 30 Apr 2010 10:05:42 +0200, James Stuckey wrote: \n> \n> >> Can you please upload a snapshot so we can see what you get? \n> >> \n> >> \n> > http://www.jhstuckey.com/1080.jpeg \n> > \n> > Does that look right to you? \n> \n> Mmmm, yes, nothing strange :-?. I bit \"big\" for my taste... \n> \n> Do you find the font of the toolbar is still \"small\"? Then instead 96dpi \n> set to 120dpi, that will make things \"bigger\". \n> \n> Greetings, \n> \n> -- \n> Camaleón \n> \n> \n> -- \n> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \n> with a subject of \"unsubscribe\". Trouble? Contact \n> listmaster@lists.debian.org \n> Archive: http://lists.debian.org/pan.2010.04.30.08.15.37@csmining.org \n> \n> \nDoing \"xrandr --dpi 120\", logging out of wmii and logging back in doesn't \nchange anything. \n \nMaybe the problem I perceived in the text on screen is just how the monitor \ndisplays.", 
+    "to": [
+        "=?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Re: Making onscreen fonts read-able[was:New monitor, how to change    screen resolution?]"
+}

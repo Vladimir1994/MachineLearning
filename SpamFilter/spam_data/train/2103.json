@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-19 12:43 +0200, Vincent Lefevre wrote: \n \n> Are bugs which are marked as done taken into account before a \n> release? \n \nYes, they are. \n \nSven \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87sk6r6yem.fsf@turtle.gmx.de", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sven Joachim <svenjoac@gmx.de>", 
+    "subject": "Re: Broken Debian's testing migration (grave bug in module-init-tools)"
+}

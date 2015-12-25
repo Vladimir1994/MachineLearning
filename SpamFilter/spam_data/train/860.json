@@ -1,0 +1,9 @@
+{
+    "body": "On Sat, Apr 17 at 17:02, Joe penned: \n> \n> In order to achieve this, you need write access to that directory \n> tree above apache's docroot, with the ability to set permissions \n> correctly. From what you say, it does not seem that you have that \n> with your current ISP. You would seem to need to spend some money, \n> even before you are sure you will have the access you need. \n \nThere are a few different ways to deal with not exposing your password \nto the world, but one thing I do want to note: in a hosted situation, \nyou should have a user home directory in addition to the directory for \nyour website. If you need a file to be inaccessible from the web, you \ncan just put it in your home directory. There's no need for root \nlevel permissions. \n \n-- \nmonique \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100418041457.GA20950@mail.bounceswoosh.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Monique Y. Mudama\" <spam@bounceswoosh.org>", 
+    "subject": "Re: How to migrate my localhost php site to my ISP - Was: willing   to learn php basics"
+}

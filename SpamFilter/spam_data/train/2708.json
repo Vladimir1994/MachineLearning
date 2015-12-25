@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 26 Aug 2002 the voices made bugzilla-daemon@hughes-family.org write:\n\n> http://www.hughes-family.org/bugzilla/show_bug.cgi?id=735\n\n> ------- Additional Comments From br+spamassassin@panix.com 2002-08-26 09:33 -------\n> Just because it's documented doesn't mean it's a good thing.\n>\n> I work for an ISP. We provide SpamAssassin to our customers. I got email\n> today from a support tech saying that \"spamassassin -t\" reports that a\n> message is probably spam even when it's not, and why is this, and can we\n> change it? I thought about why it is, and the only answer I could come up\n> with was, \"it was easier for the programmer that way\". That's an answer, I\n> guess, but her point was that this is going to generate support calls, and\n> support calls cost us time and money.\n\n Why would a customer use `spamassassin -t` without understanding what it does?\n\n\n /Tony\n-- \n# Per scientiam ad libertatem! // Through knowledge towards freedom! #\n# Genom kunskap mot frihet! =*= (c) 1999-2002 tony@svanstrom.com =*= #\n\n perl -e'print$_{$_} for sort%_=`lynx -dump svanstrom.com/t`'\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "bugzilla-daemon@hughes-family.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Tony L. Svanstrom\" <tony@svanstrom.com>", 
+    "subject": "Re: [SAdev] [Bug 735] spamassassin -t lies"
+}

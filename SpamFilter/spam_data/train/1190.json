@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 2010-04-15 at 10:49 -0700, Carl Johnson wrote: \n> \"John A. Sullivan III\" writes: \n> \n> > On Thu, 2010-04-15 at 13:05 +0000, Camaleón wrote: \n> >> \n> >> Make sure that LID_LIBRARY_PATH points to the location for libcups and \n> >> also CUPS lp and lpr are in PATH. \n> >> \n> >> When you invoke the print dialog using Control+P, all the printers \n> >> configured show up in the Printer Name dropdown. \n> >> *** \n> >> \n> >> I'm not sure how to check this in Debian, maybe someone else can give you \n> >> a hint on this :-) \n> > \n> > Thanks. I tried setting LID_LIBRARY_PATH and I know the binaries are in \n> > the path but it didn't help :( \n> \n> I don't know if you noticed, but I think that should be \n> LD_LIBRARY_PATH, without the extra 'I'. I don't know enough to help \n> otherwise. \n \nArgh!! I did upgrade to acroreat 9.3.1 from multimedia unstable upon \nthese responses and the referenced article which was based upon 9.x. I \neven set a LID_LIBRARY_PATH variable in case it was not a typo. It \nstill doesn't work. Setting the command line debugging variable, I \nfound that it cannot find the PPD file. Does it only work if the CUPS \nserver is running locally? In our case, we use a central CUPS server \nrunning on a non-standard port. This is reflected \nin /etc/cups/client.conf. How do we tell acroread where the printer \nserver and PPD files are? Thanks - John \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1271387362.4177.24.camel@Family.pacifera.com", 
+    "to": [
+        "Carl Johnson <carlj@peak.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"John A. Sullivan III\" <jsullivan@opensourcedevel.com>", 
+    "subject": "Re: acroread not seeing printers"
+}

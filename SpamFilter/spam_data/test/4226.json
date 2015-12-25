@@ -1,0 +1,8 @@
+{
+    "body": "On Tuesday 25 May 2010 20:06:29 debian-user-digest-request@lists.debian.org \nwrote: \n> | > It is a spamer... \n> | > \n> | > \n> | > \n> | > It it is always the same IP, add it to the backlist \n> | \n> | \n> | \n> | How do I do this obvious task? In exim? I have fail2ban as well but this \n> | is not catching this one. \n> \n> Have you tried adding \n> \n> /sbin/iptables -I INPUT -s 71.121.223.194 -j DROP \n> \n> to /etc/init.d/iptables.rules? \n \nI do not have this. \nI am (still) using the guarddog (kde3) firewall which sets the iptables rules. \nThere is no \"active\" rules set otherwise. \n \nI could make it, but I think that the guarddog would override. I could add \nthis after the fact, however. I will try it. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005252113.04860.d_baron@012.net.il", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "David Baron <d_baron@012.net.il>", 
+    "subject": "Re: Mail errors or attacks?"
+}

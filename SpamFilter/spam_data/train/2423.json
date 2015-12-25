@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nHi, \n \nJason Self wrote/schrieb @ 15.04.2010 21:52: \n \n> Kurt Roeckx wrote .. \n> \n>> What does this mean exactly? \n> \n> It means that you need to be running least version 0.95 of ClamAV, and \n> preferably always the latest & greatest version, to be protected. Outdated anti- \n> virus software is not effective. \n \n& you have to exchange the packages build on clamav, too, as mentioned \nin above announcement. \n \ndeb http://volatile.debian.org/debian-volatile \\ \nlenny-proposed-updates/volatile main contrib non-free \n \n/me just learned it the hard way (dansguardian), as everybody was \nclaiming that there is no Web access :(. \n \nTHX to Adam for the announcement and the volatile team for the updated \npackages. Dansguardian (i386) from volatile lenny-proposed-updates has \nno problem here. \n \n- -- \nBR - Maik \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (MingW32) \nComment: Signature of Maik Holtkamp \n \niEYEARECAAYFAkvIGWoACgkQz3bq6aadmI919ACglwSR1nL4Aj523gvND4jDjAE0 \nrx4AoKKBEqQOh4FrKNIRVzUqX+kuFA8z \n=8Gq9 \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC8196A.3090601@medical-city.de", 
+    "to": [
+        "debian-volatile@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Maik Holtkamp <holtkamp@medical-city.de>", 
+    "subject": "Re: [volatile] Updated clamav-related packages available fortesting"
+}

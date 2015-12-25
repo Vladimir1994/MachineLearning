@@ -1,0 +1,9 @@
+{
+    "body": "Hi....\n\ni installed razor an SpamAssassin on an redhat 6.3 with a fresh per 5.8.0.\nwhen I install Mail::SpamAssassin using the CPAN the followin error in make\ntest appears.\n\nt/forged_rcvd...........ok\nt/nonspam...............ok\nt/razor................. Test skipped: Razor is not installed.\nt/razor.................ok\n 2/2 skipped: Razor is not installed.\nt/reportheader..........ok\n\nHow can i get the razor running with the SpamAssassin ?\n\nThanks for helping\n\nAlex\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "<spamassassin-talk@example.sourceforge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Alexander Meis\" <am@simoon.de>", 
+    "subject": "[SAtalk] SpamAssassin an Razor problem"
+}

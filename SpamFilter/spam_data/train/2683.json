@@ -1,0 +1,9 @@
+{
+    "body": "Use Amanda at http://www.amanda.org/\n\nDonncha.\n\nOn Friday 16 August 2002 15:09, Ciaran Johnston wrote:\n> Hi folks,\n> I maintain a colocated server on behalf of a small group of individuals,\n> and am looking at backup solutions. Is it possible to get some sort of low-\n> end internal tape / other solution that could be used to back up approx. 40\n> Gigs of data or am I just dreaming? My ISP does offer backups at extra cost\n> but the only problem with that is, well, the extra cost.\n>\n> What I was hoping to do was to install some kind of internal tape device,\n> then swap tapes round every month, so I had an onsite backup of say the\n> last 24 hours and an offsite backup of the last month. Is this feasible?\n> I'm beginning to think it isn't. External devices are not an option as part\n> of the charge for colocation is rackspace.\n>\n> Thanks,\n> Ciaran.\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"Ciaran Johnston\" <cj@nologic.org>, <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "Donncha O Caoimh <donncha.ocaoimh@tradesignals.com>", 
+    "subject": "Re: [ILUG] Backup solutions"
+}

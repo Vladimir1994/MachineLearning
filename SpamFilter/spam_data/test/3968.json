@@ -1,0 +1,8 @@
+{
+    "body": "Luiz Felipe Ceglia said:\n\n> :0fw\n> | /usr/bin/spamassassin -c \n> /etc/mail/spamassassin/rules\n\nare you using exactly that -- with the line break -- or is it like this:\n\n :0fw\n | /usr/bin/spamassassin -c /etc/mail/spamassassin/rules\n\nall on one line? it should be the latter.\n\n--j.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "Luiz Felipe Ceglia <lceglia@terenet.com.br>"
+    ], 
+    "from": "yyyy@example.com (Justin Mason)", 
+    "subject": "Re: [SAtalk] help with postfix + spamassassin"
+}

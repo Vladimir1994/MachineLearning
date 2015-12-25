@@ -1,0 +1,9 @@
+{
+    "body": "gaim official apt-rpm repositorys :)\n\n#gaim\nrpm http://gaim.sourceforge.net/apt redhat/7.3/en/i386 release\nrpm-src http://gaim.sourceforge.net/apt redhat/7.3/en/i386 release\n\nthought i should post that one too just fell over it :)\n\nbye,\nche\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "che <che666@uni.de>", 
+    "subject": "gaim official rpm repository"
+}

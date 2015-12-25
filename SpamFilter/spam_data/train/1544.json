@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://boingboing.net/#85481626\nDate: Not supplied\n\nDVDSynth is an open source project that allows you to splice in your own \nfootage, alternate audio, subtitles, etc, to any DVD. This means that you can \ninsert your own non-sucky subtitles, make and circulate edit-lists that make \nhighlight reels for your favorite movies, etc, etc. It all amounts to a sweet \ntool for making the audience into the _former audience_, participants in \nentertainment. Of course, it's also illegal under the DMCA, since the tool also \nnecessarily circumvents the copy-prevention in pre-recorded DVDs to accomplish \nits ends. Link[1] Discuss[2] (_via NTK[3]_)\n\n[1] http://www.roundelay.net/dvdsynth/prerelease.html\n[2] http://www.quicktopic.com/boing/H/ymptgyYcJan\n[3] http://www.ntk.net/", 
+    "to": [
+        "yyyy@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "boingboing <rssfeeds@example.com>", 
+    "subject": "Great DVD interaction tool, probably illegal"
+}

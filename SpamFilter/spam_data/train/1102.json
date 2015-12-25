@@ -1,0 +1,9 @@
+{
+    "body": "Let's say you're behind a firewall and have a NAT address.\nIs there any way to telnet to a linux box out there in the world\nand set your DISPLAY in some way that you can create\nxterms on your own screen?\n\n- Joe\n\n-- \nThat girl became the spring wind\nShe flew somewhere, far away\nUndoing her hair, lying down, in her sleep\nShe becomes the wind.", 
+    "to": [
+        "FoRK <fork@example.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Joseph S. Barrera III\" <joe@barrera.org>", 
+    "subject": "dumb question: X client behind a firewall?"
+}

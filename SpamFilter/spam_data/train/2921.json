@@ -1,0 +1,9 @@
+{
+    "body": "I'm using Leopard, so I'm not sure if this also applies to Snow Leopard. \n \nRun any of the JFormattedTextField demos here (web start is fine): \n \nhttp://java.sun.com/docs/books/tutorial/uiswing/components/formattedtextfield.html \n \nThe backspace key is now deleting two characters at a time. \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nJava-dev mailing list (Java-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "java-dev@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Jim Douglas <jimdouglas@mac.com>", 
+    "subject": "JFormattedTextField backspace issue in 6u20 + 5u24"
+}

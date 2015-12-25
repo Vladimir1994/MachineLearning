@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-19 16:19, Clive McBarton wrote: \n[snip] \n> \n> How come there is no link anywhere on debian.org pointing to \n> debian-multimedia.org? Anything to establish a chain of trust. As it is, \n> I looked and looked but didn't find. Even when searching for \n> \"multimedia\" on debian.org, it does not mention debian-multimedia.org at \n> all. Not even when searching for \"debian-multimedia\". Every new debian \n> user trying to verify the credibilitiy of debian-multimedia.org would \n> have given up at this point for sure. \n \nGoogle is pretty darned ubiquitous, and has been for 8+ years. \n \nPutting \"Debian play\" in the FF/IW search bar auto-completes \"debian \nplay encrypted dvd\", and each of the first 5 links mentions d-mm.o. \n \n> With the information that Marillat is a Debian developer (and the \n> precise spelling of his name) I was actually able to go to the \n> developer's page on debian org, find him, and see a link to d-m. So in a \n> very roundabout way, d-m is actually endorsed by debian.org. \n \n\"Mentioned\" does *not* mean \"endorsed\". Never has, never will. \n \n> But how \n> would anybody find out about this in a reasonable amount of time? \n \nd-mm.o is not an official Debian site, so it's nor mentioned \nanywhere except his personal page and the list archives. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BCCCC25.9000401@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?"
+}

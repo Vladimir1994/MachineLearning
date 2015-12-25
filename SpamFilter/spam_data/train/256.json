@@ -1,0 +1,9 @@
+{
+    "body": "On May 13, 2010, at 19:10 PM, Chris Suter wrote: \n \n> Hi Dale, \n> \n> On Thu, May 13, 2010 at 7:29 PM, websrvr \n> wrote: \n> \n>> Using DiskArbitration seems to offer the results I need so I \n>> started coding \n>> a little test app but due to the lack of sample code I'm not sure \n>> I'm doing \n>> any of it properly since it segfaults when I use \n>> DADiskMountWithArguments(). \n> \n> I'm not sure why you're pursuing this approach. In my opinion, unless \n> I'm misunderstanding your requirements, I think it'll be much easier \n> for you to change the Content Hint parameter for your IOMedia object \n> (so that Disk Arbitration doesn't try and mount it) and then mount the \n> volume directly using the mount system call (or by calling the mount \n> command-line utility which is arguably more future proof). \n \nHaving to rely on the existence of the /etc/fstab to do any work is a \nbad choice. \n \nI wasn't aware that the SampleContentFilter project has options to \nprevent mounting. \n \nWhatever solution is used must only allow the partition to be \navailable where the software is installed and must do this \nautomatically in the background. \n \nI'm open to other solution if someone has one that works. \n \n> Kind regards, \n> \n> Chris \n> \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nFilesystem-dev mailing list (Filesystem-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "filesystem-dev@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "websrvr <websrvr@macftphttp.serverbox.org>", 
+    "subject": "Re: auto mounting a partition with nobrowse"
+}

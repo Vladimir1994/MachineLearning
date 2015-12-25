@@ -1,0 +1,9 @@
+{
+    "body": "Until a few days ago, razor (sdk 2.03, client 2.12) was catching a\ndecent set of spams. It seems now, however, that it isn't catching\nanything. I got one email this morning with \"ADV:\" in the subject\nanother two or three about how many inches longer I can be. Did I\nmiss something recently perhaps regarding configuration changes, etc?\n\nThanks in advance,\n\nJoe\n---\nJoe Berry\njoe@topshot.com\nAIM \"joe topshot\"\nYahoo Msgr \"joetopshot\"\nBaltimore, MD\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "razor-users@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Joe Berry <joe@topshot.com>", 
+    "subject": "[Razor-users] Something wrong with Database?"
+}

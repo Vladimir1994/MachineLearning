@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 22 Apr 2010 18:13:49 +0300, Dotan Cohen wrote: \n \n>> It's hard for distributions to include the latest KDE SC available \n>> *and* deliver it as \"stable\". Rolling distros (such Arch Linux), which \n>> are always up-to-date, may fit better into this schema. \n>> \n>> \n> That is where a third-party repo would come in, such as Backports. \n> Kubuntu, for all it's flaws, does this quite well. I understand that so \n> does Suse. \n \nAs per openSUSE, yes, they have the OBS (Build Service) with many \npackages up-to-date and available (backported or not) for the current \nsupported releases *but* remember that packages that fall in there are \nnot \"officialy\" supported nor included into security patches (they follow \ntheir own path to solve any issue that can arise). \n \nAnyway, I agree their KDE repos are of very good quality and so very \nuseful for users. \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.22.15.40.50@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: Moving to Debian: updated software"
+}

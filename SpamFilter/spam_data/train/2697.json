@@ -1,0 +1,9 @@
+{
+    "body": "Daniel Quinlan wrote:\n\nDQ> jm@jmason.org (Justin Mason) writes:\nDQ> \nDQ> > But I think rsync is key; it's very efficient bandwidth-wise, and it\nDQ> > allows you to select which ones you want just as well as wget would.\nDQ> > (Bandwidth is a much bigger issue for me and some other of the europeans\nDQ> > involved, than it would be for you guys ;) IMO it's by far the most\nDQ> > efficient and scriptable way to do this stuff, these days.\nDQ> \nDQ> It must be horrible being a dial-up user in 2002. If we can *automate*\nDQ> rsync submission with good *authentication*, it would be fine with me.\nDQ> The current rsync method is not sufficiently authenticated, though.\n\nI'll take a look at it. I'm sure there's got to be some reasonly easy way to \nhave rsync carry itself over ssh and secure access using ssh keys.\n\nDQ> > I suggest we use the hughes-family.org server for rsyncing, as we do for\nDQ> > the corpus_submit stuff -- in a separate subdirectory, though! -- then\nDQ> > I'll take a look at getting a nightly hit-frequencies-collation system\nDQ> > going.\n\nOk, I'll take a look at it.\n\nC", 
+    "to": [
+        "Daniel Quinlan <quinlan@pathname.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Craig R Hughes <craig@hughes-family.org>", 
+    "subject": "Re: [SAdev] nightly mass-check and hit-frequencies"
+}

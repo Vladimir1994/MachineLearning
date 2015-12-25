@@ -1,0 +1,9 @@
+{
+    "body": "As list administrator, your authorization is requested for the\nfollowing mailing list posting:\n\n List: IIU@iiu.taint.org\n From: emailharvest@email.com\n Subject: Harvest lots of E-mail addresses quickly !\n Reason: Post by non-member to a members-only list\n\nAt your convenience, visit:\n\n http://iiu.taint.org/mailman/admindb/iiu\n \nto approve or deny the request.", 
+    "to": [
+        "iiu-admin@taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "iiu-admin@taint.org", 
+    "subject": "IIU post from emailharvest@email.com requires approval"
+}

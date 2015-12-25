@@ -1,0 +1,9 @@
+{
+    "body": "Clive McBarton wrote: \n> Ron Johnson wrote: \n>> Never destroy the original until you know the copy works! \n> \n> In my earlier days I would have avoided mv for exactly that reason. But \n> when copying (including rsync), you cannot easily see that it worked \n> from the emptyness of the original file system. And comparing large \n> filesystem trees (not just 4GB as in this case) is trickier than most \n> people realize. At least a simple \"diff -r\" will be far from doing it. \n> Maybe you have some good way of comparing FS trees? \n> \n> [snip] \n \nIncluding rsync? I'd say that's the exact purpose of rsync. \n \nAnyway, there are many filesystem comparison tools if one wants to do it \n\"manually\", like dirdiff. For file contents, just hash and re-hash. \n \n-thib \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC23BA5.7030406@stammed.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "thib <thib@stammed.net>", 
+    "subject": "Re: Migrate OS to smaller drive?"
+}

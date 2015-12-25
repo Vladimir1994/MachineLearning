@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nim comparison to another computer, working still with Lenny, the \ndisplay of fonts in Konsole is bad:-( \nWithout antialiasing on Squeeze (as in Lenny) the fonts are angular, \nwith activated antialiasing the fonts are too spongy. So, where do I \nhave to search to resolve this problem? On my Lenny-Desktop font in \nKonsole without antialiasing looks perfect. In Squeeze not:-( \nAh: another one: in Lenny the used font is \"Fixed [misc]\" and it can \ndisplay an \"€\". Using \"Fixed [misc]\" in Squeeze cannot show me the \"€\" \nanymore:-( \n \nAny hints? \n \n \nciao, Dirk \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100518170123.GB8060@dserver.dnetz", 
+    "to": [
+        "Debian-KDE Mailingliste <debian-kde@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Dirk Salva <dsalva@gmx.de>", 
+    "subject": "How to improve font-using in KDE4?"
+}

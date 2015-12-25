@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nWhen copying and pasting a .ps or a .pdf file, or a serie of such files, \nthe resulting (i.e. pasted) files' icon is often the `snippets' one, \ni.e. the one which designates a broken/corrupted file. However, when \nright-clicking on the files, their content appears as the icon, i.e. the \n`snippets' icon disappears. Why? Is it normal? I do not like copying and \npasting files and seeing such an icon, because one might think that \nthese are corrupted files. \n \nThanks. \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me. \n \nYou can fool all of the people some of the time, some of the people all \nof the time, but you can't fool all of the people all of the time. \n(Abraham Lincoln)", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Copy/Paste .ps/.pdf often gives a `snippets' icon"
+}

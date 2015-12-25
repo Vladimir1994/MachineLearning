@@ -1,0 +1,9 @@
+{
+    "body": "On Sat, 24 Apr 2010 03:03:57 -0500, Ron Johnson wrote: \n \n> On 04/23/2010 11:13 PM, Siju George wrote: \n \n>> ext3 can have only 32000 files/folders under a folder and I hit that \n>> limit. Which file system can I use to over come it? I am planning for \n>> JFS \n>> \n>> Does anybody has any recommendations? \n>> \n>> \n> Since Mike Bird has demonstrated your erroneous claim, plz show us the \n> real error message. \n \nIs Wikipedia ext3 article¹ wrong then? :-? \n \n*** \nLimits \n \nMax number of files Variable, allocated at creation time[1] \n \n[1] The maximum number of inodes (and hence the maximum number of files \nand directories) is set when the file system is created. If V is the \nvolume size in bytes, then the default number of inodes is given by V/213 \n(or the number of blocks, whichever is less), and the minimum by V/223. \nThe default was deemed sufficient for most applications. The max number \nof subdirectories in one directory is fixed to 32000. \n*** \n \nNote that \"The max number of subdirectories in one directory is fixed to \n32000.\" \n \n¹ http://en.wikipedia.org/wiki/Ext3 \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.24.08.16.45@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: overcoming the 32k objects limit is ext3 - which file system to   use?"
+}

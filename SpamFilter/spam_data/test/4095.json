@@ -1,0 +1,8 @@
+{
+    "body": "On Wed, 19 May 2010 20:22:48 -0700, briand wrote: \n \n> I think it's related to javascript, but then again I think all browser \n> problems are related to javascript, I mean when they're not related to \n> flash. \n \nUh? No, there are many problems coming for different sources that can \naffect the browser stability. \n \nJavascript (and flash as well as other plugins) can be one of them, sure, \nbut disabling it should cure the issue at all. If it does not, that means \nthe problem can lie somewhere (packaging error, xul library or even old \nprofile settings). \n \nBut \"closing tags and getting crash randomly\" is not the type of \nbehaviour I would associate to a javascript issue becasue javascript code \nshould have been rendered when the page loads or when clicking on items, \nbut not at page/tab close :-? \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.05.20.09.42.39@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: iceweasel crashing when closing tabs"
+}

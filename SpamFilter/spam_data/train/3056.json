@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, May 14, 2010 at 04:29, Stan Hoeppner wrote: \n \n> Allan Wind put forth on 5/13/2010 10:13 AM: \n> > I use insserv to boot my laptop and used `update-rc.d apache2 \n> > remove` to indicate that I do not want apache2 to start on \n> > reboot. Indeed this works fine for while. Either an apache2 \n> > (apache2.2-common upgrade) or some other package install/upgrade \n> > then seems to revert my choice and apache is once again started \n> > in reboot. \n> > \n> > Is there a better way to disable servers from starting? \n> \n> I just remove the apache link in /etc/rc*.d \n> \n> -- \n> Stan \n> \n> \n> -- \n> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \n> with a subject of \"unsubscribe\". Trouble? Contact \n> listmaster@lists.debian.org \n> Archive: http://lists.debian.org/4BEC846A.7020103@hardwarefreak.com \n> \n> \nYou could also update /etc/init.d/apache2, change \nthe run levels to Defaut-stop", 
+    "to": [
+        "Stan Hoeppner <stan@hardwarefreak.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Anand Sivaram <aspnair@csmining.org>", 
+    "subject": "Re: Disable server so it does not start on reboot (even after    upgrade)?"
+}

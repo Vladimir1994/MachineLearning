@@ -1,0 +1,9 @@
+{
+    "body": "On Tuesday 27 April 2010 02:44:20 Thomas Pomber wrote: \n> You really gotta know your hardware! \n \nI don't find that to be true at all. For non-removable media except / you can \nsimply use UUIDs everything should be fine. For / you can generally use a \nUUID, too. Removable media can be handled in a variety of ways. I prefer \nusing udev to fill in any gaps; writing udev rules doesn't really require \nfamiliarity with hardware (udev will tell you everything useful) and there are \nsome descent guides available. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: Ever make your own fstab from scratch?"
+}

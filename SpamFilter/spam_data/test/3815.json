@@ -1,0 +1,8 @@
+{
+    "body": "On 2010-04-06 07:12 +0200, Brian Ryans wrote: \n \n> Quoting Johan Grönqvist on 2010-04-05 23:50:37: \n>> \n>> I think you may be interested in the dist-upgrade command instead. \n> \n> Now called full-upgrade (though dist-upgrade remains for backcompat). \n> upgrade is now safe-upgrade. \n \nThis is true for aptitude but not for apt-get. \n \nSven \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87sk79kv51.fsf@turtle.gmx.de", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Sven Joachim <svenjoac@gmx.de>", 
+    "subject": "Re: shouldn't apt-get upgrade, you know, upgrade ?"
+}

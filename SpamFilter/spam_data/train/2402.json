@@ -1,0 +1,7 @@
+{
+    "body": "[Skip Montanaro]\n> After my latest cvs up, timtest fails with\n>\n> Traceback (most recent call last):\n> File \"/home/skip/src/spambayes/timtest.py\", line 294, in ?\n> drive(nsets)\n> File \"/home/skip/src/spambayes/timtest.py\", line 264, in drive\n> d = Driver()\n> File \"/home/skip/src/spambayes/timtest.py\", line 152, in __init__\n> self.global_ham_hist = Hist(options.nbuckets)\n> AttributeError: 'OptionsClass' object has no attribute 'nbuckets'\n>\n> I'm running it as\n>\n> timtest -n5 > Data/timtest.out\n>\n> from my ~/Mail directory (not from my ~/src/spambayes directory). If I\n> create a symlink to ~/src/spambayes/bayes.ini it works once again, but\n> shouldn't there be an nbuckets attribute with a default value already?\n\nI never used ConfigParser before, but I read that its read() method silently\nignores files that don't exist. If 'bayes.ini' isn't found, *none* of the\noptions will be defined. Since you want to run this from a directory other\nthan my spambayes directory, it's up to you to check in changes to make that\npossible .", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "tim.one@comcast.net (Tim Peters)", 
+    "subject": "[Spambayes] timtest broke?"
+}

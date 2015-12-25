@@ -1,0 +1,9 @@
+{
+    "body": "> From: Brent Welch \n> Date: Wed, 28 Aug 2002 10:32:42 -0700\n>\n> \n> >>>Robert Elz said:\n> > Mh_Sequence also goes and rereads the files (.mh_sequences and the\n> > context file) but I'm not sure how frequently that one is called.\n> \n> In some places I maintain caches of files by checking their modify time,\n> but the sequence files are soo small that by the time you stat them to\n> check their date stamp, you could just read them again.\n\nDo you really think this is true? I added a modify time check thinking that \nit would make an improvement since we were reading it a *lot* more times in \nthe new code because we're trying to use the sequences.\n\nOn the other hand, the sequences files are probably being read out of cache \nwhen that happens anyway.\n\nEven with a small file, I'd think that the time taken to do a \n[file mtime $filename] would be worth it. My code is in proc MhReadSeqs.\n\nChris\n\n-- \nChris Garrigues http://www.DeepEddy.Com/~cwg/\nvirCIO http://www.virCIO.Com\n716 Congress, Suite 200\nAustin, TX 78701 +1 512 374 0500\n\n World War III: The Wrong-Doers Vs. the Evil-Doers.", 
+    "to": [
+        "Brent Welch <welch@panasas.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Garrigues <cwg-exmh@DeepEddy.Com>", 
+    "subject": "Re: New Sequences Window"
+}

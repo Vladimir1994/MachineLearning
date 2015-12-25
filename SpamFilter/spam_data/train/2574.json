@@ -1,0 +1,9 @@
+{
+    "body": "Hello all,\nI'm trying to get wins name resolution across subnets working and reckon the\nfirst step is to be \nable to do a nmblookup without using the -B (broadcast address flag). Does\nanyone know how \nsamba can be configured to do broadcasts to subnets other than just the\nlocal subnet. \nI don't think this has anything to do with the remote announce parameter.\n\nThanks\nBryan\n\n\n\"And the smoke of their torment ascendeth up for ever and ever: and they\nhave no rest day nor night, \nwho worship the beast and his image, and whosoever receiveth the mark of his\nname.\"\n(Revelation 14:11)\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"Ilug (E-mail)\" <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Hunt, Bryan\" <B.Hunt@emuse-tech.com>", 
+    "subject": "[ILUG] nmblookup question"
+}

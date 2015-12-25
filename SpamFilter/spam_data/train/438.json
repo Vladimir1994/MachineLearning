@@ -1,0 +1,9 @@
+{
+    "body": "Sjoerd Hardeman wrote: \n> Op 13-05-10 23:40, Merciadri Luca schreef: \n> \n>> Sven Joachim wrote: \n>> Thanks for this answer. There are *many* reasons not to use pdfLaTeX. \n>> They do not enter in the scope of this mailing list, but I am pretty \n>> sure you will find them directly on the Internet. For example, pdfLaTeX \n>> encourages one to use directly JPG, etc., for the inclusion in the \n>> document, which is pretty bad. There are also many incompatibilities \n>> with different packages. \n>> \n> Or png or pdf which basically is eps or even real eps via the epstopdf \n> package. \n> \n/ \n> Sorry, pdflatex offers more choice. That's not a bad thing. \n> \nI do not agree, sorry. PDFLaTeX generally write bigger PDFs, simply \nbecause there is no compression (consider for example \nhttp://www.tug.org/pipermail/pdftex/2004-June/005046.html). Moreover, I \nthink that psTricks does not work with PDFLaTeX (you need to use PDFTricks). \n \nI also vaguely remember about many situations where, if I had had to use \nPDFLaTeX, I would not have been able to produce the same document, \nbecause I would have had to change many packages which were incompatible. \n \nYou might ask on comp.text.tex, this is a better place for this, because \nthis is my point of view, and it is not shared by the whole community. \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me. \n \n \nInstruction ends in the schoolroom, but education ends only with life. \n(F. W. Robertson)", 
+    "to": [
+        "Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: Is acroread blind, or ps2pdf dangerous?"
+}

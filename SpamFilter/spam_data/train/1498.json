@@ -1,0 +1,9 @@
+{
+    "body": "Date: Fri, 23 Aug 2002 02:05:19 +0700\n From: Robert Elz \n Message-ID: \n\nWhen I said ...\n\n | This is from today's cvs\n\nthat will translate as \"yesterday's\" now of course (before the most\nrecent set of changes (catchup speedups, and so on)).\n\nkre\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "exmh-workers@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Elz <kre@munnari.OZ.AU>", 
+    "subject": "Re: Anolther sequence related traceback"
+}

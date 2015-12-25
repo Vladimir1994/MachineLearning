@@ -1,0 +1,9 @@
+{
+    "body": "> From: Ron Johnson [mailto:ron.l.johnson@cox.net] \n> Sent: Saturday, April 24, 2010 3:49 PM \n> \n> On 04/24/2010 05:31 PM, B. Alexander wrote: \n> > \n> > Define \"hates sudden power outages\"...Is it recoverable? \n> > \n> \n> They got pretty corrupted. Maybe it's been robustified in the \n> intervening years. \n \nApparently, it has been \"robustified\". \n \nhttp://old.nabble.com/XFS-data-loss,-and-a-fix-td15876910.html \n \nhttp://xfs.org/index.php/XFS_FAQ#Q:_Why_do_I_see_binary_NULLS_in_some_files_after_recovery_when_I_unplugged_the_power.3F \n \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/00ac01cae7dc$0242e400$06c8ac00$@net", 
+    "to": [
+        "<debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Kevin Ross\" <kevin@familyross.net>", 
+    "subject": "RE: Filesystem recommendations"
+}

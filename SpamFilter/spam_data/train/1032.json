@@ -1,0 +1,9 @@
+{
+    "body": "I never claimed it could learn *all* combinatorial \npossibilities, but it certainly can learn some.\n\nC\n\nOn Thursday, August 22, 2002, at 07:21 PM, Scott A Crosby wrote:\n\n> On Thu, 22 Aug 2002 09:20:05 -0700, Craig R.Hughes \n> writes:\n>\n>> It *can* learn combinatorial stuff in a more subtle way. Imagine\n>\n> No it can't..\n>\n> It can learn a few examples that happen to be linearily seperable,\n> like those you gave. It cannot learn the example I gave below, which\n> is not linearily seperable.", 
+    "to": [
+        "Scott A Crosby <scrosby@cs.rice.edu>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Craig R.Hughes\" <craig@deersoft.com>", 
+    "subject": "Re: results for giant mass-check (phew)"
+}

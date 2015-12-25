@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 2002-10-03 at 08:16, Mark Derricutt wrote:\n> Anyone know where one could get rpms for alot of the python libraries for \n> 2.2?\n> \n> Its darn annoying the way RH ship python 1.5.2 and python 2.2 (as python2) \n> and libs that only work with one or the other :(\n> \n> esp. the pgdb and xml modules.\n> \n> Anyone know why Red Hat insist on sticking with python 1.5.2?\n>\n\nthey are on python 2.2 for 8.0 - but they don't like to break\ncompatibility during major releases.\n\ntherefore: 6.X was 1.5.2 b/c that was current\n7.x was 1.5.2 b/c that was current when 7.0 was released.\n\n-sv", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "seth vidal <skvidal@phy.duke.edu>", 
+    "subject": "Re: Python 2.2 site libs?"
+}

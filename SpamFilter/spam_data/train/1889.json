@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://www.joelonsoftware.com/news/20020917.html\nDate: Not supplied\n\nJakob Nielsen on Offshore Usability[1]: \"To save costs, some companies are \noutsourcing Web projects to countries with cheap labor. Unfortunately, these \ncountries lack strong usability traditions and their developers have limited \naccess -- if any -- to good usability data from the target users.\" \n\nOffshore usability is a specific case of the general \"offshore design\" problem. \nPut simply, software teams are not successful when \ndesign or management are done in a different physical location than \nprogramming. Once I actually had a job where I was in New York, my direct \nmanager was in Singapore, _his_ manager was in Hyderabad, and if I needed \nany management input I had literally no choice but to go to the CEO because at \nleast he was awake during the same hours as I was. You can't get things done \nlike this. A good project team relies on hundreds of small interactions a day. \nHere in the Fog Creek offices, we have 10 small conversations about FogBUGZ 3.0 \ndevelopment every day. \n\nWhat I don't understand is people who think it's OK to move the developers ten \ntime zones away from their managers and expect good results. Those same people \nwould scream bloody murder if you told them that you were going to \nsend the whole _management_ team to Bangalore or Beijing.\n\n[1] http://www.useit.com/alertbox/20020916.html", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "joelonsoftware <rssfeeds@spamassassin.taint.org>", 
+    "subject": "Jakob Nielsen on Offshore Usability: \"To save costs, some     companies are ou"
+}

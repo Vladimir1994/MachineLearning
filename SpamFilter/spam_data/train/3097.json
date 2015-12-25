@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, Apr 21, 2010 at 02:27:47PM +0530, Siju George wrote: \n> On Wed, Apr 21, 2010 at 2:16 PM, Mart Frauenlob \n> wrote: \n> > \n> > how about: \n> > ... -p 'my$qlPW' -N ... \n> > \n> \n> # `mysql -u root -p 'my$qlPW' -N -B -e 'show databases'` \n> Enter password: \n> \n> asks for PW \n> \n> # `mysql -u root -p'my$qlPW' -N -B -e 'show databases'` \n> -bash: information_schema: command not found \n \nYou got the output of 'show databases'. You then consider it a shell \ncommand and try to excute it. Why would you want to do that? What do you \nwant to do with that output? \n \nBTW: I would suggest that you actually use a .my.cnf to hold the \npassword, otherwise the password is available in e.g. the output of 'ps \nauxww' \n \n-- \nTzafrir Cohen | tzafrir@jabber.org | VIM is \nhttp://tzafrir.org.il | | a Mutt's \ntzafrir@cohens.org.il | | best \ntzafrir@debian.org | | friend \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100421090133.GV16560@pear.tzafrir.org.il", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Tzafrir Cohen <tzafrir@cohens.org.il>", 
+    "subject": "Re: Hi how to escaping under ` ` in sh"
+}

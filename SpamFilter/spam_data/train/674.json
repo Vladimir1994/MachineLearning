@@ -1,0 +1,9 @@
+{
+    "body": "El Jueves 06 Mayo 2010 12:50:52 Facundo Aguilera \nescribió: \n> \n> Just for add a good comment, I'm testing 4.4.3 and it working very good!! \n> Thanks!! \n> \n> \n> The only problem I'm having is that kmail is not searching in the full \n> address list when writing a new message. But i can drag from kaddressbook \n> for now... \n \n \nSolved, I just create again the akonadi resource in systemsettings... the old \nsetting was removed in the upgrade. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005061259.42306.budinero@csmining.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Facundo Aguilera <budinero@csmining.org>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

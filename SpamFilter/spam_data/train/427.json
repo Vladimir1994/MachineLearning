@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, Apr 23 at 20:34, Eugen Dedu penned: \n> \n> Well, /boot is on the same filesystem as / (only one FS), so it is \n> btrfs. Does not grub2 boot linux from btrfs? I have seen Web pages \n> saying that it boots... \n \nI just used google to search \"grub2 btrfs\", and the results don't look \npromising. \n \nNot that you asked, but btrfs is still in development; I wouldn't think \nthat supporting it is anyone's top priority. If you are planning to \nkeep anything important on this system, I'd think twice about using \na filesystem that's still in flux: \n \nhttps://btrfs.wiki.kernel.org/index.php/Main_Page \n \n\"Btrfs is under heavy development, but every effort is being made to \nkeep the filesystem stable and fast. As of 2.6.31, we only plan to \nmake forward compatible disk format changes, and many users have been \nexperimenting with Btrfs on their systems with good results. Please \nemail the Btrfs mailing list if you have any problems or questions \nwhile using Btrfs.\" \n \n-- \nmonique \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100423191825.GX30298@mail.bounceswoosh.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Monique Y. Mudama\" <spam@bounceswoosh.org>", 
+    "subject": "Re: Re: Help needed: error booting to btrfs filesystem"
+}

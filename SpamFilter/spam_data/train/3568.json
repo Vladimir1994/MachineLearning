@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 3 May 2010 00:47:25 +0200 Sebastien Delafond wrote: \n \n> On May/02, Francesco Poli wrote: \n> > Could it be a Sylpheed bug? \n> \n> We've narrowed it down to an encoding issue: the original DSA email was \n> sent as ISO-8859-1, and mutt was able to verify it just fine; however, \n> on a system using UTF-8, any kind of pasting of the original text will \n> produce a file that gpg does not verify: \n \nThe fact is that I didn't perform any pasting: even running \"gpg \n--verify\" directly on the message file fails (Sylpheed stores e-mail \nmessages in MH format, hence each message is on a separate file). \n \nI received the message encoded as quoted-printable: maybe something in \nthe middle performed some re-encoding, that broke the signature? \n \nHowever, that does not explain why Mutt is able to correctly verify \nthe signature... \nDamn Mutt, always one step beyond! ;-) \n \n> that'll teach me to include the \n> \"é\" in my firstname instead of a plain \"e\" ;) \n \nWouldn't we be better off using PGP/MIME signed messages (RFC 2015) \nin order to avoid encoding issues? \nAs far as I've heard, clear-signed e-mail messages are deprecated precisely \nbecause of this kind of signature breakages, due to possible re-encoding. \n \nAny thoughts? \n \n \n-- \n http://www.inventati.org/frx/progs/scripts/pdebuild-hooks.html \n Need some pdebuild hook scripts? \n..................................................... Francesco Poli . \n GnuPG key fpr == C979 F34B 27CE 5CD8 DC12 31B5 78F4 279B DD6D FCF4", 
+    "to": [
+        "debian-security@lists.debian.org, team@security.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Francesco Poli <frx@firenze.linux.it>", 
+    "subject": "Re: Broken signature for DSA-2040-1"
+}

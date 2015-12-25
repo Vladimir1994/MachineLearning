@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://boingboing.net/#85511996\nDate: Not supplied\n\nMena sez: \"We've set up a TrackBack ping repository for attendees of O'Reilly's \nMac OS X Conference. If you're using Movable Type or a TrackBack-enabled tool, \nyou can ping the category relating to your OSXCon-specific weblog post.\" Link\n[1] Discuss[2] (_Thanks, Mena[3]!_)\n\n[1] http://www.movabletype.org/osxcon/\n[2] http://www.quicktopic.com/boing/H/Eg8fKLFxsFr\n[3] http://www.dollarshort.org/", 
+    "to": [
+        "yyyy@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "boingboing <rssfeeds@example.com>", 
+    "subject": "TrackBack for OSXCON"
+}

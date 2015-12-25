@@ -1,0 +1,8 @@
+{
+    "body": ">>>>> On Mon, 9 Sep 2002, \"Rick\" == Rick Baartman wrote:\n\n Rick> This is dangerous; I have to remember to re-scan each\n Rick> folder I enter. Is there a safeguard for this?\n\nNope. Regenerate the cache in the script\n\n for f in `folders -fast -r`\n do\n echo sorting $f ...\n sortm +$f\n scan `mhpath +`/$f/.xmhcache\n done\n\n--Hal\n\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "Rick Baartman <baartman@lin12.triumf.ca>"
+    ], 
+    "from": "Hal DeVore <haldevore@acm.org>", 
+    "subject": "Re: Sorting"
+}

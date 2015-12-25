@@ -1,0 +1,9 @@
+{
+    "body": "Hi all,\n\nI have 3 or 4 email addresses (which get used for different\nreasons), and I'd prefer not to mix them up. So I was wondering\nif anyone knows of a way that I can have mail (apart from list\nmail, which I have already sorted) which arrives to a certain\ne-mail address have the From: header in the reply automatically\nset to the address it came to.\n\nFor example, say I have a company, and sales@company.com,\ninfo@company.com and tech@company.com arrive in the same mailbox.\nI don't want to reply to sales@company.com mails with the From:\nset to dave@company.com, I would like the mail to come from\nsales@company.com.\n\nIs there any way to do this? Bearing in mind that mail can arrive\nwith my email in the To or Cc fields (and Bcc?), and it might be\nburied in a couple of dozen other recipients...\n\nCheers,\nDave.\n\n-- \n David Neary,\n Marseille, France\n E-Mail: bolsh@gimp.org\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "David Neary <dneary@wanadoo.fr>", 
+    "subject": "[ILUG] Mutt reply hooks"
+}

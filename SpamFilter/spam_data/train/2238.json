@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 21 Jul 2002 14:50:13 -0400\nche wrote:\n\n> On 21 Jul 2002 23:59:59 +1200\n> Mark Derricutt wrote:\n> \n> > On Mon, 2002-07-22 at 06:20, che wrote:\n> > \n> > > The server mentioned above works again now :)!\n> > \n> > Any problems with the rpm's they provided?\n> > \n> > \n> > _______________________________________________\n> > RPM-List mailing list \n> > http://lists.freshrpms.net/mailman/listinfo/rpm-list\n> \n> #redhat 7.3\n> rpm http://apt.sunnmore.net gnome2 73\n> rpm-src http://apt.sunnmore.net gnome2 73\n> \n> #redhat 7.2\n> rpm http://apt.sunnmore.net gnome2 72\n> rpm-src http://apt.sunnmore.net gnome2 72\n> \n> thats the correct lines to be added to sources.list for the repository\n> \n> i just did a apt-get install gnome-session its still progressing :)\n> \n\nafter apt-get install gnome-session\ni did another apt-get upgrade (25 more packages) and it works now... i am in gnome 2.0 wohooooo :) looks very great very \"tidy\" only error message i got was about a mixer applet on login (no biggie to me) even the old sawfish still works. yet its great and works cant say anythign negative yet :)\n\njust btw. if someone knows any other nice repositorys please post em :).\n\nthanks in advance,\nche\n> _______________________________________________\n> RPM-List mailing list \n> http://lists.freshrpms.net/mailman/listinfo/rpm-list\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "che <che666@uni.de>", 
+    "subject": "Re: Ximian apt repos?"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, Feb 04, 2002 at 04:53:14PM +0100, Matthias Saou wrote:\n> It skips it. See the /etc/apt/apt.conf file for this.\n\nIn my apt.conf reads:\n\n-- --\nRPM\n{\n // Leave list empty to disable\n AllowedDupPkgs {\"^kernel$\"; \"kernel-smp\"; \"kernel-enterprise\"; };\n HoldPkgs {\"kernel-source\"; \"kernel-headers\"; };\n}\n----\n\nIf I understand this correctly, then only kernel-source and kernel-headers \nare held from being installed, but kernel will be installed, right?\n\nMaybe I should test this on some vanilla system...\n\n-- \nPeter\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Peter Peltonen <pisara@iki.fi>", 
+    "subject": "Re: About apt, kernel updates and dist-upgrade"
+}

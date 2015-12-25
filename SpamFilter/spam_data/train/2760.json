@@ -1,0 +1,9 @@
+{
+    "body": "Gianni Ponzi wrote:\n> I have a prob when trying to install Linux (tried RedHat, Suse) on my\n> laptop. I can start the install but after about 2min, the whole pc just\n> dies.\n\nCan you disable DMA and see if this makes a difference?\n\nNick\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"'ILUG@linux.ie'\" <ILUG@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "Nick Murtagh <nickm@go2.ie>", 
+    "subject": "Re: [ILUG] Linux Install"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "\"zeek\" said:\n\n> This was thoroughly confusing, but by playing musical chairs with the spamd\n> args I smashed a bug:\n> \n> OK:\n> spamd --debug --daemonize --auto-whitelist --username=nobody --allowed-ips=1\n> 27.0.0.1\"\n> OK:\n> spamd --debug --daemonize --auto-whitelist --username=nobody --allowed-ips=1\n> 27.0.0.1, 192.168.1.1\"\n> NOT OK:\n> spamd --debug --daemonize --auto-whitelist --username=nobody --allowed-ips=1\n> 92.168.1.1, 127.0.0.1\"\n\nfwiw, I can't reproduce this with\n\n spamd --debug --auto-whitelist --allowed-ips=\"127.0.0.1\"\n spamd --debug --auto-whitelist --allowed-ips=\"127.0.0.1, 192.168.1.1\"\n spamd --debug --auto-whitelist --allowed-ips=\"192.168.1.1, 127.0.0.1\"\n\nwhich I presume is what you meant (except for the missing args\nof course). They all seem to work OK.\n\n--j.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"zeek\" <zeek@sparklehouse.com>"
+    ], 
+    "is_spam": false, 
+    "from": "yyyy@spamassassin.taint.org (Justin Mason)", 
+    "subject": "Re: [SAtalk] BUG: spamd --allowed-ips=[127.0.0.1 must be first]"
+}

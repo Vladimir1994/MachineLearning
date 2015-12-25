@@ -1,0 +1,9 @@
+{
+    "body": "On Tuesday, August 6, 2002, at 10:19 AM, Justin Mason wrote:\n\n>\n> \"Craig R.Hughes\" said:\n>\n>> Excellent. After that, I'd suggest we work on stabilizing (ie\n>> no new features) for a bit, and getting 2.40 released. I think\n>> we're in reasonably good shape now with 2.40 (plus or minus some\n>> build issues occasionally creeping in), and Razor2 is starting\n>> to get a little less flakey (minus one or two server issues in\n>> the last few days).\n>\n> Yeah, I agree. Although note: I'd like to see the proposal to use\n> Received IPs in the AWL, get into 2.40 too. That's being actively\n> exploited right now.\n\nYeah, AWL IPs is a good thing for 2.40\n\n> Razor2 is definitely getting solid, and getting some good hits too!\n\nWhen it works, yeah. But it's so flakey I have to turn it off \nso that my mail can be guaranteed to actually get through in a \ndecent timeframe.\n\nC", 
+    "to": [
+        "yyyy@spamassassin.taint.org (Justin Mason)"
+    ], 
+    "is_spam": false, 
+    "from": "\"Craig R.Hughes\" <craig@deersoft.com>", 
+    "subject": "Re: [SAtalk] BIG CHANGE coming up in cvs"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nHi, \n \nWhen watching videos locally, with VLC, it often lags at some parts of \nthe videos, and the following kinds of messages are displayed at the \nconsole: \n \n== \n[some time] main video output error: picture [hexadecimal ref.] refcount is -1 \noverflow in spectral RLE, ignoring \n== \n \nThe [some time] references are often ~40 times separated, i.e. I could \nget \n \n== \n[00000010] main video output error: picture [hexadecimal ref.] refcount is -1 \n[00000050] main video output error: picture [hexadecimal ref.] refcount is -1 \n. \n. \n. \n== \n \nIt does not only happen with Матрёшка files (.mkv). (I here \ntest if Gnus supports cyrillic out-of-the-box.) \n \nIs it normal? Does it happen often with videos? What would it be due \nto? Are they corrupted? \n \nThanks. \n \n- -- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \n- -- \n \nLuck is what happens when preparation meets opportunity. (Lucius Annaeus Seneca) \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (GNU/Linux) \nComment: Processed by Mailcrypt 3.5.8 \n \niEYEARECAAYFAkvthfgACgkQM0LLzLt8Mhz+cwCfQ/ZbM/AeD/yQ6BA00vak/haw \nVwsAoKWKVXabMXa8aEwgUC1KT7NjLFWF \n=7PCF \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87eihewged.fsf@merciadriluca-station.MERCIADRILUCA", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "VLC will lag when reading local videos, whatever the codec"
+}

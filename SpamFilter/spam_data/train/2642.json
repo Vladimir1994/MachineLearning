@@ -1,0 +1,9 @@
+{
+    "body": "> > ... webforms /can/\n> > accept \"U.S. of A\" as a country. Incredible, but true. Web forms can\n> > also accept /multiple/ or even /free-form/ telephone numbers ...\n\nAre the people who use procrustean web\nforms practices the same ones who don't\naccept faxes?\n\nWhen I *really* need to get something\ndone, instead of just idle surfing, I\ncall or fax. Faxing, like a web form,\ncan be done 24x7; it allows me to give\nall the (and only the) pertinent info\nin a single place; it also provides a\nself-journalled correspondence, which\nmeans rollback is easy and replay is\neven easier.\n\n-Dave\n\n> Sure, tiled windows were the best we had for\n> a brief period of time, but they are completely useless\n> except for some terminal based replacement applications. \n\nI've been running a tiled (but somewhat\noverlapped, yielding a horizontal stack)\nwindow manager lately. Like filling in\na web form, finding edges and shuffling\nwindows may seem productive, but I find\nthat having a window manager manage the\nwindows means I can concentrate on what\nI want to do with their contents.\n\n:::::::::\n\n\"dumb question: X client behind a firewall?\"\n> Back in my day, they didn't have ssh. Then again, back in my day,\n> they didn't have firewalls.\n\nBack in my day, when one changed computer\ninstallations, email would be forwarded\nas a courtesy.\n\nNow, we seem to have swung so far in the\nopposite direction that it makes sense to\nditch addresses every couple of years to\nshed spam.", 
+    "to": [
+        "fork@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Dave Long <dl@silcom.com>", 
+    "subject": "Re: EBusiness Webforms: cluetrain has left the station"
+}

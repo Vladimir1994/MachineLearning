@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 2002-08-29 at 00:02, Ville Skyttä wrote:\n\n> > Thanks a *lot* ! The RPMs seem to be fine, they worked for me out of\n> > the box (on vanilla Valhalla w/latest errata).\n> \n> ...except that I don't see an init script in the RPMs, a sample one\n> designed for RH is supposed to be in \"utils/alsasound\". Could you take\n> a look if it can be included?\n\nOk, some more nits: alsa-xmms doesn't work if I don't have\nalsa-lib-devel installed, but xmms dies on startup telling me:\n\n Cannot load alsa library: libasound.so: cannot open shared object\n file: No such file or directory\n\nlibasound.so is part of alsa-lib-devel... if I install it, the ALSA XMMS\noutput plugins works fine.\n\nI can't install the xine stuff, because xine-libs needs libGLcore.so.1,\nwhich I can't find anywhere (NVidia stuff? I have Radeon 7500...)\n\n-- \n\\/ille Skyttä\nville.skytta at iki.fi\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ville =?ISO-8859-1?Q?Skytt=E4?= <ville.skytta@iki.fi>", 
+    "subject": "Re: ALSA (almost) made easy"
+}

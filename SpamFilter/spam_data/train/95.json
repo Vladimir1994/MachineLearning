@@ -1,0 +1,9 @@
+{
+    "body": "I still have not gotten to the root of this very annoying problem. \n \nIn the earliest KDE4 versions, stuff started up at the normal default nice of \n0 (priority 20). I had a renice script to get all those akonadi daemons niced \nout of the way so kde4 would be usable. \n \nOne version (4.2.*) had stuff starting at 0, priority 40 (did not know there \nwas such an animal) but it played nicely. \n \nAfter that, it seems, everything of kde4's menus, desktop icons, anything it \nspawns is being niced to 19. This renders kde4 unusable. So my renicer script \nsets plasma-desktop, kmail and several of the core utilities back to 0 so I \ncan use it. But this workaround is no answer. \n \nI have no idea why this is going on. Any ideas? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005042000.59118.d_baron@012.net.il", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "David Baron <d_baron@012.net.il>", 
+    "subject": "Processes Run at Nice 19!"
+}

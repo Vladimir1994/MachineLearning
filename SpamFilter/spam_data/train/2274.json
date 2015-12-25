@@ -1,0 +1,9 @@
+{
+    "body": "http://www.hughes-family.org/bugzilla/show_bug.cgi?id=886\n\n\n\n\n\n------- Additional Comments From jm@jmason.org 2002-09-21 16:37 -------\nI'd prefer to wait and see if spammers do anything about it. my\nguess is they will not, as it'd mean modifying their spamware to\nsend >1 msg per recipient.\n\nI vote WONTFIX as a result ;)\n\n\n\n------- You are receiving this mail because: -------\nYou are the assignee for the bug, or are watching the assignee.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "spamassassin-devel@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "bugzilla-daemon@hughes-family.org", 
+    "subject": "[SAdev] [Bug 886] Add a rule to detect Content-type message/partial"
+}

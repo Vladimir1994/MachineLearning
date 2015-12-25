@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 06 Apr 2010 12:25:45 -0400, Stephen Powell wrote: \n \n> On Tue, 6 Apr 2010 11:52:18 -0400 (EDT), jeremy jozwik wrote: \n \n>> \n>> # /etc/fstab: static file system information. # \n>> # \n>> proc /proc proc \n>> defaults \n>> 0 0 \n>> /dev/sda1 / ext3 errors=remount-ro 0 \n>> 1 \n>> /dev/sda5 none swap sw \n>> 0 0 \n>> /dev/hda /media/cdrom0 udf,iso9660 user,noauto 0 \n>> 0 \n>> \n>> \n>> so, none of the media that i plug in is listed here. perhaps that is \n>> because i always use the hotplug? \n> \n> It would be interesting to see what Camaleón's /etc/fstab file looks \n> like in comparison with yours. Camaleón, are you listening? And would \n> you be willing to post your /etc/fstab file? \n \nYep, here I am. \n \nMy \"fstab\": \n \n*** \nsm01@stt008:~$ cat /etc/fstab \n# /etc/fstab: static file system information. \n# \n# \nproc /proc proc defaults 0 0 \n/dev/sda3 / reiserfs notail 0 1 \n/dev/sda1 none swap sw 0 0 \n/dev/scd0 /media/cdrom0 udf,iso9660 user,noauto 0 0 \n/dev/fd0 /media/floppy0 auto rw,user,noauto 0 0 \n/dev/sdb1 /data/backup ext3 acl,user_xattr 1 2 \n*** \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.06.16.35.08@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: Umont ownership?"
+}

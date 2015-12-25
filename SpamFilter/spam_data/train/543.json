@@ -1,0 +1,9 @@
+{
+    "body": "In Lenny, \"ls -ld /dev/audio\" gives \n \n> lenny:~$ ls -ld /dev/rtc0 \n> crw-rw---- 1 root audio 254, 0 May 2 15:25 /dev/rtc0 \n> \n \n \nBut in Sid, it gives \n \n> sid:~$ ls -ld /dev/rtc0 \n> crw-rw---- 1 root root 254, 0 May 10 23:51 /dev/rtc0 \n> \n \nAnybody know why? \n \nThanks! \n \nRick \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/AC045FBC-F572-4D9E-967B-67660214AA82@cs.rutgers.edu", 
+    "to": [
+        "debian-user List Debian <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Rick Thomas <rbthomas@cs.rutgers.edu>", 
+    "subject": "Why does /dev/rtc0 belong to group audio in Lenny but not in Sid?"
+}

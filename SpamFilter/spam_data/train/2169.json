@@ -1,0 +1,9 @@
+{
+    "body": "Paul Chany wrote: \n> Liam O'Toole writes: \n> \n> \n>> On 2010-04-14, Paul Chany wrote: \n>> \n> \n> \n>>> I have setup somewhere the JAVA_HOME environment variable, but \n>>> don't know where? \n>>> \n>> ---SNIP--- \n>> \n>> Maybe /etc/environment? \n>> \n> \n> Here on my GNU/Linux Lenny system this file is empty. \n> \n> -- \n> Regards, Paul Chany \n> You can freely correct me in my English. \n> http://csanyi-pal.info \n> \n \nGiven that you have (presumably) installed some or all 'openjdk' \npackages, you could get a list of the installed files, per package, and \nsee if any of the names listed point to anything of \"interest\". \n \nFiles in /etc, /etc/... (where ... might be 'openjdk'?), files in /lib \nor /usr/lib that are not library files, etc. could either be the source, \nor point to other files to check. \n \nThis is a 'brute force' sort of technique, but it has helped me in a \ncouple of cases where all else had failed. \n \nBob \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC5F317.1020008@symantec.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Bob McGowan <bob_mcgowan@symantec.com>", 
+    "subject": "Re: Where to find setup for env variable?"
+}

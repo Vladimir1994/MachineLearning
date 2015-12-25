@@ -1,0 +1,9 @@
+{
+    "body": "> cat /proc/sys/net/ipv6/bindv6only \n> if output is 1 then: \n> echo 0 > /proc/sys/net/ipv6/bindv6only \n> -- \n \nThanks Goran. \nThat fixed it. \n \n \nAnybody know what was the problem? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/n2g1f1816a91004270951mb5bcfd94p13b23eed96558b2d@mail.csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "John O Laoi <brianolaoi@csmining.org>", 
+    "subject": "downloaded .jnlp won't open"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Apr 18, 2010, at 09:38, Allen Bennett wrote: \n \n> I do believe you have to logout/login only, when you update X11. \n \nAnd that's not required. It just updates the launchd DISPLAY socket, so XQuartz.app is default rather than X11.app \n \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Allen Bennett <allenbennett@mac.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Jeremy Huddleston <jeremyhu@apple.com>", 
+    "subject": "Re: Middle button click broken"
+}

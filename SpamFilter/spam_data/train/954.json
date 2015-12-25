@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, 4 Oct 2002, Mark Derricutt wrote:\n\n> Anyone know why Red Hat insist on sticking with python 1.5.2?\n\nehhh? IANAHNBARHE -- RHL 8.0 is fully python-2, with a back\ncompatability v 1 shim set. This has been working and freely\navailable in their Raw Hide for 5 months for early adopters\nand back-porters.\n\nRed Hat maintains binary compatability across major releases. \nIts server management tools are heavily Python, and becoming \nmore so.\n\nTo have added mid-stream the python-2 series in the RHL 7.x\nseries would have been quite disruptive to an existing \ninstalled base.\n\n-- Russ Herrold\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "R P Herrold <herrold@owlriver.com>", 
+    "subject": "Re: f-rpm] Python 2.2 site libs?"
+}

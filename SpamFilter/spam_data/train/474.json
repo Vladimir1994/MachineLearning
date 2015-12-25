@@ -1,0 +1,9 @@
+{
+    "body": "I had the dmesg message that I needed use iwllwifi-3945-2 instead \niwlwifi-3945-1. \nI finded the packege firmware-iwlwifi-0.23~bpo50+1 and installed that \ninstead 0.14+lenny2. \nNow I have the next records in dmesg: \n [ 49.170257] iwl3945 0000:02:00.0: firmware: requesting \niwlwifi-3945-2.ucode \n[ 49.272362] iwl3945 0000:02:00.0: loaded firmware version 15.32.2.9 \n Is it wrong?! \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC46A95.9050309@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org, backports-users@lists.backports.org"
+    ], 
+    "is_spam": false, 
+    "from": "James Brown <jbrownfirst@csmining.org>", 
+    "subject": "Problem with iwl3954 "
+}

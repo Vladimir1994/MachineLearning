@@ -1,0 +1,9 @@
+{
+    "body": "On 16 April 2010 22:00, John Magolske wrote: \n> I'm looking for a way to play *.3gp audio files from the command line. \n> Mplayer doesn't seem to work: \n> \n>    % Mplayer some-audio-file.3gp \n>    [...] \n>    Playing some-audio-file.3gp. \n>    libavformat file format detected. \n>    [lavf] Audio stream found, -aid 0 \n>    ========================================================================== \n>    Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders \n>    Cannot find codec 'libamr_nb' in libavcodec... \n>    ADecoder init failed :( \n>    ADecoder init failed :( \n>    Cannot find codec for audio format 0x726D6173. \n>    Read DOCS/HTML/en/codecs.html! \n>    Audio: no sound \n>    Video: no video \n> \n> Any suggestions for alternate approaches, pointers on how & what to \n> install in terms of a codec, or maybe a way to convert these files \n> (ideally without transcoding degradation)? \n> \n> These audio files were created by the android app \"Voice Recorder\". \n> \n> TIA for any help, \n> \n> John \n> \n \nThis is by far the best app for converting 3gp files: \nhttp://www.miksoft.net/mobileMediaConverter.htm \n \nIt's not cli, it's ugly, but it works better than anything else. The \nsound qualit of the resulting files is excellent, and it will work in \nbatch. \n \n-- \nDotan Cohen \n \nhttp://bido.com \nhttp://what-is-what.com \n \nPlease CC me if you want to be sure that I read your message. I do not \nread all list mail. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/r2n880dece01004172250k42a00cb4v97283cef940e7335@mail.csmining.org", 
+    "to": [
+        "John Magolske <listmail@b79.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Dotan Cohen <dotancohen@csmining.org>", 
+    "subject": "Re: How to play 3gp audio files?"
+}

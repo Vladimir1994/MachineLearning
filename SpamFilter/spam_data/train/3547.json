@@ -1,0 +1,9 @@
+{
+    "body": "So sprach Malte S. Stretz am 2002-07-21 um 01:56:18 +0200 :\n> Not really. In most cases it's an install-and-forget. But there're some \n> special cases like you. Be proud! You're special :o)\n\nUhm, yes, I'm happy that it doesn't work for me ;))\n\n> I had a look at the spamc source and put a printf everywhere an exit code 74 \n> is used; could you have a try with the attached spamc, please?\n\nread_message->old_serverex 74\n\nhost:~/.cpan/build/Mail-SpamAssassin-2.31 # telnet localhost 783\nTrying 127.0.0.1...\nConnected to localhost.\nEscape character is '^]'.\ndf\nSPAMD/1.0 76 Bad header line: df\nConnection closed by foreign host.\n\nJust like John just said - thanks a lot for taking all that time to help\nme get SA to work! I'm *REALLY* thankful for this!\n\nAlexander Skwar\n-- \nHow to quote: http://learn.to/quote (german) http://quote.6x.to (english)\nHomepage: http://www.iso-top.biz | Jabber: askwar@a-message.de\n iso-top.biz - Die günstige Art an Linux Distributionen zu kommen\n Uptime: 4 days 14 hours 37 minutes\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "SpamAssassin Talk ML <spamassassin-talk@example.sourceforge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Alexander Skwar <lists.ASkwar@email-server.info>", 
+    "subject": "Re: [SAtalk] Cannot get spamd to work"
+}

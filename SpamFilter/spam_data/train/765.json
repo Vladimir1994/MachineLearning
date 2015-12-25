@@ -1,0 +1,9 @@
+{
+    "body": ">I currently have spam being filtered for about 50 users via spamd.\n>Works perfectly! However, is there anyone out there providing reports\n>to their users about what was filetered? Maybe just something like\n>date/time, From, and subject?\n\nYup! You can check: http://www.cs.ait.ac.th/laboratory/email/quarantine.shtml\n\nThough it uses procmail!\n\nOlivier\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "joele@iws-irms.com"
+    ], 
+    "is_spam": false, 
+    "from": "Olivier Nicole <Olivier.Nicole@ait.ac.th>", 
+    "subject": "Re: [SAtalk] Reporting...."
+}

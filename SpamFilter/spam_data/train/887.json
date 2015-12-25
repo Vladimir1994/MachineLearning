@@ -1,0 +1,9 @@
+{
+    "body": "Am Donnerstag 06 Mai 2010 schrieb Boyd Stephen Smith Jr.: \n> On Thursday 06 May 2010 04:59:35 Martin Steigerwald wrote: \n> > Am Donnerstag 06 Mai 2010 schrieb Boyd Stephen Smith Jr.: \n> > > Heck, just stop kmail from migrating. Korganizer and KAddressBook \n> > > have required Akonadi since 4.2 or earlier. \n> > \n> > Again, AFAIK, kmail does not use Akonadi in KDE 4.4. \n> \n> Have you installed and tried it? I have. It does require Akonadi in \n> KDE 4.4.3. \n \nAgain, no. KAddressBook does. And KMail uses KAddressBook for address \ncompletion. \n \n-- \nMartin 'Helios' Steigerwald - http://www.Lichtvoll.de \nGPG: 03B0 0D6C 0040 0710 4AFA B82F 991B EAAC A599 84C7", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Martin Steigerwald <Martin@lichtvoll.de>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

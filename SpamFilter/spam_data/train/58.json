@@ -1,0 +1,9 @@
+{
+    "body": "Hi.\n\nDave Cridland wrote:\n\n> > recommends *against* using '%configure' (\"We will try to support users\n> > who accidentally type the leading % but this should not be relied\n> > upon.\"), and yet\n\n[snip]\n\n> They're just suggesting people use \"./configure\" instead.\n\nNo, they do not (what would be the use of that, anyway?). They say that\nthey will _try_ to eval macros even if the user forgot to pass the\nleading '%', but that this feature should not be relied upon.\n\n-- \nOn the first day of Christmas my true love sent to me\n A badly configured newsreader\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ralf Ertzinger <ralf@camperquake.de>", 
+    "subject": "Re: Documentation about built-in RPM macros?"
+}

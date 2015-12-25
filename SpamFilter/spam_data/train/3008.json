@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 2 Sep 2002, Russell Turpin wrote:\n\n> Adam Beberg:\n> >Considering 90% of the fake job posting I see are for embedded systems or\n> >device drivers - C still rules the world.\n>\n> There is a lot of C++ in the embedded world. With static object\n> allocation and a few other programming techniques, performance\n> differences disappear, but C++ gives a boost in development and\n> maintainability.\n\nAgreed, not much difference there. With C it just doesnt seem as wrong to\nbe crawling around in registers and things. Quite frankly you cant fit\n_that_ big of a project into a 32K ROM, so large project issues dont matter\nas much in the embedded world.\n\nAnd in the realtime space, or when you have data coming in at 2Gbit/sec\n[fibrechannel], every cycle DOES count.\n\n> The real issue is compiler availability. Almost every embedded platform\n> has C cross-compilers. Many have C++ compilers. But there is still a\n> range of platforms that have the first but not the second. Or at least,\n> that was the story a few years ago.\n\nDefinately still very very true. C++ compilers are still a rarity.\n\n\n- Adam L. \"Duncan\" Beberg\n http://www.mithral.com/~beberg/\n beberg@mithral.com", 
+    "to": [
+        "Russell Turpin <deafbox@hotmail.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Adam L. Beberg\" <beberg@mithral.com>", 
+    "subject": "RE: Java is for kiddies"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "So far today, I've found eff.org and mandrakesoft.com in DCC. My confidence \nin DCC is beginning to drop.\n-- \nRobin Lynn Frank\nParadigm-Omega, LLC\n==================================\nNo electrons were harmed in the sending\nof this message. However, two neutrons and \na proton complained about the noise.\n\n\n-------------------------------------------------------\nIn remembrance\nwww.osdn.com/911/\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Robin Lynn Frank <rlfrank@paradigm-omega.com>", 
+    "subject": "[SAtalk] Is DCC for real?"
+}

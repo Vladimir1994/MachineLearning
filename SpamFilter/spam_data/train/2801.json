@@ -1,0 +1,9 @@
+{
+    "body": "I've got a Java application that contains a -panel within a frame and \nI want to draw into the panel and the method works on Windows (with OS \nspecific modification). \nHowever, when I execute the program on a Mac it would appear that \nNSView *view = dsi_mac->cocoaViewRef; returns the parent window, which \nin this case is the frame. \n \nIs there anyway I can modify the code below to ensure that I always \nhave the panel as my windows context rather the frame? \n \nDavid \n \n \n // Get the corresponding peer from the caller canvas \n NSView *view = dsi_mac->cocoaViewRef; \n \n NSWindow *window = [view window]; \n NSGraphicsContext *ctxt = [NSGraphicsContext \ngraphicsContextWithWindow:window]; \n CGContextRef cg = [ctxt graphicsPort]; \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nJava-dev mailing list (Java-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "list Java-dev <java-dev@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "David Brayford <dbrayford@csmining.org>", 
+    "subject": "JAWT_macosxDRAWINGSurfaceInfo gets the wrong component"
+}

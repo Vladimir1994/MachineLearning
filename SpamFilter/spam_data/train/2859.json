@@ -1,0 +1,9 @@
+{
+    "body": "I've noted that there are packaged versions of\nBlackbox and hackedbox available from FreshRPMs. What\nabout FluxBox? http://fluxbox.sf.net\n\nI'd certainly enjoy a packaged version, since its\ncreators seem hesitant to provide .rpms (.debs, yes,\nbut no .rpms).\n\n.Doug\n\n__________________________________________________\nDo You Yahoo!?\nYahoo! Finance - Get real-time stock quotes\nhttp://finance.yahoo.com\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Doug Stewart <zamoose610@yahoo.com>", 
+    "subject": "Fluxbox"
+}

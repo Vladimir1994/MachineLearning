@@ -1,0 +1,9 @@
+{
+    "body": "At 06:10 PM 19/08/2002 +0100, Dave Wilson wrote:\n\n>In order for PHP to parse the results of the SELECT MULTIPLE after it's \n>submitted, the variable name needs to end with []. That's great; PHP will \n>take each selected element and plant them as consecutive elements in an \n>array. But that makes for quite messy code when trying to link the regions \n>SELECT action with the sites SELECT MULTIPLE. Javascript can't refer to \n>the SELECT MULTIPLE by name because of the brackets, so I have to refer to \n>it by its location in the form.\n\ner, i understood you until you reached the above. Maybe its my lack of PHP \nbut why would a variable name _need_ to end with [] ?\n\nWith most languages you parse the submitted form data and should come out \nwith either variables or an array / hash, which you then work with and name \nwhatever you like.\n\n\nLee Hosty -x- hostyle AT csn.ul.ie -x- +353 (0)86 8768780\n--\nYONDER BOGINE (n.)\nThe kind of restaurant advertised as 'just three minutes from this cinema' \nwhich\nclearly nobody ever goes to and, even if they had ever contemplated it, have\ncertainly changed their mind since seeing the advert.\n\n\n\n\n_______________________________________________\nWebdev mailing list\nWebdev@linux.ie\nhttp://www.linux.ie/mailman/listinfo/webdev", 
+    "to": [
+        "webdev@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Lee Hosty <hostyle@csn.ul.ie>", 
+    "subject": "Re: [Webdev] PHP+Javascript request"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "> Sometimes I'll get \"mount: no medium found on /dev/sr0\" or it will mount, or \n> it will give me the other error message I posted. \n> I just put a disc in, tried to mount it three times, and got three different \n> results. Now it is mounted and /dev looks like \n> http://paste.debian.net/73572/ \n> Now I've taken the disc out and dev looks like: \n> http://paste.debian.net/73573/ \n \nWhenever I have problem with reading/writing to dvd/cd \ndevice, it ends replacing the drive. And drives are \ncheaper and cheaper and last shorter and shorter. If \nyou have fond to buy new one, now it is the time to do \nthat. At least, I would do. \nBest regards \n \n Zoran \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100517150620.GA971@faust.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Zoran Kolic <zkolic@sbb.rs>", 
+    "subject": "Re: Still can't read DVDs/CDs"
+}

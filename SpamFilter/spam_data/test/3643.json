@@ -1,0 +1,8 @@
+{
+    "body": "On Sat, 17 Apr 2010 07:24:20 +0200, Israel Garcia wrote: \n \n> On Sat, Apr 17, 2010 at 2:12 AM, Stan Hoeppner wrote: \n \n>> What PCIe RAID card are you using? \n> Adaptec AAC-RAID card inside a supermicro server. \n \nI wish you the best (similar setup here and bad experience with adaptec \nraid cards) :-( \n \nAs per the 4 TiB issue. I just have reviewed the wikipedia article about \nMBR and forgot the limit of 2 TiB for a \"bootable\" partition. \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.17.08.12.46@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: debian on a raid5 (4TB) issues"
+}

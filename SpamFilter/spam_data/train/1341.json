@@ -1,0 +1,9 @@
+{
+    "body": "Op 18-05-10 21:21, Mark Allums schreef: \n> On 5/18/2010 10:34 AM, Osamu Aoki wrote: \n>> On Mon, May 17, 2010 at 11:07:10AM -0500, Mark Allums wrote: \n> \n>>> Thank you. This is contrary to what the main Debian site says in \n>>> multiple places, but it is plausible. Good to know. \n>> \n>> Could you be more specific where you saw them or where you got this \n>> impression? So we can make corrective action to reduce confusion. \n> \n> ... \n> \n \n> Information regarding security is centralized in a single point, \n> http://security.debian.org/. \n> \nAnyway, to also clearly answer the question about testing security \nsupport, same manual #8: \nQ: How is security handled for testing? \n \nA: If you want to have a secure (and stable) server you are strongly \nencouraged to stay with stable. However, there is security support for \ntesting: The Debian testing security team handles issues for testing. \nThey will make sure that the fixed packages enter testing in the usual \nway by migration from unstable (with reduced quarantine time), or, if \nthat still takes too long, make them available via the the normal \nhttp://security.debian.org infrastructure. To use it, make sure the \nfollowing line is in /etc/apt/sources.list: \n \nSo yes, testing *does* receive security support \n \nSjoerd", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>", 
+    "subject": "Re: How to keep debian current??"
+}

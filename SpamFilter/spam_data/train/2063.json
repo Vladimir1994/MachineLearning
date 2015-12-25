@@ -1,0 +1,9 @@
+{
+    "body": "Alle lunedì 12 aprile 2010, Robert van den Berg ha scritto: \n> -----Original Message----- \n> From: Marcus Better [mailto:marcus@better.se] \n> Sent: maandag 12 april 2010 14:23 \n> To: debian-kde@lists.debian.org \n> Subject: Re: Amarok's Issues \n> \n> Edson Marquezani Filho wrote: \n> > I would like to know if people here have the same problems with \n> > Amarok (Squeeze's version of it), as I do. I haven't looked for \n> > bugs filled about it yet, but these issues have been annoying for \n> > time enough to put me wondering if I'am the only who has been \n> > facing them. \n> \n> I've had other weird problems with the collection (like missing \n> albums) after an upgrade of Amarok. This was due to database \n> corruption, and the fix \n> \n> was to nuke the database (somewhere under ~/.kde). \n> \n> Cheers, \n> \n> Marcus \n> \n> I do run with an external MySQL database. \n> \n> Cheers, \n> \n> Robert \n \nIn my experience it's probably better to use an external database \n(MySQL) with amarok because it's faster to load. Anyhow, it still \nhappens that the changes you make to the tracks/albums don't show \nimmediately in the database. Bye \n \nValerio \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201004130009.16995.valerio.passini@unicam.it", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Valerio Passini <valerio.passini@unicam.it>", 
+    "subject": "Re: Amarok's Issues"
+}

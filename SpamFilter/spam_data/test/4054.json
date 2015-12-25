@@ -1,0 +1,8 @@
+{
+    "body": "On 11 May 2010 00:20, Facundo Aguilera wrote: \n> El Lunes 10 Mayo 2010 11:08:40 Dotan Cohen escribió: \n>> Please tell us what problems, bugs, or issues KDE 4 that make it \n>> difficult to use. Please be very specific so that bugs can be filed \n>> and the software can be fixed. General statements such as \"KDE4 sux\" \n>> are not welcome, as they do not give any indication as to what can be \n>> fixed. \n> \n> The old problem using proxies with kopete and kmail. They do not use the \n> general settings in systemsettings and can't be configured in any other way. \n> \n \nThanks, Facundo. It seems that the proxy configuration is only for kio slaves: \nhttps://bugs.kde.org/show_bug.cgi?id=186872 \n \nBut that bug requests that the KDE proxy configuration apply to all \napps. Please comment there. Thanks. \n \n-- \nDotan Cohen \n \nhttp://bido.com \nhttp://what-is-what.com \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/AANLkTinNSTarGGK504qQSoh_9Fpd1dZBYc4IRv59IR0T@mail.csmining.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "from": "Dotan Cohen <dotancohen@csmining.org>", 
+    "subject": "Re: What needs to improve in KDE 4?"
+}

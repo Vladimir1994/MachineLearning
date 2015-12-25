@@ -1,0 +1,9 @@
+{
+    "body": "jm@jmason.org (Justin Mason) writes:\n\n> Actually, I want to avoid that -- I've already removed spamproxyd\n> from the distro for 2.40. Here's why:\n> \n> When they're in the distro, *we* have to support them -- which is\n> not necessarily a good thing when we didn't write them in the first\n> place, or when the coder in question may not *want* us to maintain\n> them. :(\n\nI would be in favor of creating new SpamAssassin CVS modules and\nBugzilla categories for other clients (provided there is sufficient\ninterest and a maintainer).\n\nDan", 
+    "to": [
+        "yyyy@example.com (Justin Mason)"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Quinlan <quinlan@pathname.com>", 
+    "subject": "Re: [SAdev] SpamAssassin POP3 proxy"
+}

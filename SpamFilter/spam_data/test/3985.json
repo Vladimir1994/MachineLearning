@@ -1,0 +1,8 @@
+{
+    "body": "Mr. FoRK writes:\n> \"Files can be cached on multiple systems randomly scattered around the\n> Internet, as with Napster or Freenet. In fact, the caching in XDegrees is\n> more sophisticated than it is on those systems: users with high bandwidth\n> connections can download portions, or \"stripes,\" of a file from several\n> cached locations simultaneously. The XDegrees software then reassembles\n> these stripes into the whole file and uses digital signatures to verify that\n> the downloaded file is the same as the original. A key component of this\n> digital signature is a digest of the file, which is stored as an HTTP header\n> for the file.\"\n\nThis \"more sophisticated than [Napster or Freenet]\" part seems\nto be the same behavior implemented in many other P2P CDNs, \nsuch as:\n\n - Kazaa\n - EDonkey/Overnet\n - BitTorrent\n - Gnutella (with HUGE extensions)\n - OnionNetworks WebRAID\n\n...though the quality of the \"digest\" used by each system varies\nwildly.\n\n- Gordon", 
+    "to": [
+        "<fork@example.com>"
+    ], 
+    "from": "\"Gordon Mohr\" <gojomo@usa.net>", 
+    "subject": "Re: Microsoft buys XDegress - more of a p2p/distributed data thing..."
+}

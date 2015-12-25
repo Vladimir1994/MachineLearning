@@ -1,0 +1,9 @@
+{
+    "body": "Hi,\n\nThis has been hashed over a few times on various lists, now I finally got \naround to doing something about it... You can now add\n\"rpm http://koti.welho.com/pmatilai/ redhat/8.0 task\" to your sources.list \nand after apt-get update you can find out what's available with \n'apt-cache search ^task-'\n\nThese are generated directly from comps.xml of RH8.0 so they contain \nexactly the same packages as you'll get by choosing the various categories \nat install time. I didn't bother including SRPMS for these as they are \nrather uninteresting, if you want you can re-generate the .specs by \nrunning http://koti.welho.com/pmatilai/comps2task/comps2task.py.\n\nBTW the repository only contains the task-packages, you'll need an \napt-enabled mirror of RH8.0 in your sources.list to actually do anything \nwith it.\n\n-- \n - Panu -\n\n\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "apt-rpm@distro.conectiva.com.br, <rpm-zzzlist@freshrpms.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Panu Matilainen <pmatilai@welho.com>", 
+    "subject": "Debian-style task-packages for RH8.0 available"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On 04/26/2010 08:59 PM, thib wrote: \n> Can't miss the Debian Reference by Osamu Aoki (青木 修): \n> \n> http://www.debian.org/doc/user-manuals#quick-reference \n> \n> It covers a lot of topics and provides up-to-date pointers to other \n> resources. \n> \n> -thib \n> \n> \nYes it is really great and you can apt-get'it! \napt-get debian-reference-en \n \n-- \nBye, \nGoran Dobosevic \nHrvatski: www.dobosevic.com \n English: www.dobosevic.com/en/ \nRegistered Linux User #503414 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BD64493.7010905@dobosevic.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "godo <goran@dobosevic.com>", 
+    "subject": "Re: Resources for learning Linux"
+}

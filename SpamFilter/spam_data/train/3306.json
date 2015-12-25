@@ -1,0 +1,9 @@
+{
+    "body": "I'm trying to use JavaScript and the QuickTime PlugIn to play a movie \non the iPad but keep getting a broken movie icon and \nGetPluginStatus() returns \"Error: -12939\". Also, the browser debug \nconsole reports: Other Tip - QuickTime - BYTE_RANGE_ERROR_MESSAGE \n \nAny ideas? \n \n-Rolf \n-- \nRolf Howarth \nSquare Box Systems Ltd \nStratford-upon-Avon, UK. \nhttp://www.squarebox.co.uk \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "quicktime-api@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Rolf Howarth <rolf@squarebox.co.uk>", 
+    "subject": "QuickTime plugin in Mobile Safari"
+}

@@ -1,0 +1,8 @@
+{
+    "body": "On July 19, niall@linux.ie said:\n> \n> There are lots of benefits to using hard links, for all sorts of reasons. In\n\n\"...but there is insufficient room in the margin of this email to\n describe them...\" :)\n\n> this case, they are being used to provide two quite different namespaces\n> for the same set of files.\n\nSure, but soft links would do the same. To be honest, I'm trying to\nthink of a useful use of hard links right now, and I'm a little\nstumped. There's gotta be some benefit that I'm missing that's\nimmediately obvious to everyone.\n\nCheers,\nWaider.\n-- \nwaider@waider.ie / Yes, it /is/ very personal of me.\n\nmerde says, \"in other news, our mini-blimp blew away.\"\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "from": "Ronan Waide <waider@waider.ie>", 
+    "subject": "Re: [ILUG] How to copy some files"
+}

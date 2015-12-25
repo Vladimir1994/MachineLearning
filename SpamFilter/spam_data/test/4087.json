@@ -1,0 +1,8 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nWith this mornings upgrade to testing there was a new \nversion of DASH. \nI've been using BASH..and tried to switch. \n \n \nfrank@squeeze:~$ sudo dpkg-reconfigure dash \ndpkg-divert: mismatch on package \n when removing `diversion of /bin/sh by dash' \n found `diversion of /bin/sh to /bin/sh.distrib by bash' \n \nIs this a bug or am I mssing something? \n \nThanks \n \n- -- \n- -- Frank -- \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.10 (GNU/Linux) \n \niQEcBAEBAgAGBQJL+/r0AAoJEMEDyLTvrVhj8dQH/icfR7yCstjPxNun8J9sJDck \nFJdr3K5LsN1hByow02jm2lHQFyV32VmcKqhWLskGgYF2gbKFC9CDRmhpcwN1z2gR \n8HKEDft/9B7o+35Y0mH6oCeALAOxOPII4yh5/dSSmUmEGhguJPZU30uhcxDJgetp \nMqdjWKC1QdpW6gtkWYSVUPIXHo67VTKp/q1pZ6UFDAnvPj2lQYSMqrKFC6rT0xKH \n6W3XCnqGAHlDdP2gfqCgztl1RS79zgAZMtW7DPwWpDjOHr4pCQbCkzqtNkvhHsVz \nfnXDGGaqxOhsy86/cP9qxvBV4NaMuzPTs55IRSQsybgGPiQA6OYr5sqCpWoFKqw= \n=e9ES \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100525122940.80340113.debianlist@videotron.ca", 
+    "to": [
+        "debian <debian-user@lists.debian.org>"
+    ], 
+    "from": "Frank McCormick <debianlist@videotron.ca>", 
+    "subject": "can't switch to dash as default shell"
+}

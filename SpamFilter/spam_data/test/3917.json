@@ -1,0 +1,8 @@
+{
+    "body": "Concerning Xorg, look through the log file /var/log/Xorg.0.log, e.g., \nthe command \n \n$ grep -i dynamic \n \nshould tell you if power saving (\"Dynamic Clock Scaling\") is enabled or not. \n \nGenerally, the problem of energy consumption can be tackled with the program \npowertop best called as root. Maybe, it can tell you the culprit for the \nobserved cpu usage. \n \nRegards, \nJörg-Volker. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hplc2d$2nh$1@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "=?ISO-8859-1?Q?J=F6rg-Volker_Peetz?= <jvpeetz@web.de>", 
+    "subject": "Re: Xorg and cpu usage"
+}

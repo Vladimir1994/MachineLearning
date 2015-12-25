@@ -1,0 +1,9 @@
+{
+    "body": "Ron Johnson wrote: \n> On 2010-04-08 19:50, godo wrote: \n>> Ron Johnson wrote: \n>>> Hi, \n>>> \n>>> I just locally installed upstream firefox, and of course Debian \n>>> Alternatives doesn't know about it, so Iceweasel, which uses \n>>> x-www-browser loads iceape, which I don't want. \n>>> \n>>> \"update-alternatives --install\" seems to be what I want in order to \n>>> add /usr/local/firefox/firefox to the x-www-browser list, but can't \n>>> get it to work. \n>>> \n>>> # update-alternatives --install x-www-browser firefox \\ \n>>> /usr/local/firefox/firefox 3 \n>>> update-alternatives: error: alternative link is not absolute as it \n>>> should be: x-www-browser \n>>> \n>>> What am I doing wrong? \n>>> \n>>> TIA \n>>> \n>> Hi \n>> first I newer used update-alternatives so I don't know but is it maybe a \n>> problem: \"firefox 3\" in # update-alternatives --install x-www-browser \n>> firefox /usr/local/firefox/firefox 3 \n>> Shouldn be /usr/local/firefox/\"firefox 3\" maybe? \n>> \n> \n> The parameters to \"update-alternatives --install\" are: \n> link x-www-browser \n> name firefox \n> path /usr/local/firefox/firefox \n> priority 3 \n> \n> \n> \nAhh sorry. Wrong interpretation. \n \n-- \nBye, \nGoran Dobosevic \nHrvatski: www.dobosevic.com \n English: www.dobosevic.com/en/ \nRegistered Linux User #503414 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBE8A00.9040205@dobosevic.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "godo <goran@dobosevic.com>", 
+    "subject": "Re: Need help installing an \"alternative\""
+}

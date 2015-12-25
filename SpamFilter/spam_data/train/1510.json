@@ -1,0 +1,9 @@
+{
+    "body": "I'm developing a QT app on Windows, and am using a WSH javascript to control output from the application. I have everything working, except I want to make a track blend 50% with the background and it just doesn't seem to work. Here is what I'm using: \n \nqtTargetMovie.QTControl.Movie.Tracks(3).top = qtTargetMovie.QTControl.Movie.height-qtTargetMovie.QTControl.Movie.Tracks(3).height; \nqtTargetMovie.QTControl.Movie.Tracks(3).TransferMode = QTTransferModesEnum.qtTransferModeBlend; \nqtTargetMovie.QTControl.Movie.Tracks(3).OperationColor = \"32768,32768,32768\"; \nqtTargetMovie.QTControl.Movie.Tracks(3).HighQualityMode = true; \n \nThe first line is changing the location of the track, which it does just fine, so I know I have the right track addressed. The next line just doesn't seem to happen. The track is always set to Dither when I check the Movie Properties. I am using version 7.6.6 of QT on Windows. \n \nI also tried: \n \nqtTargetMovie.QTControl.Movie.Tracks(3).TransferMode = QTTransferModesEnum.qtTransferModeStraighAlphaBlend; \n \nI'm using the book \"QuickTime For .NET and COM Developers\" by John Cromie as my reference (which is excellent, btw). \n \n \nPatrick Besong \nManager, Creative Design & Development \nEducation Technology Services \nThe Pennsylvania State University \n210 Rider Bldg. University Park PA 16802 \n814 865-2154 \npzb4@psu.edu \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "quicktime-api@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Patrick Besong <pzb4@psu.edu>", 
+    "subject": "trouble with TransferMode"
+}

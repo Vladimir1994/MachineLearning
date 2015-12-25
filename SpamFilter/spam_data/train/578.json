@@ -1,0 +1,9 @@
+{
+    "body": "Hi! \n \nI’m having strange display problems with several web browsers. Certain \nlayout parts (as borders or backgrounds) aren’t at the appropriate \nplace; and they’re moving if I hover them. I encountered this problem \nwith the following browsers: \n \n - iceweasel from lenny-backports \n - firefox downloaded directly from Mozilla \n - epiphany from lenny-backports \n \nThis behaviour already occured before installing firefox; and it’s not \ncaused by any plug-ins or add-ons as epiphany (which I didn’t customize) \nbehaves the same (wrong) way. \n \nTo illustrate the problem, I made a screenshot of e. g. German Bash \nBlog: web page [1], screenshot [2]. On other pages, there are similar \nerrors. \n \nIt would be great if anyone could tell me how to fix this or where to \nask for further help. \n \nBest regards, \nRobin \n \n[1] http://german-blog.org/ \n[2] http://rkrahl.de/gbo.png \n \n-- \nRobin Krahl \nrobin@rkrahl.de \nhttp://rkrahl.de", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Robin Krahl <robin@rkrahl.de>", 
+    "subject": "Display Problems with several Web Browsers"
+}

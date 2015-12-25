@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, May 13, 2010 at 08:42 -0500, Kent West wrote: \n> I've got an older 600MHz PIII running Sid; if I boot into the \n> installed 2.6.26-2-68 kernel, everything's fine, but if I boot into \n> the installed 2.6.32-5-68 kernel, everything's fine until X is \n> started (either manually or with a session manager or even when \n> trying to create a new xorg.conf file using \"X -config\"). At that \n> point, the screen goes black, the keyboard stops responding, and the \n> Xorg.log fills up with : \n> \n> (EE) R128(0): Idle timed out, resetting engine... \n> (EE) R128(0): R128CCEWaitForIdle: CCE stop -9 \n> (EE) R128(0): R128CCEWaitForIdle: CCE start -9 \n> (EE) R128(0): R128CCEWaitForIdle: CCE idle -9 \n> (EE) R128(0): Idle timed out, resetting engine... \n> (EE) R128(0): R128CCEWaitForIdle: CCE stop -9 \n> (EE) R128(0): R128CCEWaitForIdle: CCE start -9 \n> (EE) R128(0): R128CCEWaitForIdle: CCE idle -9 \n \nI've seen this recently in #debian and we were able to \"fix\" this with \nthe following in /etc/X11/xorg.conf \n \nSection \"Device\" \n Identifier \"r128\" \n Driver \"r128\" \n Option \"NoAccel\" \nEndSection \n \nthe related bug report is [1] and this will disable acceleration for \nyour card, so it is not really a good fix. You might also want to make \nsure that you have the firmware package(s) installed. \n \nGood luck \n \n Wolodja \n \n[1] http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=581216 \n-- \n .''`. Wolodja Wentland \n : :' : \n `. `'` 4096R/CAF14EFC \n `- 081C B7CD FF04 2BA9 94EA 36B2 8B7F 7D30 CAF1 4EFC", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Wolodja Wentland <wentland@cl.uni-heidelberg.de>", 
+    "subject": "Re: X freezes with 2.6.32-5; okay with 2.6.26-2"
+}

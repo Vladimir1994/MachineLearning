@@ -1,0 +1,7 @@
+{
+    "body": "Russell Turpin wrote:\n> On the receiving side,\n> my email client distinguishes between messages\n> that are read, and messages that are not. I like\n> to mark or save messages that are particularly\n> interresting or important to me. And even if I\n> make a point to delete \"suspicious material\"\n> immediately upon reading it, even THAT might\n> leave an interesting kind of trace on my machine.\n\nYou choose to have your email client do that. You don't have to. Short\nof Palladium, you can do whatever you want with bytes you hold, including\nreading messages and erasing the traces. I'll buy a chocolate sundae for\nanyone who can show otherwise.\n\nAn attacker might be able to verify that you *have* read a message (e.g. \nby seeing that you saved and edited a copy) but not that you *haven't*. \nIf your email client was compromised you could put a packet sniffer on the\nline before downloading mail. If an attacker installed a packet sniffer\nsniffer, you could run it in a spoofing VM.\n\nThe only exception to the rule that your machine belongs to you is --\nmaybe -- Palladium.\n\n- Lucas\n\n\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "Lucas Gonze <lgonze@panix.com>", 
+    "subject": "Re: The case for spam"
+}

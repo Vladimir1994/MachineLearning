@@ -1,0 +1,9 @@
+{
+    "body": "Sven Joachim wrote: \n> Syntax highlighting in Emacs' shell-script-mode leaves much to be \n> desired, so this is not really a bad sign. Does it work if you leave \n> out the apostrophes? \n> \nIt worked anyway. But emacs confused me. Sorry! \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me.", 
+    "to": [
+        "Sven Joachim <svenjoac@gmx.de>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: Aliases with `-'"
+}

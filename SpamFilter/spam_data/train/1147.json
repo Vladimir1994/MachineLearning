@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 26 Apr 2010 02:24:52 -0400 (EDT), martin f krafft wrote: \n> \n> Stephen Powell wrote: \n>> This is hardly a new book. In fact, it was written in the days of Woody. \n>> (Woody -> Sarge -> Etch -> Lenny -> Squeeze) \n> \n> It was written in the days of the sarge freeze and is entirely \n> focused on sarge. \n>> \n>> And parts of it are obsolete. But the author focuses on the core \n>> stuff of Unix/Linux, and so most of it is still current. It's an \n>> excellent guide for how to accomplish common computing tasks in \n>> Linux, \n> \n> Interesting analysis. ;) \n> \n> \n> I /wanted/ to focus on Debian and leave out the \"core stuff of \n> Unix/Linux\" and \"common computing tasks\", because that's documented \n> elsewhere. \n> \n> It is true that in the last 5 years, some parts have been obsoleted, \n> but I'd say most of it still applies. \n> \n> Regardless, there's a need for a new edition. I am working on it. \n \nI think there may be some confusion here, Mr. Krafft. The comments \nI made above were not in reference to anything _you_ wrote. They were \nin reference to the original edition of \"The Linux Cookbook\", by \nMichael Stutz, which was copyrighted in 2001. \n \n http://dsl.org/cookbook/cookbook_toc.html \n \nI suggest that you go back and look more closely at my original post. \n \n;-) \n \n-- \n .''`. Stephen Powell \n : :' : \n `. `'` \n `- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/701354956.9070.1272291449420.JavaMail.root@md01.wow.synacor.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Powell <zlinuxman@wowway.com>", 
+    "subject": "Re: Why are there no latest books written for Debian systems?"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, Apr 14, 2010 at 5:23 PM, Eduardo M KALINOWSKI \n wrote: \n> On 04/14/2010 06:17 PM, Ed Jabbour wrote: \n>> \n>> I edited /etc/resolv.conf to add a nameserver, edited \n>> /etc/dhcp3/dhclient.conf \n>> to do the same and added the dns to wicd.  However, I keep getting the \n>> same \n>> old dns from the router, i.e., resolv.conf keeps changing to the router's \n>> 192 \n>> ip.  The router does not allow editing dns.  I think this is due to using \n>> dhcp.  Is there an alternative which wouldn't cause a default to the \n>> router's \n>> dns?  Any pointers appreciated. \n> \n> There's an option in dhclient.conf that allows you to specify your own DNS \n> servers. \n \nsupersede domain-name-servers \"...\" \n \nAlthough, if WICD is like NM, you may have to set your dns server(s) \nin the WICD gui. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/v2t6d4219cc1004141429ga7e449dai6328f4e5dd2e74dc@mail.csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Tom H <tomh0665@csmining.org>", 
+    "subject": "Re: Alternative to dhcp?"
+}

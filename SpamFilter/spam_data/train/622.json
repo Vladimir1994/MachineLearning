@@ -1,0 +1,9 @@
+{
+    "body": "First of all, I am very new to Linux but am well aware of the need to \nlearn. After considerable googling with my issue, I gave up and thought I'd \ntry a mailing list instead :) \n \nIn attempting to install the cvm package (apt-get install cvm), I recieve a \nwarning indicating that the XDM service cannot be automatically \nstopped/started and that I should do so manually. \n \nI then use rcconf to remove the little dot-selector-thingy beside XDM, \nwhich, as far as I understand, should stop the service immediately, but \nerrors ensue in the rest of the installation and when I continue the \ninstallation again (apt-get -f install) I recieve the same warning that XDM \nis running and needs to be stopped manually. Checking in rcconf, the \nservice is already unselected. Taking a hint from my background with MS \nWindows, I restarted the computer and tried the installation again; same \nwarning and rcconf still shows the service as unselected. \n \nWhat am I not understanding here? Thanks in advance! \nTom Schlodder - Calgary, Alberta, Canada", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Tom Schlodder <tom.schlodder@csmining.org>", 
+    "subject": "Cannot stop XDM service"
+}

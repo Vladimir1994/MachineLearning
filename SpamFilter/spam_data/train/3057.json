@@ -1,0 +1,9 @@
+{
+    "body": "So do you know my public key? Does the guy who wants to buy \n10,000 licenses of SpamAssassin Pro? Do I really want to lose \nemail from either of you?\n\nC\n\nOn Thursday, August 22, 2002, at 10:13 AM, Tony L. Svanstrom wrote:\n\n> On Thu, 22 Aug 2002 the voices made Craig R.Hughes write:\n>\n>> Trouble is, you don't necessarily know ahead of time who's \n>> wanting to send\n>> you stuff. I don't have your PGP public key on my keychain. \n>> You can do all\n>> the signing you want, it's not going to help. However, if you \n>> stick a Habeas\n>> header in your mail, I can (hopefully) be reasonably sure that \n>> you're not\n>> trying to spam me. It is going to be all about enforcement \n>> though; we'll\n>> have to see how they do on enforcement.\n>\n> Signing messages to someone ('s public key) isn't impossible, \n> using some\n> creative scripting you could even do it with OpenPGP-compatible \n> software...\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Tony L. Svanstrom\" <tony@svanstrom.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Craig R.Hughes\" <craig@deersoft.com>", 
+    "subject": "Re: [SAtalk] Re: SA In The News"
+}

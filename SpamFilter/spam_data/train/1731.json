@@ -1,0 +1,9 @@
+{
+    "body": "Yes - great minds think alike. But even withput eval rules it would be very \nuseful. It would allow us to respond quickly to spammer's tricks.\n\nTheo Van Dinter wrote:\n> On Thu, Aug 22, 2002 at 07:27:52AM -0700, Marc Perkel wrote:\n> \n>>Has anyone though of the idea of live updates of rules after release? The \n>>idea being that the user can run a cron job once a week or so and get the \n>>new default rule set. This would allow us to react faster to:\n> \n> \n> I suggested this a few months ago. I don't remember the details of what\n> came out of it except that it would only be useful for non-eval rules\n> since those require code changes.\n> \n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "Theo Van Dinter <felicity@kluge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Marc Perkel <marc@perkel.com>", 
+    "subject": "Re: [SAdev] Live Rule Updates after Release ???"
+}

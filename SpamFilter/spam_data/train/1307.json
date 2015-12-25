@@ -1,0 +1,9 @@
+{
+    "body": "Hi Nate, \n \nAm Freitag 07 Mai 2010 schrieb Nate Bargmann: \n> I also \n> think that setting a different wallpaper for each desktop could be more \n> intuitive than having to enable desktop activities in the Settings \n> Manager, then zoom out with the cashew, then set the wallpaper via \n> right-click menu from each desktop, and find out it's a craps shoot \n> which desktop has which wallpaper. But those are nits I've noticed \n> so far and are fixable. \n \nThe activities system upto to KDE 4.4 IMHO is quite broken. Activity \nselection is slow, it forgets which activity is mapped to which desktop \nfrom time to time and and and... I reported about 10 bugs just regarding \nthat activity system in KDE's bugtracker, of which a user named Beat Wolf \nmarked most invalid in the last days cause this stuff gets completely \nrewritten in KDE 4.5. In KDE 4.5 there will be a new activity system \nsporting Nepomuk and whatnot, I think there has been a blog post, maybe by \nAaron Seigo on Planet KDE.I agree rewriting the stuff is one of the better \nthings you can do with it ;-). Let's see what comes out of it. \n \n-- \nMartin 'Helios' Steigerwald - http://www.Lichtvoll.de \nGPG: 03B0 0D6C 0040 0710 4AFA B82F 991B EAAC A599 84C7", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Martin Steigerwald <Martin@lichtvoll.de>", 
+    "subject": "Re: kde SC 4.4"
+}

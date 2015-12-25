@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, 23 Apr 2010 16:18:31 -0300, Carlos Bergero wrote: \n \n> Sorry forget to copy it \n> tlsprune is disable now so it doesnt lock the start up of the cyrus \n \nNext time use an online service (such Pastebin) to put the data and send \na link ;-) \n \n(...) \n \n> Both are mostly standar files. \n \nYep, I see nothing strange in there. \n \nI would start Cyrus setup and user migration from scratch to avoid any \nincompatibility between the old installation and the new. \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.24.08.58.14@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: Cyrus 2.2 imapd in AMD64"
+}

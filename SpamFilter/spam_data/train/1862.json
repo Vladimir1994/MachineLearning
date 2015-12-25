@@ -1,0 +1,9 @@
+{
+    "body": "Okay. Thanks for these precisions. \n \nAndrei Popescu wrote: \n> On Sat,10.Apr.10, 11:38:08, Merciadri Luca wrote: \n> \n> \n> I'm not sure what I can do to prove that something doesn't exist. I \n> could for example post the console output of: \n> \n> # apt-get update \n> # apt-get upgrade \n> # aptitude safe-upgrade \n> \n> (using apt-get do a partial upgrade and letting aptitude finish the \n> job[1][2]) \n> \n> but I'm not sure how relevant this is. Sure there are differences in \n> *behavior*, but I'm not aware of any recent incompatibilities. If you \n> find any such incompatibilities please do report them as I'm sure both \n> the developers of apt and aptitude would like to know about them. \n> \n> [1] 'aptitude safe-upgrade' installs new packages while \n> 'apt-get upgrade' doesn't, but this is both expected and documented \n> behaviour \n> \n> [2] and in case you're wondering, yes, I just did that on my sid \n> machine, but the console output is rather long. \n> \n> Regards, \n> Andrei \n> \n \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me.", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: automate updates in Lenny"
+}

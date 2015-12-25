@@ -1,0 +1,9 @@
+{
+    "body": "Sune Vuorela wrote: \n \n> On 2010-04-25, lrhorer wrote: \n>> First of all, Akonadi will not run, but I also can't seem to \n>> get rid of \n>> it. Is there a way to keep KDE, yet get rid of Akonadi? If not, \n>> I'll post the logs and backtraces. \n> \n> No. there is no way to keep all of KDE and get rid of akonadi. It is a \n> essential part of kdepim. \n \n I don't particularly want PIM, either. KPackage, IceWeasel, Ksensors, \nNUT, Wine, and WireShark are all I really care about. Only Ksensors \nand KPackage require KDE. You say, \"no way to keep all of KDE..\". I \ndon't care about all of KDE. I only want KDM and the utilities I \nlisted above, plus of course the terminal servers. \n \n>> Secondly, KPackage is badly broken. It only shows a handful \n>> of \n>> applications installed or available. Synaptic or aptitude show \n>> thousands available and hundreds installed, of course. What's more, \n>> I no longer see how one can manage the sources in the new KDE4 \n>> KPackage. \n> \n> KPackage is being removed very soon and is already gone in \n> experimental. \n \n That's really bad news. Without KPackage, there really isn't much \nreason to run KDE. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/R72dnSTSkbqWW0HWnZ2dnUVZ_qkAAAAA@giganews.com", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "lrhorer <lrhorer@satx.rr.com>", 
+    "subject": "Re: KDE Issues under \"Squeeze\""
+}

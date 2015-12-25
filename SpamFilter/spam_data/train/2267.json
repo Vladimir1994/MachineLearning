@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://scriptingnews.userland.com/backissues/2002/09/24#When:3:59:56PM\nDate: Tue, 24 Sep 2002 22:59:56 GMT\n\nBruce Loebrich[1] has scraped RSS feeds for Google news, and a RSS 2.0 success \nstory. In other words, it's okay to use the features in 2.0. We're doing it at \nUserLand and so is Bruce.\n\n[1] http://radio.weblogs.com/0104308/2002/09/24.html", 
+    "to": [
+        "yyyy@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "scripting <rssfeeds@example.com>", 
+    "subject": "Bruce Loebrich has scraped RSS feeds for Google news, and a RSS     2.0 success"
+}

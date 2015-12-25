@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-18, Robert Latest wrote: \n> Hello all, \n> \n> my question is already in the subject line. Also I think that I've got \n> the basics figured out, it's just that I don't understand the details. \n> \n> Essentially I want user A to run a specific X app as user B. So I \n> think I need to write a tiny shell script like this: \n> \n> #!/bin/sh \n> xhost +B \n> sudo -u B /path/to/app arg1 arg2 arg3 \n> xhost -B \n> \n> I need help with two things though: \n> \n> One, \"xhost +B\" doesn't work, contrary to the manpage. \"xhost +\" \n> works, granting X access to the entire Net, but who cares. This is \n> just a home computer. \n> \n> Two, I can't figure out for the life of me what the entry in \n> /etc/sudoers must look like to make sudo do what I want. \n> \n> Thanks, \n> robert \n> \n> \n \nConsider using the gksu package instead. \n \n-- \nLiam O'Toole \nBirmingham, United Kingdom \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/slrnhv5vtj.b3s.liam.p.otoole@dipsy.selfip.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Liam O'Toole <liam.p.otoole@csmining.org>", 
+    "subject": "Re: How to run an X program as a different user?"
+}

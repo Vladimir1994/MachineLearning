@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday 12 May 2010 10:53:27 Boyd Stephen Smith Jr. wrote: \n> On Wednesday 12 May 2010 10:21:53 Curt Howland wrote: \n> > Anyway, I believe the DVD drive handles DVD-RAM, and this is the \n> > message I get in the kern.log: \n> > \n> > [10357.909024] UDF-fs: No anchor found \n> > [10357.909032] UDF-fs: No partition found (1) \n> > [10359.847262] ISOFS: Unable to identify CD-ROM format. \n> \n> Sounds like you need to create a filesystem on it. I think normally, \n> you'll want to use UDF for a DVD-RAM. Package udftools, binary mkudffs \n> should do something like that. The pktsetup binary might also be useful, \n> but I'm not sure. \n \nYou can use UDF, if you want, but you can also use any file system you want \nbased on OS compatibility and speed, as long as it can handle the 2k sectors \nsize. \n \n\"pktsetup\" is for when you want to use a normal CD-R/DVD-R as a read/write UDF \nfile system. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: DVD-Ram"
+}

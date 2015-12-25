@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, 12 May 2010, Eeri Kask - Eeri.Kask@inf.tu-dresden.de wrote: \n \n> (1) Does it make sense to upgrade Tiger to Leopard running on a \n> G4-PowerBook-12\" laptop? \n \nI run 10.5 on such a powerbook as well as a 1GHz G4 eMac. If anything \nperformance overall was improved over 10.4. One have 1GB of RAM the other \n3/4 GB. The only downside was that at some point there was an update to \n10.5 where my firewire enclosure became unreliable. It seems to affect \ncertain ide to fw bridge chips in hard drive enclosures and I was unlucky. \nI can usually power cycle the drive and try again successfully. It matters \nnot which cable and drive I use, I have three enclosures, and once is the \nculprit. \n \nWith regards to X11, the growing pains are mostly over for me. I do use \nXvnc for 8-bit though. This may be improved in later versions of X11 \nthough. The key options to Xvnc are -cc 3 -depth 8 \n \nmzs \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Eeri Kask <Eeri.Kask@inf.tu-dresden.de>"
+    ], 
+    "is_spam": false, 
+    "from": "Mike Sliczniak <X11-users.apple.mzs@spamgourmet.com>", 
+    "subject": "Re: Leopard or Snow L?"
+}

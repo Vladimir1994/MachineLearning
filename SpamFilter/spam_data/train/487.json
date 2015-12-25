@@ -1,0 +1,9 @@
+{
+    "body": "> Have you tried \"apt-get update\" or \"aptitude update\" before trying to \n> install these packages? \n> \n> \n Yes, I did \"aptitude safe-upgrade\" after \"aptitude update\" and then \n\"aptitude full-upgrade\". \n \nI selected \"n\" and it prompted me to \"downgrade the packages to testing\". \nThis means that the versions it had were newer than testing, i.e., from sid. \nHow could this be if I followed 2.7.3 of DR? According to that, my candidate \nversion is appropriately set: \n \nstuckey@debian:~$ cat /etc/apt/apt.conf \nAPT::Default-Release \"testing\";", 
+    "to": [
+        "Anand Sivaram <aspnair@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Re: Aptitude Error"
+}

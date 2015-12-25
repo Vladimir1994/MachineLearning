@@ -1,0 +1,9 @@
+{
+    "body": "Wow, three replies already, all recommending ssh. Thanks!\n\n- Joe\n\nBack in my day, they didn't have ssh. Then again, back in my day,\nthey didn't have firewalls. And I still miss X10's active icons.", 
+    "to": [
+        "FoRK <fork@example.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Joseph S. Barrera III\" <joe@barrera.org>", 
+    "subject": "Re: dumb question: X client behind a firewall?"
+}

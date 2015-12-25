@@ -1,0 +1,9 @@
+{
+    "body": "> OK... there are also some warnings: \n> \n> 'QTCaptureSession' may not respond to '-setDelegate:' \n> 'QTCaptureSession' may not respond to '-setEnabled:' \n> \n> 'QTCaptureVideoPreviewOutput' may not respond to '-connectedChannels' \n> 'QTCaptureVideoPreviewOutput' may not respond to '-setVisualContext:forChannel:' \n> \n> It does mix two movies now, it just doesn't see my computer's camera. \n \nYes, sure, but my point was only about having two movies perfectly in sync, \nand this sample code is just a way to achieve it ! \n \nRaphael \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "\"James W. Walker\" <osx@jwwalker.com>"
+    ], 
+    "is_spam": false, 
+    "from": "=?ISO-8859-1?Q?Rapha=EBl_Ding=E9?= <raphael.dinge@csmining.org>", 
+    "subject": "Re: Compositing two movies"
+}

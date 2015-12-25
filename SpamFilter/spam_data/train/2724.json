@@ -1,0 +1,9 @@
+{
+    "body": "I have a couple of small issues, and I'm not sure if their exmh issues\nor my setup issues.\n\nFirst, when I try and run exmh with wish from tk8.4.0 it seems to take\nforever to start, but with wish from tk8.a.4 it starts in a snap.\n\nUsing the latest CVS, when I open exmh and the folder I'm in has unseen\nmessages and I hit next, exmh changes to the next folder with unseen messages\nrather than to the first unseen in the current folder.\n\nFinally, when I reach the end of the messages in a folder and go on to\nthe next unseen, exmh always goes back to inbox (which has no unseen\nmessages) rather than the next folder with unseen messages. (When I \ngoto next from inbox it does go where I would think it should go).\n\nJust wanted to let you know what I'm seeing and find out if I'm expecting\nsome different than I should be.\n\nThanks for all the effort\n\nJim\n\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "exmh-workers@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"J. W. Ballantine\" <jwb@homer.att.com>", 
+    "subject": "A couple of nits..."
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 27 Aug 2002, Jon wrote:\n\n> I has just been given an old Toshiba CS100 with earliest pentium and 400mb\n> of HD but only a floppy drive on it, its got Win3.1 which is funny to see\n> again but gonna be cleared as soon as i stop messing with it. What I was\n> wondering was could anyone advise what O/S would be good for this, I want a\n> small usable *nix distro for it that i can transfer to it fom floppy.\n> Connecting this to Winblows>i know that winblows allows pier-to-pier\n> connections over serial and parellel ports to other winblows but is this\n> easy do for connecting winblows to *nix???\n\nHave done exactly this with debian, only I used a PCMCIA network card and\ndid it off ftp.esat.net (ucd bandwidth is rather good).\n\nHowever, if you've another machine, look into this null modem cable jobby:\n\nhttp://rosebud.sps.queensu.ca/~edd/t100cs.html\n\nwhether you can connect that to direct cable connectionI've no idea. You\ncould however, put the files onto windows, boot onto a ILUG BBC[tm] and\nmount the fat32 partition.\n\nEasier/Quicker way is to get your hands on a PCMCIA nic. Also makes the\nmaptop far more useful in the long run.\n\nGavin\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Gavin McCullagh <ilug_gmc@fiachra.ucd.ie>", 
+    "subject": "Re: [ILUG] Got me a crappy laptop"
+}

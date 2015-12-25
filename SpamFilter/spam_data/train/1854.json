@@ -1,0 +1,9 @@
+{
+    "body": "I have the mga card and also compiled the mga-vid driver. I can only get \nmplayer to play dvds using the (slowest) x11 back-end. Mga-vid is supposed to \nbe better. How do I use it on a Debian Sid box? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005042112.47338.d_baron@012.net.il", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "David Baron <d_baron@012.net.il>", 
+    "subject": "Configuring mga-vid"
+}

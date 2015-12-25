@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, Apr 21, 2010 at 06:04:01PM +0000, Camaleón wrote: \n> I find it a bit more difficult to manage (if you change the kernel, you \n> need to recompile the driver again). \n \nIMHO that only depends on what Debian distro you use :P. I can live with logging in to the basic shell, running the .sh again and restarting kdm/gdm once every two or three months.", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Nick Douma <n.douma@nekoconeko.nl>", 
+    "subject": "Re: Linux compatible mainboards -another thought"
+}

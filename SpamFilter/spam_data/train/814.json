@@ -1,0 +1,9 @@
+{
+    "body": "hey i have a problem:\ni have a rpms that i have installed that i want to uninstall, i do it\nlike so:\nrpm -e [rpm package]\nand it gives the error: package not installed, so i install it like\nso:\nrpm -i [rpm package]\nand it gives the error: package already installed, so i force it to\ninstall like so:\nrpm -i --force [rpm package]\nthis installs it and then i try to uninstall it again and it still\ngives me the same error: package not installed.\n \nHow can i get it to recognize that the package is indeed installed it,\nand/or get it to unstall it?\n \nThanx in advance,\nBrian French\n\n-French\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "\"Rpm-List at freshrpms\" <rpm-zzzlist@freshrpms.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Brian French\" <bfrench@ematic.com>", 
+    "subject": "Prob. w/ install/uninstall"
+}

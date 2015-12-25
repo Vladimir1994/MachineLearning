@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, Apr 06, 2010 at 05:23:02PM -0400, Stephen Powell wrote: \n> On Tue, 6 Apr 2010 16:41:53 -0400 (EDT), Alexander Samad wrote: \n> > On Wed, Apr 7, 2010 at 1:03 AM, Stephen Powell wrote: \n> >> \n> >> I'm not familiar with your laptop, but most laptops have a way to switch \n \n[snip] \n \n> \n> I'm talking about an either/or scenario, where by means of a key \n> combination on the internal keyboard the monitor is switched to internal \n> or external. Using both monitors simultaneously with different images \n> on each one (i.e. displaying a web browser in one window and playing \n> solitaire in the other one) is a whole different thing. If that's what \n> you want to do, you're out of my league. I have no experience with that. \n> > \n> > But I really wanted to be able to do it from the cmd line ! \n> \n> Well, there's chvt, but that is something completely different. \n> That's multiple logical (text-mode) terminals on a single physical \n> terminal. \n> \n \nOkay a couple of things, I thing we are talking similiar and dissimiliar \nthings. \n \n \nturn on laptop - not connected to ext monitor \nloads debian \nstarts gdm \nlogin \nconnect to external monitor \nuse xrandr to move screen to ext monitor \nclose lid on laptop \nuse alt+ctrl+f1 to get to tty1 \n \nthe ext monitor stays on the X screen and the laptop monitors goes to \nthe tty - but the lid is closed, I want to move the tty to the ext \nmonitor \n \nhope that clears it up... \n \nAlex \n \n \n--", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Alex Samad <alex@samad.com.au>", 
+    "subject": "Re: how to control tty to external monitor or local lcd"
+}

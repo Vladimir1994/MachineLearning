@@ -1,0 +1,9 @@
+{
+    "body": "John Hall signs his message:\n> John Hall\n> 13464 95th Ave NE\n> Kirkland WA 98034\n\nIs this some new \"I'm not spam\" signal, to include a \nvalid mailing address?\n\n- Gordon\n\n\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [
+        "<fork@spamassassin.taint.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Gordon Mohr\" <gojomo@usa.net>", 
+    "subject": "Mailing addresses against spam? Re: Al'Qaeda's fantasy ideology: Policy Review no. 114"
+}

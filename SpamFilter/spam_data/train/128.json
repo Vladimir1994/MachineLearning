@@ -1,0 +1,9 @@
+{
+    "body": "Ron Johnson schreef: \n> On 2010-04-05 22:22, Matthew Moore wrote: \n>> On Monday April 5 2010 7:59:59 pm Ron Johnson wrote: \n>>> On 2010-04-05 16:42, Thilo Six wrote: \n>>>> but still \n>>>> it's unix style to use the right tool for the right task. \n>>> You're correct: bash is the right tool for the job. \n>> \n>> Heresy! zsh is *always* the right tool for the job. As a corollary, if \n>> zsh is not the right tool for the job, then it is not, in fact, a job. \n>> \n> \n> Linux (and Unix, for that matter) does not have the concept of the \"job\" \n> \n> Business-oriented operating systems (like OpenVMS, MVS/OS, OS/400 and \n> other legacy systems) do, but any operating system without a batch queue \n> (which is, naturally, to where you submit jobs) can not have \"jobs\". \nThen please file a bug report to rename the inaptly named \"jobs\" command \n \nSjoerd", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>", 
+    "subject": "Re: horrible mc colorscheme"
+}

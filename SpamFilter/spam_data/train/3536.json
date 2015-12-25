@@ -1,0 +1,9 @@
+{
+    "body": "On Tuesday 11 May 2010 21.10:18 Dotan Cohen wrote: \n> On 11 May 2010 09:15, Adrian von Bidder wrote: \n> > On Monday 10 May 2010 16.08:40 Dotan Cohen wrote: \n> >> Please tell us what problems, bugs, or issues KDE 4 that make it \n> >> difficult to use. \n> > \n> > Nepomuk / Strigi need to improve a *lot*. \n> > \n> > * Strigi sucks up all disk bandwidth and, given enough time, all memory \n> > to the point where the oom kill kills my session. \n> > * Strigi index uses all my disk. Removing folders that were indexed \n> > (either removing these files, or removing them from the strigi \n> > configuration so they're not indexed anymore) didn't seem to have any \n> > effect on index size. \n \nI'll retry, but I think I was already on early 4.4 packages already. Not \nsure though. \n \n> > * Likewise when I completely disable file \n> > indexing: the database doesn't shrink / isn't removed. \n \nThis one certainly is not fixed in 4.4. On a big database inherited from \nearlier strigi, enabling strigi and then disabling strigi and nepomuk \nalltogether, the database is still there. (To be precise: the database \n*was* still there. rm -rf is your friend.) \n \ncheers \n-- vbi \n \n-- \nfeatured product: vim - http://vim.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Adrian von Bidder <avbidder@fortytwo.ch>", 
+    "subject": "Re: What needs to improve in KDE 4?"
+}

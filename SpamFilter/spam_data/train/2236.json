@@ -1,0 +1,9 @@
+{
+    "body": "On Sat, 10 Apr 2010 06:50:05 +0200, steef wrote: \n \n> Camaleón wrote: \n \n>> Just another thing to try. \n>> \n>> Issue \"lspci | grep VGA\" and put here the output. \n \n(...) \n \n> here it comes: \n> \n> steef@debianlennynw:~$ lspci | grep VGA 00:02.0 VGA compatible \n> controller: Intel Corporation 4 Series Chipset Integrated Graphics \n> Controller (rev 03) 04:00.0 VGA compatible controller: nVidia \n> Corporation Device 0641 (rev a1) \n \nSo, do you have the two VGA cards enabled? I also have an Intel embedded \ncard but IIRC, I disabled it in the BIOS as soon as I plugged the nvidia \ncard (7600 GS). \n \nOTOH, it seems that device ID corresponds to nvida 9400 GT. So I would \ntest with the nvidia Debian drivers. If they do not work, you can always \ncome back and activate the Intel one. \n \n> I'll look into that wiki (again), \n> \n> it can take some time before i answer again: got to take care of my \n> family now, \n \nTake your time. Family is first :-) \n \nSaludos, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.10.17.22.47@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: gforce 9400"
+}

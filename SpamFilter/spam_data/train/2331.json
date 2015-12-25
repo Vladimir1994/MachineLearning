@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nWhen running pascal programs based on fpGUI, an X11 based interface package, I get an error if the application needs to create the top level (root?) X11 window. but only then. If there is already a toplevel window, for example because xterm runs, then the application open its window and everything behaves as expected. \n \nthe problematic call is this: \n \nXGetWMProtocols(FDisplay, AWindow, @Protocols, @Count); \n \ngdb shows these values (if there is an X11 window, the values are exactly the same): \n \n4: COUNT = 0 \n3: PROTOCOLS = 0x0 \n2: AWINDOW = 6291457 \n1: this->FDISPLAY = 0x803a00 \n \nThis call produces this X11 error: \n \nX Error of failed request: BadAtom (invalid Atom parameter) \n Major opcode of failed request: 18 (X_ChangeProperty) \n Atom id in failed request: 0x0 \n Serial number of failed request: 103 \n Current serial number in output stream: 104 \n \nSystem: Mac OS X 10.6.3 \n \nX11 version: \nmichael% X -version \nX.org Release 7.3 \nX.Org X Server 1.4.2-apple53 \nBuild Date: 20100211 \n \nSomeone suggested XSync and XInterAtom , but I am fairly clueless, when it comes to X11. So could you give me directions how to resolve this? \n \nMichael _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "X11-users@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Schindler Karl-Michael <karl-michael.schindler@web.de>", 
+    "subject": "BadAtom X11 Error with fpGUI"
+}

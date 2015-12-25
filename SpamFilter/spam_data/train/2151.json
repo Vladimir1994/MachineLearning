@@ -1,0 +1,9 @@
+{
+    "body": "> On a Phenom X2 with 4 GiB RAM and a pretty new GFX card whose name \n> I don't remember, I get random hangs while doing nothing more than light \n> surfing with some minimal background activity. \n \nWhat browser? Is it only on specific sites? Flash? Heavy Javascript or \neven Java? What does top show? \n \nCan you maybe test that on another distro as well? I remember some KDE \n4 versions with light hangs, typing would seem slow, but I don't have \nthat issue anymore. I don't know when it disappeared. \n \n \n> KDE 3.5.10 (almost) never has this issue. I know because I still use KDE \n> 3.5.10 at work and even though the hardware is _years_ older, it's a _lot_ \n> faster. \n> And yes, I have Nepomuk off, no fancy effects, no nothing. \n> Unfortunately, this is nothing you can file a bug against. \n> \n \nI know, it's not even certain where to file it. KDE? Debian? \n \n \n-- \nDotan Cohen \n \nhttp://bido.com \nhttp://what-is-what.com \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/h2s880dece01005060908mc19d59ads8b35b7e0b845dc8c@mail.csmining.org", 
+    "to": [
+        "Richard Hartmann <richih.mailinglist@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Dotan Cohen <dotancohen@csmining.org>", 
+    "subject": "Re: Kde 3.5 ..."
+}

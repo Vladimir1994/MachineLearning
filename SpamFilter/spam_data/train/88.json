@@ -1,0 +1,9 @@
+{
+    "body": "Wow, talk about a pheenomeenon\n\n==\nhttp://www.iamcal.com/software/ami/\n\nAmIThisOrNot Dynamic Peer Rating System\n\nWhat is It?\nIt's a tool to help you build your own \"Am I X Or Not\" sites.\n\nWhere Can I Get It?\nBasic Version $20\nThe basic version lets you build a specific \"Am I X\" site (example). The\nlicense covers a single installation on a single site.\n\nAdvanced Version $40\nThe advanced version lets your users create their own \"Am I X\" sites\n(example). The license covers a single installation on a single site.\n\nInstallation $20\nEither version of the system can be installed on your web server, given FTP\naccess and MySQL login details.", 
+    "to": [
+        "<fork@example.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Mr. FoRK\" <fork_list@hotmail.com>", 
+    "subject": "Am I This Or Not?"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\n\n\nGordon Mohr wrote:\n> Eugen Leitl writes:\n> \n>>On Sun, 11 Aug 2002, Gordon Mohr wrote:\n>>\n>>>If you crypto-sign your outgoing mail, you don't have to set your\n>>>mailwall whitelist to accept unsigned mail spoofed as being from you.\n\nYup, I've been meaning to cobble together procmail + script for this, as \na few Google searches didn't turn up anything. Did anyone here get there \nfirst?\n\n(I guess I want a config file of mailboxes who normally sign their mail, \nand procmail that runs gpg and adds headers...)\n\n>>Users don't like entering passphrases when sending email. USB fobs, smart \n>>cards or other removable hardware are not yet widespread.\n> \n> Bad assumption.\n> \n> A reasonable UI would have me enter my passphrase *at most* each \n> time I launch my mail program -- never more than once per day,\n> sometimes once per week. \n\nFWIW, the 'Enigmail' add-on for Mozilla's mail client has it happily \ntalking to GPG (and I believe PGP). You can choose how long it remembers \nyour passphrase for, default is 15 mins.\n\nsee http://enigmail.mozdev.org/\n\nThis feature was enough to get my off my Pine habit, since (to answer \nthe original question) the combination of SpamAssassin and shared \nwhitelists means that forged 'From:' headers are pretty much the only \nspam I see in my inbox now.\n\nDan\n\n\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.0.6 (GNU/Linux)\nComment: Using GnuPG with Mozilla - http://enigmail.mozdev.org\n\niD8DBQE9VvAyPhXvL3Mij+QRAkDdAJ4m/LO7Y0aki66H5AIwbmsX8Q/PegCfSQgI\nZW2XmlcnQtrzALPimthvlr8=\n=wdf/\n-----END PGP SIGNATURE-----\n\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [
+        "Gordon Mohr <gojomo@usa.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Dan Brickley <danbri@w3.org>", 
+    "subject": "Re: Forged whitelist spam"
+}

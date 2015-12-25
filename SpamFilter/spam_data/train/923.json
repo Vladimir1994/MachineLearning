@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Matthias wrote :\n\n> Hi, Matthias..\n> \n> > ..it's a major release and supports now SGI's FAM technology\n> \n> ..requires currently some changes for the spec because the dep to fam\n> 2.6.7-6.\n> For compiling fam.h (fam-evel) is required too.\n\nIndeed, I had repackaged a first version, but without fam support (not\nreleased). I'll release the package with fam support right now ;-)\n\nMatthias\n\n-- \nMatthias Saou World Trade Center\n------------- Edificio Norte 4 Planta\nSystem and Network Engineer 08039 Barcelona, Spain\nElectronic Group Interactive Phone : +34 936 00 23 23\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@egwn.net>", 
+    "subject": "Re: gentoo 0.11.31 released..."
+}

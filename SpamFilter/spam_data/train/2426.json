@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-11, Marcus Better wrote: \n> The system will often grind to a halt for several minutes while iotop shows \n> that it is busy swapping, usually swapping in the Eclipse process. The most \n> annoying thing is that KDE becomes totally unresponsive during all this \n> time, I cannot even move the mouse pointer. \n \nExcept I only have 512mb ram in my laptop, it matches my experience of \neclipse. \n \n/Sune \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/slrnhuim5s.rvp.nospam@sshway.ssh.pusling.com", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sune Vuorela <nospam@vuorela.dk>", 
+    "subject": "Re: memory usage"
+}

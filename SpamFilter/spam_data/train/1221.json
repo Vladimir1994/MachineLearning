@@ -1,0 +1,9 @@
+{
+    "body": "\"Hess, Mtodd, /mth\" said:\n\n> I hate to bring this up, but I see more and more spams that contain very\n> little, if any, text. Instead, most of the spam text is in a graphic image.\n> How will we be able to detect those as spam? OCR?\n\nor, alternatively, giveaway patterns in the HTML? That's what's happening\nwith most obfuscating techniques the spammers are trying -- they become\na very reliable sign of spam in themselves!\n\n--j.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Hess, Mtodd, /mth\" <mth@Ingersoll.com>"
+    ], 
+    "is_spam": false, 
+    "from": "yyyy@spamassassin.taint.org (Justin Mason)", 
+    "subject": "Re: [SAtalk] Graphics-only spam?"
+}

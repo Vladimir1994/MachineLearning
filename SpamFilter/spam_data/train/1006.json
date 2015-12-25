@@ -1,0 +1,9 @@
+{
+    "body": "Update of /cvsroot/spamassassin/spamassassin\nIn directory usw-pr-cvs1:/tmp/cvs-serv6501\n\nModified Files:\n Tag: b2_4_0\n MANIFEST \nLog Message:\nremoved old evolver\n\nIndex: MANIFEST\n===================================================================\nRCS file: /cvsroot/spamassassin/spamassassin/MANIFEST,v\nretrieving revision 1.100.2.11\nretrieving revision 1.100.2.12\ndiff -b -w -u -d -r1.100.2.11 -r1.100.2.12\n--- MANIFEST 28 Aug 2002 13:50:15 -0000 1.100.2.11\n+++ MANIFEST 28 Aug 2002 16:55:16 -0000 1.100.2.12\n@@ -50,7 +50,6 @@\n masses/CORPUS_POLICY\n masses/CORPUS_SUBMIT\n masses/craig-evolve.c\n-masses/evolve.cxx\n masses/freqdiff\n masses/hit-frequencies\n masses/lib/Mail/ArchiveIterator.pm\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-commits mailing list\nSpamassassin-commits@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-commits", 
+    "to": [
+        "spamassassin-commits@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Justin Mason <yyyyason@users.sourceforge.net>", 
+    "subject": "[SACVS] CVS: spamassassin MANIFEST,1.100.2.11,1.100.2.12"
+}

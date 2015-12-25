@@ -1,0 +1,9 @@
+{
+    "body": "On Sep 25, 7:35pm, Daniel Quinlan wrote:\n> Allen Smith writes:\n> \n> > Well, I have been doing a bit of fiddling with the GA. I don't have\n> > a _large_ corpus practically available to me (or processable within\n> > reasonable processor time - I can justify the GA fiddling part as\n> > being part of my research, but not the mail processing...), so in\n> > order to test out my changes someone needs to send me a copy of the\n> > \"tmp/scores.h\" and \"tmp/tests.h\" that get generated prior to the GA\n> > going into action.\n> \n> Why not start with mass-check corpus results? It's much easier to get\n> those\n\nAh. As in getting a directory listing of the corpus server and doing some\ndownloads? OK, done.\n\n> and you can create your own tmp/scores.h and tmp/tests.h.\n\nGood point. Will report back on my results.\n\n -Allen\n\n-- \nAllen Smith http://cesario.rutgers.edu/easmith/\nSeptember 11, 2001 A Day That Shall Live In Infamy II\n\"They that can give up essential liberty to obtain a little temporary\nsafety deserve neither liberty nor safety.\" - Benjamin Franklin", 
+    "to": [
+        "Daniel Quinlan <quinlan@pathname.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Allen Smith\" <easmith@beatrice.rutgers.edu>", 
+    "subject": "Re: GA Development (was Re: [SAdev] [Bug 1030] NO_INVENTORY     dangerous)"
+}

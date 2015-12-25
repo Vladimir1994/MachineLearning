@@ -1,0 +1,9 @@
+{
+    "body": ">>>>> \"R\" == Robert Harley writes:\n\n R> Depends who writes it. One guy will write a bug every 5 lines,\n R> another every 5000 lines. Put them both on a project and that\n R> will average out to a bug every 4.995 lines. \n\nAnd a Java program, due to the extensive class libraries, will weigh\nin at 10% the number of lines of the equivalent C program. QED.\n\n-- \nGary Lawrence Murphy TeleDynamics Communications Inc\n Business Advantage through Community Software : http://www.teledyn.com\n\"Computers are useless. They can only give you answers.\"(Pablo Picasso)", 
+    "to": [
+        "harley@argote.ch (Robert Harley)"
+    ], 
+    "is_spam": false, 
+    "from": "Gary Lawrence Murphy <garym@canada.com>", 
+    "subject": "Re: Java is for kiddies"
+}

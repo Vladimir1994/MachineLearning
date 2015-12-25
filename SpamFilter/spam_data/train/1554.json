@@ -1,0 +1,9 @@
+{
+    "body": "On 04/05/10 16:17, Ron Johnson wrote: \n> On 05/04/2010 09:11 AM, Joe wrote: \n> [snip] \n>> \n>>> Is there a way I can setup devices such as this without needing to run \n>>> DHCP? \n>> \n>> Not initially. What you do is to set a workstation to accept DHCP, \n>> connect it to the router, then use the web interface to disable DHCP and \n>> set the fixed IP address you want the router to use. \n> \n> Or just, within /etc/network/interfaces, give yourself the static \n> address 192.168.1.2. \n> \n \nIndeed so, in this case. In the general case, it might be quicker to \nenable DHCP than to find out what network the router resets to. Usually \n192.168.0. or 192.168.1., but not always. \n \nIn the days before Internet dongles, the only Net connection available \nwas usually the one on the other side of an apparently non-functional \nrouter, and the customer had no idea where the book/CD was. \n \nAnd to be honest, I normally run XP on my laptop, and it's just ticking \nor unticking a box. Windows has moved on, no reboot necessary... I can \nremember needing the installation CD to change IP addresses on 95/98. \n-- \nJoe \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BE04458.7060108@jretrading.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Joe <joe@jretrading.com>", 
+    "subject": "Re: adding 192.x with static IP"
+}

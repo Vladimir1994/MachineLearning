@@ -1,0 +1,9 @@
+{
+    "body": ">>>>> On Fri, 13 Sep 2002, \"Wendy\" == Wendy P. Roberts wrote:\n\n Wendy> I've been trying to set a button called which\n Wendy> automatically forwards mail using a '-form mycomps'\n Wendy> without going through the editor, but so far haven't got\n Wendy> the right recipe.\n\nI have one that uses dist to send stuff from my work mail to my \nhome mail. The binding looks like this:\n\nset {bindings(key,HD_Dist_Silently -form distcomps.to-me)} \n\nThe \"HD_Dist_Silently\" is a hacked up version of the proc that \ndoes dist in exmh and is pasted in below. It's getting old and \nprobably should be \"resynced\" with the current code. But it \nstill works (on a relatively recent CVS copy of exmh)\n\nIt's also possible that there's an easier way but I hacked this \ntogether quickly a year or more ago and when it worked I moved \non to other tasks.\n\n--Hal\n\nproc HD_Dist_Silently { args } {\n\n global exmh msg\n set exmh(ctype) {dist}\n if {[string length $args] == 0} {\n set args Mh_DistSetup\n }\n\n if [MsgOk $msg(id) m] {\n if {[string compare [info command $args] $args] == 0} {\n # Old interface with hook procedure\n if [catch {$args $exmh(folder) $m} err] { ;# Setup draft msg\n Exmh_Status \"${args}: $err\" purple\n return\n }\n } else {\n if [catch {\n Exmh_Status \"dist +$exmh(folder) $m\"\n eval {MhExec dist +$exmh(folder) $m} -nowhatnowproc $args\n MhAnnoSetup $exmh(folder) $m dist\n } err] {\n Exmh_Status \"dist: $err\" purple\n return\n }\n }\n Edit_Done send ;# Just send it\n }\n}\n\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Hal DeVore <haldevore@acm.org>", 
+    "subject": "Re: Automated forwarding"
+}

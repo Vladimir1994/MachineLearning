@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, Aug 23, 2002 at 03:03:05PM -0400, Rose, Bobby wrote:\n> If you didn't add it when compile would be one way. Another would be to\n> grep your sendmail.cf for the word Milter.\n\nI don't know if there's a sendmail-ish way (it's not in the -d0.1 output),\nbut this should work:\n\n$ strings `which sendmail` | grep -i milter\n\nIf you get a long list of function/message looking phrases, milter\nis built-in. If you get something like:\n\nWarning: Filter usage ('X') requires Milter support (-DMILTER)\nMilter Warning: Option: %s requires Milter support (-DMILTER)\n@(#)$Id: milter.c,v 1.1.1.2 2002/03/12 18:00:36 zarzycki Exp $\n\nthen it's not built-in. :)\n\n-- \nRandomly Generated Tagline:\n\"M: Can anyone tell us the lesson that has been learned here?\n S: Yes Master, not a single one of us could defeat you.\n M: You gain wisdom child ... \" - The Frantics", 
+    "to": [
+        "\"Rose, Bobby\" <brose@med.wayne.edu>"
+    ], 
+    "is_spam": false, 
+    "from": "Theo Van Dinter <felicity@kluge.net>", 
+    "subject": "Re: [Razor-users] Razor with sendmail"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "I have looked around on google and found some documentation to set the \nresolution within grub2 but some of the explanations are a bit vague. Can \nsomeone post a clear and concise way of doing this? When I tried the ones I \nfound on google, I managed to make the box not boot anymore.", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Drew Paschal <dpaschal@csmining.org>", 
+    "subject": "GRUB2 resolution"
+}

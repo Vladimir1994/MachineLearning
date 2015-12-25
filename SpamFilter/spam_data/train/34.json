@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-06, Alejandro Exojo wrote: \n> El Jueves, 6 de Mayo de 2010, Curt Howland escribió: \n>> Thank you, I appreciate that. Really, I do. Unfortunately, my problems \n>> with KDE4 are not bugs, they're systematic. I liked having my \n>> removable devices show up as desktop icons, for instance, and that \n>> feature is just plain gone. \n> \n> I miss the media:/ kioslave. Does somebody know if it was gone because nobody \n> ported it, or by design? \n \nBy design. It only almost worked good. \nCodewise it is replaced by the kfileplacesmodel, I'm sure one could \nwrite a plasma widget around it quite easy if one wanted. \n \n/Sune \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/slrnhu5nlt.rvp.nospam@sshway.ssh.pusling.com", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sune Vuorela <nospam@vuorela.dk>", 
+    "subject": "Re: Kde 3.5 ..."
+}

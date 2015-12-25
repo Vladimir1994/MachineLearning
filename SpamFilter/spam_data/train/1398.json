@@ -1,0 +1,9 @@
+{
+    "body": "When I try to use apt-get upgrade\nit wants to install libusb while I got it\n(same version)\nand all collapse because of this.\n\nRoi\n\n\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Roi Dayan <dejavo@punkass.com>", 
+    "subject": "apt-get problem ?"
+}

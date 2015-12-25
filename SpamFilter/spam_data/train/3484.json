@@ -1,0 +1,9 @@
+{
+    "body": "When I tryed to install simutrans game with aptitude I got \nthis error and was not able to install it: \n \n┌──────────────────────────────────────────────────────────────────────────┐ \n│E: Failed to fetch cdrom:[Lenny DVD │ \n│ 3]/pool/main/s/simutrans/simutrans-data_100.0+ds1-4_all.deb: Hash Sum │ \n│ mismatch │ \n│ [ Ok ] │ \n└──────────────────────────────────────────────────────────────────────────┘ \n \nA few days ago same thing happend when installing hgsvn: \n \n┌──────────────────────────────────────────────────────────────────────────┐ \n│E: Failed to fetch cdrom:[Lenny DVD │ \n│ 3]/pool/main/h/hgsvn/hgsvn_0.1.6-2_all.deb: Hash Sum mismatch │ \n│ [ Ok ] │ \n└──────────────────────────────────────────────────────────────────────────┘ \n \nI have original DVDs. Content of /cdrom/.disk/info is: \nDebian GNU/Linux 5.0.4 \"Lenny\" - Official i386 DVD Binary-3 20100131-19:16 \n \nAny idea why this is so? \n \nMartin \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100421132759.GA2635@alfa", 
+    "to": [
+        "Debian User Group <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Martin <adsrtg-mlist@yahoo.com.au>", 
+    "subject": "Hash Sum mismatch"
+}

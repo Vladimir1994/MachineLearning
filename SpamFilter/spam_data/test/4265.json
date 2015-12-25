@@ -1,0 +1,8 @@
+{
+    "body": "OK..solved my own question: \n \nshould have been: \n \n$ update-alternatives --display x-www-browser \n \ninstead of: \n \n$ update-alternatives -display x-www-browser \n \nfor the want of a dash an error message is returned. \n \n-- \nC \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100415131305.28e9489f@Mondo", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Charles Kroeger <ckrogrr@frankensteinface.com>", 
+    "subject": "Re: Icedove always loads Epiphany when URL is clicked"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, Apr 15, 2010 at 12:52:47PM -0700, Jason Self wrote: \n> Kurt Roeckx wrote .. \n> \n> > What does this mean exactly? \n> \n> It means that versions older than 0.95 will be remotely disabled by the ClamAV \n> folks once your copy of ClamAV gets the CVD update that includes what I like to \n> call the special \"self-destruct\" code. :) \n> \n> It means that you need to be running least version 0.95 of ClamAV, and \n> preferably always the latest & greatest version, to be protected. Outdated anti- \n> virus software is not effective. \n \nI forgot about DSA 1906 in october which basicly already announced \nit. \n \n \nKurt \n \n \n-- \nTo UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100415201641.GA837@roeckx.be", 
+    "to": [
+        "Jason Self <jason@bluehome.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Kurt Roeckx <kurt@roeckx.be>", 
+    "subject": "Re: [volatile] Updated clamav-related packages available fortesting"
+}

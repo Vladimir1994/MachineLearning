@@ -1,0 +1,9 @@
+{
+    "body": "Jozsi Vadkan wrote: \n> I've got two pendrives. \n> \n> I want to install a Debian on them. RAID1. \n> \n> Ok... \n> \n> ... \n> \n> After I installed it in RAID1, it works perfectly, ok! :) \n> \n> When I pull out one of the pendrive [good pendrive], it still boots up, \n> hurrah :) \n> \n> But: ... \n> \n> When I pull out the other pendrive [i plug in the first one i tried] it \n> say's: \n> \n> GRUB hard disk error \n> \n> What can I do? \n \n \nDifferent UUID? \n \nIn the console as root type \"blkid\" to get UUID of your partitions then \nsetup /etc/fstab accordingly, you also may need to change the kernel \nsyntax too. \n-- \nJimmy Johnson \n \nSimplyMEPIS 8.5 at sda9 \nRegistered Linux User #380263 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF783BE.5080203@csmining.org", 
+    "to": [
+        "Debian User Mailing list <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Jimmy Johnson <field.engineer@csmining.org>", 
+    "subject": "Re: GRUB Hard Disk Error"
+}

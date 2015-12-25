@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-21 06:58, B. Alexander wrote: \n[snip] \n> \n> I leave /var in a separate partition, only because I cut my teeth on \n> Unix/Linux back in the days when filling / or /var would cause a system \n> crash. \n \nIt still can. But disks aren't 300MB anymore. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BCF39EF.6070503@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: backup apt tree?"
+}

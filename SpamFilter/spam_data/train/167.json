@@ -1,0 +1,9 @@
+{
+    "body": "My emacs seems to be buggy. Here is the answer with Thunderbird: \n \n== \nFrom: Merciadri Luca \nSubject: Re: How can I find the port which my HP 50g is connected to? \nNewsgroups: linux.debian.user \nDate: Fri, 07 May 2010 18:30:39 +0200 \nOrganization: ULg \n \n[[PGP Signed Part:Undecided]] \n[1. text/plain] \nCamaleón writes: \n \n> Just type \"dmesg\" and look for any \"ttyUSB*\" messages. \nI had to make some grep stuff, because it is actually not shown \ndirectly (lot of garbage between the recognition and the assignment, \napparently). Thanks, worked. \n \n[[End of PGP Signed Part]] \n== \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me.", 
+    "to": [
+        "=?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: How can I find the port which my HP 50g is connected to? "
+}

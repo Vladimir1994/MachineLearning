@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 24 May 2010 10:47:35 -0400 (EDT), Lisi wrote: \n> \n> I have been trying to install Google Earth on Lenny ... \n \nLisi, \n \nThis is not really an answer to your question, but rather \nan alternative, especially since you are short of time. \nBoth Yahoo and Mapquest have aerial photos available, down \nto fairly decent resolution in most areas. I can clearly \npick out my house on a 60'x120' lot using it. It may be \nadequate for your purposes. And in public places, such \nas the capitol building, I can pick out individual people, \nthough I obviously can't tell who they are. Try, for example, \n \n http://www.mapquest.com/ \n \nTo see actual photographs, click on \"Aerial map\" in the \nupper right hand corner. By default, it shows street names \ntoo, but you can turn that off by clicking off the check \nbox for \"show labels\". The zoom control is in the upper \nleft-hand corner of the picture. \n \nHTH \n \n-- \n .''`. Stephen Powell \n : :' : \n `. `'` \n `- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/564011095.7859.1274713903361.JavaMail.root@md01.wow.synacor.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Powell <zlinuxman@wowway.com>", 
+    "subject": "Re: Trying to install Google Earth on Lenny.  How on earth??????"
+}

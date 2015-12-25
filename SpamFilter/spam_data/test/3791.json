@@ -1,0 +1,8 @@
+{
+    "body": "Hello, \n \nTill libktorrent waits in NEW, both libktorrent 1.0rc1 && ktorrent 4.0rc1 are \navailable in experimental-snapshots repository on http://qt-kde.debian.net/ \n \n-- \nModestas Vainius ", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "from": "Modestas Vainius <modestas@vainius.eu>", 
+    "subject": "ANN: libktorrent 1.0rc1 && ktorrent 4.0rc1"
+}

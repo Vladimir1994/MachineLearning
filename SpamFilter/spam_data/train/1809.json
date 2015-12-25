@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 20 Apr 2010 19:51:47 -0400 (EDT), Andrew Malcolmson wrote: \n> On Mon, Apr 19, 2010 at 10:00 PM, Stephen Powell wrote: \n>> On Mon, 19 Apr 2010 21:01:41 -0400 (EDT), Andrew Malcolmson wrote: \n>>> Couldn't say why they switched, but I find pages in Epiphany 2.29 in \n>>> Squeeze look vivid compared with the Gecko version. \n>> \n>> I have switched back and forth between epiphany and iceweasel several \n>> times, on the same computer and monitor, and I have not noticed any \n>> difference in image quality between iceweasel, which is based on \n>> gecko (xulrunner-1.9.1) and epiphany-browser, which is based on webkit \n>> (libwebkit-1.0-2). \n>> \n> \n> Well, I could be hallucinating, but FYI I tested this by comparing the \n> two Epiphany versions side by side. Version 2.29 was running in a Sid \n> chroot (schroot -p). The new version looked brighter and a wee bit \n> clearer. I first noticed this improvement on another computer I'd just \n> upgraded to Squeeze. However, maybe the difference is something to do \n> with X.org? \n \nEven if there is a measurable difference in image brightness or sharpness, \nit's a moot point for me. If I can't download files or reply to e-mails, \nthe Squeeze version is useless to me. I'll check things out again once \nthe Sid version migrates to Squeeze. \n \n-- \n .''`. Stephen Powell \n : :' : \n `. `'` \n `- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1905300792.199120.1271856145572.JavaMail.root@md01.wow.synacor.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Powell <zlinuxman@wowway.com>", 
+    "subject": "Re: Epiphany browser continues to get worse and worse"
+}

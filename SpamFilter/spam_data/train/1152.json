@@ -1,0 +1,9 @@
+{
+    "body": "There are some cases like this with \"incomplete ftoc\". These are surely old\nbugs that appeared after I added the ability to only scan the tail of the ftoc\nif for some reason the scan module decides it cannot easily merge the newly\nscanned (scan unseen) into the tail of the cached scan listing. Hmm - I poked\naround a bit. glimpse.tcl uses Msg_Change, which has code in it to try and\ndeal with showing a message that isn't in the ftoc:\n Exmh_Status \"Cannot find msg $msgid - Rescan?\"\nIs that message hiding in your log? Perhaps there should be a return from\nMsg_Change that glimpse.tcl can use to decide what to do next.\n\n>>>Valdis.Kletnieks@vt.edu said:\n > Scenario:\n > \n > Inbox has a \"dirty\" ftoc, only the last 100 entries (3500-last or so).\n > \n > Go to search... glimpse. Glimpse finds a hit in inbox/3448 (which\n > isn't\n > in the ftoc). Clicking on that one results in a find tool being\n > launched\n > *on the current item* (which of course misses, since the search string\n > isn't IN that item - I wasn't even in 'inbox' at the time. We don't\n > change\n > folders to inbox or display the message that got hit.\n > \n > Clicking on another 'glimpse' hit that was an item that was in a\n > non-dirty\n > ftoc worked as expected - folder changed and that mail displayed, and\n > the search tool found the hit.\n > \n > /Valdis\n\n--\nBrent Welch\nSoftware Architect, Panasas Inc\nPioneering the World's Most Scalable and Agile Storage Network\nwww.panasas.com\nwelch@panasas.com\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "Valdis.Kletnieks@vt.edu"
+    ], 
+    "is_spam": false, 
+    "from": "Brent Welch <welch@panasas.com>", 
+    "subject": "Re: Minor whoops with glimpse support"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Fri,21.May.10, 14:43:47, Celejar wrote: \n \n> But I've long found the 'recommends' concept to be somewhat tricky and \n> perhaps to vary from maintainer to maintainer. For example, mesa-utils \n> needs GLX, which, practically speaking, means that you need \n> libgl1-mesa-dri. The maintainer refuses to make this even a \n> recommends, basically since the X server can run on a different machine: \n> \n> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=559223 \n> \n> Now, I'd bet (although I suppose that I may be wrong) that the vast \n> majority of Debian installations have the X server and clients on the \n> same machine, and the other case is probably the more 'unusual' one. \n \nImagine a large organization with a lot of thin clients... \n \n> OTOH, acpi-support 'recommends' radeontool, even though this package is \n> utterly irrelevant to those without ATI Radeon chipsets: \n> \n> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=562883 \n \nOh, I can finally get rid of that one! (used to be a Depends and I \nforgot to check) \n \nBoth are excelent examples :) But even if you disagree with the \nmaintainer, in the end Debian is a do-ocracy. That is, the one who does \nthe job usually gets to decide how it's done ;) \n \nRegards, \nAndrei \n-- \nOfftopic discussions among Debian users and developers: \nhttp://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Andrei Popescu <andreimpopescu@csmining.org>", 
+    "subject": "Re: Unable to connect to my home wireless"
+}

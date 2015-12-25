@@ -1,0 +1,9 @@
+{
+    "body": "Hi all, \n \nI have to make a backup plan for a server that is physically very far away \nfrom me right now. If for some reason this server goes south, I have to have \na plan and it has to be done quickly. The problem is that the personnel that \nis on site doesn't know squat about Linux (or computers, for that matter), \nso it must be something dead simple. I was thinking of getting a spare hard \ndrive, connect it to the working server, do a dd of the entire disk to the \nnew disk, and disconnect the disk (the people there can swap hard disks). \nSomething like \n \ndd if=/dev/sda of=/dev/sdb bs=1024 \n \nassuming that sda is the working disk and sdb is the new, unformatted and \nunpartitioned disk. So if hte machine breaks, I can get the new disk and put \nin a new machine and everything should work. This server is doing firewall \nand openvpn, etc, no X, no fancy stuff. Is this going to work? What do you \nguys think? \n \nCheers! \n \nIvan", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ivan Marin <ispmarin@csmining.org>", 
+    "subject": "OT - Backup of HA server on external drive"
+}

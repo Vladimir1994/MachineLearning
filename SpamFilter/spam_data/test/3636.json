@@ -1,0 +1,8 @@
+{
+    "body": "On 29/04/2010 11:16, Benedict Verheyen wrote: \n \n \n> \n> Thanks, it's worth a try. \n> I'm not sure the java environments are the same. \n> On both machines they were installed with aptitude install default-jre \n> \n> I'll try the backport of java & using Firefox instead of Iceweasel. \n> \n> Regards, \n> Benedict \n> \n> \n \nFirefox crashed unfortunately and i spent already to much time on this. \nSo we'll have to go with Ubuntu in this case :( \n \nThanks for the help & ideas. \n \nRegards, \nBenedict \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hregeb$7k3$1@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Benedict Verheyen <benedict.verheyen@csmining.org>", 
+    "subject": "Re: using umlaut works in console, not in Citrix client"
+}

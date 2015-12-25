@@ -1,0 +1,9 @@
+{
+    "body": "I seem to be having a little trouble with it. My printers.conf is:\n\n \nInfo Hp4050\nLocation locals\nDeviceURI ipp://192.168.2.90:9100/\nState Idle\nAccepting Yes\nJobSheets none none\nQuotaPeriod 0\nPageLimit 0\nKLimit 0\n\n\n and cupds uses that to make a printcap of:\n\nlp:\n\n Sounds dodgy to me. If someone has an example printers.conf/printcap for\na JetDirect printer, I'd appreciate it if they sent it on.\n\nJohn\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "Irish LUG list <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "\"John P. Looney\" <valen@tuatha.org>", 
+    "subject": "[ILUG] cups question"
+}

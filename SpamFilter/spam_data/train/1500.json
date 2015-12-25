@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, May 16, 2010 at 9:17 PM, Andrei Popescu wrote: \n \n> On Sun,16.May.10, 15:13:28, James Stuckey wrote: \n> > \n> > *What I'm doing to mount the media: * \n> > root@debian:/home/stuckey# mount /dev/sr0 \n> > mount: block device /dev/sr0 is write-protected, mounting read-only \n> > mount: wrong fs type, bad option, bad superblock on /dev/sr0, \n> > missing codepage or helper program, or other error \n> > (could this be the IDE device where you in fact use \n> > ide-scsi so that sr0 or sda or so is needed?) \n> > In some cases useful info is found in syslog - try \n> > dmesg | tail or so \n> \n> Is this a data or audio CD (audio CDs can't be mounted, only played)? Is \n> it possible to test with another OS on the same hardware? \n> \n> Regards, \n> Andrei \n> \n> \nHello, \n \nAs I've already said, it works in windows and mac. I'll try changing the \ncable, but since it works in windows and mac I doubt the cable is at fault. \nI've tried audio and data cds and DVDs.", 
+    "to": [
+        "Andrei Popescu <andreimpopescu@csmining.org>, debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Re: Still can't read DVDs/CDs"
+}

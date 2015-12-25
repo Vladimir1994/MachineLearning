@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Doug wrote :\n\n> Perms are borked on your en/ directory. Can't get in.\n\nIndeed, sorry.\nFixed now, happy download :-)\n\nMatthias\n\n-- \nMatthias Saou World Trade Center\n------------- Edificio Norte 4 Planta\nSystem and Network Engineer 08039 Barcelona, Spain\nElectronic Group Interactive Phone : +34 936 00 23 23\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@egwn.net>", 
+    "subject": "Re: advice on 7.3.92 to 7.3.93, and Apt compiling"
+}

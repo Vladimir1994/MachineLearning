@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nOff-topic. But say this is of course being done in java (on OS X). \nIf you were writing say a online program for entering stock buy and \nsell transactions. How do you imagine avoiding someone entering a \n$15,000,000,000 transaction instead of a $15,000,000 transaction? \n \nHow about something like... \n \nif (transactionAmount > ReasonableLimits.maximumTransactionAmount) { \n \n if (transactionAmount - ReasonableLimits.maximumTransAmount ", 
+    "to": [
+        "Java Mac List <java-dev@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Hall <hallmike@att.net>", 
+    "subject": "Transaction editing"
+}

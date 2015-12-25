@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://boingboing.net/#85524549\nDate: Not supplied\n\nAnil Dash discovers that the T-Mobile Sidekick's web-browser is pretty \narbitrary in which pages it will load and which pages it will throw up its \nhands at: \n\n So I decided I was going to modify my page to conform to your browser's \n idiocy. I went looking for technical docs on what you do to mangle web \n pages. None. I went looking for a desktop emulator that I could run to \n simulate your device on my computer. None. I went looking to see an \n acknowledgement of the shortcomings of your device, indicating that the \n situation would be improved. None. \n\nLink[1] Discuss[2] (_Thanks, Joe[3]!_)\n\n[1] http://www.dashes.com/anil/index.php?archives/003378.php\n[2] http://www.quicktopic.com/boing/H/gQqkijtv3NhWZ\n[3] http://joeclark.org/access/", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "boingboing <rssfeeds@spamassassin.taint.org>", 
+    "subject": "Sidekick's browser blows"
+}

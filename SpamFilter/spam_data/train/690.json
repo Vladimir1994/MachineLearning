@@ -1,0 +1,7 @@
+{
+    "body": "Because I get mail through several different email addresses, I frequently\nget duplicates (or triplicates or more-plicates) of various spam messages.\nIn saving spam for later analysis I haven't always been careful to avoid\nsaving such duplicates.\n\nI wrote a script some time ago to try an minimize the duplicates I see by\ncalculating a loose checksum, but I still have some duplicates. Should I\ndelete the duplicates before training or not? Would people be interested in\nthe script? I'd be happy to extricate it from my local modules and check it\ninto CVS.\n\nSkip", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "skip@pobox.com (Skip Montanaro)", 
+    "subject": "[Spambayes] deleting \"duplicate\" spam before training?  good idea or  bad?"
+}

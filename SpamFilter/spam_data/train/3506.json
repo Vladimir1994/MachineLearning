@@ -1,0 +1,9 @@
+{
+    "body": "On 14/04/10 Ron Johnson wrote: \n> That is correct. No RAID protects against user stupidity. \n \nIn my personal experience, user stupidity (even my own) is as common a \ncause of data loss as hardware failure. \n \n \n-- \nJon Dowland", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Jon Dowland <jmtd@debian.org>", 
+    "subject": "Re: Boot / LVM best practices"
+}

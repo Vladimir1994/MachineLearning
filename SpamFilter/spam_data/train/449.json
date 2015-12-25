@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://jeremy.zawodny.com/blog/archives/000203.html\nDate: 2002-09-30T17:22:34-08:00\n\nThis is an issue that comes up all the time at work. It is an issue for roughly \nfour reasons: Yahoo is a FreeBSD shop Someone has heard that MySQL runs better \non Linux Someone knows that we run some...", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "zawodny <rssfeeds@spamassassin.taint.org>", 
+    "subject": "FreeBSD or Linux for your MySQL Server?"
+}

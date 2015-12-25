@@ -1,0 +1,9 @@
+{
+    "body": "Razor won't filter empty emails. What version of the agents are you using?\n\ncheers,\nvipul.\n\nOn Mon, Sep 16, 2002 at 04:16:31PM +0300, Raido Kurel wrote:\n> Hi,\n> \n> Is it possible to use razor without filtering empty mails as spamm?\n> An mail with an attachment is considered spamm. Is this normal?\n> Or I mysqlf like to send emails to myself where all important is said in\n> subject and body is empty (for remaining smth).\n> \n> Thanks,\n> Raido Kurel\n> \n> \n> \n> \n> -------------------------------------------------------\n> This sf.net email is sponsored by:ThinkGeek\n> Welcome to geek heaven.\n> http://thinkgeek.com/sf\n> _______________________________________________\n> Razor-users mailing list\n> Razor-users@lists.sourceforge.net\n> https://lists.sourceforge.net/lists/listinfo/razor-users\n\n-- \n\nVipul Ved Prakash | \"The future is here, it's just not \nSoftware Design Artist | widely distributed.\"\nhttp://vipul.net/ | -- William Gibson\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "Raido Kurel <raido@elve.elin.ttu.ee>"
+    ], 
+    "is_spam": false, 
+    "from": "Vipul Ved Prakash <mail@vipul.net>", 
+    "subject": "Re: [Razor-users] empty mail is spamm?"
+}

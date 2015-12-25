@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, May 10, 2010 at 09:42:07PM +0200, Sven Joachim wrote: \n> On 2010-05-08 12:42 +0200, Ólafur Jens Sigurðsson wrote: \n> \n> > Hello, I have a strange problem. \n> > \n> > If X is started from gdm at bootup or with /etc/init.d/gdm start then \n> > it starts (I know this since it beeps when it is up and running) but \n> > nothing shows on the screen. The same thing happens when I use startx \n> > and I have icewm in my .xinitrc. But if I have no .xinitrc file and I \n> > use startx then Gnome comes up fine. \n> \n> This is indeed very strange. \n> \n> > I am using sid and have just made an upgrade to my system (I hadn't \n> > done a upgrade in quite a while and did an upgrade a few days ago then \n> > my problems started) so it is up to date. \n> > \n> > Any ideas on what could be wrong here? \n \nJust did a aptitude safe-upgrade that pulled in a new version of the \nintel driver, no change in behaviour. \n \nÓli \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100515115323.GA24329@heima.gjk.dk", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"=?iso-8859-1?Q?=D3lafur_Jens_Sigur=F0sson?=\" <ojsbug@csmining.org>", 
+    "subject": "Re: X starting but nothing shows on the screen"
+}

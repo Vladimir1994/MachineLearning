@@ -1,0 +1,8 @@
+{
+    "body": "Hi, Matthias..\n\n> ..it's a major release and supports now SGI's FAM technology\n\n..requires currently some changes for the spec because the dep to fam\n2.6.7-6.\nFor compiling fam.h (fam-evel) is required too.\n\n-- \nregards from Germany\n Matthias\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "from": "Matthias Haase <matthias_haase@bennewitz.com>", 
+    "subject": "Re: gentoo 0.11.31 released..."
+}

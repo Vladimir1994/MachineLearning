@@ -1,0 +1,9 @@
+{
+    "body": "Hi ! \n \nI'm getting some problems with Xquartz (2.5.0). I'm running on Mac OS 10.6.3. My problem is the following : \n \nI use the option of the terminal to automatically launch Xquartz when launching terminal. It works well, and Xquartz is launched. I can then launch applications which need X11, like nedit. \n \nAfter working, I close all the open X11 windows, I close xquartz and terminal with \"command-q\" keys. \nThe problems appear here : if I want to relaunch nedit, doing exactly the same procedure, I obtain the \"can't open display\" exit status for nedit. However, Xquartz is normally launched. \n \nI don't understand this behaviour. Somebody has an idea ? Probably a problem with the environment variables ? \n \nThank you ! \n \nCyril Georgy \n \n-------------------------------------------------- \nCyril Georgy \ntél direct: +41 22 379 24 55 \nmail: Cyril.Georgy@unige.ch \n-------------------------------------------------- \nObservatoire de Genève \nFaculté des Sciences \nChemin des Maillettes 51 \nCH - 1290 Versoix \n-------------------------------------------------- \n \n \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "x11-users@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Cyril Georgy <Cyril.Georgy@unige.ch>", 
+    "subject": "Problem with xquartz 2.5.0"
+}

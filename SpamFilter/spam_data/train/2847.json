@@ -1,0 +1,9 @@
+{
+    "body": "On Sat, May 22, 2010 at 09:50:19AM +0530, Tapas Mishra wrote: \n> On Fri, May 21, 2010 at 8:32 PM, Tapas Mishra wrote: \n> > On Fri, May 21, 2010 at 7:23 PM,   wrote: \n> >> On Fri, May 21, 2010 at 04:10:55PM +0530, Tapas Mishra wrote: \n> >>> bootloader = \"/usr/lib/xen-3.2-1/bin/pygryb\" \n> >>                                      ^^^^^^^^ \n> >>>(there was no softlink \n> >>> from /usr/lib/xen-3.2-1/bin/pygryb to /usr/bin) \n> >>> boot = \"c\" \n> >>> \n> >>> Error: Bootloader isn't executable \n> >> \n> >> Shouldn't that be pygrub? \n> > Sorry that was a type error I mean the same. \n> > \n> I do not understand why it happens that Debian's user experience is \n> more than frustrating. \n> I am finally wiping out all Debian installations from my server. \n> Assuming that I am not good at Linux or Xen or what ever it is \n> I will switch to some other commercial Linux distribution. \n> If you try to do any thing on Debian in a production environment its \n> just useless. \n \nAs a general rule, not being able to solve a problem leads to \nfrustation. However, the conclusion you reach at is not in any way \nfollowing but a subjective *logic*. \n \nBTW, you actually checked the permissions on that bootloader, didn't \nyou? \n \nGood luck anyway. \n \n-- \nHuella de clave primaria: 0FDA C36F F110 54F4 D42B D0EB 617D 396C 448B 31EB", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "d.sastre.medina@csmining.org", 
+    "subject": "Re: pygrub is failing to boot centos domu on Debian lenny dom0"
+}

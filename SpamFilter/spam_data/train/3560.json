@@ -1,0 +1,9 @@
+{
+    "body": "--- begin forwarded text\n\n\nStatus: RO\nDate: Thu, 03 Oct 2002 03:21:05 +1000\nTo: \"John S. Denker\" \nFrom: Greg Rose \nSubject: Re: Optical analog computing?\nCc: \"R. A. Hettinga\" ,\n Digital Bearer Settlement List ,\n cryptography@wasabisystems.com\n\nAt 01:30 AM 10/2/2002 -0400, John S. Denker wrote:\n>\"R. A. Hettinga\" wrote:\n>...\n> > \"the first computer to crack enigma was optical\"\n>1) Bletchley Park used optical sensors, which were (and\n>still are) the best way to read paper tape at high speed.\n>You can read about it in the standard accounts, e.g.\n> http://www.picotech.com/applications/colossus.html\n\nBut Colossus was not for Enigma. The bombes used for Enigma were\nelectro-mechanical. I'm not aware of any application of optical techniques\nto Enigma, unless they were done in the US and are still classified. And\nclearly, the first bulk breaks of Enigma were done by the bombes, so I\nguess it depends whether you count bombes as computers or not, whether this\nstatement has any credibility at all.\n\nGreg.\n\n\n\nWilliams/Zenon 2004 campaign page: http://www.ben4prez.org\n\nGreg Rose INTERNET: ggr@qualcomm.com\nQualcomm Australia VOICE: +61-2-9817 4188 FAX: +61-2-9817 5199\nLevel 3, 230 Victoria Road, http://people.qualcomm.com/ggr/\nGladesville NSW 2111 232B EC8F 44C6 C853 D68F E107 E6BF CD2F 1081 A37C\n\n--- end forwarded text\n\n\n-- \n-----------------\nR. A. Hettinga \nThe Internet Bearer Underwriting Corporation \n44 Farquhar Street, Boston, MA 02131 USA\n\"... however it may deserve respect for its usefulness and antiquity,\n[predicting the end of the world] has not been found agreeable to\nexperience.\" -- Edward Gibbon, 'Decline and Fall of the Roman Empire'", 
+    "to": [
+        "Digital Bearer Settlement List <dbs@philodox.com>, fork@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "\"R. A. Hettinga\" <rah@shipwright.com>", 
+    "subject": "Re: Optical analog computing?"
+}

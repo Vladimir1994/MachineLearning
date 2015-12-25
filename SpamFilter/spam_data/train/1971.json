@@ -1,0 +1,9 @@
+{
+    "body": "Im still learning how to use mailing lists I read alot but I dont reply \nalot. \n \nTesting would be your best bet. If you want current you need debian \nunstable.. I think you can get the binary's from the experiential repo \nthough \n \nOn Fri, Apr 23, 2010 at 7:38 PM, Ron Johnson wrote: \n \n> On 04/22/2010 03:54 AM, Dotan Cohen wrote: \n> [snip] \n> \n>> It looks to me that Backports is the best for an everyday \n>> user who values stability, and prefers to use released software \n>> version. Please let me know where I am mistaken. Thanks. \n>> \n> \n> \"stable with current releases\" is a contradiction. If you want current \n> releases, run Testing or Unstable. (Ignore the scary words from the \n> website. Testing and Unstable are Stable Enough.) \n> \n> If you *really want* Stable, though, deinstall iceweseal, icedove, \n> openoffice, etc and get their binaries directly from upstream. There's no \n> shame in that. (For OOo, I'd recommend www.go-oo.org; it's Debian's \n> upstream.) \n> \n> -- \n> Dissent is patriotic, remember? \n> \n> \n> -- \n> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a \n> subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \n> Archive: http://lists.debian.org/4BD22F5C.9010204@cox.net \n> \n> \n \n \n-- \nThomas Ferry A.K.A Jinzo", 
+    "to": [
+        "Ron Johnson <ron.l.johnson@cox.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Thomas Ferry <thomas.ferry@csmining.org>", 
+    "subject": "Re: Moving to Debian: updated software"
+}

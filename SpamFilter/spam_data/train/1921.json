@@ -1,0 +1,9 @@
+{
+    "body": "On Friday 07 May 2010 05:53:57 Martin Steigerwald wrote: \n> Am Freitag 07 Mai 2010 schrieb Boyd Stephen Smith Jr.: \n> > Reverting to KDEPIM 4.3 is an option, as is shipping an Akonadi that \n> > doesn't require MySQL. I know KDEPIM 4.3 works in a mostly KDE SC \n> > 4.4 environment (that's my current setup). I'll bet that \n> > pre-Akonadi-integration KMail could work with the rest of KDEPIM \n> > 4.4. There are a lot of ways to address my issue, and I don't demand \n> > that you address it at all. \n> \n> Where did you get that Akonadi from KDEPIM 4.3 does not require MySQL? \n> AFAIK thats just not true. Akonadi always *required* MySQL. Maybe it won't \n> in KDE 4.5, but until then. \n \nKMail from KDEPIM 4.3 did not require MySQL because it didn't require Akonadi. \nKMail from KDEPIM 4.4 does require MySQL because Akonadi form KDE SC 4.4 \nrequires MySQL. \nKMail from KDEPIM 4.5 might not require MySQL because Akonadi from KDE SC 4.5 \nmight not require MySQL. \n \nMy concern is the KMail -> MySQL relationship. There are quite a few ways to \nfix that. I think I'm going to focus my efforts on getting Akonadi/SQLite \nready for a release that is compatible with KDE SC 4.4 but occurs before the \nfreeze date, as well as documenting how to use it. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "I've never understood the mouse buffer operation with exmh either. Here's the \nbehaviour I have. I have exmh and XEmacs windows up, and a terminal window. (I \nalso have gnome1.4 running and enlightenment as wm.) I select text in the exmh \nwindow and while it is highlighted, I can paste into anything else. If I select \nit and then click so the highlighting is off, then what I paste is not the \nrecently-selected text in exmh, but an old selection. If I select in XEmacs and \nleave it highlighted, I can paste it into exmh sedit window; but if it is no \nlonger highlighted, what I paste is an old selection. I can live with this \nbehaviour except for one additional thing. If nothing is highlighted, then what \nI paste into exmh is different from what I paste into other windows. To be more \nspecific, here's what gets pasted if nothing is highlighted:\n\nApplication What gets pasted\n\nXEmacs whatever was last selected unless it was last selected in exmh\nxterm same as XEmacs\nAbiWord nothing\nNedit nothing\nsedit Whatever was last highlighted in sedit and overwritten\n\nThe last needs some amplification. If I highlight something in sedit, then \nobviously that's what gets pasted. If the highlighting is off, then what gets \npasted is NOT what was last highlighted in sedit, but what was last highlighted \nand typed over (I have \"Type Kills SEL\" on.).\n\nIt seems that exmh and sedit are the oddballs here. Very often when I try to \npaste something in sedit I end up muttering WTF??\n\n--\nrick\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Rick Baartman <baartman@lin12.triumf.ca>", 
+    "subject": "Re: bad focus/click behaviours"
+}

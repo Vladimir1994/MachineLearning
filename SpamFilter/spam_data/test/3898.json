@@ -1,0 +1,8 @@
+{
+    "body": "On Sun, 18 Apr 2010, Jeremy Huddleston wrote: \n \n> On Apr 18, 2010, at 10:06, Pierre Baguis wrote: \n> \n>> I tried to logout and it made no difference. Rebooting solved the issue. \n>> \n>> In the other machine where I installed XQuartz, not even a logout was necessary. Everything went smoothly and the update was applied right away. \n> \n> I suspect something else was going on outside of X11... the symptoms you were describing were very odd and not something a reboot would effect in X11. \n> \n \nThis is exactly the problem I saw when I updated X11 to 2.5.0 (mouse \nbutton 2 sends Leave/Notify instead of ButtonPress or ButtonRelease), and \nas a matter of fact I went so far as to open a ticket on it. It was \nmarked invalid a short while later when I reported that the problem went \naway with a reboot. \n \n \n \nSince that ticket was closed, I have seen the same problem on a second \nsystem running 10.5.8 (a PowerBook G4 15\"). A reboot also solved the \nproblem on the second system. Unfortunately I haven't seen the problem \nappear again on either of my two systems, so I can't offer any help in \nroot causing it. \n \nMike \n-- \nMike Thornburg \nmthorn@cisco.com \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Jeremy Huddleston <jeremyhu@apple.com>"
+    ], 
+    "from": "Mike Thornburg <mthorn@cisco.com>", 
+    "subject": "Re: Middle button click broken"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "I've had this binding in my ~/.exmh/exmhbindings for years:\n\nset {bindings(key,Flist_FindUnseen 1 ; Inc_PresortFinish)} \n\nAfter updating to the current code in CVS I get \"bad key f\" when \nI hit the \"f\" key. I can open the Bindings... Commands window \nand define the binding. It then works until I restart exmh.\n\nI suspect a parsing problem/change. I'll try to look into this \ntomorrow unless someone knows where the problem might be.\n\n--Hal\n\n\n\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "exmh-workers@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Hal DeVore <haldevore@acm.org>", 
+    "subject": "Bindings problem with current CVS code"
+}

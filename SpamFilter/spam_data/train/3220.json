@@ -1,0 +1,9 @@
+{
+    "body": "Yes, the lasat speed basic sucks-ass.com, it won't work coz its from eircon\nwho are shite. \n\nI have two of em sitting in my drawer of \"might have a use some day or\nother\"...\n\nGet yourself an el-cheapo ISDN card, 50 yoyo's will usually suffice. I have\na TRUST load a crap HFC based one which has been trodding along nicely for\nyonks. Gets detected automagically by pretty much ANY distro, has kernel\nsupport for a million years or so. \n\nLater,\nCW\n\np.s.: you other modems are probably winmodems and are a pain in ze arse.com,\nthey will work with lots of poking but not worth the effort IMHO. Just use\nISDN and NAT it.\n\n\n-----------------\nRegarding:\nAnother problem I have is that I cannot install my ISDN, USB modem ( LASAT\nSpeed Basic ), however im pretty sure its not supported by Linux, but again\nit is featured in the Hardware Browser, without installed drivers.\n\nThanks for your replies.... However i still cant get it to detect the\nExternal USB modem. I also have an internal 56k fax modem, but i cannot get\nthat detected either ( maybe its because it was designed for Windows and is\nnot supported ). Im not going to buy a new modem ( I think 2 is more than\nenough for 1 PC ).\n\nIt could well be my inexperience with Linux that is making this more\ndifficult, but whatever it is iv just about had enough!! Any last gasp ideas\nwould be welcome\n\nMany Thanks\n\nMark\n\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"'mconway35@eircom.net'\" <mconway35@eircom.net>, ILUG@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "\"Wynne, Conor\" <conor_wynne@maxtor.com>", 
+    "subject": "RE: [ILUG] RE: Newbie Question"
+}

@@ -1,0 +1,8 @@
+{
+    "body": "Done\n\n>>>Robert Elz said:\n > I suspect that as part of Chris' set of changes, he cleaned up the\n > use of the variable that was named \"L\" in FtocCommit (in ftoc.tcl).\n > Its name got changed from L to lineno\n > \n > But there's one reference of $L left. That causes tracebacks if\n > you attempt to use \"link\" with the current CVS version of exmh.\n > \n > I guess that most of us don't use \"link\" very often ... I noticed it\n > last week, but only got time to look and see why today.\n > \n > If someone with the ability to commit to the CVS repository would\n > apply the following patch (to lib/ftoc.tcl) that would be nice.\n > (It works... and is trivial, and you could perhaps just apply it by\n > making the change with an editor faster than saving this patch and\n > applying it - there's only one instance of $L in the file, that\n > should be changed to $lineno)\n > \n > kre\n > \n > \n > --- ftoc.tcl.PREV Wed Aug 21 15:01:48 2002\n > +++ ftoc.tcl Tue Sep 10 12:47:06 2002\n > @@ -1131,9 +1131,9 @@\n > }\n > }\n > incr ftoc(numMsgs) -1\n > } else {\n > - FtocUnmarkInner $L\n > + FtocUnmarkInner $lineno\n > }\n > incr ftoc(changed) -1\n > }\n > if {$delmsgs != {}} {\n > \n > --==_Exmh_16073047980--\n\n--\nBrent Welch\nSoftware Architect, Panasas Inc\nPioneering the World's Most Scalable and Agile Storage Network\nwww.panasas.com\nwelch@panasas.com\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@example.com"
+    ], 
+    "from": "Brent Welch <welch@panasas.com>", 
+    "subject": "Re: Patch to complete a change..."
+}

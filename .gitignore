@@ -1,0 +1,4 @@
+# Compiled Object files
+*pyc
+.idea/
+mydjangosite/.idea/

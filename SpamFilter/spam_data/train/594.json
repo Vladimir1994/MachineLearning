@@ -1,0 +1,9 @@
+{
+    "body": "Heyho! \n \nShort note to the KDE packagers since kdenetwork now depends on \nlibkwebkitpart-dev: don't hesitate to NMU (even with zero delay) if it helps \nto get KDE into squeeze faster. (In any case, and if no bug reports come \nin, I'll just wait with the next upload until kwebkitpart is in testing.) \n \ncheers \n-- vbi \n \n \n-- \nNo wonder you're tired! You understood so much today.", 
+    "to": [
+        "\"Debian-KDE Mailingliste\" <debian-kde@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Adrian von Bidder <avbidder@fortytwo.ch>", 
+    "subject": "KWebkitPart dependency"
+}

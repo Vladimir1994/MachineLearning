@@ -1,0 +1,9 @@
+{
+    "body": "On Friday 14 May 2010 14:36:44 Boyd Stephen Smith Jr. wrote: \n> Does it annoy anyone else that the 'aptitude' package no longer provides an \n> 'aptitude' binary? \n> \n> Typing 'aptitude-curses' is a little annoying. I'm assuming the rename is \n> because of work on aptitude-gtk and aptitude-qt. If so, wouldn't using the \n> alternatives system for an 'aptitude' symlink make sense? \n \nI think I may have been hit by bug 575137. I am using btrfs, and there were \nsome issues during the install, but I do not believe I have suffered any file \nsystem corruption in the dpkg databse or the aptitude package. \n \nIn particular, (debsums -a aptitude) reports all the files are in good \ncondition. (update-alternatives --display aptitude) shows: \nNo alternatives for aptitude. \n \nI initially installed 0.4.11.11-1~lenny1 on this system, but have since \nupgraded to 0.6.1.5-3. Is there a good way for me to establish an alternative \nthat will not mess up on the next upgrade? Or, is this problem supposedly \nfixed in 0.6.2.1-2 and I should just upgrade now? \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: Aptitude From Testing"
+}

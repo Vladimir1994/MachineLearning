@@ -1,0 +1,9 @@
+{
+    "body": "To update spamassasin, all I need to do is install the new tar.gz \nfile as if it were a new installation? I don't need to stop incoming \nmail or anything like that? Thanks, Mike\n\n\n-- \nMichael Clark, Webmaster\nCenter for Democracy and Technology\n1634 Eye Street NW, Suite 1100\nWashington, DC 20006\nvoice: 202-637-9800\nhttp://www.cdt.org/\n\nJoin our Activist Network! Your participation can make a difference!\nhttp://www.cdt.org/join/\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Clark <mclark@cdtmail.org>", 
+    "subject": "[SAtalk] updating SA"
+}

@@ -1,0 +1,7 @@
+{
+    "body": ">> > ##Remove: jeremy@alum.mit.edu##\n\n Tim> Yuck: it got two 0.01's from embedding your email address at the\n Tim> bottom here.\n\nWhich suggests that tagging email addresses in To/CC headers should be\nhandled differently than in message bodies?\n\nSkip", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "skip@pobox.com (Skip Montanaro)", 
+    "subject": "[Spambayes] understanding high false negative rate"
+}

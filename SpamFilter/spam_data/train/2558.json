@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, Aug 08, 2002 at 11:51:18AM -0600, Scott Wunsch mentioned:\n> On Thu, 08-Aug-2002 at 11:31:01 +0100, John P. Looney wrote:\n> > I've installed Redhat 7.3 on a raq3's disk. But fscked if I can get the\n> > kernel in /boot/vmlinuz-2.4.18-3 to boot. It's insisting pulling the\n> > kernel from ... somewhere else. The old cobalt kernel.\n> http://www.gurulabs.com/rgh-cobalt-howto/index.html\n> \n> The Cobalt systems have some neat firmware boot code that will read the\n> ext2 filesystem and find the kernel itself... if you put it exactly where\n> they expect it.\n\n Alas, I've been following that howto, and it doesn't seem to work. It\ncould be because i'm using ext3 for the rootfs though.\n\nKate\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "\"John P. Looney\" <valen@tuatha.org>", 
+    "subject": "Re: [ILUG] Cobalt question"
+}

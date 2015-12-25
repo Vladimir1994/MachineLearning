@@ -1,0 +1,9 @@
+{
+    "body": "I concur, but just ignore the razor errors during the make test of\nspamassassin. That recently started failing but appears just to be the\ntest failing. \n\n-----Original Message-----\nFrom: Justin Mason [mailto:yyyy@spamassassin.taint.org] \nSent: Thursday, August 08, 2002 9:07 AM\nTo: Michael Graff\nCc: razor-users@example.sourceforge.net\nSubject: Re: [Razor-users] New to razor \n\n\n\nMichael Graff said:\n\n> I'm trying to get spamassassin 2.31 and razor (latest) to play \n> together. From what I see, this isn't likely to happen trivially,\n\nMike -- use the CVS version of SpamAssassin. it works well and supports\nRazor 2.\n\n--j.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf _______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "\"Justin Mason\" <yyyy@spamassassin.taint.org>,\n\t\"Michael Graff\" <explorer@flame.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Rose, Bobby\" <brose@med.wayne.edu>", 
+    "subject": "RE: [Razor-users] New to razor"
+}

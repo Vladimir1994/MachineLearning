@@ -1,0 +1,9 @@
+{
+    "body": "Not with a different server, but I have tested it with a different \nclient - command line FTP - , it works in text and binary mode and I can \nupload files to the server. I cannot figure why in GUI mode it does not \nwork while in command line it does. \n-- \nTomas Kral ", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Tomas Kral <thomas.kral@centrum.cz>", 
+    "subject": "Re: Re: Lenny - GNOME FTP Connect To Server"
+}

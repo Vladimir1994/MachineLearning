@@ -1,0 +1,8 @@
+{
+    "body": "On 5/20/2010 6:09 PM, lrhorer wrote: \n> \n> OK, I'm stumped. I was having some problems which were likely related \n> to the old kernel in Debian \"Lenny\", so I upgraded to \"Squeeze\" in \n> order to alleviate the issue, which it apparently has. Now, however, I \n> need to fsck the main array on the box, which is formatted as XFS. The \n> xfs-repair utility is not on the upgraded system. (I was forced to do \n> a fresh install of the boot drive.) How can I obtain the XFS file \n> utilities - particularly xfs-repair - under \"Squeeze\"? \n> \n> \n \n \nIf xfsprogs is installed, then I think fsck will do it, just first run \nsomething like: \n \ntune2fs -C912 /dev/sda3 \n \nand reboot, where C is the Capital 'C', 912 is some number larger than \nthe current maximum mount count (before automatically fsck'ing) and \nsubstitute your actual device path for the /dev/sda3 I used as an \nexample. \n \nI think xfsprogs has some other tools as well. \n \nOh wait, I reread your question. \n \n \nIf the machine is in working order, you can just do: \n \n#apt-get install xfsprogs \n \nIf not, then a live CD will be needed, something like Knoppix, be sure \nit has XFS support. Just boot the live CD or DVD, and Bob's your uncle. \n \nI'm unsure, does the Debian squeeze installer fully support XFS? \n \n \nMAA \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF5DAE7.9060002@allums.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Mark Allums <mark@allums.com>", 
+    "subject": "Re: How do I fsck and XFS file system in \"Squeeze\""
+}

@@ -1,0 +1,9 @@
+{
+    "body": "kevin lyda wrote:\n> oh, and of course images/use.linux.gif is an animated gif that is\n> transparent for 55 seconds and then displays \"use linux!\" in a large\n> blue font for 5 seconds. :)\n> \n> and the way to create animated gifs is to put each frame in a layer in\n> the gimp. pick any name for each layer, but make sure each layer ends\n> with (XXXms) where XXX is the number of milliseconds the frame displays.\n> then use the animation tool to export the animation.\n\nNice trick.\n\nOne thing - to save an image as an animated GIF (for example),\nyou just do a save as, and set the extension to .gif - you should\nget a dialog asking whether you want to merge visible layers or\nsave as an animation. I believe that you can also specify the\nextension as .mpg or .mpeg if you've got the mpeg plug-in built.\n\nCheers,\nDave.\n\n-- \n David Neary,\n Marseille, France\n E-Mail: bolsh@gimp.org\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "irish linux users group <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "David Neary <dneary@wanadoo.fr>", 
+    "subject": "Re: [ILUG] web amusements..."
+}

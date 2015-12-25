@@ -1,0 +1,9 @@
+{
+    "body": "Matthias said:\n\n>Could you post the list of files in question?\n\nSure. I used the following command to rebuild the package:\n\nrpmbuild --rebuild --target i586 lame-3.92-fr5.src.rpm\n\nAnd here is the error output for the files:\n\nRPM build errors:\n user dude does not exist - using root\n user dude does not exist - using root\n Installed (but unpackaged) file(s) found:\n /usr/share/doc/lame/html/basic.html\n /usr/share/doc/lame/html/contributors.html\n /usr/share/doc/lame/html/examples.html\n /usr/share/doc/lame/html/history.html\n /usr/share/doc/lame/html/id3.html\n /usr/share/doc/lame/html/index.html\n /usr/share/doc/lame/html/lame.css\n /usr/share/doc/lame/html/modes.html\n /usr/share/doc/lame/html/node6.html\n /usr/share/doc/lame/html/switchs.html\n\nCoy\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Coy Krill <coy.krill@verizon.net>", 
+    "subject": "Re: Problem building lame-3.92-fr5.src.rpm on RH8"
+}

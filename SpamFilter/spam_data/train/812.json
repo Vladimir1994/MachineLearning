@@ -1,0 +1,9 @@
+{
+    "body": "On Apr 25, 2010, at 4:12 AM, Dave Keck wrote: \n \n>> Just include the protocol in the category interface e.g. \n>> \n>> @interface MyObject(FooDelegate) \n>> .... \n>> @end \n>> \n>> And make sure this is visible to the compiler when you set an instance \n>> as a delegate. \n> \n> Ah! I was under the false impression that categories couldn't declare \n> themselves as implementing a protocol. This works beautifully. \n \nI ran into a problem doing this a few years ago, where calling \n-conformsToProtocol: would cause a hang when the protocol was \nimplemented in a category. That might be fixed by now, but be \ncareful if you check conformance. \n \n-- \nAdam \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nObjc-language mailing list (Objc-language@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Dave Keck <davekeck@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Adam R. Maxwell\" <amaxwell@mac.com>", 
+    "subject": "Re: Protocol implementation in category"
+}

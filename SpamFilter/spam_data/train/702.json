@@ -1,0 +1,9 @@
+{
+    "body": "> == SoloCDM\n>> == Bryan Hunt\n\n>> choose the repair option when installing windows nt/2000/whatever\n\n> What is the \"repair option\"?\n\nWhen you boot from the WNT/W2k/whatever install CD, it offers you the\nchoice of installing a new system, or repairing an existing\ninstallation.\n\n Colm\n\n-- \nColm Buckley | colm@tuatha.org | +353 87 2469146 | www.colm.buckley.name\nWhy be difficult when, with a bit of effort, you could be impossible?\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "deedsmis@aculink.net, ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Colm Buckley <colm@tuatha.org>", 
+    "subject": "Re: [ILUG] Re: removing lilo"
+}

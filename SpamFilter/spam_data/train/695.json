@@ -1,0 +1,7 @@
+{
+    "body": "> Before we get too far down this road, what do people think of creating a\n> spambayes package containing classifier and tokenizer? This is just to\n> minimize clutter in site-packages.\n\nToo early IMO (if you mean to leave the various other tools out of\nit). If and when we package this, perhaps we should use Barry's trick\nfrom the email package for making the package itself the toplevel dir\nof the distribution (rather than requiring an extra directory level\njust so the package can be a subdir of the distro).\n\n--Guido van Rossum (home page: http://www.python.org/~guido/)", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "guido@python.org (Guido van Rossum)", 
+    "subject": "[Spambayes] spambayes package?"
+}

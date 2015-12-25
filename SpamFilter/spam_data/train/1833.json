@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://www.newsisfree.com/click/-4,8494551,159/\nDate: 2002-10-03T05:50:07+01:00\n\nRendering polygons is not as easy as it used to be, the reason being the vast \namount of different rendering techniques, methods and algorithms available. Not \nonly is choosing the right ones a problem, even worse, all that are selected \nneed to work together. There are some algorithms which simply do not work \ntogether, and in that case, only one may be used whilt the other one needs to \nbe replaced witha more compatible method. This feature explores how Factor 5 \napproached the problem when developing Rogue Leader for Gamecube.", 
+    "to": [
+        "yyyy@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "gamasutra <rssfeeds@example.com>", 
+    "subject": "Shader Integration: Merging Shading Technologies on the Nintendo     Gamecube"
+}

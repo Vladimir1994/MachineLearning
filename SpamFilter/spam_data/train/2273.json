@@ -1,0 +1,9 @@
+{
+    "body": "rsync over ssh.. very nice!\n\nDonncha.\n\n\nOn Tuesday 13 August 2002 12:22, Niall O Broin wrote:\n> What are the best options available on Linux ? SFTP ? WebDAV ? Something\n> else ? Linux servers - Linux and Mac OS-X clients.\n>\n>\n>\n> Niall\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie, Niall O Broin <niall@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "Donncha O Caoimh <donncha.ocaoimh@tradesignals.com>", 
+    "subject": "Re: [ILUG] Secure remote file access"
+}

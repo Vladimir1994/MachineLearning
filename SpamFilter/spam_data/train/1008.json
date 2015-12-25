@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, Apr 20, 2010 at 05:44:20PM -0600, \"Monique Y. Mudama\" was heard to say: \n> For some reason, this just now triggered a memory for me. I think \n> sometimes when aptitude is making suggestions to resolve conflicts, it \n> will un-hold packages. I wonder if this is how your explicit hold gets \n> removed. \n \n Just so this isn't left hanging, the reason I say this shouldn't \nhappen is that it *used* to happen and I fixed it. There were two ways \nyou could get broken holds, and I fixed one in version 0.4.11: \n \n * The aptitude dependency resolver will now refuse to adjust held \n packages or install forbidden versions unless you manually allow \n it to. This behavior can be disabled by setting \n Aptitude::ProblemResolver::Allow-Break-Holds to \"false\". \n \n aptitude will still break holds when packages are being \n automatically installed; there is a pending patch against apt that \n eliminates this behavior. \n \n and the other in 0.5.9rc1: \n \n + [all] aptitude now uses the new hooks in apt to prevent the greedy \n resolver from removing packages or breaking holds. \n \n (Closes: #177374, #205049, #374353, #376802, #406506, \n #430816, #434731, #442420, #452589) \n \n I am not, at present, aware of any other circumstances where aptitude \nwrongly breaks holds. That said, I don't put packages on hold very \noften, so I depend on users to send bug reports if they're seeing that \nbehavior. \n \n Daniel \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100423141629.GA29441@emurlahn.burrows.local", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Burrows <dburrows@debian.org>", 
+    "subject": "Re: How to trick my Debian in thinking that a package is not installed"
+}

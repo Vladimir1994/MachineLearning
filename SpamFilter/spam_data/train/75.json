@@ -1,0 +1,9 @@
+{
+    "body": "I have a small bashscript which prepares a dual-monitor setup for my \nlaptop, since i'm moving in and out of the office and meetings, I tend \nto attach and disconnect the monitor a few times a day. \n \nThat works fine with xrandr, but the issue is that I would like some \ngnome panels to move, and add one to the extra monitor. I have googled \naround but cant seemt o find that it would be possible, but it must be \nin some way, us usual. So, any hints? \n \nBasically, add one panel to one monitor, and add a window list to that \npanel. \n \nBest regards, \n Eric \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF38357.3090600@persson.tm", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Eric Persson <eric@persson.tm>", 
+    "subject": "Scripting gnome-panels"
+}

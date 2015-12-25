@@ -1,0 +1,8 @@
+{
+    "body": "Date: Fri, 13 Sep 2002 11:26:30 +1000\n From: Tony Nugent \n Message-ID: \n\n | I can cut'n'paste from exmh's message display window into spawned\n | gvim processes, but not into anything else.\n\nThat's odd. I cut & paste between all kinds of windows (exmh into\nmozilla, xterm, another wish script of mine I use for DNS tasks (but\nthat one I guess is to be expected) netscape (when I used to use it,\nbut I suppose it and mozilla are the same codebase, approx) - in fact\nI can't thing of anything it fails for, that I have noticed.\n\nWhat is an example of an \"anything else\" that it fails for for you?\n\nkre\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "from": "Robert Elz <kre@munnari.OZ.AU>", 
+    "subject": "Re: bad focus/click behaviours"
+}

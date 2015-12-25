@@ -1,0 +1,8 @@
+{
+    "body": "* On 2010 22 May 06:42 -0500, Osamu Aoki wrote: \n \n> Please understand releasing big packages such as this one so frequenly will \n> stress many porting efforts for no obvious gains. \n> \n> There are many other packages which we are really behind. \n \nJust a personal perception here, it seems as though OpenOffice gets \nupdated, mostly advancement of Debian versions, quite frequently. \nSometimes frequently enough that I get a bit annoyed at it while some \nother packages seem to languish. Again this is just a personal \nperception. I know that some packages have very active maintainer(s) \nand others not. \n \nI've not checked it out closely, but is alioth.debian.org similar to \nUbuntu's Launchpad where community members can set up their own personal \narchive? It seems as though someone who shows a personal interest and \n(pardon the pun) aptitude with packaging could thus gain some \nrecognition and become a maintainer with a bit more effort. Perhaps I \nam all wrong. \n \n- Nate >> \n \n-- \n \n\"The optimist proclaims that we live in the best of all \npossible worlds. The pessimist fears this is true.\" \n \nHam radio, Linux, bikes, and more: http://n0nb.us/index.html \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100522120426.GA3108@n0nb.us", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Nate Bargmann <n0nb@n0nb.us>", 
+    "subject": "Re: Chromium in Sid"
+}

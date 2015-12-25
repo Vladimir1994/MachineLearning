@@ -1,0 +1,9 @@
+{
+    "body": "On 05/02/2010 04:15 AM, Camaleón wrote: \n> On Sat, 01 May 2010 18:00:58 -0500, Ron Johnson wrote: \n> \n>> On 05/01/2010 05:17 PM, Camaleón wrote: \n> \n>>>> Interesting. What magic do I chant to make executable those files in \n>>>> udf partitions, since \"exec\" in the fstab options doesn't seem to \n>>>> work? \n>>> \n>>> Does this happen with all DVD/CDs you insert or just only with a few \n>>> ones? \n>>> \n>>> \n>> Apparently only on disks burned on a Toshiba DVR. \n> \n> There is an open bug report for Ubuntu where the reporter was having a \n> similar situation: \n> \n> *** \n> Users do not have permission to open files in DVDs burnt in a Mac \n> https://bugs.launchpad.net/ubuntu/+source/hal/+bug/72872 \n> *** \n> \n> The media was burnt in a Mac (yours on a PVR) but in both cases the \n> permissions on the media are wrongly set and impedes the user to access \n> the files in a usual way. \n \nhttps://bugs.launchpad.net/ubuntu/+source/hal/+bug/72872/comments/24 \n \n> Read comment #18 (it comes from a Debian user). \n> \n> Maybe it's worth to make a report in BTS. \n> \n \nThere are enough bugs against the kernel already... \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BDDAA77.6000402@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: Mounting DVD.  What am I doing wrong?"
+}

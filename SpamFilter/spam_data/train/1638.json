@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, C.Lee wrote :\n\n> > I think I'll use this \"--with \" switch more and more where\n> > possible.\n> Mmm, great stuff ... Now to get the RedHat Samba packager to do the\n> same thing ...\n\nI'm sure that if you file a bugzilla entry with a relevant patch against\nthe spec file, chances of getting the change done are on your side ;-)\n\n> I have used there spec file and fun a few problems in it, and one\n> of them was just hashing out things for other use ...\n> \n> Now to get to grips with the Kernel ... still have not found and\n> easy way to rebuild the Kernel without having to wait and hour for\n> it to generate the headers for all arch ... arrrrhhhh ...\n\nThe problem is that \"--with --without \" is clearly not meant to\nchange deeply the way a package is built. Its use would be more like\nenabling/disabling gpg, ldap, whateversql support in packages as it's not\npossible to use something like \"--with- = \" which could be used for\na much wider scope.\n\nMatthias\n\n-- \nClean custom Red Hat Linux rpm packages : http://freshrpms.net/\nRed Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10\nLoad : 0.00 0.12 0.32, AC on-line, battery charging: 100% (4:47)\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@rpmforge.net>", 
+    "subject": "Re: --with ..."
+}

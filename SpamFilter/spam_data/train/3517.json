@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 23 May 2010 16:11:30 -0400 (EDT), William Pitcock wrote: \n> \"Stephen Powell\" wrote: \n>> (blah blah blah blah) \n> \n> Nobody cares if you are opposed to it. Unless you are offering to become \n> lilo upstream, it's going away. \n> \n> William \n \nI do understand why a Debian package maintainer does not wish to become \n\"upstream\". And I hope that someone who is both willing and able to do \nso steps up to the plate. But withdrawing it from the distribution seems \nlike overkill to me, especially since you want to withdraw it from Squeeze \nand not Squeeze+1. Lilo, as it exists today, works just fine for my \npurposes. And apparently it works just fine for a lot of other people too. \n \nThe Lord bless you, William. \n \n-- \n .''`. Stephen Powell \n : :' : \n `. `'` \n `- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1170680188.363342.1274662130640.JavaMail.root@md01.wow.synacor.com", 
+    "to": [
+        "debian-devel@lists.debian.org, debian-user@lists.debian.org, \r\n\tdebian-boot@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Powell <zlinuxman@wowway.com>", 
+    "subject": "Re: lilo removal in squeeze (or, \"please test grub2\")"
+}

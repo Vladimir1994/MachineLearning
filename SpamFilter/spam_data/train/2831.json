@@ -1,0 +1,9 @@
+{
+    "body": "On 4/9/2010 10:41 AM, Hugo Vanwoerkom wrote: \n> Hi, \n> \n> How come the latest linux-image-2.6-686 in Sid is: \n> \n> http://packages.debian.org/sid/linux-headers-2.6-686 \n> \n> and is set to linux-image-2.6-686 (2.6.32+24) while apt-cache policy \n> linux-image-2.6-686 gives: \n> \n> linux-image-2.6-686: \n> Installed: 2.6.32+25 \n> Candidate: 2.6.32+25 \n> Version table: \n> *** 2.6.32+25 0 \n> 500 http://ftp.de.debian.org unstable/main Packages \n> 100 /var/lib/dpkg/status \n> \n> while linux-image-2.6.32-4-686 (2.6.32-11) is the latest per: \n> \n> apt-cache policy linux-image-2.6.32-4-686 \n> linux-image-2.6.32-4-686: \n> Installed: (none) \n> Candidate: 2.6.32-11 \n> Version table: \n> 2.6.32-11 0 \n> 500 http://ftp.de.debian.org unstable/main Packages \n \n \n2.6.32-11 is in Squeeze. A guess (based on nothing) might be that a \nfreeze is imminent, leading up to the release of Squeeze. I expect that \nit will be straightened out in due course. \n \nMAA \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBF4C64.1060207@allums.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Mark Allums <mark@allums.com>", 
+    "subject": "Re: how come..."
+}

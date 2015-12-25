@@ -1,0 +1,9 @@
+{
+    "body": "Hi everybody, \n \nPlease, CC: me, as I am not subscribed to the list. \n \nI am running Debian sid on an Apple iMac 27\", with a Mobility Radeon HD \n4850 video card (ATI Technologies Inc M98L). The kernel I use is \n2.6.33-2 from experimental, and I have disable KMS. \n \nDepending on the version of the radeon driver I use, I see or not \nsomething on the screen: \n \n- with 1:6.12.192-2, everything startx correctly when I launch startx \n from the command line. \n- with 1:6.13.0-1, the screen becomes black, and it is impossible to go \n back to a console using Alt+Ctl+F?. However, I can ssh to the system, \n and see using ps that the KDE session has indeed started. \n \nHere are in attachment the two logs: failed is with 6.13, and success is \nwith 6.12.192. \n \nHas someone an idea of what is going on? Is there an option I could add \nto my (at the moment empty) xorg.conf to remedy this problem? \n \nBest regards, \n \n Cédric", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?Q?C=E9dric?= Boutillier <cedric.boutillier@csmining.org>", 
+    "subject": "black screen when starting X on radeon HD4850 with   xserver-xorg-video-radeon 1:6.13"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Niall O Broin wrote:\n> On Mon, Aug 19, 2002 at 10:27:57AM +0100, Padraig Brady wrote:\n> \n> \n>>>Well, here's a solution using seq and sed - IMHO its a rather dim solution\n>>>and it definitely dies if STRING contains / (and probably has other ways to\n>>>die too) and a bash loop would certainly be faster, but you know how to do\n>>>it with loops :-)\n>>>\n>>>PREFIX=seq -s \"\" $NUMBER|sed \"s/./$STRING/g\"OA\n>>\n>>clever. A bit more robust is:\n>>#first param is number of\n>>#times to repeat second param\n>>#\n>>#e.g. quote=`repeat 3 '> '`\n>>repeat() {\n>> seq -s , $1 | sed \"s¬[0-9]\\{1,\\}[,]*¬$2¬g\"\n>>}\n> \n> But it's such a crap colution anyway, why would you want to make it more\n> robust ?\n> \n\nGive yourself credit :-) it's a nice solution,\nwith just 2 lightweight processes. The same thing\ncoded in shell loops wouldn't be nearly as elegant\nand not as scalable to boot.\n\nPádraig.\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Padraig Brady <padraig.brady@corvil.com>", 
+    "subject": "Re: [ILUG] expanding a string multiple times"
+}

@@ -1,0 +1,8 @@
+{
+    "body": "---------- Forwarded message ----------\nDate: 19 Sep 2002 22:18:46 -0400\nFrom: Perry E. Metzger \nTo: cryptography@wasabisystems.com\nSubject: Sun donates elliptic curve code to OpenSSL?\n\n\nAccording to this:\n\nhttp://www.sun.com/smi/Press/sunflash/2002-09/sunflash.20020919.8.html\n\nSun is donating some elliptic curve code to the OpenSSL project. Does\nanyone know details that they would care to share on the nature of the\ndonation?\n\n-- \nPerry E. Metzger perry@piermont.com\n\n---------------------------------------------------------------------\nThe Cryptography Mailing List\nUnsubscribe by sending \"unsubscribe cryptography\" to majordomo@wasabisystems.com", 
+    "to": [
+        "forkit! <fork@example.com>"
+    ], 
+    "from": "Eugen Leitl <eugen@leitl.org>", 
+    "subject": "Sun donates elliptic curve code to OpenSSL? (fwd)"
+}

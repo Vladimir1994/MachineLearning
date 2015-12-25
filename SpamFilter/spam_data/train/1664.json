@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nI am running up-to-date squeeze on a Dell Latitude D420. I have a \ntrivial problem, but such things bother me :-) \n \nThe hotkeys for volume and brightness adjustment work out of the box in a \nGNOME session. However, when I adjust the volume using the hotkeys, I see \na nice translucent on-screen display of the volume level. This is not \nthe case for brightness control. \n \nInterestingly, I briefly installed KDE a couple of days ago. I then \nfound that, *during a GNOME session*, the brightness OSD did appear. It \nvanished again after I removed KDE. \n \nSo, the KDE installation seemed to pull in some package which is \nresponsible for the brightness OSD. Any idea which of the dozens of \npackages it might be? \n \nLiam \n \n-- \nLiam O'Toole \nBirmingham, United Kingdom \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/slrnhvctlr.b3s.liam.p.otoole@dipsy.selfip.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Liam O'Toole <liam.p.otoole@csmining.org>", 
+    "subject": "Brightness OSD in Squeeze"
+}

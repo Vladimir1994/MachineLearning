@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 27 Apr 2010 10:40:58 -0500 \n\"Boyd Stephen Smith Jr.\" wrote: \n \n> On Monday 26 April 2010 21:09:06 Celejar wrote: \n> > I use a \n> > number of applications that implement tool tips, those little boxes \n> > that come up explaining some on screen widget. Very often, when one \n> > comes up and I then switch to a different window, \n> > the tool tip remains, superimposed over the new \n> > application, and won't go away until I switch back to the first app, \n> > move the cursor somewhere else to get it to go away, and then switch \n> > back to the other application. \n> > \n> > Should I file a bug, \n> \n> Sounds like a bug to me. Not exactly high-priority, but a bug nonetheless. \n> \n> > and against \n> > what? \n> \n> Well, does this only happen with tooltips from a single application? Multiple \n> related applications (e.g. multiple Qt-4 applications)? Every application? \n> \n> Single -> that app. \n> Multiple -> that library / related \"thing\". Or any one of the applications, \n> but include information about which other applications are affected. \n> Every -> Probably your window manager, maybe X. \n \nThe main offender is oowriter. I think that I've seen a similar \nproblem with other applications, but I can't reproduce such right now. \n \nCelejar \n-- \nfoffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator \nmailmin.sourceforge.net - remote access via secure (OpenPGP) email \nssuds.sourceforge.net - A Simple Sudoku Solver and Generator \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100427171801.53fff689.celejar@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Celejar <celejar@csmining.org>", 
+    "subject": "Re: tool tips remaining after window switching"
+}

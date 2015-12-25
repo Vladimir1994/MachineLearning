@@ -1,0 +1,9 @@
+{
+    "body": "Hmm - I'm cc'ing the exmh-workers list, because I really don't know\nmuch about the various PGP interfaces. I think there has been some\ntalk about \"issues\" with the latest version of gpg.\n\n>>>Hacksaw said:\n > version 2.5 08/15/2002\n > Linux habitrail.home.fools-errant.com 2.4.7-10smp #1 SMP Thu Sep 6 \n17:09:31\n > EDT 2001 i686 unknown\n > Tk 8.3 Tcl 8.3\n > \n > It's not clear to me this is a bug with exmh per se, but it's something \nthat\n \n > manifests through exmh, so I figured asking you might help me track it \ndown.\n > \n > When I receive a gpg encrypted message, and it asks me for a passphrase, \nit\n > first tries to ask me via the tty under which exmh is running. It tells \nme m\n y \n > passphrase is incorrect every time, at which point exmh offers me the \nline i\n n \n > the message about decrypting. I click the line and it offers me the \ndialog\n > box, and tells me the passphrase is correct, and shows me the decrypted \n > message.\n > \n > Any ideas on that?\n > -- \n > Honour necessity.\n > http://www.hacksaw.org -- http://www.privatecircus.com -- KB1FVD\n\n--\nBrent Welch\nSoftware Architect, Panasas Inc\nPioneering the World's Most Scalable and Agile Storage Network\nwww.panasas.com\nwelch@panasas.com\n\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "Hacksaw <hacksaw@hacksaw.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Brent Welch <welch@panasas.com>", 
+    "subject": "Re: exmh bug?"
+}

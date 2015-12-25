@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 29 Apr 2010 22:20:36 +0200, James Stuckey wrote: \n \n> On Thu, Apr 29, 2010 at 10:15 PM, Camaleón wrote: \n \n>> Option \"DPI\" \"96 x 96\" \n>> \n>> Under your /etc/X11/Xorg.conf \"Monitor\" section? \n>> \n>> (make a backup copy of the original file before making any change) \n>> \n>> I can't tell if that made a change or not. In either case, the fonts \n>> still \n> look like garbage/aren't easy to read. \n> I should note, the fonts in what \n> I'm typing right now (gmail) aren't bad -- it's the fonts on the menu \n> bar in iceweasel/icedove/whatever program. \n \nCan you please upload a snapshot so we can see what you get? \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.29.21.05.08@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: Making onscreen fonts read-able[was:New monitor, how to change    screen resolution?]"
+}

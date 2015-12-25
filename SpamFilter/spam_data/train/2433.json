@@ -1,0 +1,9 @@
+{
+    "body": "Sven Joachim put forth on 5/23/2010 1:05 AM: \n> On 2010-05-23 07:47 +0200, Stan Hoeppner wrote: \n> \n>> No, resist forced conformity. This is Linux. We have multiple choice with \n>> everything else, so we should darn well have our choice of boot loader. \n> \n> You're welcome to work on lilo so that can cope with the increasing size \n> of kernel images and initramfs. \n \nMy point was exactly that. For users who run tight, tiny, custom kernels \neither without initrd (such as myself) or with tiny initrd tailored to a \nspecific hardware config, LILO should be allowed as an option for these users. \n \nGrub is bloated because it is designed to accommodate bloat. LILO is the \nantithesis of bloat. \n \nMany OPs don't need or want LILO to be able to accommodate bloated kernel \nimages or initrd. The current version of LILO is fine. We just want the \noption to be able to use LILO because our kernel images aren't bloated, and \nGrub is a PITA to work with, and is unnecessary on our systems. \n \n-- \nStan \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF9A150.50600@hardwarefreak.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stan Hoeppner <stan@hardwarefreak.com>", 
+    "subject": "Re: lilo removal in squeeze (or, \"please test grub2\")"
+}

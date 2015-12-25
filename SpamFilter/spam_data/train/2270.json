@@ -1,0 +1,9 @@
+{
+    "body": "Thanks for the info AJ, I found \"weblog\" at \nhttp://awsd.com/scripts/weblog/index.shtml which has some click-path \nreporting. It's simple, but works. Report generation takes a bit though, even \nwith dns resolution turned off..\n\nDonncha.\n\n\nOn Monday 07 October 2002 23:35, AJ McKee wrote:\n> Donncha,\n>\n> I've been using mod_usertrack for a good while now. I use in by default in\n> every vhost that I set up. I assign a cookie name and set the expiry for\n> about a year. I have to say it looks ok. A few things to note though. If a\n_______________________________________________\nWebdev mailing list\nWebdev@linux.ie\nhttp://www.linux.ie/mailman/listinfo/webdev", 
+    "to": [
+        "<aj.mckee@nmtbmedia.com>, <webdev@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "Donncha O Caoimh <donncha.ocaoimh@tradesignals.com>", 
+    "subject": "Re: [Webdev] mod_usertrack"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "use Perl Daily Newsletter\n\nIn this issue:\n * PerlQT 3 Released\n\n+--------------------------------------------------------------------+\n| PerlQT 3 Released |\n| posted by ziggy on Thursday September 19, @10:41 (tools) |\n| http://use.perl.org/article.pl?sid=02/09/19/1443213 |\n+--------------------------------------------------------------------+\n\n[0]Dom2 writes \"As seen on the dot, a new version of [1]PerlQT is out!\nApparently sporting a perl version of [2]uic for developing ui's from\nXML. A [3]tutorial is available for those wanting to know more details.\"\n\nDiscuss this story at:\n http://use.perl.org/comments.pl?sid=02/09/19/1443213\n\nLinks:\n 0. mailto:dom@happygiraffe.net\n 1. http://perlqt.infonium.com/\n 2. http://doc.trolltech.com/3.0/uic.html\n 3. http://perlqt.infonium.com/dist/current/doc/index.html\n\n\n\nCopyright 1997-2002 pudge. All rights reserved.\n\n\n======================================================================\n\nYou have received this message because you subscribed to it\non use Perl. To stop receiving this and other\nmessages from use Perl, or to add more messages\nor change your preferences, please go to your user page.\n\n http://use.perl.org/my/messages/\n\nYou can log in and change your preferences from there.", 
+    "to": [
+        "yyyy-use-perl@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "pudge@perl.org", 
+    "subject": "[use Perl] Stories for 2002-09-20"
+}

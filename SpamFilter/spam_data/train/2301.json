@@ -1,0 +1,9 @@
+{
+    "body": "On 21/05/10 12:37, Γιώργος Πάλλας wrote: \n> Hello to all! \n> I just upgraded my debian testing, installing nepomuk search. My \n> problem is that the indexer every now and then appears in the systray \n> for a second or so, and then disappears, which is very distracting (or \n> am I very sensitive? :-) )... Anyone knows how to stop the icon from \n> getting on my nerves? :-) \n> \n> Thanks! \n> G. \n> \n \nAside from disabling the damn thing from working automatically in the \nfirst place - no. \n \nKDE4 is becoming increasingly bloated and does seem to be calling in an \nincreasing amount of dependencies and additional database-related \nlibraries which then seemingly take over. Not OK. \n \nMy $0.02 worth. \n \nAG \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF7B062.8070201@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "AG <computing.account@googlemail.com>", 
+    "subject": "Re: nepomuk indexer in systray"
+}

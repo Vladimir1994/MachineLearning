@@ -1,0 +1,9 @@
+{
+    "body": "use Perl Daily Headline Mailer\n\nThis Week on perl5-porters (26 August / 1st September 2002)\n posted by rafael on Monday September 02, @03:47 (summaries)\n http://use.perl.org/article.pl?sid=02/09/02/0755208\n\nThe Perl Review, v0 i5\n posted by ziggy on Monday September 02, @14:20 (news)\n http://use.perl.org/article.pl?sid=02/09/02/1823229\n\n\n\n\nCopyright 1997-2002 pudge. All rights reserved.\n\n\n======================================================================\n\nYou have received this message because you subscribed to it\non use Perl. To stop receiving this and other\nmessages from use Perl, or to add more messages\nor change your preferences, please go to your user page.\n\n http://use.perl.org/my/messages/\n\nYou can log in and change your preferences from there.", 
+    "to": [
+        "yyyy-use-perl@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "pudge@perl.org", 
+    "subject": "[use Perl] Headlines for 2002-09-03"
+}

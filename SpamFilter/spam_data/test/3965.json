@@ -1,0 +1,8 @@
+{
+    "body": "Hello,\n\nHas anyone made a working source RPM for dvd::rip for Red Hat 8.0?\nMatthias has a spec file on the site for 0.46, and there are a couple of\nspec files lying around on the dvd::rip website, including one I patched\na while ago, but it appears that the Makefile automatically generated is\ntrying to install the Perl libraries into the system's, and also at the\nmoment dvd::rip needs to be called with PERLIO=stdio as it seems to not\nwork with PerlIO on RH8's Perl.\n\nNot too sure what the cleanest way to fix this is - anyone working on\nthis?\n\nThanks,\n\n-- \nMichèl Alexandre Salim\nWeb: http://salimma.freeshell.org\nGPG/PGP key: http://salimma.freeshell.org/files/crypto/publickey.asc\n\n__________________________________________________\nDo You Yahoo!?\nEverything you'll ever need on one web page\nfrom News and Sport to Email and Music Charts\nhttp://uk.my.yahoo.com\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "from": "=?ISO-8859-1?Q?Mich=E8l?= Alexandre Salim <salimma1@yahoo.co.uk>", 
+    "subject": "dvd::rip on Red Hat 8.0?"
+}

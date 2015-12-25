@@ -1,0 +1,9 @@
+{
+    "body": "Quoting Johan Grönqvist on 2010-04-05 23:50:37: \n> \n> I think you may be interested in the dist-upgrade command instead. \n \nNow called full-upgrade (though dist-upgrade remains for backcompat). \nupgrade is now safe-upgrade. \n \n-- \n _ Brian Ryans 8B2A 54C4 E275 8CFD 8A7D 5D0B 0AD0 B014 C112 13D0 . \n( ) ICQ UIN: 43190205 | Mail/MSN/Jabber: BrianLRyans@csmining.org ..: \n X ASCII Ribbon Campaign Against HTML mail and v-cards: asciiribbon.org \n/ \\ Any technology distinguishable from magic is insufficiently advanced", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Brian Ryans <brian.l.ryans@csmining.org>", 
+    "subject": "Re: shouldn't apt-get upgrade, you know, upgrade ?"
+}

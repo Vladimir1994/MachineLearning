@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://www.newsisfree.com/click/-5,8561544,1440/\nDate: Not supplied\n\nWorldCom, the world's biggest internet traffic carrier, suffers a major outage \nwhich affects millions of users", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "newscientist <rssfeeds@spamassassin.taint.org>", 
+    "subject": "Internet creaks after huge network crash"
+}

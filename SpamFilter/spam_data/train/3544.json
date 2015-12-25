@@ -1,0 +1,9 @@
+{
+    "body": "Heyho! \n \nOn Tuesday 04 May 2010 04.44:48 B. Alexander wrote: \n> [ KDE Menu chaos ] \n> Anyone got a fix for it? \n \nHave you tried creating a new account and looking if it's there as well? \nThe menu is basically system wide, but users may customize it (and I \nabsolutely don't understand how system wide and local menu are merged.) \n \nIf it's not system wide, removing the right files from your ~/.kde, ~/.local \nand/or ~/.config directories should probably cure the proble, (If you \ndidn't do much customizing you can obviously nuke your whole configuration \nbut in my case, that would lose quite a few hours configuration work, not to \nspeak of stuff like address book/calendar data etc. ...) \n \ncheers \n-- vbi \n \n-- \nI have opinions of my own - strong opinions - but I don't always agree \nwith them. \n -- George W. Bush", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Adrian von Bidder <avbidder@fortytwo.ch>", 
+    "subject": "Re: KDE menu wierdness"
+}

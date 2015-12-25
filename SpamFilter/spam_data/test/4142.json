@@ -1,0 +1,8 @@
+{
+    "body": "URL: http://www.newsisfree.com/click/-0,8613675,159/\nDate: 2002-10-06T18:12:45+01:00\n\nThis feature, excerpted from Wolfgang Engel's ShaderX book from Wordware \nPublishing, presents a simple shader trick that performs a good per pixel \napproximation of a non-integer power function. The technique works for input \nvalues between 0 and 1 and supports large exponents. The presented shader does \nnot require any texture look-up and is scalable, making it possible to spend \nmore instructions in order to decrease the error or to reach greater exponents.", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "from": "gamasutra <rssfeeds@spamassassin.taint.org>", 
+    "subject": "A Non-Integer Power Function on the Pixel Shader"
+}

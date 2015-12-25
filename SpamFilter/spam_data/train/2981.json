@@ -1,0 +1,9 @@
+{
+    "body": "On Tuesday 27 April 2010 02:50:08 Thomas Pomber wrote: \n> Yo Debian, I'm happy for you, and I'ma gonna let you finish, but Ubuntu is \n> the greatest operating system of all time! \n \nI don't find that \"joke\" funny. It's not offensive or anything, just the \ncontext is all messed up. \n \n> Or not! What do you think lol? \n \nI prefer Debian because more packages are well-maintained under main. Ubuntu \nprovides good support for universe, I guess. But, the fact that Ubuntu feels \nthose packages need to be separated just demonstrates that they are \"second- \nclass\". \n \nUbuntu LTS is my second choice, and something I recommend if it is likely that \nthe user wants a commercial support contract. I find the package manager that \nUbuntu shares with Debian to be enough of an advantage to put it above other \nsolutions like RHEL or SLE(D/S). \n \nI am comfortable enough to use and maintain RHEL and SLE(S/D) in fairly simple \nenvironments, if the user has some specific need for one of those systems. \nThat's rare, but is often related to third-party hardware or software being \ncertified with one of those. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: Joke"
+}

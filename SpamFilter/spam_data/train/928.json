@@ -1,0 +1,9 @@
+{
+    "body": "Justin Mason writes:\n\n> hmm. also I think I've found some cases where it's hitting on fetchmail\n> Received hdrs. that's bad. so it could be fixed....\n\nfetchmail adds Received headers? That seems wrong. I'll open a bug\nto investigate. Can you attach some examples?\n\n> yeah, will do -- somehow. pity the bugzilla doesn't allow email\n> submissions...\n\nAgreed. At least you can add information with email.\n\n- Dan", 
+    "to": [
+        "yyyy@example.com (Justin Mason)"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Quinlan <quinlan@pathname.com>", 
+    "subject": "Re: [SAdev] testing with less rules"
+}

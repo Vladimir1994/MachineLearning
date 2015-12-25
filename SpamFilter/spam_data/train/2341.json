@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, Feb 07, 2002 at 12:29:14AM +0200, Peter Peltonen wrote:\n> About apt.conf there are these lines:\n> -- --\n> RPM \n> {\n> // Leave list empty to disable\n> AllowedDupPkgs {\"^kernel$\"; \"kernel-smp\"; \"kernel-enterprise\"; };\n> HoldPkgs {\"kernel-source\"; \"kernel-headers\"; };\n> }\n> ----\n> \n> How do I tell apt hold all kernel packages? Can I use syntax like \n> \"kernel*\"; ? \n> \n> And I don't quite understand what the part \"^kernel$\"; means?\n\nYou could read about regular expressions.\n^kernel$ matches \"kernel\" and nothimg more.\nKerne, kernel-smp and kernel-enterprise are the kernel packages you\nmight be running in a RH system. Packages like kernel-headers,\nkernel-BOOT and kernel-doc aren't matched. If it just said \"kernel\", it\nwould match *all* those packages.\n\n-- \n\"You were good with that recorder.\" (=nokkahuilu)\n\"Soitit hyvin sitä mankkaa.\"\n -- (Suomennos) Men Behaving Badly\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Harri Haataja <harri.haataja@cs.Helsinki.FI>", 
+    "subject": "Re: About apt, kernel updates and dist-upgrade"
+}

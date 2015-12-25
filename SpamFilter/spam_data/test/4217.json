@@ -1,0 +1,8 @@
+{
+    "body": "Once upon a time, Brian wrote :\n\n> OK, it's now time to work out the PGP securing of apt repository\n> traffic. I've never gotten anything but \"sitename.whatever will not\n> be authenticated\" until running Redhat 8.0 when I get something\n> about having \"No Key\" for various files.\n\nI don't think gpg signing my repositories will help anything, as it will\njust ensure that my passphrase was typed to confirm the md5 signatures of\nall pgklists and srclists. Basically, you'll then just be sure that it's me\nwho generated the files, and this will of course prevent automating the\nprocess of updating the apt repository when Red Hat updates show up.\n\nIn Red Hat Linux 8.0 though, the warnings about \"No Key\" appear until you\nimport the right gpg public keys directly with rpm, for example :\nrpm --import /usr/share/doc/apt-0.5.4cnc7/RPM-GPG-KEY\n(this will import my key, which is used to sign all freshrpms.net packages)\n\nHopefully it is possible to the tell rpm to install *only* packages who\nverify against an imported gpg key? This for me would be the optimal way to\nensure integrity with the way things curently work.\n\nMatthias\n\n-- \nClean custom Red Hat Linux rpm packages : http://freshrpms.net/\nRed Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi\nLoad : 0.14 0.18 0.17\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "from": "Matthias Saou <matthias@rpmforge.net>", 
+    "subject": "Re: Apt repository authentication: it's time"
+}

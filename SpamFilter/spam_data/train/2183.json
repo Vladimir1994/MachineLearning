@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Mark wrote :\n\n> I remember apt-get dist-upgrading from 7.2 to 7.3 fine, so it -should- \n> work, maybe :)\n\nI've done that too, on many production servers. The only little\n(unimportant) catch is to replace \"kernel-headers\" by \"glibc-kernheaders\",\na simple \"apt-get install glibc-kernheaders\" taking care of that.\n\nUpgrading between releases is meant to work, not between betas or beta and\nreleases. The reason is simple : Some packages may have been downgraded,\nsome others may have been rebuilt with the same versions but different\ndependencies. For both these categories of packages, the upgrade through\napt/rhn/whatever just won't do, as some older packages might be considered\nas the newest, thus being kept on the system.\n\nAs Red Hat does, I really don't recommend trying to upgrade between betas\nor from a beta to a final release either. Simply backup your /home, /etc\n(and /root and/or /usr/local/ if needed) then reinstall cleanly, it'll\nprobably save a few hassles and you'll get the cleanest possible system ;-)\n\nMatthias\n\n-- \nMatthias Saou World Trade Center\n------------- Edificio Norte 4 Planta\nSystem and Network Engineer 08039 Barcelona, Spain\nElectronic Group Interactive Phone : +34 936 00 23 23\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@egwn.net>", 
+    "subject": "Re: use new apt to do null to RH8 upgrade?"
+}

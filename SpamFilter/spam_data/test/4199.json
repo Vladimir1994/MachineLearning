@@ -1,0 +1,8 @@
+{
+    "body": "hi, \n \nnscd was the problem. He cached the local passwd ... \n \ncu denny", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Denny Schierz <linuxmail@4lin.net>", 
+    "subject": "Re: NIS: /etc/nsswitch seems (a bit) ignored from /usr/bin/passwd   *solved*"
+}

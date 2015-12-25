@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 20 Aug 2002, Matthew Cline wrote:\n\n> On Tuesday 20 August 2002 07:57 pm, Harold Hallikainen wrote:\n> > http://www.wired.com/news/technology/0,1282,54645,00.html\n> \n> Summary: a company will offer short snippets of original, copyrighted\n> and trademarked text that can be inserted into email message headers,\n> and email filters can recognize this as a \"not-spam\" indicator. Any\n> spammers who use the text will be sued for copyright and trademark\n> infringement.\n\nThey may be in for a patent fight before any of this goes forward:\n\nhttp://www.eweek.com/article2/0,3959,476558,00.asp\n\n\"Banking on the fact that few enterprises sending commercial mail want to \nbe associated with spam, IronPort Systems Inc., in San Bruno, Calif., has \ndeveloped the Bonded Sender program in an effort to give legitimate bulk \ne-mailers some credibility.\"\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "SpamAssassin Talk ML <spamassassin-talk@example.sourceforge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Bart Schaefer <schaefer@zanshin.com>", 
+    "subject": "Re: [SAtalk] SA In The News"
+}

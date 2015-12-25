@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday 05 May 2010, Boyd Stephen Smith Jr. wrote: \n> In 4.3, this is not true. From what I hear on upstream mailing \n> lists, this won't be true in 4.5. Upstream is already aware and \n> working on the issue, but it falls under \"new feature\" so it won't \n> be included in the 4.4.x line. \n \nDo you have a pointer to the discussion? \n \nAs far as the safety of your data is concerned, none of your emails are \nstored in MySQL (yet). Mail storage is still in the file system, Akonadi \nis only used for contacts. \n \nThat said, I'd be much happier myself without having to run yet another \ndatabase server on my machine. Right now there are \"global\" instances of \nPostgreSQL and MySQL (personal and for work); on top of that, for each \nlogged-in user, Akonadi runs a private MySQL server as well as a \nvirtuoso server. Incidentally, virtuoso is a SQL database in its own \nright, persumably fully capable of completing supplanting MySQL in this \ncase. \n \nMichael \n \n-- \nMichael Schuerig \nmailto:michael@schuerig.de \nhttp://www.schuerig.de/michael/ \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005060148.32290.michael@schuerig.de", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Schuerig <michael@schuerig.de>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

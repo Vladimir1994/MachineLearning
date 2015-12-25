@@ -1,0 +1,9 @@
+{
+    "body": "reply to the mail from Ben Mord (bmord@icon-nicholson.com):\n\n> Hi,\n\nHello,\n\n\n\n> ... This concept could also be\n> applied to the application servers, and even the database server partitions\n> (except for those partitions which contain the table data files, of course.)\n\n Although the data might just be the information that needs protecting.\n\n> Does anyone do this already? Or is this a new concept?\n\n I've seen this implemented for a shell server, although they chose\nto have their root on a CD-WR in a CD-R drive. Which meant that even\nwhen compromised it was only possible to examine other users data.\n AFAIR(emember) they just swapped CD's when a root exploit was found.\n\n> Thanks for any opinions,\n\nNP\n\nblaze your trail\n--\nredhat\n\n'I am become Shiva, destroyer of worlds'", 
+    "to": [
+        "SECPROG Securityfocus <SECPROG@securityfocus.com>"
+    ], 
+    "is_spam": false, 
+    "from": "redhat <redhat@xlnt-software.com>", 
+    "subject": "Re: use of base image / delta image for automated recovery from     attacks"
+}

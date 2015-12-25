@@ -1,0 +1,9 @@
+{
+    "body": "On 04/27/2010 06:36 PM, John O Laoi wrote: \n>> Does some of this errors sad something like \"there is no network\"? \n> \n> Yes, they always say \n> \"Unable to load resource:\" \n> \n> \ncat /proc/sys/net/ipv6/bindv6only \nif output is 1 then: \necho 0 > /proc/sys/net/ipv6/bindv6only \n-- \nBye, \nGoran Dobosevic \nHrvatski: www.dobosevic.com \n English: www.dobosevic.com/en/ \nRegistered Linux User #503414 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BD71346.7020604@dobosevic.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "godo <goran@dobosevic.com>", 
+    "subject": "Re: downloaded .jnlp won't open"
+}

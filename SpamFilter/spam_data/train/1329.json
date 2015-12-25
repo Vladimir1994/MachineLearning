@@ -1,0 +1,9 @@
+{
+    "body": "Thank You for Your time and answer, Camaleón: \n \n>Test with a clean OOo profile, that is, rename the current \n>\"~/.openoffice.org3\" folder so when you start Writer it creates a new \n>empty one. \n \nIt was problem with temp dir permission. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4bf193c9.0c58560a.6b2b.4eec@mx.google.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sthu Deus <sthu.deus@csmining.org>", 
+    "subject": "Re: OO.writer can't its file."
+}

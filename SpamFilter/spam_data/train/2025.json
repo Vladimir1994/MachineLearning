@@ -1,0 +1,9 @@
+{
+    "body": "Urban Boquist wrote:\n\n> it seems to hang. Memory usage goes up to 73MB and stays there. I have\n> let it run for an hour before I killed it. This was on a\n> Pentium-II-366. Yes, I know, a bit slow, but still...\n> \n> Can anyone else confirm this hang? Maybe I should just upgrade...\n> \n> My environment is: SA-2.31, perl-5.6 running on NetBSD-1.6F.\n\nVersion 2.40-cvs (from today) on NetBSD/i386 1.5.2 (Athlon 1500):\n\n Aug 29 17:55:53 silence spamd[2052]: processing message\n for kh:1234, expecting\n 1744014 bytes. \n Aug 29 17:57:10 silence spamd[2052]: clean message (2.5/5.0) for\n kh:1234 in 77 seconds, 1744014 bytes. \n\nResident size about 75MB, according to top.\n\nciao\n Klaus\n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Klaus Heinz <k.heinz.aug.zwei@onlinehome.de>", 
+    "subject": "Re: [SAtalk] SA very slow (hangs?) on this message, or is it just me?"
+}

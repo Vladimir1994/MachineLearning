@@ -1,0 +1,9 @@
+{
+    "body": "> From: Valdis.Kletnieks@vt.edu\n> Date: Wed, 21 Aug 2002 02:36:56 -0400\n>\n> --==_Exmh_778588528P\n> Content-Type: text/plain; charset=us-ascii\n> \n> On Tue, 20 Aug 2002 22:51:52 EDT, Valdis.Kletnieks@vt.edu said:\n> \n> > Ever tried to get MH to *not* have a 'pseq' sequence? I suspect everybod\n> y's\n> > looking at a big box that has unseen and pseq in it. Might want to add\n> > 'pseq' to the 'hide by default' list....\n> \n> Was it intended that if you added a sequence to the 'never show' list that\n> it not take effect till you stopped and restarted exmh? I added 'pseq',\n> then hit 'save' for Preferences - didn't take effect till I restarted.\n\nNo it wasn't, and at one point it worked fine. I'll check and see why it \nstopped working.\n\nChris\n-- \nChris Garrigues http://www.DeepEddy.Com/~cwg/\nvirCIO http://www.virCIO.Com\n716 Congress, Suite 200\nAustin, TX 78701 +1 512 374 0500\n\n World War III: The Wrong-Doers Vs. the Evil-Doers.", 
+    "to": [
+        "Valdis.Kletnieks@vt.edu"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Garrigues <cwg-exmh@DeepEddy.Com>", 
+    "subject": "Re: New Sequences Window"
+}

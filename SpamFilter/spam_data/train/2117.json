@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-14 23:29, Stan Hoeppner wrote: \n[snip] \n> \n> You mentioned you had problems building 2.6.32 and .33 kernel source. Do \n> you use the Debian kernel source or kernel.org source? I've been using the \n> kernel.org source for quite some time and have never had any real problems \n> with it (knocks on wood). I had a build problem with .33 a while back but \n> that turned out to be due to a slight bit too much overclock on my machine \n> in this warmer weather. ;) \n> \n \nDebian source. It's the first kernel build problem I'm had since \nthe 2.4 days, and I've been using 2.6 since .0. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC6A4BF.50504@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: Realtek ethernet (was Re: recent mobo recommendation)"
+}

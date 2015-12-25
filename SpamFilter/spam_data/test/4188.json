@@ -1,0 +1,8 @@
+{
+    "body": "> \n> \n> >>>>> On Tue, 8 Oct 2002, \"Dag\" == Dag Nygren wrote:\n> \n> Dag> but when procmail runs it it doesn't, presumably as it\n> Dag> doesn't have the authorization to communicate with the\n> Dag> laptop, beeing another user?\n> \n> I don't know anything about the KDE sound server but I'd guess \n> your problem is the \"environment\" in which procmail runs. You \n> don't say what procmail is running from. In my case, for \n> example, procmail is run from fetchmail which is run by a cron \n> job.\n\nSorry about that,\nprocmail is run by the qmail delivery agent to presort all mail\nI get.\nBut anyway, I found an error message in procmail.log, which solved\nthe problem.\nThe following line in my delivery script seems to work fine now:\n\nDISPLAY= :0.0 artsplay \n\nThanks\n\nDag\n\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "from": "Dag Nygren <dag@newtech.fi>", 
+    "subject": "Re: Ringing bell on other computer"
+}

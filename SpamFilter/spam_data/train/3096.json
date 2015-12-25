@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 15 Apr 2010 20:43:21 -0400 (EDT), Ron Johnson wrote: \n> On 2010-04-15 19:37, Stephen Powell wrote: \n>> \n>> I'm going to be filing a bug report against parted for (a) miscalculating \n>> the starting block of the implicit partition on an ldl (Linux Disk Layout) \n>> formatted disk on the s390 architecture when the block size is other than \n>> 4096, and (b) no support for CMS-formatted disks. \n> \n> If practical, I hope you file 2 bugs. \n \nI hear you. I'll have to look at the code to see if that's easily separated \nout. I started with the purpose of adding an enhancement to support CMS \nformatted disks. I stumbled across the bug in the starting block calculation \nfor ldl formatted disks in the process. CMS formatted disks are handled \n*exactly* the same as ldl formatted disks if the disk is not reserved. I \nwould have had to fix that bug anyway to add support for CMS disks, since \nI wanted the CMS support to be correct. The only wrinkle was correctly \nhandling reserved CMS disks. To do that I had to access the reserved block \noffset in the CMS label, which prompted this thread. \n \nAll of this is specific to the s390 architecture and has no bearing on i386, \namd64, ia64, etc. I hope upstream (GNU, I believe) will accept the fix. \nI have no reason to believe that they won't. \n \n-- \n .''`. Stephen Powell \n : :' : \n `. `'` \n `- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/65674052.56609.1271380183436.JavaMail.root@md01.wow.synacor.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Powell <zlinuxman@wowway.com>", 
+    "subject": "Re: C programming question"
+}

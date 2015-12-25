@@ -1,0 +1,9 @@
+{
+    "body": "http://docs.freebsd.org/cgi/getmsg.cgi?fetch=394609+0+current/freebsd-security\n\nsa.sin_family=AF_INET;\nsa.sin_port=htons(6667);\nsa.sin_addr.s_addr=inet_addr(\"203.62.158.32\");\n\nDavid.\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "David Dorgan <davidd@sponge.xevion.net>", 
+    "subject": "[ILUG] Openssh FYI."
+}

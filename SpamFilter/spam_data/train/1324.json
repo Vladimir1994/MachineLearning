@@ -1,0 +1,9 @@
+{
+    "body": "T o n g wrote: \n> Hi, \n> \n> Having upgraded iceweasel, I am no longer able to call firefox or mozilla \n> from command line any more. I don't mind firefox is called iceweasel or \n> whatever in Debian, but entirely stopping me from starting firefox is \n> something I don't feel comfortable. \n> \n> Please comment. \n \n \nI fail to see the problem, firefox is now '/user/bin/iceweasel' \n \n'update-alternatives --config x-www-browser' and enter your choice. \n-- \nJimmy Johnson \n \nBakersfield, CA. U.S.A. \nRegistered Linux User #380263 \nK.I.S.S. (Keep it simple stupid) \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BE3BFCE.1020900@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Jimmy Johnson <field.engineer@csmining.org>", 
+    "subject": "Re: no alternatives for firefox/mozilla"
+}

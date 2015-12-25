@@ -1,0 +1,8 @@
+{
+    "body": "On Tue, Sep 03, 2002 at 09:03:40PM -0400, Yannick Gingras wrote:\n> This make me wonder about the relative protection of smart cards. They have \n> an internal procession unit around 4MHz. Can we consider them as trusted \n> hardware ? The ability to ship smart cards periodicaly uppon cashing of a \n> monthly subscription fee would not raise too much the cost of \"renting\" the \n> system. Smart card do their own self encryption. Can they be used to \n> decrypt data needed by the system ? The input of the system could me mangled \n> and the would keep a reference of how long it was in service.\n> \n> This sounds really feasible but I may be totaly wrong. I may also be wrong \n> about the safety of a smart card. \n> \n> What do you think ?\n\nThat's similar to using hard-locks (either the old parallel, or the new\nusb).\n\nThe problem is that that piece of hardware is trustworthy, but the rest of\nthe PC isn't, so a cracker just needs to simulate the lock/smart card, or\npeek at the executable after the lock has been deactivated.\n\nRegards,\nLuciano Rocha\n\n-- \nConsciousness: that annoying time between naps.", 
+    "to": [
+        "secprog@securityfocus.com"
+    ], 
+    "from": "strange@nsk.yi.org", 
+    "subject": "Re: Secure Sofware Key"
+}

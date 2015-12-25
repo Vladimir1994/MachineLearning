@@ -1,0 +1,9 @@
+{
+    "body": "It's possible...I performed the update via \"rpm -U\"...which, of course, \ncreated all the new rulesets as \"xx_rulename.cf.rpmnew\" Crud. I'll have \nto start moving things around.\n\nOn Thu, 5 Sep 2002, Malte S. Stretz wrote:\n\n> On Thursday 05 September 2002 04:10 CET Mike Burger wrote:\n> > Just loaded up SA 2.40 from Theo's RPMs...spamassassin-2.40-1 and\n> > perl-Mail-SpamAssassin-2.40-1 on a RH 7.1 system with perl 5.6.1 running\n> > on it.\n> >\n> > I'm getting messages that seem to indicate that SA can't find\n> > PerMsgStatus, like so:\n> >\n> > Sep 4 21:01:59 burgers spamd[17579]: Failed to run CTYPE_JUST_HTML\n> > SpamAssassin test, skipping: ^I(Can't locate object method\n> > \"check_for_content_type_just_html\" via package\n> > \"Mail::SpamAssassin::PerMsgStatus\" (perhaps you forgot to load\n> > \"Mail::SpamAssassin::PerMsgStatus\"?) at\n> > /usr/lib/perl5/site_perl/5.6.1/Mail/SpamAssassin/PerMsgStatus.pm line\n> > 1814, line 21. )\n> >\n> >[...]\n> >\n> > Any ideas?\n> \n> Perl doesn't complain that it can't find PerMsgStatus.pm but the function \n> check_for_content_type_just_html(). Do you probably have some old rules \n> files still lurking around? This test existed in 2.31 but is gone/was \n> renamed with 2.40.\n> \n> Malte\n> \n> \n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Malte S. Stretz\" <msquadrat.nospamplease@gmx.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Mike Burger <mburger@bubbanfriends.org>", 
+    "subject": "Re: [SAtalk] PerMsgStatus.pm error?"
+}

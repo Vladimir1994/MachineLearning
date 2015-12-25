@@ -1,0 +1,9 @@
+{
+    "body": "On 14 Apr 2010, Anthony Campbell wrote: \n \nWell, I tried to connect but got: \n \nEAP: unknown authentication type 13; Naking \n \nAnyone know what this indicates? Googling doesn't produce much \nillumination - nothing that applies to my situation. \n \nAnthony \n \n-- \nAnthony Campbell - ac@acampbell.org.uk \nMicrosoft-free zone - Using Debian GNU/Linux \nhttp://www.acampbell.org.uk - sample my ebooks at \nhttp://www.smashwords.com/profile/view/acampbell \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100414231619.GB18626@acampbell.org.uk", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Anthony Campbell <ac@acampbell.org.uk>", 
+    "subject": "Re: Connecting to vpn server"
+}

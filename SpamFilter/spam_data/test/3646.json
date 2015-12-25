@@ -1,0 +1,8 @@
+{
+    "body": "use Perl Daily Headline Mailer\n\n\"Perl 6: Right Here, Right Now\" slides ava\n posted by gnat on Friday September 13, @12:01 (news)\n http://use.perl.org/article.pl?sid=02/09/13/162209\n\n\n\n\nCopyright 1997-2002 pudge. All rights reserved.\n\n\n======================================================================\n\nYou have received this message because you subscribed to it\non use Perl. To stop receiving this and other\nmessages from use Perl, or to add more messages\nor change your preferences, please go to your user page.\n\n http://use.perl.org/my/messages/\n\nYou can log in and change your preferences from there.", 
+    "to": [
+        "yyyy-use-perl@example.com"
+    ], 
+    "from": "pudge@perl.org", 
+    "subject": "[use Perl] Headlines for 2002-09-14"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Thanks Gabriele. I was able to launch your app online without a problem, but I could not launch it offline. I do have the latest Developer Preview installed and I suspect that might be the problem: I believe the bug may have been introduced with Java 1.6.0_18. \n \n- Nick \n \n \nOn Apr 16, 2010, at 12:47 PM, Gabriele Kahlout wrote: \n \n> http://memorizeasy.mysimpatico.com \n> \n> It's actually 2 jnlps, one setup and one launch. \n> \n> Should it not work offline with you, pls let me know. I'm aware that \n> it does work (I've tested that some time ago, and just now, but ...). \n> \n> I also verified that yours doesn't launch offline. \n> \n> \n> 2010/4/16, Nick Howes : \n>> On Apr 16, 2010, at 11:18 AM, Gabriele Kahlout wrote: \n>> \n>>>> Launching without an internet connection causes the application to \n>>>> \"hang\". \n>>> \n>>> In the case of my application this doesn't happen. Must be specific to \n>>> some cases. \n>> \n>> Thanks for that information. \n>> \n>> Maybe it's something about our JNLP file \n>> . Could you maybe share the JNLP \n>> file for the case that doesn't hang? \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nJava-dev mailing list (Java-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Gabriele Kahlout <gabriele@mysimpatico.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Nick Howes <nick@ghostwood.org>", 
+    "subject": "Re: Java Web Start Offline Problems"
+}

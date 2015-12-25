@@ -1,0 +1,9 @@
+{
+    "body": "On 20100414_123342, Ron Johnson wrote: \n> On 2010-04-14 09:31, Paul E Condon wrote: \n> [snip] \n> > \n> >non-obvious --- to the point that there was an open contest with \n> >prizes awarded for the most obfuscated example of C code. The prizes \n> >went to the code for which the judges were most surprised on seeing \n> >it run after they read the code and tried to figure out what would \n> >happen when it was run. \n> \n> http://www1.us.ioccc.org/main.html I guess they got bored looking at \n> normal production C code... \n> \n> There was also an Obfuscated Perl Contest, but that only ran for 5 \n> years due to the \"Perl\" and \"obfuscation\" being redundant. \n> \n> >But the union construct is now there in the language in order to allow \n> >the professional practitioner to make his code slightly less \n> \n> Unions have been in C for at least 20 years; probably since the Early \n> Days. \n \nI checked. Union is described in the Ritchie, Johnson, Lesk, and \nKernighan, The C Programming Language, in Bell System Technical \nJournal of JULY-AUGUST 1978, p. 1991. At that time the Bell System had \nC compilers running on PDP-11, Honeywell 6000, IBM System/370, and \nInterdata 8/32. You're right. >20years. \n \n-- \nPaul E Condon \npecondon@mesanetworks.net \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100414205849.GC22738@big.lan.gnu", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Paul E Condon <pecondon@mesanetworks.net>", 
+    "subject": "Re: C programming question"
+}

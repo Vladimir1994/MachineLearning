@@ -1,0 +1,9 @@
+{
+    "body": "\"Craig R.Hughes\" said:\n\n> Are you filtering the nonspamtrap for spam when those \n> newsletters sold your address to someone you didn't sign up \n> with? You should probably manually verify that all the mail in \n> the trap is in fact nonspam!\n\nYep. so far it's all opt-in stuff, no \"affiliate deals\" etc.\n\n--j.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Craig R.Hughes\" <craig@deersoft.com>"
+    ], 
+    "is_spam": false, 
+    "from": "yyyy@example.com (Justin Mason)", 
+    "subject": "Re: [SAtalk] Highest-scoring false positive"
+}

@@ -1,0 +1,8 @@
+{
+    "body": "URL: http://diveintomark.org/archives/2002/10/05.html#perl_programmers_are_so_cute\nDate: 2002-10-05T21:33:22-05:00\n\n_Ian Hickson_: #include web-log.txt[1]. “I used some of Perl's niftier \nfeatures, such as using method lookup instead of a switch statement for the \npreprocessing instruction dispatching, and exceptions instead of passing error \ncodes back and forth.” He he. Perl programmers are so cute when they \nimitate Python programmers.\n\n\n\n[1] http://ln.hixie.ch/?start=1033841933&count=1", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "from": "diveintomark <rssfeeds@spamassassin.taint.org>", 
+    "subject": "Perl programmers are so cute"
+}

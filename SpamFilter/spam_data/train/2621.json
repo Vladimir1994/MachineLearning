@@ -1,0 +1,9 @@
+{
+    "body": "Yet another solution: \n http://packages.debian.org/lenny/unattended-upgrades \n \n-thib \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBCF698.5080506@stammed.net", 
+    "to": [
+        "Debian User Mailing list <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "thib <thib@stammed.net>", 
+    "subject": "Re: automate updates in Lenny"
+}

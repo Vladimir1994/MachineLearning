@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, Sep 11, 2002 at 01:46:19PM -0700, David Raistrick wrote:\n> On Wed, 11 Sep 2002, Stephane Lentz wrote:\n> \n> > => I faced a similar problem with the FreeBSD when trying to \n> > install SpamAssassin through the ports on my fresh FreeBSD 4.6.2. \n> > I had to define PERL5LIB with some given order of directories\n> > so that the latest File::Spec module get used. \n> \n> Good to hear it's not just me. Mind telling me how you set PERL5LIB\n> specificly? I've tried a few things (setenv in the shell, as well as\n> $PERL5LIB == ...inside the Makefile.PL, even on the perl command\n> line..) with no success.\n> \n- Presuming your run Bash :\nNote the directory lists \n# perl -e 'map { print \"$_\\n\" } @INC'\nThen set up the Shell variable PERL5LIB variable (and put it in some .bashrc \nfor future use)\n# export PERL5LIB=\"directory1:directory2:directory3:directory4\"\nThen try to install the software\n\nPERL5LIB is explained perlrun(1) : do \n# man perlrun for more information\n\nRegards, \n\nSL/\n---\nStephane Lentz / Alcanet International - Internet Services\n\n\n-------------------------------------------------------\nIn remembrance\nwww.osdn.com/911/\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "David Raistrick <drais@wow.atlasta.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Stephane Lentz <Stephane.Lentz@ansf.alcatel.fr>", 
+    "subject": "Re: [SAtalk] Re: [SAdev] File::Spec and v2.41"
+}

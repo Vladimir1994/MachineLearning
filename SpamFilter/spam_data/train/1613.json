@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 05 Sep 2002 14:40:53 PDT, Siva Doriaswamy writes:\n>Recently, my incoming mail (or spool) location moved to another disk.\n>I'm not quite clear how to reconfigure procmail/rcvstore/exmh to accept\n>mail from the new location.\n\nHow do you feed procmail? Not with a .forward, I'd guess.\n\nHow does mail enter your system anyway? Per fetchmail maybe? Or direct \n SMTP-delivery? Or does it just magically hit your spool?\n\nLotsa questions...\n\ncheers,\n&rw\n-- \n-- Booze: because one doesn't solve the world's problems over white wine.", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Waldner <waldner@waldner.priv.at>", 
+    "subject": "Re: Changed location of incoming mail. exmh not working!!"
+}

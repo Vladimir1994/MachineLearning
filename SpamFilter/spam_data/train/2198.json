@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://scriptingnews.userland.com/backissues/2002/09/23#When:10:34:18AM\nDate: Mon, 23 Sep 2002 17:34:18 GMT\n\nI've been hearing a lot about FOAF, which is an acronym for Friend Of A Friend. \nIt's an RDF-based file format that lets you walk a network of people who are \nfriends. It's a lot like a network of blogrolls[1]. \n\n[1] http://radio.outliners.com/stories/storyReader$85", 
+    "to": [
+        "yyyy@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "scripting <rssfeeds@example.com>", 
+    "subject": "I've been hearing a lot about FOAF, which is an acronym for     Friend Of A Fri"
+}

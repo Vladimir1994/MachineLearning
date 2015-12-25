@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, Sep 06, 2002 at 06:22:52PM +0100, Matt Sergeant wrote:\n> Can anyone out there who uses SA with lotus notes users help us figure \n> out what to tell customers to do when they've got emails coming in with \n> spam identifying headers? We've been told that Notes has no way to \n> handle extra headers, but I'm sure that can't be universally true.\n> \n> I've searched the 'net, and it seems that Notes can only filter based on \n> the \"visible\" headers, i.e. sender, subject, precedence, etc. Is there \n> any way to filter based on X- headers?\n\n=> Yes the only way out with Notes looks like changing the subject \n(subject_tag). \n\nRegards, \n\nSL/\n---\nStephane Lentz / Alcanet International - Internet Services\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Stephane Lentz <Stephane.Lentz@ansf.alcatel.fr>", 
+    "subject": "Re: [SAtalk] Lotus Notes users?"
+}

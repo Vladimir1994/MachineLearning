@@ -1,0 +1,9 @@
+{
+    "body": "On 0020 +0100 %{!Sat, Aug 10, 2002 at 12:11:50PM +0100}, FRLinux wrote:\n> Hello,\n> \n> I have been using 2.4.19 since a couple of days on a Mandrake 8.2 with\n> standard RPMs for cdrecord and it didn't give any hard locks on it at\n> all, i've already burnt a couple of CDs.\nThanks for that. I'd sort of suspected that if it was a widespread\nproblem it would have already been fixed. Starting to look more likely\nit is a mistake/misconfiguration on my part, though I still don't know\nwhere to look for the mistake/misconfiguration.\nm\n\n-- \nMichael Conry Ph.:+353-1-7161987, Web: http://www.acronymchile.com\nKey fingerprint = 5508 B563 6791 5C84 A947 CB01 997B 3598 09DE 502C\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Conry <michael.conry@ucd.ie>", 
+    "subject": "Re: [ILUG] cdrecord + 2.4.19 = hard-lock"
+}

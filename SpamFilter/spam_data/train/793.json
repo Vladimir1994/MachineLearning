@@ -1,0 +1,9 @@
+{
+    "body": "http://www.hughes-family.org/bugzilla/show_bug.cgi?id=813\n\n\n\n\n\n------- Additional Comments From jm@jmason.org 2002-09-21 16:39 -------\nDan, BTW, is there any code from this that we can get checked in?\nI'd love to mess around with it a bit.\n\n\n\n------- You are receiving this mail because: -------\nYou are on the CC list for the bug, or are watching someone who is.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "spamassassin-devel@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "bugzilla-daemon@hughes-family.org", 
+    "subject": "[SAdev] [Bug 813] add Bayesian spam filtering"
+}

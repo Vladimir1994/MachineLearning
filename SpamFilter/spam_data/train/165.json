@@ -1,0 +1,9 @@
+{
+    "body": "It might be a security policy, for him, that changed without realizing \nit. But, for you, I don't know. I would be interested in knowing why \nsuch things happen. \n \nAnthony Campbell wrote: \n> On 23 May 2010, Merciadri Luca wrote: \n> \n>> Hi Mitchell, \n>> \n>> You might add \n>> \n>> == \n>> |su:S:wait:/sbin/sulogin| \n>> == \n>> \n>> in /etc/inittab. \n>> \n>> \n>> \n> \n> But why was the OP getting the message in the first place? A couple of \n> weeks ago I was also getting it and then it went away as mysteriously as \n> it came. \n> \n \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me. \n \n \nLaugh and the world laughs with you ... Cry and you will find no one \nwith tears.", 
+    "to": [
+        "Anthony Campbell <ac@acampbell.org.uk>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: \"Give root password for maintence\" during every boot of system"
+}

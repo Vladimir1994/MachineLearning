@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday 14 April 2010 00:59:14 debian-user-digest- \nrequest@lists.debian.org wrote: \n> > ~$ sudo /etc/init.d/clamav-daemon start \n> > Starting ClamAV daemon: clamd ERROR: Unknown group 20 Incorrect number \n> > of arguments \n> > \n> > failed! \n> > \n> > \n> > After latest upgrade. Anyone have a quick fix? \n> \n> Yes : \n> Change the 2 lines in /etc/clamav/clamd.conf : \n> \n> LocalSocketGroup amavis \n> LocalSocketMode 770 \n> \n> Bug #577499 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201004141547.08063.d_baron@012.net.il", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "David Baron <d_baron@012.net.il>", 
+    "subject": "Re: debian-user-digest Digest V2010 #630"
+}

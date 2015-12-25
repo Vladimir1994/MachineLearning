@@ -1,0 +1,9 @@
+{
+    "body": "On 20100414_113944, Paul Chany wrote: \n> Hi, \n> \n> I have setup somewhere the JAVA_HOME environment variable, but don't \n> know where? \n \n...snip \n \nWhen I am reading this thread there are already two search suggestions \nthat are better than what I might have come up with. My post is to \nfind out where the setting was actually done. I would have thought it \ncould only be in /etc or /home --- but wierd things can happen. Where \nis it? How long did the search command take to run? And some idea of \nthe size of your working environment? \n \nIf the cause for that particular location appears to be something that \ninvolved user volition, it could still be useful to know what mistakes \ncan be made. Better than learning from ones mistakes is learning from \nothers experience. TIA \n \n-- \nPaul E Condon \npecondon@mesanetworks.net \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100414141130.GA22738@big.lan.gnu", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Paul E Condon <pecondon@mesanetworks.net>", 
+    "subject": "Re: Where to find setup for env variable? [a question]"
+}

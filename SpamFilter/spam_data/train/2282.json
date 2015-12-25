@@ -1,0 +1,9 @@
+{
+    "body": "I'm still seeing razor reporting bomb out with a small variety of messages.\nWould reinitializing something here help, or does razor do that as needed\nanyway, and this just reflects trouble at the servers?\n\nAlso, since these are reports I'm making from within Mutt, it's annoying\nthat the error messages garble the X window a bit. If there's nothing\nconstructive to do about razor failing, can I at least turn off the failure\nmessages? One way or the other I'd rather not see them.\n\nWhit \n\nOn Wed, Sep 25, 2002 at 12:57:13PM -0400, Whit Blauvelt wrote:\n> I'm getting \"no servers available\" about half the time in the last few days.\n> This is with Razor 2. Is there something I need adjust in the installation\n> here, or are the servers just down/overloaded?\n> \n> Thanks,\n> Whit\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "razor-users@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Whit Blauvelt <whit@transpect.com>", 
+    "subject": "Re: [Razor-users] \"No razor servers available at this time\""
+}

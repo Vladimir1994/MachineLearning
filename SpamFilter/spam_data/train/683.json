@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Roi wrote :\n\n> The new spec didn't even want to build the package\n> something with config.mak\n\nNow that is weird! :-/\n\n> Also this new spec looks like the old one, it got libdv and libdv-devel\n> in the BuildRequires so I just used the normal spec and removed it\n> manully.\n\nIndeed, my boo-boo :-( Fixed now.\n\nBTW, about the \"mplayer -vo sdl\" black screen problem you reported, I was\nunable to reproduce it on my hom 8.0 computer, it worked as expected.\n\nMatthias\n\n-- \nClean custom Red Hat Linux rpm packages : http://freshrpms.net/\nRed Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10\nLoad : 0.10 0.15 0.16, AC on-line, battery charging: 100% (1:47)\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@rpmforge.net>", 
+    "subject": "Re: Mplayer"
+}

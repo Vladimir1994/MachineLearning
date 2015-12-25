@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nHi, \n \nI have many text files (actually .tex files) which contain some \nsequence or regexp (it depends on the files) that I would like to \nremove. Is there a commandline/GUI for doing this massive edit? \n \nThanks. \n- -- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \n- -- \n \nYou can fool all of the people some of the time, some of the people all of the time, but you can't fool all of the people all of the time. (Abraham Lincoln) \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (GNU/Linux) \nComment: Processed by Mailcrypt 3.5.8 \n \niEYEARECAAYFAkvtgqkACgkQM0LLzLt8MhwZOwCfTYE31Uax4o3gm9WkN2CVRxcX \njmkAn28qe1QvuXLKYvHhoZB0Xc4C0DvJ \n=HUWz \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87iq6qwh1x.fsf@merciadriluca-station.MERCIADRILUCA", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Deleting some regexp/simple expression from lots of files in a secure way"
+}

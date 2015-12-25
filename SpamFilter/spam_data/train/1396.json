@@ -1,0 +1,9 @@
+{
+    "body": "On 5/5/2010 8:49 AM, Camaleón wrote: \n> BTW, my Shuttle box has also a ram limitation of 2 GiB (and currently \n> using only 1 GiB) but has installed \"amd64\". It runs fine, without \n> noticeable drawbacks. \n \n \nA concern was \"future-proofing\". More than one GB is not needed now. \nWhat about later? \n \n \n \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BE1D665.8010201@allums.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Mark Allums <mark@allums.com>", 
+    "subject": "Re: 64-bit netbooks with Debian linux"
+}

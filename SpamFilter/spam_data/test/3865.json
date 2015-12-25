@@ -1,0 +1,8 @@
+{
+    "body": "On Thursday, August 22, 2002, at 10:24 AM, Justin Mason wrote:\n\n> I plan to\n>\n> 1. figure out the freqs tonight, suggest what tests to drop\n> 2. wait for comments\n> 3. drop tests that nobody cares about tomorrow\n> 4. sed out the dropped tests from the mass-check logs\n\nThis step is unneccesary -- unless you've changed the scripts \nmuch, any test in the logs which aren't in the rules files will \njust be ignored I think. You do seem to have changed the \nlogs-to-c script and removed the bit where you could specify \nimmutable tests at the top -- I took a brief glance through the \ncode and couldn't fully make out how it had changed. I think we \nwant to be able to specify immutable test scores though in there \nsomewhere -- or is that now handled by the tflags stuff? For \nthe last couple releases, any test which occurred infrequently \n(by thumb-in-the-wind subjective criteria) I set to have \nimmutable scores, as well as a handful of other rules.\n\n> 5. kick off the GA\n>\n> BTW I'll be away this weekend at Linuxbierwanderung, so Craig, \n> you might\n> have to run the GA. ;)\n\nShouldn't be a problem. Assuming I can get the darned thing to \ncompile :)\n\nC", 
+    "to": [
+        "yyyy@spamassassin.taint.org (Justin Mason)"
+    ], 
+    "from": "\"Craig R.Hughes\" <craig@deersoft.com>", 
+    "subject": "Re: [SAdev] 2.40 RELEASE PROCESS: mass-check status, folks?"
+}

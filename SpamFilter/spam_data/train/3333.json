@@ -1,0 +1,9 @@
+{
+    "body": "> From: Chris Garrigues \n> Date: Thu, 22 Aug 2002 12:23:38 -0500\n>\n> Okay....Catchup unseen is something that I don't use often, but i can \n> certainly reproduce this. I'll dig into it. It's probably simple.\n\nTry it now.\n\nChris\n\n-- \nChris Garrigues http://www.DeepEddy.Com/~cwg/\nvirCIO http://www.virCIO.Com\n716 Congress, Suite 200\nAustin, TX 78701 +1 512 374 0500\n\n World War III: The Wrong-Doers Vs. the Evil-Doers.", 
+    "to": [
+        "Anders Eriksson <aeriksson@fastmail.fm>, exmh-workers@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Garrigues <cwg-exmh@DeepEddy.Com>", 
+    "subject": "Re: CVS report"
+}

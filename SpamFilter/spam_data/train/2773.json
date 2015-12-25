@@ -1,0 +1,9 @@
+{
+    "body": "On 05/03/2010 09:26 PM, Alex Samad wrote: \n[snip] \n> \n> I find with my atom, using syncplaces (a firefox addin), which encrypts \n> its files - it takes for ever, I am guess i am missing some of those \n> nice cpu op's that speed these things up. \n> \n \nAMD & Intel's low-power CPUs need encryption engines just like \nVia's, and libssl needs hooks into it. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BDF9038.7010504@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: 64-bit netbooks with Debian linux"
+}

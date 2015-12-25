@@ -1,0 +1,9 @@
+{
+    "body": "David Neary wrote:\n> Padraig Brady wrote:\n> \n>>>Paul Jakma wrote:\n>>>\n>>>>chars in hex to plain ASCII?\n>>>>\n>>>>eg given\n>>>> http://w%77%77%2Eo%70%74%6F%72%69um.n%65t/remove.html\n>>>>\n>>>>is there an easy way to turn it into\n>>>>\n>>>> http://www.optorium.net/remove.html\n>>>>eg, whether by piping through some already available tool, or \n>>>>programmatically (printf? - but i dont see how.).\n>>>\n>>Actually the following would be in some way sensible:\n>>echo -e \"`echo \"$enc\" | sed 's/%\\([0-9a-fA-F]\\{2,2\\}\\)/\\\\\\x\\1/g'`\"\n> \n> \n> Why {2,2}? Why not {2}?\n\nMe being silly, that's all.\n\nPádraig.\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ILUG list <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "Padraig Brady <padraig.brady@corvil.com>", 
+    "subject": "Re: [ILUG] converting strings of hex to ascii"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE-----\n\nVincent Cunniffe wrote:\n| Justin MacCarthy wrote:\n|\n|> I think I'll ask this question again, as I sent on friday afternoon.\n :-)\n|\n|\n| Mailman ;-)\n|\n| Trust me, you do *not* want to running your own mailing lists\n| on your own software.\n|\n| You'll wind up crying in a dark room looking for something\n| high-voltage to stick your fingers into.\n\nAll things considered, I get that effect with Mailman, but the viable\nalternatives are ezmlm, which is loonware and I'm avoiding on principle,\nand majordomo, which seems to have stagnated. Oh, and there's apparently\nsomething called SmartList which is a bitch to set up.\n\nWaider.\n- --\nwaider@waider.ie / Yes, it /is/ very personal of me\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.0.6 (GNU/Linux)\nComment: Using GnuPG with Mozilla - http://enigmail.mozdev.org\n\niQEVAwUBPXNE16HbXyzZsAb3AQH2KQf/XqeOMaHNXAlzbmgd5iYd9VQaAgWAR2DQ\nkdpz0NbECR2OS7PJoLY9lsPKgNshpJcDZIRsxJvXmfp5YRNq0AyP0HGGwRvWgjgB\n0N9HG/Rgez7S5RhU79RAuhpFb9XO1XzMI0gSkDHSGefQsUOAZ69vZVLLsiRiyHFy\n4u+vrPVTP0rYR7haX41JXu42GVWfT2K2DDFftAimqGCsJnu2MXcMI/Ptq1rtxhXD\nWZhxCR+FAwirEk8Yz9Drl8+gJL0YJQFSoWumQzqLKKutx1lJvv7OS4yDjGRaQpxm\nJmq8lifudZayccbixx7ZcXMSlpP4C45Wj5XJSYW8RCjU1bgxTqhMbQ==\n=eG8X\n-----END PGP SIGNATURE-----\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "vincent@cunniffe.net"
+    ], 
+    "is_spam": false, 
+    "from": "Waider <waider@waider.ie>", 
+    "subject": "Re: [ILUG] Email list management howto"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 11 Aug 2002, Russell Turpin wrote:\n\n> If you're using the mail client on your personal\n> machine, there's no reason you would need to enter\n> a passphrase, unless that is part of how you secure\n> the data on your personal machine. You're private\n\nThe original comment's context was digital signatures. A digital signature\nis worth sqrat if any userspace app or rogue superuser code can grab your\nkeyring in clear, and send out stuff in your name. A passphrase unlocking\nthe keyring for that particular use is a minimal protection (since not\nimmune to passphrase snarfers), but this is much, much better than always\nleaving your key in the lock. (Why then having at all the key, in the\nfirst place?)\n\n> key is as secure as any other data on your machine.\n> If you're working remotely, you already have to\n> enter a passphrase to get to your email.\n\nA passphrase is a (long, secure) password unlocking (decrypting) your \nkeyring. You don't use a passphrase to read your email. Unless it resides \non a crypto file system.\n\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [
+        "Russell Turpin <deafbox@hotmail.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Eugen Leitl <eugen@leitl.org>", 
+    "subject": "Re: Forged whitelist spam"
+}

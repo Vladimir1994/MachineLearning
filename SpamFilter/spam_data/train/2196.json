@@ -1,0 +1,9 @@
+{
+    "body": "Hello, \n \nI'm curious as to the different ways one can create a USB install stick, for \nthe purpose of installing Debian. \n \nIt is possible to do it by \na) acquiring (where?) a boot.img.gz file, and then doing \"zcat boot.img.gz > \n/dev/sdc\". Then load a netboot iso to the disc. \nb) making a FAT/FAT32 partition on the stick, and then doing \"syslinux \n/dev/sdXX\", copying vmlinuz and initrd.gz to the stick \nc) using Unetbootin with an .iso file \n \nI like the way Unetbootin allows one to use a larger .iso (dvd, or full cd \niso). The downside of a) and b) is that you can only use the smaller netboot \n.isos, and if I wanted to load a few more files onto the disc for use I \nwouldn't have the room to do so. \n \nDoes anyone know another method? I'm particularly interested in knowing the \nway to do what Unetbootin does manually, so that I could load a cd/dvd iso \nonto the stick after making it boot-able. \n \nRegards, \nJames", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Different ways of creating a USB-install stick"
+}

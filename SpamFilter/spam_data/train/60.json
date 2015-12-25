@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 2002-10-08 at 10:36, Matthias Saou wrote:\n> Hi there,\n> \n> Two new things today :\n> \n> 1) I've had to install a Red Hat Linux 6.2 server because of an old\n> proprietary IVR software that doesn't work on newer releases :-( So I've\n> recompiled both the latest apt and openssh packages for it, and they are\n> now available with a complete \"os, updates & freshrpms\" apt repository at\n> apt.freshrpms.net, for those who might be interested.\n\nGack. Did you try 7.3 with the compat-glibc first? Or does it require an\nantique kernel?\n\n-- \nChris Kloiber\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Kloiber <ckloiber@ckloiber.com>", 
+    "subject": "Re: Zoot apt/openssh & new DVD playing doc"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "trying to report spam [razor chooses hubris] I timeout on the connection\n(which seems to have gotten slower all morning) and receive the following\nerror message:\n\nrazor-report error: connect4: nextserver: discover1: Error reading socket\nconnect4: nextserver: discover1: Error reading socket\n\nI then try to run razor-admin -discover and receive the same error .....\nproblems with the servers today? only one discovery server?\n\nSven\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "<razor-users@example.sourceforge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Sven Willenberger\" <sven@dmv.com>", 
+    "subject": "[Razor-users] problems with hubris and/or discovery"
+}

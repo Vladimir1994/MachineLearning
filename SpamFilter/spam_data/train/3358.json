@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nCamaleón writes: \n \n> PDF manipulation is still very limited in Linux so don't expect the same \n> manageability and easiness of Acrobat Professional or such programs \n> here :-) \nMmh okay, but what I want looks basic, doesn't it? No problem. \n \n> That said, I would make first the big PDF file (with all the needed \n> appended files in there) and then make the bookmarks with a program that \n> allows creating/editing them, like \"jPdfBookmarks¹\". \nThanks. I'll check it out. \n \n> Dunno whether \"pdfkt\" or \"pdfedit\" will allow creating/editing \n> bookmarks. \nI think you meant `pdftk' at the place of `pdfkt'. \n \n> ¹ http://flavianopetrocchi.blogspot.com \nThanks for this link. I'll check it. \n- -- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \n- -- \n \nTo live is the rarest thing in the world. Most people exist, that's \n all. (Oscar Wilde) \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (GNU/Linux) \nComment: Processed by Mailcrypt 3.5.8 \n \niEYEARECAAYFAkvl17MACgkQM0LLzLt8MhxbAgCfYPgyruQ1P851+ob77Z/EuP92 \n5qsAn0FmUa7iHdB+I3pYMgA1TdiusRyV \n=Q+Pr \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87pr16yte3.fsf@merciadriluca-station.MERCIADRILUCA", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: pdftk or related: how to make a bookmark for every inserted  PDF?"
+}

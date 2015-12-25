@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, Apr 21, 2010 at 03:27:28PM +0000, T o n g was heard to say: \n> On Tue, 20 Apr 2010 22:33:14 -0700, Daniel Burrows wrote: \n> > Can you provide any more information about this? It shouldn't happen \n> > in any recent version of aptitude. \n> \n> I can only give you partial information. \n> \n> This is what I've been doing \n> \n> aptitude --purge-unused purge durep \n> dpkg -i /linux/linux_bin/deb-pkgs/durep_0.8.1-7.1_all.deb \n> aptitude install durep= \n> \n> For how it happened, I need directions for where to look for such \n> \"more information\". \n \n If you see \"aptitude safe-upgrade\" trying to upgrade durep, I'd like \nto see the output of these commands (after you type Control-C at the \naptitude prompt, of course): \n \naptitude show durep \naptitude -sy --show-resolver-actions safe-upgrade \n \n> It is not the first time such thing happens, I agree with Monique's \n> obervation, \"when aptitude is making suggestions to resolve conflicts, it \n> will un-hold packages.\" \n \n That shouldn't be possible. If it is happening, something is very \nwrong. My own guess is that something is clearing your hold flags. For \ninstance, it was recently pointed out to me that \"aptitude keep-all\" \nclears hold flags (probably wrongly). \n \n Daniel \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100422030648.GA18182@emurlahn.burrows.local", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Burrows <dburrows@debian.org>", 
+    "subject": "Re: How to trick my Debian in thinking that a package is not installed"
+}

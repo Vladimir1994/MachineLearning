@@ -1,0 +1,8 @@
+{
+    "body": "Hi, \nOn Thu, Apr 08, 2010 at 09:02:31AM +0200, Jozsi Vadkan wrote: \n> I don't want to put: \n> \n> apt-get update \n> \n> in: \n> \n> /etc/crontab \n> \n> But then how could I \"automate\" the: \n> \n> apt-get update \n> \n> ? Is there a program for it? [e.g.: update-manager under GUI?] that \n> randomly runs apt-get update? \n> \n> Thank you! \n \nConsider cron-apt too. \nRegards \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100408082708.GB1949@nacer-adamou.cm.auf.org", 
+    "to": [
+        "Jozsi Vadkan <jozsi.avadkan@csmining.org>"
+    ], 
+    "from": "Nacer ADAMOU <adamou.nacer@csmining.org>", 
+    "subject": "Re: automate apt-get update"
+}

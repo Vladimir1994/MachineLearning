@@ -1,0 +1,7 @@
+{
+    "body": "I'm listed as a developer on SF and have the spambayes CVS module checked\nout using my SF username, but I'm unable to write to the repository. CVS\ncomplains:\n\n % cvs add unheader.py\n cvs [server aborted]: \"add\" requires write access to the repository\n\nAny thoughts?\n\nSkip", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "skip@pobox.com (Skip Montanaro)", 
+    "subject": "[Spambayes] can't write to CVS..."
+}

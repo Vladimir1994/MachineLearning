@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://www.newsisfree.com/click/-2,8655707,215/\nDate: 2002-10-08T03:30:59+01:00\n\n*Simon Hattenstone* meets comedian Lee Evans.", 
+    "to": [
+        "yyyy@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "guardian <rssfeeds@example.com>", 
+    "subject": "'I'm just an idiot'"
+}

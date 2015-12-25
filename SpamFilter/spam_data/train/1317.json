@@ -1,0 +1,9 @@
+{
+    "body": "Paul Jakma wrote:\n> On Tue, 27 Aug 2002, David Neary wrote:\n> \n> > > Actually the following would be in some way sensible:\n> > > echo -e \"`echo \"$enc\" | sed 's/%\\([0-9a-fA-F]\\{2,2\\}\\)/\\\\\\x\\1/g'`\"\n> > \n> > Why {2,2}? Why not {2}?\n> \n> the above was something along the lines i was attempting, once i \n> realised it was a straight swap. but i couldnt get awk's gensub to \n> insert the \\x for %'s and ='s.\n\nPerl's pack() would do the job...\n\n> > PS the late reply is because the footer on the original mail (If\n> > you received this mail in error yadda yadda) got caught in my\n> > spam filter, and ended up in my junkmail directory.\n> \n> might not have been the footer - check my headers. :)\n\nActually, it was worse - a bodycheck showed up a \"remove\" URL. I\nneed a new spam filter (but I want to be able to process false\npositives, rather than dump them).\n\nCheers,\nDave.\n\n-- \n David Neary,\n Marseille, France\n E-Mail: bolsh@gimp.org\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ILUG list <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "David Neary <bolsh@gimp.org>", 
+    "subject": "Re: [ILUG] converting strings of hex to ascii"
+}

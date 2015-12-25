@@ -1,0 +1,9 @@
+{
+    "body": "On 05/18/2010 04:50 AM, Alan Chandler wrote: \n> On 18/05/10 06:03, Ron Johnson wrote: \n> \n>> Hmmm. Just occurred to me that maybe I don't have fam installed. \n>> Yup, not installed. gamin 0.1.10-2+b1 is, though. \n>> \n> \n> \n> Bingo \n> \n> libfam0 had been installed automatically by courier-imap and/or \n> courier-base \n> \n> I manually switched over the libgamin0 and the problem has gone away. \n> \n \nYou should add that work-around to the bug report... \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF2703E.5030802@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: Is there a workaround for bug #578937 [SOLVED]"
+}

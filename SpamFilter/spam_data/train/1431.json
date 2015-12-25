@@ -1,0 +1,7 @@
+{
+    "body": "> That has the nasty side effect of placing all .py files in the\n> package. What about obvious executable scripts (like timtest or\n> hammie)? How can I keep them out of the package?\n\nWhy would we care about installing a few extra files, as long as\nthey're inside a package?\n\n--Guido van Rossum (home page: http://www.python.org/~guido/)", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "guido@python.org (Guido van Rossum)", 
+    "subject": "[Spambayes] spambayes package?"
+}

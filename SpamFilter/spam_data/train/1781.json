@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday 12 May 2010 17:22:21 Alejandro Exojo wrote: \n> El Miércoles, 12 de Mayo de 2010, Frederik Schwarzer escribió: \n> > If you want to have these images there in case they are needed, keep the \n> > folder, if disk space is more important than loading speed, remove it \n> > regularily. \n> \n> Of course, that's what I do. But a plain user should not be asked to \n> regularly remove it, should he? It probably should be handled like the \n> trash folder, which IIRC has a size/time limit. \n \nI think \"sweeper\" (?) from kdeutils is supposed to handle this, right? \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: KDE 4.4.3 upgrade eats 141 MB of /home"
+}

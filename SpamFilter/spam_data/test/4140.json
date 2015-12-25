@@ -1,0 +1,8 @@
+{
+    "body": "On Tuesday, 2010-05-11, Boyd Stephen Smith Jr. wrote: \n> On Monday 10 May 2010 17:02:35 Richard Hartmann wrote: \n> > On Mon, May 10, 2010 at 22:39, Dotan Cohen wrote: \n> > > Really? Please file those crashes! I though that all the serious Kmail \n> > > crashers were fixed! \n> > \n> > Speaking of which... As you are a walking bug filofax: \n> > Even though I have to say the d word.. What is the state of \n> > disconnected IMAP? Still killing a few thousands emails \n> > sometimes, as with KDE 3? \n> \n> I didn't have it hit me in KDE 3. \n> \n> I use multiple disconnected IMAP accounts and have without issue since 4.2 \n> entered Sid. \n \nSame here, even when getting disconnected a lot during operations (e.g. when \nusing mobile broadband on a train trip). \n \nCheers, \nKevin", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "from": "Kevin Krammer <kevin.krammer@gmx.at>", 
+    "subject": "Re: What needs to improve in KDE 4?"
+}

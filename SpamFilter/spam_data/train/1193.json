@@ -1,0 +1,9 @@
+{
+    "body": "Nick Hilliard's [nick-lists@netability.ie] 52 lines of wisdom included:\n> The standard release versions of ipfilter are unencumbered, as always.\n> \n> > Nope, indeed IPFW2 has just been rolled out into -STABLE. (-STABLE\n> > is a stable branch of the code that has been rolled into -CURRENT\n> > first. It's basically a major release, that's still a work in\n> > progress)\n> \n> I'm not so sure that ipfw2 is really ready for production yet, having\n> only been mfc'd last wednesday. It certainly adds some nice syntactic\n> sugar, and is apparently much faster for certain types of complex\n> rulesets. It will be good once it's had some time to settle down a\n> little.\n\nI would question anything being ready for \"production\" being in\nSTABLE.\n\nHe's kept backwards compatibility with ipfw, which is major plus.\n\nMy point about IPFW2 being rolled out into stable was merely an\nillustration of the fact that ipfw is indeed not ipfilter, and that\nthere are no license issues there :)\n\n-- \n Philip Reynolds \n RFC Networks tel: 01 8832063\nwww.rfc-networks.ie fax: 01 8832041\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Philip Reynolds <phil@redbrick.dcu.ie>", 
+    "subject": "Re: [ILUG] ipfw vs ipchains vs iptables"
+}

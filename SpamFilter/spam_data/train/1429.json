@@ -1,0 +1,9 @@
+{
+    "body": "Dotan Cohen: \n>>> \n>>> A neighbor with an old Debian (probably etch but could be sarge) \n>>> machine needs to know where a USB smart card reader attached via RS232 \n>>> adaptor \n>> \n>> Huh??? \n> \n> He's got a few of these connected via serial adaptors: \n> http://www.infinityusb.com/default.asp?show=productsdetail&ProductID=12 \n> \n> Why aren't they on real USB, I don't know. I am going over there to \n> help him tomorrow, so to come prepared I started googling today. \n> Although the USB-serial adaptors seem to be popular, I find nothing \n> about how to mount devices attached to them. I am assuming that, being \n> a card reader, I will be able to mount the media (card). \n \nIt might just be me, but when I head \"USB-serial adaptor\" I think of \nsomething like a PL2303 which can be used to attach devices with a \nserial connector to a PC that lacks a serial port. It would be news to \nme if these adaptors worked the other way round, too. \n \nBut if it actually works, you should be able to talk to the device using \nthe regular /dev/ttyS0. \n \nJ. \n-- \nWatching television is more hip than actually speaking to anyone. \n[Agree] [Disagree] \n ", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Jochen Schulz <ml@well-adjusted.de>", 
+    "subject": "Re: USB device attached via RS232 adaptor"
+}

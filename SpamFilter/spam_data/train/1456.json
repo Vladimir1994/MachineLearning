@@ -1,0 +1,9 @@
+{
+    "body": "Merle Reinhart wrote: \n> The 'box' shows up if you use xev -rv. So my guess is that it is there, but just white on white (I'm using the default SL X11 2.3.5). \n \nThis is true. Even if you don't see the box, moving the mouse over its \ninvisible border shows corresponding events. \n \nLooks like a bug, but not in xev, because running xev via ssh on a \nremote machine doesn't show the box either. I am running standard SL \n10.6.3 X11 \"XQuartz 2.3.5 (xorg-server 1.4.2-apple53)\". \n \n-- \nMartin \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "X11 List <x11-users@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Martin Costabel <costabel@wanadoo.fr>", 
+    "subject": "Re: Oddity ?"
+}

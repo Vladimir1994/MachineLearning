@@ -1,0 +1,9 @@
+{
+    "body": "zzzz@example.com (Justin Mason) writes:\n\n> /dev/fd/0 is STDIN -- filedescriptor 0. Looks like the PS file wants\n> to know its filename, but it's being read from STDIN, that's my\n> guess. \n\nI don't think so: it should be getting a stream of PS from stdin,\nbut it's not. The printing/spooling system is executing gs but\nsomehow failing to provide it with input.\n\n> Try tweaking the scripts to run \"gs\" with the ps file on\n> the command line instead of as \"-\".\n\nThat might clarify that the later part of the system works, but I\nsuspect the problem is earlier.\n\nB\n-- \nBrendan Halpin, Dept of Government and Society, Limerick University, Ireland\nTel: w +353-61-213147 f +353-61-202569 h +353-61-390476; Room F2-025 x 3147\n \n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "zzzz@example.com (Justin Mason)"
+    ], 
+    "is_spam": false, 
+    "from": "Brendan Halpin <brendan.halpin@ul.ie>", 
+    "subject": "Re: [ILUG] cups question"
+}

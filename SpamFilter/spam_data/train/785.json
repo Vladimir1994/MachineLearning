@@ -1,0 +1,9 @@
+{
+    "body": "Hello l7-filter members. \n \nThis is just an update on how things are moving along with the l7-filter \nproject changes. \n \nSVN Import \n---------- \n \nThe l7-filter source code has been imported into SVN. Darryl took the \ntime and effort to create the repository with change history intact. \nFeel free to take a look at the results: \n \nhttp://code.clearfoundation.com/svn/listing.php?repname=l7-filter \n \n \nBug Tracker \n----------- \n \nThe new bug tracker is also online. The tracker is integrated with the \nSVN system. It will also be integrated with build system and CI \ninfrastructure at some point in the future. Please let me know if you \nwould like an account created! \n \nhttp://l7-filter.clearfoundation.com/tracker/roadmap_page.php \n \n \nDocumentation \n------------- \n \nWe are slowly be surely making some progress on migrating and updating \nthe documentation. \n \nhttp://l7-filter.clearfoundation.com/docs/ \n \n \nThat's all for now. We're making progress and you should see some \nl7-filter updates rolling out in June/July. \n \nPeter Baldwin \nClearFoundation \n \n------------------------------------------------------------------------------ \n_______________________________________________ \nl7-filter-developers mailing list \nl7-filter-developers@lists.sourceforge.net \nhttps://lists.sourceforge.net/lists/listinfo/l7-filter-developers", 
+    "to": [
+        "l7-filter-developers@lists.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Peter Baldwin <pbaldwin@clearfoundation.com>", 
+    "subject": "[l7-filter-developers] Update on migration to ClearFoundation"
+}

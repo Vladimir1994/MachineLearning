@@ -1,0 +1,9 @@
+{
+    "body": "Hi all, \n \nI was having some problems with ooffice so I did \"apt-get update\" and \nthen ran \"apt-get upgrade\" to see if ooffice was among the packages to \nbe upgraded. It wasn't, but I tried \"apt-get install ooffice\" \nanyway, and presto it started upgrading ooffice. \n \nSo I looked at the man-page: \n \n upgrade \nis used to install the newest versions of all packages currently \ninstalled on the system \n \nI did, in fact, have ooffice installed so I'm not clean on why upgrade \nalone did seem to want to upgrade the package. \n \nAny ideas ? \n \nThanks, \n \nBrian \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100405213737.0656411a@windy.deldotd.com", 
+    "to": [
+        "<debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "<briand@aracnet.com>", 
+    "subject": "shouldn't apt-get upgrade, you know, upgrade ?"
+}

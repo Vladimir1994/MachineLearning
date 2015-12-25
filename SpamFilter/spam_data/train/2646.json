@@ -1,0 +1,9 @@
+{
+    "body": "To continue the subject on an otherwise unrelated note, the following\npersonal correspondence was just flagged as spam:\n\nThe following is a slightly modified e-mail message trapped in a server-wide\nspam box.\n\n------\nNEWSPAPER?????\n\nany time estimate when we can expect you home?\ndad\n\n\n\n\n\n\n \n *********> cc:\n Subject: Oh, yeah\n 09/12/2002 12:43 PM\n\n\n\n\n\n\nI have to stay after school today so I can work on the school newspaper\n(layout) -- Nords will bring me home later than usual.\n\n------\n\nI don't know how to explain this one.\n\n--Will\n\n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "<razor-users@example.sourceforge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Will Glynn\" <delta407@lerfjhax.com>", 
+    "subject": "[Razor-users] Re: Collision of hashes?"
+}

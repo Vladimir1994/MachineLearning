@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-15 17:32 +0200, Hugo Vanwoerkom wrote: \n \n> (on Sid) I pinned grub-legacy, to avoid going to grub2. \n> \n> Then when I do 'apt-get dist-upgrade' I see: \n> \n> The following packages have been kept back: \n> grub \n> \n> and \n> \n> The following packages will be upgraded: \n> ... grub-legacy ... \n> \n> but when I do 'aptitude full-upgrade' I see: \n> \n> The following packages will be REMOVED: \n> ... grub-legacy{a} ... \n \nYou should run \"aptitude unmarkauto grub-legacy\" and remove the \ntransitional grub package. Unfortunately the case where a transitional \npackage A pulls in another package B is not handled well by the package \nmanagers, I always end up \"aptitude unmarkauto B; aptitude markauto A\" \nto tell apt that I want to keep the new package and that it can remove \nthe transitional one as soon as nothing depends on it anymore. \n \n> The following NEW packages will be installed: \n> ... grub-pc{a} ... \n> \n> So why does aptitude pay no attention to my pin? \n \nBecause it decides that the grub-legacy package is unused and can be \nremoved despite the pin. Whether this is the right thing is debatable; \nI'm sure you find some bug reports about that if you dig into the long \nlist of aptitude bugs. \n \nSven \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87fx1tcg4h.fsf@turtle.gmx.de", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sven Joachim <svenjoac@gmx.de>", 
+    "subject": "Re: pinning + apt-get vs aptitude"
+}

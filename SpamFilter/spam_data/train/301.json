@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, 09 Oct 2002 14:43:32 EDT, Kevin Kenny writes:\n>> 3) You can learn to use procmail,\n\n>Can this be done via .forward?\n\nmake your .forward contain only the following line:\n\"|/usr/bin/procmail\"\n (incl. the quotes, your procmail binary may be in another path)\n\ncheers,\n&rw\n-- \n-- For a list of points detailing how technology\n-- has failed to improve our lives, please press 3.", 
+    "to": [
+        "exmh-users@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Waldner <waldner@waldner.priv.at>", 
+    "subject": "Re: From"
+}

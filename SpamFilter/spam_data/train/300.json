@@ -1,0 +1,9 @@
+{
+    "body": "Dotan Cohen schreef: \n> On 10 May 2010 14:37, steef wrote: \n>> Dotan Cohen schreef: \n>>>> where is the copy-files option in 'edit', dolphin in kde4.x (in 3.5 edit> \n>>>> copy files in konqueror) or did my old eyes look not sharp enough? \n>>>> \n>>>> \n>>> In KDE 4.4.2 I have Edit -> Copy in both Dolphin and in Konqueror. Can \n>>> you send to me a screenshot of your Edit menu? What KDE version? \n>>> \n>>> \n>> hi dotan: \n>> \n>> that is not exactly what i mean: i was not clear enough: so another time: \n>> \n>> i mean in kde 3.5 in the same row as 'copy' under 'edit' the 'copy files' \n>> possibility that i cannot find back in kde4.x.x \n>> i'll look at exact the version of kde 4.x.x later. this version of kde 4.x.x \n>> is on another (non-production) machine with os debian_sid, up to date. \n>> \n>> thanks for your answer, \n>> \n>> kind regards, \n>> \n>> steef \n>> \n> \n> What does \"copy files\" do then? Describe to me what it does and I will \n> see if Dolphin can do that, or if it is reasonable I will file a \n> feature request. \nSee http://www.lorentz.leidenuniv.nl/~sjoerd/files/schermafdruk.png. \nTranslation of the popup-box: \"copy selected files in /home/sjoerd to:\" \n \nCheers! \nSjoerd", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>", 
+    "subject": "Re: Fwd: Re: Kde 3.5 ..."
+}

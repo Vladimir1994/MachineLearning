@@ -1,0 +1,9 @@
+{
+    "body": "> Is it possible to use new apt to do (null) to RH8 upgrade?\n\nIt might be, don't think anyone tried it yet.\n\n> Even if it's possible, are there good reasons why maybe I should not do it and\n> just use the RH iso's (I don't think RH8 will upgrade from (null), maybe up2date\n> will)?\n\nYes ;)\n\nfirst off, redhat does not support upgrading from beta's to the released \nversion. That doesn't mean it can't work, it means nobody tried it, they \nsure didn't test it or fix anything to make it work, and you're on your \nown.\n\nsecond, historically a new .0 numbers mostly means \"so much has been \nchanged that you might have problems upgrading from any previous release \nanyway\". So, historically, most users installing a .0 release do this \nfrom scratch anyway, doing upgrades throughout x.0->x.y.\n\nIf you want to avoid problems, bite the bullet and reinstall ;)\n\nThomas\n\n -- \n\nThe Dave/Dina Project : future TV today ! - http://davedina.apestaart.org/\n\nAnd every time she sneezes\nI think it's love and oh lord\nI'm not ready for this sort of thing\n\nURGent, the best radio on the Internet - 24/7 ! - http://urgent.rug.ac.be/\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Thomas Vander Stichele <thomas@urgent.rug.ac.be>", 
+    "subject": "Re: use new apt to do null to RH8 upgrade?"
+}

@@ -1,0 +1,8 @@
+{
+    "body": "Hello, \n \nKDE SC 4.4.2 packages in qt-kde.debian.net have been superseded by packages \nuploaded to official Debian experimental archive and therefore they were \nremoved from the semi-official repository. As it was written on the \nintroductory page of qt-kde.debian.net, the repository itself will remain to \nexist and might get some random extremely bleeding edge updates from time to \ntime. Feel free to keep it in your /etc/apt/sources.list. \n \n-- \nModestas Vainius ", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "from": "Modestas Vainius <modestas@vainius.eu>", 
+    "subject": "EOL of KDE SC 4.4.2 in qt-kde.debian.net"
+}

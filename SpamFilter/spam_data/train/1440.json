@@ -1,0 +1,9 @@
+{
+    "body": "jm@jmason.org (Justin Mason) writes:\n\n> Yes -- 50% of the entire set for training and 50% for evaluation.\n\nOnce you've settled on the final method for any one release, why not\nuse 100% of the data for a final run?\n \nDan", 
+    "to": [
+        "yyyy@example.com (Justin Mason)"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Quinlan <quinlan@pathname.com>", 
+    "subject": "Re: [SAdev] phew!"
+}

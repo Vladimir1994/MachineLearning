@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-06 11:30, Rodolfo Medina wrote: \n[snip] \n> \n> Today I went back to that shop and found many other printers - about ten - none \n> of whose is listed there. So, that list seems to be quite old. On the other \n> hand, I seriously need a new printer but would like to be sure it'll work under \n> Debian. What do you Debian users suggest? \n> \n \n(What's your budget and what country do you live in?) \n \nopenprinting.org has a by-manufacturer listing grouping all the \n\"Perfectly\" working printers together, then the \"Mostly\" then the \n\"Partially\" and \"Paperweight\". \n \nFor example: \nhttp://www.openprinting.org/printers/manufacturer/Epson/ \nhttp://www.openprinting.org/printers/manufacturer/Fujitsu/ \nhttp://www.openprinting.org/printers/manufacturer/HP \nhttp://www.openprinting.org/printers/manufacturer/Dell \n \nEven though it's marked as \"Mostly\", I really like my Dell 3100cn \ncolor laser printer. It's *big*, and was $350 about 5 years ago but \nbeing laser printer is toner-based, and powder doesn't dry out. \n \n-- \n\"History does not long entrust the care of freedom to the weak \nor the timid.\" Dwight Eisenhower \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBB694F.8000405@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: Epson Stylus SX110 under Debian Lenny?"
+}

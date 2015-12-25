@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, 21 Apr 2010 10:14:45 +0100, abdelkader belahcene wrote: \n \n> Hi, \n \nPlease, keep quoting when replying e-mails to avoid messing the \ncontent :-) \n \n> I suppose so, since I hear sounds and can play music ? or it is \n> another thing ? \n \nAFAIK, it's another thing as I have disabled my system sounds but still \ncan hear any other music :-) \n \n> otherwise how to enable \"system sounds\" thanks for help \n> bela \n \nIn Lenny, go to \"menu / system / preferences / sound\" and open \"Sounds\" \ntab. There you can enable system sounds. \n \nIf you are running squeeze, take a read into this thread: \n \n*** \nNo GNOME system sounds in Squeeze \nhttp://lists.debian.org/debian-user/2010/01/msg02369.html \n*** \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.21.09.59.34@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: how to activate canbery"
+}

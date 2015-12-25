@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, 21 May 2010 14:55:52 -0400 (EDT), Peter Easthope wrote: \n> Stephen Powell wrote: \n>> If you need \n>> instructions for how to pull in the Sid kernel without upgrading \n>> your whole system ... \n> \n> As far as I know this line should be appended to /etc/apt/sources.list \n> deb http://debian.oregonstate.edu/debian/ sid main \n> and then update and upgrade. \n \nNot unless you want to upgrade your entire system to Sid. To install \nonly certain cherry-picked applications from Sid, you have to use \napt pinning. And don't use synaptic. (But since you don't have X \nrunning, you can't use synaptic. Yet. But once you get it running, \ndon't use synaptic. I've heard that it does not respect apt pinning.) \n \n-- \n .''`. Stephen Powell \n : :' : \n `. `'` \n `- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1018134636.325971.1274469195306.JavaMail.root@md01.wow.synacor.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Powell <zlinuxman@wowway.com>", 
+    "subject": "Re: Re (6): xorg-server failing on IBM NetVista with Intel 82815   video"
+}

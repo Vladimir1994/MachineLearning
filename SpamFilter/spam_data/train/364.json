@@ -1,0 +1,9 @@
+{
+    "body": "On 05/18/2010 03:32 PM, Merciadri Luca wrote: \n> Eduardo M KALINOWSKI wrote: \n> \n>> On Ter, 18 Mai 2010, Merciadri Luca wrote: \n>> \n>>> Well, this is effectively Icedove 2.0.0.22 (20090706). How did you \n>>> manage to, under Th. 3? \n>>> \n>> I don't remember exactly, but I believe somewhere the was an option to \n>> accept the security exception permanently. \n>> \n> Thanks. I just verified, and it is surely not implemented in my \n> Icedove's version. I should get the new one (which is not in stable \n> branch, evidently). \n> \n> \nYou are better off using the upstream tarball of thunderbird then trying \nto backport Icedove from squeeze/lenny. Install to your homedir or /opt. \nAs long as your user has write perms to file, it has an update manager \nthat can upgrade itself (somewhat eliminating the need for package \nmanagement). \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF2EF3A.6070109@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Jordan Metzmeier <titan8990@csmining.org>", 
+    "subject": "Re: Server certificate has expired"
+}

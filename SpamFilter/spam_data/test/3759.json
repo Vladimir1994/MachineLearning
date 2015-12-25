@@ -1,0 +1,8 @@
+{
+    "body": "Hi All Folks,\n\nI have 'APT' installed and updated from 'freshmeat.net. But I failed using it\n\n# apt-get install \n/mnt/cdrom/Linux/CDBurner/cdrtools-cdrecord-1.11a23-1.i386.rpm\nProcessing File Dependencies... Done\nReading Package Lists... Done\nBuilding Dependency Tree... Done\nE: Couldn't find package \n/mnt/cdrom/Linux/CDBurner/cdrtools-cdrecord-1.11a23-1.i386.rpm\n\nThe file 'cdrtools-cdrecord-1.11a23-1.i386.rpm' is there\n\nI performed another test copying the file \n'cdrtools-cdrecord-1.11a23-1.i386.rpm' to /root/Download\n\n# apt-get install /root/Download/cdrtools-cdrecord-1.11a23-1.i386.rpm\nProcessing File Dependencies... Done\nReading Package Lists... Done\nBuilding Dependency Tree... Done\nE: Couldn't find package /root/Download/cdrtools-cdrecord-1.11a23-1.i386.rpm\n\nStill failed. Finally I rpm 'cdrtools-cdrecord-1.11a23-1.i386.rpm' from the \nCD and suceeded.\n\nKindly advise what mistake I have committed.\n\nThanks in advance.\n\nStephen Liu\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "from": "Stephen Liu <satimis@writeme.com>", 
+    "subject": "Apt-get question"
+}

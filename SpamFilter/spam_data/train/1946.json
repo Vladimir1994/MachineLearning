@@ -1,0 +1,9 @@
+{
+    "body": "> t/db_based_whitelist.Use of bare ../lib/Mail/SpamAssassin/HTML.pm line 1. Use of bare deprecated at ../lib/Mail/SpamAssassin/HTML.pm line 6. Unquoted string\n\nhmm, could you check your installation? those chars aren't in my\nversion at all.\n\n--j.\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "felicity@kluge.net"
+    ], 
+    "is_spam": false, 
+    "from": "\"Justin Mason\" <yyyy@example.com>", 
+    "subject": "Re: [SAdev] 2.40: ready for release?"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Date: Thu, 22 Aug 2002 10:04:06 -0500\n From: Chris Garrigues \n Message-ID: \n\n | hmmm, I assume you're going to report this to the nmh folks?\n\nIt turns out, when I did some investigation, that my memory of how MH\nworked here was wrong (that's not unusual) - the -seq switch seems to\nhave always done -nolist (requiring a subsequent -list to turn it on\nagain).\n\nGiven that, I have no idea how the pick code as it was ever worked. In\nfact, it quite possibly never did the way it was intended to (I have just\nbeen browsing the 2.5 sources, and that seems to be attempting to do things\nthat I never saw happen).\n\nIt may be that your new sequence method just exposed the bug that had been\nthere all along.\n\nGiven this, I won't be sending any bug reports to the nmh people. If nmh\never seems to be showing any signs further progress, and if I remember this\nthen, I might send them a change request. The code to make the change is\ntrivial.\n\nkre\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "Chris Garrigues <cwg-dated-1030460647.7351a3@DeepEddy.Com>"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Elz <kre@munnari.OZ.AU>", 
+    "subject": "Re: New Sequences Window"
+}

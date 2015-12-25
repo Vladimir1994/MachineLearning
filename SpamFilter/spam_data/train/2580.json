@@ -1,0 +1,9 @@
+{
+    "body": "Hello Mark Allums, \n \nAm 2010-05-14 07:39:47, hacktest Du folgendes herunter: \n> Flash may not be a priority, sense it performs two functions. One, \n> it acts as the standard web video player. Two, it tries to be a \n> standard web programming interface and SDK. \n> \n> The former is becoming mooted by the advent of HTML5. The latter is \n> boring, since there are 1000s of other ways to write programs that \n> run in web browsers, e.g., Javascript. No one really wants Flash to \n> be the go-to standard for programming, even if it offers a few shiny \n> gewgaws. Don't you hate Flash-based sites? I know I do. \n \n...and I hate websites using a 200 kByte JavaScript, sucking 500 MByte \nof memory and consuming 100% CPU resources to implement the same \nfunctionality as the Adobe Flash-Pluging. \n \nYes, I know a bunch of Websites claiming there are Flash-Free... Using \nJavaScript for this purpose is the same crap as using Flash. \n \nThanks, Greetings and nice Day/Evening \n Michelle Konzack \n \n-- \n##################### Debian GNU/Linux Consultant ###################### \n Development of Intranet and Embedded Systems with Debian GNU/Linux \n \nitsystems@tdnet France EURL itsystems@tdnet UG (limited liability) \nOwner Michelle Konzack Owner Michelle Konzack \n \nApt. 917 (homeoffice) \n50, rue de Soultz Kinzigstraße 17 \n67100 Strasbourg/France 77694 Kehl/Germany \nTel: +33-6-61925193 mobil Tel: +49-177-9351947 mobil \nTel: +33-9-52705884 fix \n \n \n \n \nJabber linux4michelle@jabber.ccc.de \nICQ #328449886 \n \nLinux-User #280138 with the Linux Counter, http://counter.li.org/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Michelle Konzack <linux4michelle@tamay-dogan.net>", 
+    "subject": "Re: Flash is open?"
+}

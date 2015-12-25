@@ -1,0 +1,9 @@
+{
+    "body": "Theo,\n\nThank you very much, it solves the problem!!!!\n\nEugene\n\n\n-----Original Message-----\nFrom: razor-users-admin@example.sourceforge.net\n[mailto:razor-users-admin@lists.sourceforge.net]On Behalf Of Theo Van\nDinter\nSent: September 5, 2002 4:38 PM\nTo: Eugene Chiu\nCc: razor-users@example.sourceforge.net\nSubject: Re: [Razor-users] spamassassin+razor2\n\n\nOn Thu, Sep 05, 2002 at 04:27:08PM -0400, Eugene Chiu wrote:\n> razor2 check skipped: Bad file descriptor Insecure dependency in open\nwhile runn\n> ing setuid at /usr/local/lib/perl5/site_perl/5.6.1/Razor2/Client/Config.pm\nline\n> 410, line 1.\n> >From info@znion.com Thu Sep 5 11:55:15 2002\n> Subject: *****SPAM***** Computer Maintenance\n> Folder: /home/eugene/caughtspam\n8343\n\nIt looks like you're running via procmail -- what are the permissions\non procmail? \"Insecure dependency\" screams \"I'm in taint mode!\", which\nis a typical problem when procmail is setuid/setgid (the permissions\nshould be 755).\n\nIf this is in fact the problem, an easy solution is to put \"DROPPRIVS=yes\"\nin the procmailrc. :)\n\n--\nRandomly Generated Tagline:\n\"The bus had no heat, blew over in the wind and used the driver's legs\n as its first line of defense in an accident.\" - Unknown about the VW Bus\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "\"Theo Van Dinter\" <felicity@kluge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Eugene Chiu\" <eugene@chiu.bz>", 
+    "subject": "RE: [Razor-users] spamassassin+razor2"
+}

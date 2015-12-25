@@ -1,0 +1,9 @@
+{
+    "body": "> From: Chris Garrigues \n> Date: Sun, 28 Jul 2002 16:05:37 -0500\n>\n> I did a commit on friday and I just did an update right now.\n\nI just did another commit. It was a minor change I'd been thinking of, so I \nthought I'd check it in just to test cvs.\n\nChris\n\n-- \nChris Garrigues http://www.DeepEddy.Com/~cwg/\nvirCIO http://www.virCIO.Com\n716 Congress, Suite 200\nAustin, TX 78701 +1 512 374 0500\n\n World War III: The Wrong-Doers Vs. the Evil-Doers.", 
+    "to": [
+        "Brent Welch <welch@panasas.com>, exmh-workers@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Garrigues <cwg-exmh@DeepEddy.Com>", 
+    "subject": "Re: cvs access working?"
+}

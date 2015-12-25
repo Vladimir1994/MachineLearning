@@ -1,0 +1,8 @@
+{
+    "body": "Hi James et al, \n \nI am just using QTMovie because I need to draw the contents of the \nmovie into a bitmap. So I am grabbing the NSImage of the current frame \nand using that. \n \nIs QTMovie dependant on QTMovieView for events in some fashion? \n \n \n \nthx \n \nbill appleton \n \n \n \n \n \n \n \nOn Tue, May 18, 2010 at 12:51 PM, James Walker wrote: \n> On 5/18/2010 11:55 AM, Bill Appleton wrote: \n> \n>> i am using cocoa and QTMovie to open and play valid movie files \n> \n> Are you using QTMovieView, or QTMovieLayer, or what? \n> \n> -- \n>  James W. Walker, Innoventive Software LLC \n>   \n> _______________________________________________ \n> Do not post admin requests to the list. They will be ignored. \n> QuickTime-API mailing list      (QuickTime-API@lists.apple.com) \n> Help/Unsubscribe/Update your Subscription: \n> http://lists.apple.com/mailman/options/quicktime-api/billappleton%40dreamfactory.com \n> \n> This email sent to billappleton@dreamfactory.com \n> \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "James Walker <jamesw@frameforge3d.com>"
+    ], 
+    "from": "Bill Appleton <billappleton@dreamfactory.com>", 
+    "subject": "Re: my movies don't idle"
+}

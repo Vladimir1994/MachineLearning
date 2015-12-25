@@ -1,0 +1,9 @@
+{
+    "body": "On Fri,21.May.10, 08:32:56, jeremy jozwik wrote: \n \n> question, on lenny is there a different repository for chromium? just \n> did a apt search to find chromium. \n \nAccording to http://packages.debian.org/chromium-browser [1] it is only \navailable in sid/unstable. backports.org usually carries newer versions \nof packages compiled for stable, but the policy is to have only packages \nfrom testing. \n \n[1] I could have told you the same with \n'apt-cache policy chromium-browser', but I do have sources for all three \nreleases ;) \n \nYou could also try to backport it yourself or just compile from source. \nThe upstream provided debs I don't like, because of the way they handle \nupdates. \n \nRegards, \nAndrei \n-- \nOfftopic discussions among Debian users and developers: \nhttp://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Andrei Popescu <andreimpopescu@csmining.org>", 
+    "subject": "Re: Chromium in Sid"
+}

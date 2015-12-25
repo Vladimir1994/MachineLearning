@@ -1,0 +1,9 @@
+{
+    "body": "Seems like irssi.org also has an apt-rpm repository for snapshots of irssi:\n\nrpm http://ninja.no/apt 7.3/i386 irssi\nrpm-src http://ninja.no/apt 7.3/i386 irssi\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Roy-Magne Mo <rmo@sunnmore.net>", 
+    "subject": "apt repository for irssi"
+}

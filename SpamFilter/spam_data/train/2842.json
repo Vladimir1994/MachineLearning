@@ -1,0 +1,9 @@
+{
+    "body": "Hi folks, I just uploaded RPMS of the new netatalk 1.5.5 released \nyesterday, thought folks here might be interested. This release fixes a \nnastygram in saving files via Illustrator that I personally have been \nwaiting for....\n\n http://ftp.falsehope.com/home/tengel/netatalk/\n\n(will be mirrored on rpmfind.net by tomorrow, usually).\n\n-te\n\n-- \nTroy Engel, Systems Engineer\nCool as the other side of the pillow\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "freshrpms <rpm-zzzlist@freshrpms.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Troy Engel <tengel@fluid.com>", 
+    "subject": "netatalk-1.5.5-1rh7"
+}

@@ -1,0 +1,7 @@
+{
+    "body": ">>> Skip Montanaro wrote\n> \n> I actually like Neale's X-Spam-Disposition header, I just wonder if maybe we\n> should choose something with a different prefix than \"X-Spam-\" so that\n> people don't confuse it with SpamAssassin, all of whose headers begin with\n> that prefix.\n\nI think it's fine, in general, just so long as no-one checks in anything\nthat puts it into my test corpus.\n\nOr alternately, whatever is chosen should be ignored by the tokenizer. \nI know my mail host (interlink) runs SA, but I also run it, with my own\nset of rules and scores. I don't want my spam-filter to be getting messed\nup by an upstream spam filter.", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "anthony@interlink.com.au (Anthony Baxter)", 
+    "subject": "[Spambayes] Maybe change X-Spam-Disposition to something else... "
+}

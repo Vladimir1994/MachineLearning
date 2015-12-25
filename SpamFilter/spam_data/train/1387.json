@@ -1,0 +1,9 @@
+{
+    "body": "This is a reminder, sent out once a month, about your linux.ie mailing\nlist memberships. It includes your subscription info and how to use\nit to change it or unsubscribe from a list.\n\nYou can visit the URLs to change your membership status or\nconfiguration, including unsubscribing, setting digest-style delivery\nor disabling delivery altogether (e.g., for a vacation), and so on.\n\nIn addition to the URL interfaces, you can also use email to make such\nchanges. For more info, send a message to the '-request' address of\nthe list (for example, webdev-request@linux.ie) containing just the\nword 'help' in the message body, and an email message will be sent to\nyou with instructions.\n\nIf you have questions, problems, comments, etc, send them to\nlistmaster@tuatha.org. Thanks!\n\nPasswords for jm-webdev@jmason.org:\n\nList Password // URL\n---- -------- \nwebdev@linux.ie foo \nhttp://www.linux.ie/mailman/options/webdev/jm-webdev@jmason.org", 
+    "to": [
+        "yyyy-webdev@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "listmaster@tuatha.org", 
+    "subject": "linux.ie mailing list memberships reminder"
+}

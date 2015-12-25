@@ -1,0 +1,9 @@
+{
+    "body": "On Sat, 24 Apr 2010 22:52:11 +0200, Merciadri Luca wrote: \n \n> Camaleón writes: \n \n(...) \n \n>> I dunno what method uses kerneloops to send the data (e-mail?). If \n>> sends the info by e-mail, you could check Exim's queue by being root \n>> and issuing \"mailq\" command. \n> \n> Actually, mailq seems to give nothing. \n \nI digged a bit about how the kerneloops daemon works and I guess it does \nnot use e-mail but some kind of mix between dbus system to gather \ninformation about the crash and then it sends the report to the URL \ndefined in \"kerneloops.conf\" file: \n \nhttp://submit.kerneloops.org/submitoops.php \n \nIf you directly load that page, it says: \n \n*** \n200 thank you for submitting the kernel oops information RemoteIP: [...] \n*** \n \nAlthough nothing was send :-P \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.25.10.26.12@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: Kernel (de)bug information sent, even if there is no connection"
+}

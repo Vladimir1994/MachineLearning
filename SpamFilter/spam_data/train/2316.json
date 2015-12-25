@@ -1,0 +1,9 @@
+{
+    "body": "I'm trying to wrap Zope up behind apache, so I can do VirtualHosts for\nZope.\n\n I've a site on http://ip:8080/mysite.\n\n I want that to appear as http://mysite.com/ - so:\n\n \n ServerName mysite.com\n DocumentRoot /var/www/mysite\n RewriteEngine on\n RewriteRule ^/(.*) http://localhost:8080/mysite/$1 [P]\n\n\n Now, what happens is that apache grabs http://localhost:8080/mysite/ and spits\nit out to the browser. Lovely. all works.\n\n Except for framed pages (like Zope's management interface). It ends up\nlooking like:\n\n \n \n\n \n \n\n \n \n\n \n\n and of course, that's not what my client should go to. Any ideas what I'm\ndoing wrong ?\n\nKate\n\n\n\n_______________________________________________\nWebdev mailing list\nWebdev@linux.ie\nhttp://www.linux.ie/mailman/listinfo/webdev", 
+    "to": [
+        "webdev@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "\"John P. Looney\" <valen@tuatha.org>", 
+    "subject": "[Webdev] mod_rewrite question"
+}

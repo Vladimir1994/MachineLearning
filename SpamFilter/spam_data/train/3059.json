@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-07 16:12, Ron Johnson wrote: \n[snip] \n> \n> Mart's method is the shell way. The 3GL Way is: \n> \n> grep -w \"$NAME\" \"$FILE\" \n> TMP=$? \n> if [ \"$TMP\" = \"1\" ]; \n \nThat should be: \n \nif [ \"$TMP\" = \"0\" ]; \n \n> then \n> echo -e \"$NAME\\n\" >> \"$FILE\" \n> fi \n> \n> \n \n \n-- \n\"History does not long entrust the care of freedom to the weak \nor the timid.\" Dwight Eisenhower \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBD0C09.4070304@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: OT: Script to add line to file if it doesn't exist"
+}

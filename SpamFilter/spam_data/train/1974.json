@@ -1,0 +1,9 @@
+{
+    "body": "Hello, \n \nOn antradienis 13 Balandis 2010 19:04:51 Patrice Pillot wrote: \n> Hi, \n> \n> Edson Marquezani Filho a écrit : \n> > I'm using SQLite as database backend \n> \n> You said you were using squeeze, didn't you ? May I ask you how you \n> tweaked amarok to use sqlite instead of mysqle ? \n \namarok 2 does not support SQLite. That's not something you can \"tweak\" amarok \nfor. \n \n-- \nModestas Vainius ", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Modestas Vainius <modestas@vainius.eu>", 
+    "subject": "Re: Amarok's Issues"
+}

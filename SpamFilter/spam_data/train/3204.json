@@ -1,0 +1,9 @@
+{
+    "body": "I can verify that these calls do actually work for synchronization. I grab the master time base of the movie I am considering the master (which can be arbitrary, so just pick one) and set the master time base of the other movies using that. They stay in perfect lock step for the rest of the way for me. \n \n-Matt \n \n \nOn Apr 13, 2010, at 12:22 PM, James Walker wrote: \n \n> On 4/11/2010 4:24 PM, Raphaël Dingé wrote: \n> \n>> Yes, sure, but my point was only about having two movies perfectly in sync, \n>> and this sample code is just a way to achieve it ! \n> \n> I tried adding the bit about GetMovieTimeBase and SetTimeBaseMasterTimeBase to my project, and it didn't seem to help synchronization. \n> \n> I also tried making a movie with references to the two video tracks, so that the video tracks would be playing in the same movie, and they still don't stay synchronized when playing. \n> \n> It looks like I may have to require that the two movies be somehow preprocessed to be side by side in a single video track. \n> -- \n> James W. Walker, Innoventive Software LLC \n> \n> _______________________________________________ \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "James Walker <jamesw@frameforge3d.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Matt Long <matt.long@matthew-long.com>", 
+    "subject": "Re: Compositing two movies"
+}

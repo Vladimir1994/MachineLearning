@@ -1,0 +1,7 @@
+{
+    "body": "Here's clarification of why I did:\n\nFirst test results using tokenizer.Tokenizer.tokenize_headers()\nunmodified. \n\nTraining on 644 hams & 557 spams\n 0.000 10.413\n 1.398 6.104\n 1.398 5.027\nTraining on 644 hams & 557 spams\n 0.000 8.259\n 1.242 2.873\n 1.242 5.745\nTraining on 644 hams & 557 spams\n 1.398 5.206\n 1.398 4.488\n 0.000 9.336\nTraining on 644 hams & 557 spams\n 1.553 5.206\n 1.553 5.027\n 0.000 9.874\ntotal false pos 139 5.39596273292\ntotal false neg 970 43.5368043088\n\nSecond test results using mboxtest.MyTokenizer.tokenize_headers().\nThis uses all headers except Received, Data, and X-From_.\n\nTraining on 644 hams & 557 spams\n 0.000 7.540\n 0.932 4.847\n 0.932 3.232\nTraining on 644 hams & 557 spams\n 0.000 7.181\n 0.621 2.873\n 0.621 4.847\nTraining on 644 hams & 557 spams\n 1.087 4.129\n 1.087 3.052\n 0.000 6.822\nTraining on 644 hams & 557 spams\n 0.776 3.411\n 0.776 3.411\n 0.000 6.463\ntotal false pos 97 3.76552795031\ntotal false neg 738 33.1238779174\n\nJeremy", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "jeremy@alum.mit.edu (Jeremy Hylton)", 
+    "subject": "[Spambayes] understanding high false negative rate"
+}

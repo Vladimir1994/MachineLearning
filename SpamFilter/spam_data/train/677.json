@@ -1,0 +1,9 @@
+{
+    "body": "> On Sat, May 01, 2010 at 17:20:56 +0200, Alois Mahdal wrote: \n>> Hello, \n>> \n>> because a stupid mistake, I have interrupted apt-get during early \n>> stage of dist-upgrade from Lenny to Squeeze. \n>> \n>> Now I cannot get apt-get working and I don't know how to fix it. \n>> \n \n \nI know it's cold comfort, but this is the reason why people say \n\"Before you do a major upgrade, always do a full backup. And be sure \nyou know how to do a full \"bare-metal\" restore from that backup, just \nincase you actually need it!\" \n \nEnjoy! \n \nRick \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/E3CFC3C9-600E-499F-899A-D9B6B92E32A4@pobox.com", 
+    "to": [
+        "debian-user List Debian <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Rick Thomas <rbthomas@pobox.com>", 
+    "subject": "Always do a full backup first [Re: Broken dependencies]"
+}

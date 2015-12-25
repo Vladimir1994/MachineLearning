@@ -1,0 +1,9 @@
+{
+    "body": "Hi Folks,\n\nI've been trying to set a button called which automatically\nforwards mail using a '-form mycomps' without going through\nthe editor, but so far haven't got the right recipe.\n\nI currently have in my .exmh-defaults:\n\n*Mops.spam.text: Spam\n*Mops.spam.command: Msg_Forward -form spamcomps -noedit -nowhatnowproc ; Msg\n_Remove\n\n\nI've also tried with \"SeditSend {$draft $t 0}\" after the forward command.\nIt should forward to a spam address (where filters get adjusted) and then\ndelete. It does so, but not without producing the edit window.\n\nAny help appreciated.\n\nWendy Roberts\n\n\n\n===========================================\nWendy Roberts \nHEAD System Administrator \nHigh Energy Astrophsics Division\nHarvard-Smithsonian Center for Astrophysics\nCambridge, MA USA 02138\nwendy@cfa.harvard.edu \nPhone: 617-495-7153 \n===========================================\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Wendy P. Roberts\" <wendy@head-cfa.harvard.edu>", 
+    "subject": "Automated forwarding"
+}

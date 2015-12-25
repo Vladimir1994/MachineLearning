@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, May 6, 2010 at 18:14, Dotan Cohen wrote: \n \n> System Settings -> Input and Output \n> RightClick -> New -> Global Shortcut -> Command \n \nIt's called \"Input Actions\". \nBut yes, this works. Still, the current way things are done are \nless than ideal. \n \nThus: \nhttps://bugs.kde.org/show_bug.cgi?id=236617 \n \n \nRichard \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/w2y2d460de71005061315h83c91b98zd136a27fe5433d16@mail.csmining.org", 
+    "to": [
+        "Dotan Cohen <dotancohen@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Richard Hartmann <richih.mailinglist@csmining.org>", 
+    "subject": "Re: Kde 3.5 ..."
+}

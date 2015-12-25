@@ -1,0 +1,9 @@
+{
+    "body": "David Neary stated the following:\n> \n> SoloCDM wrote:\n> \n> > Are there any mailing lists (non-newsgroups) for C++ and C Beginners\n> > and Advanced programmers?\n> \n> Try the following newsgroups - Beginners: news:comp.lang.learn.c-c++\n\nI tried news:comp.lang.learn.c-c++ and it wouldn't work. Is there a\ntypo?\n\n> More advanced: news:comp.lang.c news:comp.lang.c++\n> news:comp.lang.c.moderated\n> \n> Also, you should keep a bookmark pointing at the comp.lang.c FAQ at\n> http://www.eskimo.com/~scs/C-faq/top.html\n> \n> For tutorials, the guy who maintains the clc FAQ (Steve Summit) has\n> a tutorial - http://www.eskimo.com/~scs/cclass/notes/top.html Also\n> you could have a look at the excercises he poses - all linked from\n> http://www.eskimo.com/~scs/cclass/cclass.html\n> \n> For C++, I would guess that the comp.lang.c++ FAQ is a good place to\n> start - they're likely to have links to suggested reading material.\n> \n> If you're going to do any amount of C programming, you should\n> think about getting K&R2 (The C programming language, 2nd edition,\n> by Kernighan and Ritchie), for C++ the equivalent book is\n> Stroustrup. Although the C++ book is a lot bigger :)\n\n-- \nNote: When you reply to this message, please include the mailing\n list and/or newsgroup address and my email address in To:\n\n*********************************************************************\nSigned,\nSoloCDM\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "David Neary <dneary@wanadoo.fr>"
+    ], 
+    "is_spam": false, 
+    "from": "SoloCDM <deedsmis@aculink.net>", 
+    "subject": "[ILUG] Re: C++ and C Mailing Lists for Beginners and Advanced"
+}

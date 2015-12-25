@@ -1,0 +1,9 @@
+{
+    "body": "I am somewhat puzzled by a phone call I (or rather the CIO at the ISP for\nwhom I work) received from an individual claiming to represent Cloudmark.\nThe gist of the call was that since we were using razor and checking our\nmail against the razor servers and that since those servers contain\ninformation proprietary to Cloudmark, we would [in the near future?] be\nrequired to begin paying Cloudmark/spamnet $1.00/user per year. I was\nwondering if anyone else has received such a call?\n\nI am curious as to whether a spammer has begun to try contacting razor users\nwith the above tactic in an effort to get them to stop using razor or\nwhether the open source/community aspect of the razor project is going by\nthe wayside in lieu of a strictly commercial approach (ala brightmail and\nthe likes).\n\nSven\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "<Razor-users@example.sourceforge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Sven\" <sven@dmv.com>", 
+    "subject": "[Razor-users] razor vs cloudmark - merging?"
+}

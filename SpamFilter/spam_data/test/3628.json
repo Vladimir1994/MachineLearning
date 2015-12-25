@@ -1,0 +1,8 @@
+{
+    "body": "hrishy's [hrishys@yahoo.co.uk] 22 lines of wisdom included:\n> Hi All\n> \n> \n> I ahd some users test1 test2 etc.i deleted their\n> mailboxes from /var/mail/test1 etc.now the postfix\n> queue seems to be huge can anybody help what could be\n> wrong\n\nSome logs might be of some help.\n\n1) some output of /var/log/maillog with some relevant error message\n(that could be /var/log/mail.log or some other log depending on your\nconfiguration)\n\n2) the output from ``postconf -n''\n\nOn another note, you did recreate the mailboxes, didn't you?\n\n-- \n Philip Reynolds \n RFC Networks tel: 01 8832063\nwww.rfc-networks.ie fax: 01 8832041\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "from": "Philip Reynolds <phil@redbrick.dcu.ie>", 
+    "subject": "Re: [ILUG] postfix"
+}

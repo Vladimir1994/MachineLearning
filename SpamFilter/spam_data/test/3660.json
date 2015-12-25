@@ -1,0 +1,8 @@
+{
+    "body": "On Wed, 07 Apr 2010 08:41:06 -0700, jeremy jozwik wrote: \n \n> getting more interesting at every attempt... \n> \n> step 1. \n> # mount \n \n(...) \n \n /dev/sdb1 on /media/video type vfat \n> (rw,nosuid,nodev,uhelper=hal,shortname=lower,uid=1000) \n \nO.k. That seems now reasonable :-) \n \n> step 2. \n> GNOME right click > unmount. error shows \n \nYep. I told you that some devices display this message. It happens to me \n*always* with my mobile phone. It does not happen with standard usb flash \ndisk, though. \n \n> step 3. \n> # mount \n \n(...) \n \nWhich means it has been umounted. \n \nI get the same behaviour than you, but only when I attach a special \ndevice (GNOME recognizes the mobile phone as some kind of music stuff). \n \nTry this: \n \n1/ Plug on the device \n2/ Type mount (to get the device listed) \n3/ Type \"umount /media/video\" (adjust the command to point the right path) \n4/ Type \"mount\" \n \nWith these steps I get no pop-up or warning messages and the device gets \numounted normally. \n \nGreetings, \n \n-- \nCamaleón \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/pan.2010.04.07.16.37.25@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "=?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>", 
+    "subject": "Re: Umont ownership?"
+}

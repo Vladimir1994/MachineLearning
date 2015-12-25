@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://www.askbjoernhansen.com/archives/2002/09/07.html\nDate: 2002-09-07T22:25:08-08:00\n\nRael is plagued by MSIE instability on Mac OS X. I use a recent nightly build \nof Chimera as my default browser. 0.4 has some issues with plugins (or with \nQuickTime anyway) on 10.2, but the 0.5 builds are working great. Fast too! \nMozilla is ugly. MSIE is slow and unstable. Opera (on OS X) doesn't render too \nmany pages. OmniWeb and iCab are not keeping up. Chimera rocks. I have used \nChimeraKnight to do the updating. It also makes...", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "ask <rssfeeds@spamassassin.taint.org>", 
+    "subject": "Mac OS X browsers"
+}

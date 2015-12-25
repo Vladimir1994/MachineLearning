@@ -1,0 +1,8 @@
+{
+    "body": "On Sun, Apr 11, 2010 at 19:43:30 -0700, jeremy jozwik wrote: \n> im trying to type [copy from character map] power of 2. i can read \n> power of 2 on webpages but if i were to cope > paste from that page, \n> the power displays as a normal character 2. is this a \n> dpkg-reconfigure locales issue? \n \nIt could also be due to the browser not copying certain characters \ncorrectly to the clipboard. \n \nLet's start at the beginning, which output do you get from this command: \n \n locale \n \nIf you use an utf8-based locale, e.g. \"en_US.UTF-8\", then the following \ncommand should print the numbers 1-5 in superscript: \n \n echo -e \"\\xc2\\xb9\\xc2\\xb2\\xc2\\xb3\\xe2\\x81\\xb4\\xe2\\x81\\xb5\" \n \nWhat do you get? \n \n> how can i gain the ability to type a power of 2? \n \nIf the locale is set up correctly and your terminal supports the \ncharacters, then the easiest method is to define a compose key and use \n + \"^\" + \"2\". (The \"+\" means pressing the keys in sequence, \nreleasing each key before pressing the next one.) \n \n-- \nRegards, | \n Florian | \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100412064155.GA10495@bavaria.univ-lyon1.fr", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Florian Kulzer <florian.kulzer+debian@icfo.es>", 
+    "subject": "Re: cannot type power of 1 or 2, 4-9 are typeable."
+}

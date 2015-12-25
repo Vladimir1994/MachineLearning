@@ -1,0 +1,9 @@
+{
+    "body": ">> I swear to god you have to be so carefull with dell machines \n>> and linux. \n...\n>> to have some cheapo piece of hardware (eth card, modem, \n>> sound, graphics )\n>> that is incompatable/unsupported. \n...\n>> with some crap\n>> dell machine that \nyes, yes, all terribly insightful and extremely useful information.\n \n> We just got some new Dell GX260 machines here are work and \n> I'm supposed to\n> be putting Linux on them. I tried installing RedHat 7.3. It \n> just didn't want\n> to know about the graphics card. I's an onboard Intel DVMT chip. No\n> dedicated memory, it takes it from the onboard RAM.\nThe onboard DVMT card has an Intel 845 G/GL chipset.\nhttp://www.intel.com/support/graphics/linux/ or\nhttp://www.intel.com/support/graphics/intel845g/linux.htm has more specific\ninformation. There is help available there.\n\nI also found somewhere (not through personal experience though) that\n2.4.19-pre10ac2 includes drivers for the chipset ?\n\nSteve\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen_Reilly@dell.com", 
+    "subject": "RE: [ILUG] Dell GX260 V Redhat 7.3"
+}

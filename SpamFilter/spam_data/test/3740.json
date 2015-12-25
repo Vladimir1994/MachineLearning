@@ -1,0 +1,8 @@
+{
+    "body": "Philip Reynolds wrote:\n> Inn Share's [shareinnn@yahoo.com] 22 lines of wisdom included:\n> > \n> > Hi,all:\n> > \n> > Does anyone know how to list the biggest file in my\n> > root directory?or the second biggest ..etc...\n> > \n> > Because I want to find out what is the reason cause my\n> > root all most full.\n> \n> $ find /dir -name \\* | xargs du -s | sort -n\n> \n> Smallest files are listed first with the largest at the end. So if\n> you want to get the 5 largest files, pipe through tail.\n\nAdding -r to the sort options, and piping through head instead,\nmight be a better idea. tail needs to read teh whole buffer, head\nonly reads the first n lines.\n\nCheers,\nDave.\n\n-- \n David Neary,\n Marseille, France\n E-Mail: bolsh@gimp.org\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "from": "David Neary <dneary@wanadoo.fr>", 
+    "subject": "Re: [ILUG] find the biggest file"
+}

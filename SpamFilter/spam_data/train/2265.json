@@ -1,0 +1,9 @@
+{
+    "body": "SpamTalk said:\n> Probably better than the \"spam phrases\" approach would be the database\n> approach as currently used for white/black listing.\n> Any way to tie that to an XML retrieval from a list of central repositories?\n> Does mySQL do replication? A properly done XML would let us eyeball the list\n> as well as use it to keep the database up to date.\n> Another idea: could we synthesize an RBL so that\n> http://www.spammer.com/spam/web/bug/ becomes spam.web.bug.x.www.spammer.com\n> for a reverse lookup? It is going to get tricky, how to specify a randomized\n> intermediate directory?\n\nA good plan, needs an implementation though: \n\n http://bl.reynolds.net.au/ksi/email/\n\nhmm. seems down to me. Basically it's a plan to store hash sums of\nURLs/phone numbers found in spam in a DNSBL, for apps like SpamAssassin to\nlook up. A little like spamcop's \"spamvertized URL\" list...\n\n--j.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: DEDICATED SERVERS only $89!\nLinux or FreeBSD, FREE setup, FAST network. Get your own server \ntoday at http://www.ServePath.com/indexfm.htm\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "SpamTalk <SpamTalk@US.NET56.net>"
+    ], 
+    "is_spam": false, 
+    "from": "yyyy@spamassassin.taint.org (Justin Mason)", 
+    "subject": "Re: [SAtalk] URL blacklist"
+}

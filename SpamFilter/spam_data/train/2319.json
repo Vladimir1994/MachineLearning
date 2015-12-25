@@ -1,0 +1,9 @@
+{
+    "body": "Mihamina Rakotomandimby schreef: \n>> David Baron : \n>> Is there any other way? \n> \n> Yes. \nOf course it's list policy to ask smart questions, but it's also list \npolicy not to give useless answers (well, not policy, but it's certainly \nrecommended). \n@David: read \nhttp://www.exim.org/exim-html-current/doc/html/spec_html/index.html for \nthe full documentation. \nexim has a cli interface to remove frozen messages, man exim for \ndetails. Eg. to show frozen messages: \n exim -bp \nAnd read \n \nSjoerd", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>", 
+    "subject": "Re: Exim4 Administration"
+}

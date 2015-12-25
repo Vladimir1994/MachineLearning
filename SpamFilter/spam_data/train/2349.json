@@ -1,0 +1,9 @@
+{
+    "body": "@Merciadri Luca \n \n[quote] \nI have no answer to your question, but I am wondering... what does 'lol' \nmean here? Is it some version of something, or did you simply put this over \nthere because you have some sense of humor and you like to make your \n(somewhat old) config appear less depressing to the others' eyes? \n[/quote] \n \n \n... it's the hostname, but it is funny! I don't give a damn about what \nothers might think anyway, I'm just having fun with it, making some tests, \npushing my knowledge... \n \n@Stefan \n \n[quote] \n486 will work. 686 may work. \n[/quote] \n \n \nMy impression exactly, but I'd like to be sure : if I scrape this install, \nI'll have a hard time recovering it... \n \n@Bob \n \n[quote] \nionreflex@lol:~$ cat /proc/cpuinfo \nprocessor: 0 \nvendor_id: GenuineIntel \ncpu family: 5 \nmodel: 4 \nmodel name: Pentium MMX \nstepping: 4 \ncpu MHz: 165.791 \nfdiv_bug: no \nhlt_bug: no \nf00f_bug: yes \ncoma_bug: no \nfpu: yes \nfpu_exception: yes \ncpuid level: 1 \nwp: yes \nflags: fpu vme de pse tsc msr mce cx8 mmx \nbogomips: 330.95 \n[/quote] \n \n[quote] \nionreflex@lol:~$ cat /etc/debian_version \n4.0 \n[/quote] \n \n \nI had to doublecheck to make sure I wasn't jumping any major, thanks for \nthat insight; I already knew what chip was inside the laptop, I'm just not \nsure what and where to look for to know which kernel to choose. If you can \npoint me in the right direction, I would really appreciate it! \n \nTankiou all! :o) \n \n \n \nIon", 
+    "to": [
+        "debian-laptop@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ionreflex <ionreflex@csmining.org>", 
+    "subject": "Re: Which kernel for ThinkPad 760XD ?"
+}

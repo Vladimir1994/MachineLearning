@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://www.joelonsoftware.com/news/20020913.html\nDate: Not supplied\n\nJohn Robb has an interesting perspective on trust-based, targetted advertising\n[1] based on his experiences at Gomez during the heady days of the Internet \ngold rush. \n\nNobody believes advertisements[2] any more. There's a lot of evidence that \nadvertising just doesn't work, no matter how targetted, so if you have a \nproduct to sell you have no choice but to get into the editorial side, where \nconsumers' defenses are lowered. Product placements are one example of this. \n\nThere is an unfortunate tragedy of the commons, here. When advertising first \nrose to prominence, advertisements _did_ work. We hadn't built up our \nimmunities yet. As more and more advertisers used the opportunity of the medium \nto lie, we learned not to trust advertisements. But we still trust editorial. \nAnd once editorial gets polluted by desperate marketers using PR instead \nof advertising to promote their message, nobody will believe it either.\n\n[1] http://jrobb.userland.com/stories/2002/09/11/trustbasedAdvertising.html\n[2] http://www.amazon.com/exec/obidos/ASIN/0060081988/ref=nosim/joelonsoftware", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "joelonsoftware <rssfeeds@spamassassin.taint.org>", 
+    "subject": "John Robb has an interesting perspective on trust-based,     targetted advertis"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Hugo Vanwoerkom wrote: \n> Hugo Vanwoerkom wrote: \n>> Hi, \n>> \n>> I just made the mistake of my life and upgraded mc from \n>> 2:4.6.2~git20080311-4 to 3:4.7.0.1-1. \n>> \n>> And the new color scheme is enough to cause instant blindness :-( \n>> No kidding! \n>> \n>> How do I get back to what I had? \n>> Anybody? \n>> \n> \n> So what happened is that starting with 4.7.0 mc supports skins. \n> \n> There are 5 skins shipped with mc: \n> \n> darkfar - black background \n> default - the old default: blue background \n> double-lines - like default but with double lines. Couldn't get that to \n> work \n> featured - like double-lines \n> gotar - black backround \n> \n> I found 2 skins googling: \n> \n> elite_commander - unreadable with black backround \n> bluemoon - black background. \n> \n> I found no skins anywhere with my choice for years: white background. \n> \n> So it's back to the old blue default because it takes days of diddling \n> to make up a skin. \n> \n \nI've complained about it on the mc userlist: \nhttp://mail.gnome.org/archives/mc/2010-April/msg00024.html \n \nHugo \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hqfn09$mbr$1@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Hugo Vanwoerkom <hvw59601@care2.com>", 
+    "subject": "Re: horrible mc colorscheme"
+}

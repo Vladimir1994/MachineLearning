@@ -1,0 +1,8 @@
+{
+    "body": "Richie> As I understand it, post-1.8x versions of the core bsddb code\n Richie> ship under the Sleepycat license, which demands that projects\n Richie> using it must be published-source. \n\nDon't use bsddb in a closed-source product. Use dbm or dumdbm or use\npickles or roll your own thang. I doubt the presence of bsddb would be the\nonly barrier to creating a closed-source product based upon the spambayes\ncode.\n\nSkip\n\n_______________________________________________\nSpambayes mailing list\nSpambayes@python.org\nhttp://mail.python.org/mailman/listinfo/spambayes", 
+    "to": [
+        "richie@entrian.com"
+    ], 
+    "from": "Skip Montanaro <skip@pobox.com>", 
+    "subject": "Re: [Spambayes] Current version"
+}

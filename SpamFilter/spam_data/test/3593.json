@@ -1,0 +1,8 @@
+{
+    "body": "On 11 Sep 2002, Gary Lawrence Murphy wrote:\n\n> So then why does my webhost _still_ only give me 200MB?\n\nBecause ~10 krpm server SCSII doesn't follow the curve. Most rackspace is\nridiculously expensive/unit, so people don't use low end EIDE hardware \nthere.", 
+    "to": [
+        "Gary Lawrence Murphy <garym@canada.com>"
+    ], 
+    "from": "Eugen Leitl <eugen@leitl.org>", 
+    "subject": "Re: storage bits"
+}

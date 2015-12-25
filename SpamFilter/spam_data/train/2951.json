@@ -1,0 +1,9 @@
+{
+    "body": "use Perl Daily Newsletter\n\nIn this issue:\n * This Week on perl5-porters (23-29 September 2002)\n\n+--------------------------------------------------------------------+\n| This Week on perl5-porters (23-29 September 2002) |\n| posted by rafael on Monday September 30, @17:26 (summaries) |\n| http://use.perl.org/article.pl?sid=02/09/30/2151221 |\n+--------------------------------------------------------------------+\n\nThis was a nice week, with lots of discussion, on various interesting\ntopics. Read on for strange bugs, strange fixes, strange error messages,\nand as always, the ongoing efforts made to improve Perl 5.\n\nThis story continues at:\n http://use.perl.org/article.pl?sid=02/09/30/2151221\n\nDiscuss this story at:\n http://use.perl.org/comments.pl?sid=02/09/30/2151221\n\n\n\nCopyright 1997-2002 pudge. All rights reserved.\n\n\n======================================================================\n\nYou have received this message because you subscribed to it\non use Perl. To stop receiving this and other\nmessages from use Perl, or to add more messages\nor change your preferences, please go to your user page.\n\n http://use.perl.org/my/messages/\n\nYou can log in and change your preferences from there.", 
+    "to": [
+        "yyyy-use-perl@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "pudge@perl.org", 
+    "subject": "[use Perl] Stories for 2002-10-01"
+}

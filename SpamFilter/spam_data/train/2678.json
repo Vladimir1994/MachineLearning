@@ -1,0 +1,9 @@
+{
+    "body": "Jay Berkenbilt wrote: \n> Merciadri Luca wrote: \n> \n> \n> \n> The PDF specification itself recommends using external encryption in \n> this case. From section 7.6.1 of the PDF specification: \n> \n> NOTE: Conforming writers have two choices if the encryption methods \n> and syntax provided by PDF are not sufficient for their needs: they \n> can provide an alternate security handler or they can encrypt whole \n> PDF documents themselves, not making use of PDF security. \n> \n> It is very easy to defeat PDF security in any file that has a blank user \n> password since it is just up to the application to enforce security. \n> \nYes, but if you ask for some non-void password, you need to send the \npassword by some way to the receivers. Once they have the password, they \ncan do pretty much they want. So, why would you use a password? \n> I've written a detailed explanation of this which I can dig up and send \n> you if you're interested. \n> \nSure. I am very interested in it. \n \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me. \n \n \nYou cannot escape the responsibility of tomorrow by evading it today. \n(Abraham Lincoln)", 
+    "to": [
+        "Jay Berkenbilt <qjb@debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: PDF is blocked for printing, etc. OK for acroread (it behaves   as expected), but KPDF allows me to print it, even if it is protected! Why?"
+}

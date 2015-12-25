@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 09 Sep 2002 22:06:58 CDT, Hal DeVore writes:\n> scan `mhpath +`/$f/.xmhcache\n\nShouldn't that read\n scan >`mhpath +`/$f/.xmhcache\n ?\n\n(And, JIC something else changed the context in the background, it \n doesn't hurt to explicitly state the folder:\n scan \"+$f\" >`mhpath +`/$f/.xmhcache\n )\n\ncheers,\n&rw\n-- \n-- \"The problem with the IBM keyboards I have is that when you\n-- use them to beat lusers, the caps come off the keys.\n-- No real damage, but still a nuisance.\" -- Martijn Berlage", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Waldner <waldner@waldner.priv.at>", 
+    "subject": "Re: Sorting"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Fri,21.May.10, 12:22:22, peasthope@shaw.ca wrote: \n> From: Andrei Popescu \n> Date: Fri, 21 May 2010 22:03:19 +0300 \n> > # echo 'APT::Default-Release \"squeeze\";' >> /etc/apt/apt.conf \n> \n> Somehow I had the impression that the order of the \n> sources would prioritize them. \n \nYes (or at least that's what the manpage says), but only when you have \nthe same version of a package. \n \nRegards, \nAndrei \n-- \nOfftopic discussions among Debian users and developers: \nhttp://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Andrei Popescu <andreimpopescu@csmining.org>", 
+    "subject": "Re: Re (7): xorg-server failing on IBM NetVista with Intel 82815   video"
+}

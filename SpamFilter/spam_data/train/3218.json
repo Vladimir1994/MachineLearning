@@ -1,0 +1,9 @@
+{
+    "body": "I have been trying to research via SA mirrors and search engines if a canned\nscript exists giving clients access to their user_prefs options via a\nweb-based CGI interface. Numerous ISPs provide this feature to clients, but\nso far I can find nothing. Our configuration uses Amavis-Postfix and ClamAV\nfor virus filtering and Procmail with SpamAssassin for spam filtering. I\nwould prefer not to have to write a script myself, but will appreciate any\nsuggestions.\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "<spamassassin-talk@example.sourceforge.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"NOI Administrator\" <admin@networksonline.com>", 
+    "subject": "[SAtalk] SA CGI Configurator Scripts"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On 04/22/2010 11:54 AM, Dotan Cohen wrote: \n> I am looking for KDE 4.4.2 and Open Office 3.2 packages for Lenny. I \n> have found qt-kde.debian, Debian Experimental, Testing, Unstable, and \n> Backports. It looks to me that Backports is the best for an everyday \n> user who values stability, and prefers to use released software \n> version. Please let me know where I am mistaken. Thanks. \n> \n> \nFedora 12 has KDE 4.4 and it's in a pretty stable shape. Also, it's \nofficially supported, \nas opposed to OpenSUSE. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BD078FD.5020105@csmining.org", 
+    "to": [
+        "Dotan Cohen <dotancohen@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Aioanei Rares <debian.dev.list@csmining.org>", 
+    "subject": "Re: Moving to Debian: updated software"
+}

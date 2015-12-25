@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, Apr 25, 2010 at 05:05:55PM +0200, 3m4il wrote: \n> Hi Guys \n> The URL to the i386 Version of KDE-Debian ist broken (404). \n> Page: \n> http://pkg-kde.alioth.debian.org/kde3.html \n> Link: \n> http://caesar.acc.umu.se/debian-cd/4.0_r6/i386/iso-cd/debian-40r6-i386-kde-CD-1.iso \n> bye \n> \n \nThat page was highly outdated. I have updated the links to mention Lenny now \ninstead of etch :) Thanks! \n \nAna \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100425174351.GA8751@ana.debian.net", 
+    "to": [
+        "3m4il <3m4il@gmx.de>"
+    ], 
+    "is_spam": false, 
+    "from": "Ana Guerrero <ana@debian.org>", 
+    "subject": "Re: broken url"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Dear flatware,\n\nI'm about to undertake a massive project to index/catalog well over one \nthousand CDs that have been ripped to MP3 and set up a server to stream \nthem to different rooms in the house. (Yes, I own them all, no I'm not \nbroadcasting them to the 'net.) Can anyone give me some recommendations \nas to what (free? opensource?) software is best suited for this task? I \nknow there are a few FoRKs out there who have tackled this problem before...\n\nI'd like to be able to dynamically generate play lists from queries like \n\"Jazz released between 1950 and 1960\" or \"Artist such and such between \nthese dates\" or \"Just these artists\" or \"Just this genre\" - you get the \nidea. In addition to having multiple streams that I can tune in to (a la \nDMX), I'd like to be able to browse the database through a web interface \nfrom other computers in the house and pull specific music down to \nwherever I am.\n\n\nThanks,\nElias", 
+    "to": [
+        "fork@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Elias <elias@cse.ucsc.edu>", 
+    "subject": "Content management for MP3s"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "I bet it's the same border issue that's been plaguing us for a while... \n \nOn Apr 6, 2010, at 00:36, Martin Costabel wrote: \n \n> Merle Reinhart wrote: \n>> The 'box' shows up if you use xev -rv. So my guess is that it is there, but just white on white (I'm using the default SL X11 2.3.5). \n> \n> This is true. Even if you don't see the box, moving the mouse over its invisible border shows corresponding events. \n> \n> Looks like a bug, but not in xev, because running xev via ssh on a remote machine doesn't show the box either. I am running standard SL 10.6.3 X11 \"XQuartz 2.3.5 (xorg-server 1.4.2-apple53)\". \n> \n> -- \n> Martin \n> _______________________________________________ \n> Do not post admin requests to the list. They will be ignored. \n> X11-users mailing list (X11-users@lists.apple.com) \n> Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.org \n> \n> This email sent to jeremyhu@freedesktop.org \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Martin Costabel <costabel@wanadoo.fr>"
+    ], 
+    "is_spam": false, 
+    "from": "Jeremy Huddleston <jeremyhu@apple.com>", 
+    "subject": "Re: Oddity ?"
+}

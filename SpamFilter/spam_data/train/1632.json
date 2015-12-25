@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, May 24, 2010 at 12:17:06PM -0500, Servicio al Cliente wrote: \n> Estimados Amigos: agradesco mucho el esfuerzo que hacen todos los dias \n> para hacer de debian cada dia mejor. \n> \n> Quisiera saber si me pueden ayudar con un problema, estoy tratando de \n> instalar debian en un board intel DP55WB con un procesador Core i3, \n> lamentablemente en la instalacion me aparece que no reconoce ningun \n> dispositibo de CD-ROOM y bueno trate de dar una net install pero tampoco \n> reconoce la targeta de red, bueno dije tratare de pegar en el disco duro \n> pero tampoco reconoce el disco, creo mas bien que no me reconoce ningun \n> controlador, y en la pagina web de intel no hay controladores para linux \n> para este modelo y quisiera preguntarles si alguien ya a logrado \n> instalarlo \n> en uno de estos boards dado que no logro encontrar lus por el momento. \n \nHola Juan Pablo, \n \nYo puedo entenderte, pero debes saber que en esta lista se escribe en inglés, \ndebes enviar tus dudas a: \n \ndebian-user-spanish@lists.debian.org \n \n \nSaludos. \n \n-- \nHuella de clave primaria: 0FDA C36F F110 54F4 D42B D0EB 617D 396C 448B 31EB", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "d.sastre.medina@csmining.org", 
+    "subject": "Re: Tengo problemas con instalar debian"
+}

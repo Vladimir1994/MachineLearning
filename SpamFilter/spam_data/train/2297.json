@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nThis is the output of scp -vv \n \n$ scp -vv files.tar.gz root@192.168.1.11:/root/Desktop \nExecuting: program /usr/bin/ssh host 192.168.1.11, user root, command scp -v -t /root/Desktop \nOpenSSH_5.1p1 Debian-5, OpenSSL 0.9.8g 19 Oct 2007 \ndebug1: Reading configuration data /etc/ssh/ssh_config \ndebug1: Applying options for * \ndebug2: ssh_connect: needpriv 0 \ndebug1: Connecting to 192.168.1.11 [192.168.1.11] port 22. \ndebug1: Connection established. \ndebug1: identity file /home/user/.ssh/identity type -1 \ndebug1: identity file /home/user/.ssh/id_rsa type -1 \ndebug1: identity file /home/user/.ssh/id_dsa type -1 \ndebug1: Remote protocol version 2.0, remote software version OpenSSH_5.1p1 Debian-5 \ndebug1: match: OpenSSH_5.1p1 Debian-5 pat OpenSSH* \ndebug1: Enabling compatibility mode for protocol 2.0 \ndebug1: Local version \n string SSH-2.0-OpenSSH_5.1p1 Debian-5 \ndebug2: fd 3 setting O_NONBLOCK \ndebug1: SSH2_MSG_KEXINIT sent \nRead from socket failed: Connection reset by peer \nlost connection \n \nI get this not matter which file i try to copy.", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "vikram <austinium@yahoo.com>", 
+    "subject": "Re: Error: Read from socket failed: Connection reset by peer"
+}

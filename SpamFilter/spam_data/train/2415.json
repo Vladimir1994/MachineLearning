@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nIonreflex wrote: \n> @Stefan \n> \n> [quote] \n> 486 will work. 686 may work. \n> [/quote] \n> \n> \n> My impression exactly, but I'd like to be sure : if I scrape this install, \n> I'll have a hard time recovering it... \n \nThere is nothing in the way to install *both* kernels. Just give the 686 \na try and if it does not work you can just reboot into the 486 and \nuninstall the 686. Make sure that the 486 is installed before you try \nthe 686, though. \n \n- -- \nJohannes \n \nIn questions of science, the authority of a thousand is not worth the \nhumble reasoning of a single individual. \n- - Galileo Galilei, physicist and astronomer (1564-1642) \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (GNU/Linux) \n \niEYEARECAAYFAkvNRaMACgkQC1NzPRl9qEUw0ACdFHBG9PluIDZpuMGD2fTPsEiQ \n4pQAn2clzpn7qmch9FpkkKkXZoeDV/JV \n=leB4 \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BCD45A3.3020902@physik.blm.tu-muenchen.de", 
+    "to": [
+        "debian-laptop@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Johannes Wiedersich <johannes@physik.blm.tu-muenchen.de>", 
+    "subject": "Re: Which kernel for ThinkPad 760XD ?"
+}

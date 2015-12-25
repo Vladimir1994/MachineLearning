@@ -1,0 +1,9 @@
+{
+    "body": "Date: Tue, 27 Aug 2002 18:08:12 -0700\n From: Brent Welch \n Message-ID: \n\n | If we are allowed to assume 8.2 or higher, which we can't really, then\n | we could add\n[...]\n | to the SelectTypein procedure.\n\nYes, I looked at \"fixing\" it there, but that code is really quite\ngeneral, with almost no understanding of what anything means, so I\ndidn't think that corrupting it with knowlwedge of the semantics of\nwhat it is fetching would really be the best thing to do.\n\nI ran out of time last night while looking for a better place for\na similar check (I would have gone directly to the regexp - I'm not\nthat up to date with all the latest tcl changes...) and I'm not sure\nI will have time today, but I will keep looking.\n\nkre\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "Brent Welch <welch@panasas.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Elz <kre@munnari.OZ.AU>", 
+    "subject": "Re: Anolther sequence related traceback"
+}

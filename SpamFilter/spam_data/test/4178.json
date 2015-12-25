@@ -1,0 +1,8 @@
+{
+    "body": "On Wed, May 12, 2010 at 06:58:57PM +0200, Jozsi Vadkan wrote: \n> I have a file: \n \n[snip] \n \n> And i want to only output the first, second, and fourth line to another \n> file. \n> \n> The: \n> \n> sed -n '1,2p;4p' file.txt \n> \n> doesn't work. \n> \n> What magic do i need for it? :D \n> \n> Thanks..:\\ \n \nWorks just fine here: \n \n$ nl /etc/fstab | sed -n '1,2p;4p' \n 1 # /etc/fstab: static file system information. \n 2 # \n 4 proc /proc proc defaults 0 \n0 \n$ nl /etc/fstab | busybox sed -n '1,2p;4p' \n 1 # /etc/fstab: static file system information. \n 2 # \n 4 proc /proc proc defaults 0 \n0 \n \n \nSo please give some more details about your system (version of Debian, \nversion of sed, etc.). Also please tell us what actually happens when \nyou try to run it. \n \n-- \nTzafrir Cohen | tzafrir@jabber.org | VIM is \nhttp://tzafrir.org.il | | a Mutt's \ntzafrir@cohens.org.il | | best \ntzafrir@debian.org | | friend \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100512171549.GU16560@pear.tzafrir.org.il", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Tzafrir Cohen <tzafrir@cohens.org.il>", 
+    "subject": "Re: only output the nth line"
+}

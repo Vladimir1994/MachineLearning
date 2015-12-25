@@ -1,0 +1,8 @@
+{
+    "body": "I have failed dependencies in RPM database to I am unable to use\napt-get. I requests to run 'apt-get -f install' to fix these\ndependencies, however, I get these errors when running 'apt-get -f\ninstall' :\n\n[root@localhost root]# apt-get -f install\nProcessing File Dependencies... Done\nReading Package Lists... Done \nBuilding Dependency Tree... Done\nCorrecting dependencies... Done\nThe following extra packages will be installed:\n libgcj \nThe following NEW packages will be installed:\n libgcj \n0 packages upgraded, 1 newly installed, 0 to remove(replace) and 68 not\nupgraded.\nNeed to get 2407kB of archives. After unpacking 8598kB will be used.\nDo you want to continue? [Y/n] Y\nGet:1 http://apt-rpm.tuxfamily.org redhat-7.2-i386/redhat/os libgcj\n2.96-27 [2407kB]\nFetched 2407kB in 22s\n(105kB/s) \nExecuting RPM (-U)...\nPreparing... ###########################################\n[100%]\n 1:libgcj error: unpacking of archive failed on file\n/usr/share/libgcj.zip;3c5b5e75: cpio: MD5 sum mismatch\nE: Sub-process /bin/rpm returned an error code (1)\n[root@localhost root]# \n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "from": "Lance <lance_tt@bellsouth.net>", 
+    "subject": "Re: problems with 'apt-get -f install'"
+}

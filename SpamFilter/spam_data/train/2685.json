@@ -1,0 +1,7 @@
+{
+    "body": "> > Maybe. I batch messages using fetchmail (don't ask why), and adding\n> > .4 seconds per message for a batch of 50 (not untypical) feels like a\n> > real wait to me...\n> \n> Yeesh. Sounds like what you need is something to kick up once and score\n> an entire mailbox.\n> \n> Wait a second... So *that's* why you wanted -u.\n> \n> If you can spare the memory, you might get better performance in this\n> case using the pickle store, since it only has to go to disk once (but\n> boy, does it ever go to disk!) I can't think of anything obvious to\n> speed things up once it's all loaded into memory, though. That's\n> profiler territory, and profiling is exactly the kind of optimization\n> I just said I wasn't going to do :)\n\nWe could have a server mode (someone described this as an SA option).\n\n--Guido van Rossum (home page: http://www.python.org/~guido/)", 
+    "to": [], 
+    "is_spam": false, 
+    "from": "guido@python.org (Guido van Rossum)", 
+    "subject": "[Spambayes] Ditching WordInfo"
+}

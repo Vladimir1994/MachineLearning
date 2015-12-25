@@ -1,0 +1,9 @@
+{
+    "body": "On Thursday 20 May 2010 23:38:42 T o n g wrote: \n> On Wed, 19 May 2010 11:33:02 -0500, Boyd Stephen Smith Jr. wrote: \n> >> I took a look, the reason and cure is very simple -- having X to trunk \n> >> it each time when started \n> >> (http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=287876) whereas \n> >> currently, my ~/.xsession-errors kept logs back to stone age. \n> > \n> > For what reason can't you simply modify you Xsession file to do as you \n> > like? It is a conffile, so your changes would be preserved through \n> > upgrades. \n> \n> Read the above url again, carefully. The answer is right there before you \n> eyes. You don't agree with it? \n \nThe URL? I don't see anything special about it. \n \nThe contents of the document available at that location? I tend to agree with \nthe DD that already replied. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: ~/.xsession-errors file grows way too big"
+}

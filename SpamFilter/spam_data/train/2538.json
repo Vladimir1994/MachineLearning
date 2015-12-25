@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday 28 August 2002 01:50 pm, Robin Lynn Frank wrote:\n\n> On Wednesday 28 August 2002 01:34 pm, Brian McNett wrote:\n> > Also, that little haiku is a copyrighted work, so not only CAN\n> > Habeas sue, they MUST sue to protect their copyright. And since\n> > it's a trademark as well, that's a double-whammy. Habeas has\n> > some pretty high-powered legal people, who will gladly go to\n> > town on violators.\n\n> > The whole point here is to give them the legal leverage they\n> > need to put spammers out of business, and not only block mail\n> > from them, but allow through the things that really AREN'T spam.\n\n> And if a spammer forges headers???\n\nThere must be *some* way of tracking a spammer down, since they are planning \non making money from the spam. What a court would consider evidence of being \nthe spammer is another question.\n\n-- \nGive a man a match, and he'll be warm for a minute, but set him on\nfire, and he'll be warm for the rest of his life.\n\nICQ: 132152059 | Advanced SPAM filtering software: http://spamassassin.org\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthew Cline <matt@nightrealms.com>", 
+    "subject": "Re: [SAtalk] O.T. Habeus -- Why?"
+}

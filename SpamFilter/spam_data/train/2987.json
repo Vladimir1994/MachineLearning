@@ -1,0 +1,9 @@
+{
+    "body": "On 9/8/02 8:09 PM, \"Gary Lawrence Murphy\" wrote:\n> My car is only just over 1.5 meters across and maybe 3 meters long, so\n> that means roughly six pixels total surface area. You might find a\n> 16-wheeler this way, but how often do people misplace a 16-wheeler\n> such that it is _that_ important to get old images of the terrain?\n> Since they can't send up aircraft to update images in realtime every\n> time, how is this different from just releasing the map on DVDs? Why\n> wireless?\n\n\nIt seems that several people are missing the point that this is NOT an image\ndatabase. It is high-resolution topological data rendered in three\ndimensions. Images are overlayed on the topological data to help people\nnavigate familiar terrain visually. In other words, it is not intended as a\nwannabe spy satellite. Rather it is a very accurate three dimensional model\nof the earth's surface. When a particular region in question is covered in\na city, the buildings in the city are mapped as though they are part of the\nearth's surface. The part that makes the app killer is that you can map all\nsorts of data layers on top of their core topological data.\n\nGot it?\n\n-James Rogers\n jamesr@best.com", 
+    "to": [
+        "fork@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "James Rogers <jamesr@best.com>", 
+    "subject": "Re: earthviewer (was Re: whoa}"
+}

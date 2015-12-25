@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, Aug 13, 2002 at 12:22:14PM +0100, Niall O Broin wrote:\n> What are the best options available on Linux ? SFTP ? WebDAV ? Something\n> else ? Linux servers - Linux and Mac OS-X clients.\n\nCan't speak for the other alternatives, but i've been using scp for\nyears with sexy results.\n\nSteve, yes, it's a simpsons quote(ish).\n-- \nHigh salt diets are bad for you - but only outside marriage.\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Shirley <diamond@skynet.ie>", 
+    "subject": "Re: [ILUG] Secure remote file access"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On 04/08/2010 12:06 PM, Jochen Schulz wrote: \n> Lorenzo Bettini: \n>> \n>> sorry I pasted the wrong name: --revision actually took effect since the \n>> generated .deb is now (note the 'lore01') \n>> \n>> linux-image-2.6.32.10+drm33.1-recompiled_lore01_i386.deb \n>> \n>> but what I need to do is to get rid of '+drm33.1' which seems to be \n>> automatically added... \n> \n> Take a look at the first few lines of the Makefile in the top-level \n> directory of your kernel sources. It might be defined in there (for a \n> reason). \n> \n> J. \n \nFound it: \n \nEXTRAVERSION \n \nI changed it and now it works fine :) \n \nthanks \n Lorenzo \n \n-- \nLorenzo Bettini, PhD in Computer Science, DI, Univ. Torino \nHOME: http://www.lorenzobettini.it MUSIC: http://www.purplesucker.com \nBLOGS: http://tronprog.blogspot.com http://longlivemusic.blogspot.com \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hpkj0o$qdj$1@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Lorenzo Bettini <bettini@dsi.unifi.it>", 
+    "subject": "Re: recompiling the kernel with a different version name"
+}

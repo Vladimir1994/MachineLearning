@@ -1,0 +1,8 @@
+{
+    "body": "Vincent Cunniffe wrote:\n> Does anyone have any practical experience with high-performance socket \n> code in C++ under Linux, and is there any speed difference between unix \n> domain sockets, loopback sockets, and a real ethernet interface if all \n> of the packets are going from one process on the machine to another \n> process on the same machine?\n\nIn short yes. The more logic involved the longer\nthe CPU is executing it. I.E. there is more logic\nexecuted (including NIC logic) when going down\nto the metal than when using lo. So how much\nlogic is involved for each type of IPC (why\nare you limiting yourself to sockets? there are\nmutexes, shared mem, files, messages...). Anyway the\nbest IPC method to choose is dictated by the data\nyou want to communicate between the processes,\nas the various IPC mechanisms are tuned for\nvarious data types.\n\nIBM are running a series comparing doze and Linux IPC mechanisms.\nThe socket (which references the others at the bottom) is here:\nhttp://www-106.ibm.com/developerworks/linux/library/l-rt6/?t=gr,Redhat=Sockets\n\nThe following in google gave useful info also:\n\"linux IPC mechanisms compared\"\n\nPádraig.\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "Vincent Cunniffe <vincent@cunniffe.net>"
+    ], 
+    "from": "Padraig Brady <padraig.brady@corvil.com>", 
+    "subject": "Re: [ILUG] socket latency query"
+}

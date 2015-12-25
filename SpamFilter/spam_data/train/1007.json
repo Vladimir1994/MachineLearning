@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 1 Sep 2002, Mr. FoRK wrote:\n\n> > 6. Hardware is getting so fast that I'm not sure if the performance\n> > difference between Java and C/C++ are relevant any more.\n>\n> When out-of-the-box parsing & transform of XML in java is 25x slower than\n> C++ on the same hardware then it does matter.\n\nYea, and that on top of the 100x of all the parsing engines over just\nbigendian'ing it and passing the data (5x+++) in the raw. Then it REALLY\nmatters.\n\n- Adam L. \"Duncan\" Beberg\n http://www.mithral.com/~beberg/\n beberg@mithral.com", 
+    "to": [
+        "\"Mr. FoRK\" <fork_list@hotmail.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Adam L. Beberg\" <beberg@mithral.com>", 
+    "subject": "Re: Java is for kiddies"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Date: Wed, 12 May 2010 11:05:21 -0400 (EDT) \nStephen Powell wrote, \n> Your kernel installation environment is not configured correctly for \n> use with lilo. That's why you are having trouble upgrading to \n> a newer kernel. Assuming that you are using only stock kernel images, \n> here is what you should do: \n \nThe instructions are like clockwork. Thanks! \nIncorporation in the lilo package would be good. \n \n> I don't know if the new kernel will fix the X problem ... \n \nUnfortunately X remains broken with an error \nabout /dev/fb0. \n \nThe log is here in case anyone is interested. \n http://carnot.yi.org/dalton.Xorg.0.log \nWith minimal understanding, I noticed these lines. \n \n(II) Primary Device is: PCI 00@00:02:0 \n(WW) Falling back to old probe method for vesa \n(WW) Falling back to old probe method for fbdev \n(II) Loading sub module \"fbdevhw\" \n(II) LoadModule: \"fbdevhw\" \n(II) Loading /usr/lib/xorg/modules/linux/libfbdevhw.so \n(II) Module fbdevhw: vendor=\"X.Org Foundation\" \n compiled for 1.7.6.901, module version = 0.0.2 \n ABI class: X.Org Video Driver, version 6.0 \n(EE) open /dev/fb0: No such file or directory \n \nI've tried various ideas found with Google. \nRemove the intel driver and leave the vesa \ndriver installed for example. \n \nIs fb a standalone driver? Is it an accessory \nto the vesa driver? \n \nThanks for any ideas, ... Peter E. \n \n-- \nGoogle \"pathology workshop\". \nIn ETHNO click here -> Desktops.OpenDoc http://carnot.yi.org/. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/171056496.45946.40347.@heaviside.invalid", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "peasthope@shaw.ca", 
+    "subject": "Re (4): Re^n: Grub vs. linux-image-2.6.32 conundrum"
+}

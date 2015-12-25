@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Hesty wrote :\n\n> I know they're all included in the freshrpms alsa-null\n> directory.\n\nNow that Psyche is released, that directory was erased.\n\n> I was worried that with the new mplayer-pre8, these\n> packages might break something. Is there any mplayer\n> package which includes all the options for -vo and\n> -ao? Is that because alsa is not included in RH, hence\n> the lack of alsa option for mplayer from freshrpms?\n> Or is there some swtiches to enable these options\n> during \n> rpm build?\n\nFor all my recent packages that support --with and --without options, I've\nput them in the %description section. See for instance :\nhttp://psyche.freshrpms.net/rpm.html?id=80\n\nWhere you can see :\nAvailable rpmbuild rebuild options :\n--with : alsa\n--without : aalib lirc libdv arts\n\nThe ogle package has also a --with alsa option, and I've had a bug report\nabout xine that I apparently unintentionally compiled with ALSA directly\n:-/\n\nI'd like to aks this on the rpm-zzzlist : Would a new dependency of 250k, the\nalsa-lib package, for many packages (mplayer, ogle, xine) be a problem for\nthe freshrpms.net packages users? As I really feel like blending ALSA in\nnow, especially since I've just spent some time recompiling alsa-kernel\npackage for all the Psyche kernels!!!\n\nMatthias\n\n-- \nMatthias Saou World Trade Center\n------------- Edificio Norte 4 Planta\nSystem and Network Engineer 08039 Barcelona, Spain\nElectronic Group Interactive Phone : +34 936 00 23 23\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "Hesty P <hestyp@yahoo.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@egwn.net>", 
+    "subject": "Re: ALSA Problem with Null kernel"
+}

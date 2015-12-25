@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, May 12, 2010 at 04:44:12PM -0500, Boyd Stephen Smith Jr. wrote: \n> On Wednesday 12 May 2010 16:27:08 Nick Douma wrote: \n> > On Wed, May 12, 2010 at 04:24:05PM -0500, Ron Johnson wrote: \n> > > On 05/12/2010 04:16 PM, Boyd Stephen Smith Jr. wrote: \n> > >> On Wednesday 12 May 2010 16:04:07 Jordan Metzmeier wrote: \n> > >>> This issue is because the new udev requires a> .31 kernel with \n> > >>> sysrq_deprecated=n (I am going off memory here so don't quote me). This \n> > >>> means you need to first upgrade to the squeeze kernel, reboot, then \n> > >>> upgrade udev and proceed with the \"updgrade\". \n> > >> \n> > >> Added Tag: needs-to-be-in-release-notes \n> > > \n> > > To heck with the Release Notes! This needs to be front and center when \n> > > you when you do the \"apt-get update\". \n> > \n> > It does appear when you do the aptitude full-upgrade, but it doesn't block \n> > the output, it just shoots by. \n> > \n> > I do wonder how they will handle this when squeeze gets stable. The whole \n> > update your kernel, reboot, update the rest is a bit too easy to fuck up \n> > for my taste. I completely assumed that I could just change the apt \n> > sources.list and do the full-upgrade. \n> \n> You should *always* read the release notes first. It is actually rather rare \n> that a release just needs an 'aptitude full-upgrade'. Usually, perl, apt, \n> aptitude, or dpkg should be updated first. \n \nWell, I did try to look for release notes, but I did not find any for Squeeze.", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Nick Douma <n.douma@nekoconeko.nl>", 
+    "subject": "Re: Lenny to Squeeze upgrade problems"
+}

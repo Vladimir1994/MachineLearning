@@ -1,0 +1,8 @@
+{
+    "body": "Problem with spamtrap\n/home/yyyy/lib/spamtrap.sh: /home/yyyy/ftp/spamassassin/spamassassin: No such file or directory", 
+    "to": [
+        "undisclosed-recipients:;"
+    ], 
+    "from": "mail <mail@dogma.slashnull.org>", 
+    "subject": ""
+}

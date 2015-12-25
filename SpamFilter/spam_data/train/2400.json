@@ -1,0 +1,9 @@
+{
+    "body": "Here is a different way - kinda expensive with divs - depending on how \nrigorous the formatting needs to be. You can change the colors to \nwhat you want them to be. \n \n test text here1 \n test text here2 \n test text here1 \n \n \n test text here1 \n test text here1 \n test text here2 \n \n \nOn Sat, Apr 24, 2010 at 8:15 PM, Mike Bird wrote: \n> On Sat April 24 2010 15:52:41 Jozsi Vadkan wrote: \n>> \n>> \n>> test text here1 \n>> test text here2 \n>> \n>> test text here1 \n>> test text here2 \n>> \n>> test text here1 \n>> test text here2 \n>> \n> \n> You've got two different causes of white space there.  Try this: \n> \n> \n> \n> test text here1 \n> test text here2 \n> \n> test text here1 \n> test text here2test text here1 \n> test text here2 \n> \n> \n> \n> --Mike Bird \n> \n> \n> -- \n> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \n> with a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \n> Archive: http://lists.debian.org/201004241715.00934.mgb-debian@yosemite.net \n> \n> \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/o2xcab1c5a71004241729y337e9037r5588fc000c9ce716@mail.csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Baron <robertbartlettbaron@csmining.org>", 
+    "subject": "Re: creating tables...html"
+}

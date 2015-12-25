@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Lance wrote :\n\n> I have failed dependencies in RPM database to I am unable to use\n> apt-get. I requests to run 'apt-get -f install' to fix these\n> dependencies, however, I get these errors when running 'apt-get -f\n> install' :\n[...]\n> error: unpacking of archive failed on file\n> /usr/share/libgcj.zip;3c5b5e75: cpio: MD5 sum mismatch\n> E: Sub-process /bin/rpm returned an error code (1)\n> [root@localhost root]# \n\nI'd say that the file apt downloaded is corrupted. Maybe trying \"apt-get\nclean\" to remove all downloaded files first would solve the problem.\n\nMatthias\n\n-- \nMatthias Saou World Trade Center\n------------- Edificio Norte 4 Planta\nSystem and Network Engineer 08039 Barcelona, Spain\nElectronic Group Interactive Phone : +34 936 00 23 23\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@egwn.net>", 
+    "subject": "Re: problems with 'apt-get -f install'"
+}

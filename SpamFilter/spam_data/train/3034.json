@@ -1,0 +1,9 @@
+{
+    "body": "On 05/14/2010 08:13 AM, Adam Hardy wrote: \n> Ron Johnson on 14/05/10 12:54, wrote: \n[snip] \n>> \n>> Outgoing ports are randomly assigned, though, aren't they? \n> \n> Sure. I mean on the box at home that I'm monitoring from the online \n \nAh, right. Never mind... \n \n> server. Aaaah, just realised I don't have a fixed IP ?$*!(*)\"*\"!!! \n> \n \ndyndns.org? \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BED4D9E.4060604@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: monitoring internet availability and sending sms alert?"
+}

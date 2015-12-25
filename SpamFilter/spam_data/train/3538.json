@@ -1,0 +1,9 @@
+{
+    "body": "I guess the first question here should be does anyone have some\nupdates to the PGP code in EXMH that I should know about?\n\nMy current problem is that if I get a PGP signed message, I first\nget a button that reads:\n \"Check the signature with GnuPG\"\nIf I punch the button, and I dont have the signature on my keyring\nthen I get a message saying just that, and the message:\n \"Can't check signature: public key not found\"\nalong with a button with the inscription\n \"Query keyserver\"\nIf I punch the button then EXMH just hangs. Forever.\n\nIf instead of punching the button, I go out to the keyserver myself\nand then try the message again, everything works, so it SEEMS that it\nmust be the code that goes out to the keyserver.\n\nAnyone else with this problem?\nThis is EXMH v2.5 and tcl/tk 8.4a4\n-- \n Reg.Clemens\n reg@dwf.com\n\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Reg Clemens <reg@dwf.com>", 
+    "subject": "(PGP problem) EXMH hangs during 'Query keyserver'"
+}

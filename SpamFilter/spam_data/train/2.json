@@ -1,0 +1,9 @@
+{
+    "body": "Urban Boquist wrote:\n> Hi Matt, and thanks for your quick reply.\n> \n> Matt> Don't run SA on mails this large.\n> \n> That would be fine, if I only understood how I should do that. I can't\n> find anything in the SA documention that mentions some kind of upper\n> limit for the size of a message. What should I put in my user_prefs\n> file?\n> \n> I run SA from procmail btw, but I can't imagine that procmail would be\n> able to check the size of a message before handing it over to SA?\n\nThat's exactly what it can do:\n\n:0fw ", 
+    "to": [
+        "Urban Boquist <urban@boquist.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Matt Sergeant <msergeant@startechgroup.co.uk>", 
+    "subject": "Re: [SAtalk] SA very slow (hangs?) on this message, or is it just me?"
+}

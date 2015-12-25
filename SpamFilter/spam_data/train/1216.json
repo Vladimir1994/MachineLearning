@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, Sep 02, 2002 at 03:19:13AM -0400, Eirikur Hallgrimsson wrote:\n> My opinion is biased because of the disgraceful state of non-Windoze \n> browser java implementations.\n\nHorrors. Applets are kinda sucky. The cool kids are using Java to write\nserver applications, not browser craplets.\n\nThe giggle-inducing irony of the whole Java thing is how Sun's strategy\nbackfired. They produced a platform that was supposed to dwell on the\nclient side, where it would commoditize those clients. Instead, it turns\nout to be the perfect language to write server applications in, and it has\nsuccessfully commoditized servers. Ooops!\n\n-- \nnjl", 
+    "to": [
+        "fork@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Ned Jackson Lovely <fork@qu.to>", 
+    "subject": "Re: Java is for kiddies"
+}

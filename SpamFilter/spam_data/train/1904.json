@@ -1,0 +1,9 @@
+{
+    "body": ">>>>> \"J\" == Jim Whitehead writes:\n\n J> You open sourced the new components you developed for this\n J> project, so the next person who comes along won't have to\n J> reimplement them, right?\n\nNo need: All those components already exist either in the Java\nclass libraries or from the various java jar collections. Most\nof the classes I used came from the Jakarta project and ApacheXML\n\nBut if it's any consolation, my threading of them all together into\na newswire server /is/ GPL and available on sourceforge.\n\n-- \nGary Lawrence Murphy TeleDynamics Communications Inc\n Business Advantage through Community Software : http://www.teledyn.com\n\"Computers are useless. They can only give you answers.\"(Pablo Picasso)", 
+    "to": [
+        "\"Jim Whitehead\" <ejw@cse.ucsc.edu>"
+    ], 
+    "is_spam": false, 
+    "from": "Gary Lawrence Murphy <garym@canada.com>", 
+    "subject": "Re: Java is for kiddies"
+}

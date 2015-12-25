@@ -1,0 +1,9 @@
+{
+    "body": "http://www.hughes-family.org/bugzilla/show_bug.cgi?id=1049\n\nfelicity@kluge.net changed:\n\n What |Removed |Added\n----------------------------------------------------------------------------\n Status|NEW |RESOLVED\n Resolution| |FIXED\n\n\n\n------- Additional Comments From felicity@kluge.net 2002-10-03 13:26 -------\nHmmm, my last message doesn't seem to have made it into bugzilla yet.\n\nI've committed a patch to fix this problem in both HEAD and b2_4_0. The last\nmessage explains what the problem was and what the patch does to fix it.\n\n\n\n------- You are receiving this mail because: -------\nYou are the assignee for the bug, or are watching the assignee.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "spamassassin-devel@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "bugzilla-daemon@hughes-family.org", 
+    "subject": "[SAdev] [Bug 1049] Pathname for \"triplets.txt\" is incorrect."
+}

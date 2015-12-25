@@ -1,0 +1,9 @@
+{
+    "body": "John Culleton wrote: \n> I have the Debian variant Knoppix installed on my laptop. Now I want to \n> move some icons to the bottom bar and have them stay there between \n> sessions. I know how to do this with various versions of Slackware using \n> KDE 3.5 and XFCE but I am a newcomer to the world of Debian. \n> \n> Anyone have any hints? \n \nThere is nothing related to Debian, only to the Desktop in use. \nThe latest Knoppix (6.0) use LXDE for the desktop. If this is your version, \naqd your Desktop, have a look at the LXDE documentation on \nhttp://www.lxde.org/ \nYou could also ask for help on the LXDE forum (same url as above). \n \nxavier \n \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hroq30$10q$1@dough.gmane.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Xavier Brochard <xavier@alternatif.org>", 
+    "subject": "Re: Placing icons on bottom bar."
+}

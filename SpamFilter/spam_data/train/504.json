@@ -1,0 +1,9 @@
+{
+    "body": "bugzilla-daemon@hughes-family.org wrote:\n> http://www.hughes-family.org/bugzilla/show_bug.cgi?id=704\n> ok, this is now fixed. cheers!\n\nHow did you fix it? By creating the pidfile as the \"-u\" user?\nIf so, you should add this to the documentation since it prevents\nthe use of the standard /var/run directory (which is only writable\nby root).\n\n\n+Thomas\n\n-- \nThomas Anders \nHahn-Meitner-Institut Berlin, Germany", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Thomas Anders <anders@hmi.de>", 
+    "subject": "Re: [Bug 704] spamd doesn't remove pid file on shutdown when running as non-root user"
+}

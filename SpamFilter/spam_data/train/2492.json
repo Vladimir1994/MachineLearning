@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, Aug 21, 2002 at 02:52:11PM +0800, al@mpsc.ph wrote:\n> Could you please help me how to set up a dial-on-demand, what are the\n> packages needed,\n> and other requirements to get on.\ndepends on what you are using to dial. for debian put \"demand\" in\n/etc/ppp/peers/ . use \"idle 600\" to set the timeout to 10\nminutes(600 secs). im not sure where exactly to put it for other\ndistros. whereever pppd gets it options from.\n\nregards\n-- \nIvan Kelly\n\nivan@ivankelly.net\n\n-----BEGIN GEEK CODE BLOCK-----\nVersion: 3.12\nGCS d- s+: a--- C++ UL++++ P+++ L+++ E--- W++ N+ o-- K- w--- \nO-- M-- V-- PS+++ PE- Y+ PGP++ t+ 5 X++ R tv+ b+ DI+ D++ \nG e h! r-- y+ \n------END GEEK CODE BLOCK------\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Ivan Kelly <ivan@ivankelly.net>", 
+    "subject": "Re: [ILUG] dial-on-demand"
+}

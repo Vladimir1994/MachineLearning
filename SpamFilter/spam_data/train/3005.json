@@ -1,0 +1,9 @@
+{
+    "body": "Rose, Bobby wrote:\n> Ouch ;-) Although I'm not ready to give up razor just yet, I'd like to\n> see a pyzor check in SA. I don't think it even needs to be written in\n> perl. SA is actually calling razor-check and razor-report as well as\n> dccproc for those checks so it should be nothing more than duplication\n> of coding to add pyzor. \n\nThe problem is that Python has a much longer startup time than Perl \n(though this may have changed recently, I don't know). This is partly \nwhy Python was never very popular for CGIs.\n\nMatt.\n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Rose, Bobby\" <brose@med.wayne.edu>"
+    ], 
+    "is_spam": false, 
+    "from": "Matt Sergeant <msergeant@startechgroup.co.uk>", 
+    "subject": "Re: [SAtalk] How'd this one slip through?"
+}

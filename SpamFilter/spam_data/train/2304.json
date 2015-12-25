@@ -1,0 +1,9 @@
+{
+    "body": "> \n> It seems that an email consisting of a single line containg a\n> control-M is detected as spam. \n> \n> It also seems that an email consisting of 5 blank lines is also\n> treated as spam:\n\nPlease ignore my last message. It seems that my problems results from\na homebrewn patch.\n\n -- Michael \n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "Michael Glad <glad@daimi.au.dk>"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Glad <glad@daimi.au.dk>", 
+    "subject": "Re: [Razor-users] Trivial false-positives"
+}

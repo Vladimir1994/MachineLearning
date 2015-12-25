@@ -1,0 +1,9 @@
+{
+    "body": "Harlan Feinstein wrote:\n> Exmh keeps turning the folder indicator blue for one folder, and\n> I've read all the messages in the folder. Driving me nuts. I've\n> packed the folder, I've deleted the .mh_sequences file there,\n> keeps doing it. Help! \n> \n\nI would rescan then do 'First Unseen', and see what happens ..\n\n\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "James Gibbon <james.gibbon@virgin.net>", 
+    "subject": "Re: V2.4 keeps incorrectly blue-ing folders"
+}

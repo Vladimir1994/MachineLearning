@@ -1,0 +1,9 @@
+{
+    "body": "Hi,\n\nsucceeded in ringing a bell anytime I get a mail\nto my inbox (Not Mailing lists, spams etc.) by\nusing procmail to execute a \"play clink.wav\" on\nthe \"right\" mails.\nNow my demands are growing ;-)\nI use my laptop remotely very often and now I would\nlike the bell to sound on that when I am there.\nI triedto use the KDE remote sound server and it works in\nthe tests, but when procmail runs it it doesn't, presumably\nas it doesn't have the authorization to communicate with\nthe laptop, beeing another user?\n\nAny hints.\n\nBRGDS\n\n\n-- \nDag Nygren email: dag@newtech.fi\nOy Espoon NewTech Ab phone: +358 9 8024910\nTräsktorpet 3 fax: +358 9 8024916\n02360 ESBO Mobile: +358 400 426312\nFINLAND\n\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Dag Nygren <dag@newtech.fi>", 
+    "subject": "Ringing bell on other computer"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Yannick Gingras wrote:\n> Is the use of \"trusted hardware\" really worth it ? Does it really make it \n> more secure ? Look at the DVDs.\n\nDVDs don't use trusted hardware. As for whether it is worth it, that \ndepends entirely on what its worth to secure your software.\n\nCheers,\n\nBen.\n\n-- \nhttp://www.apache-ssl.org/ben.html http://www.thebunker.net/\n\n\"There is no limit to what a man can do or how far he can go if he\ndoesn't mind who gets the credit.\" - Robert Woodruff", 
+    "to": [
+        "Yannick Gingras <ygingras@ygingras.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Ben Laurie <ben@algroup.co.uk>", 
+    "subject": "Re: Secure Sofware Key"
+}

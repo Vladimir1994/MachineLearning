@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nCamaleón writes: \n \n> On Sun, 18 Apr 2010 16:33:32 +0200, Merciadri Luca wrote: \n> \n>> As stated in the title, the light on my Asus EEE 1000HE automatically \n>> and randomly reduces some seconds after I have set it to its maximum \n>> level. Why? That must be for some energy reason, but I would like to \n>> deactivate this feature, or at least to modify the timer between the \n>> action I do, and the using of the default value. \n> \n> Open GConf editor and navigate to \"/apps/gnome-power-manager/backlight/ \n> idle_brightness\". You can tweak many things from there. \n \nThanks. I had not thought about it. \n- -- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \n- -- \n \nIt is better to die on one's feet than live on one's knees. \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (GNU/Linux) \nComment: Processed by Mailcrypt 3.5.8 \n \niEYEARECAAYFAkvMYA8ACgkQM0LLzLt8MhyQdACfeFDjy5XGIk1zE30iFi3hccV+ \n5vwAnA5oyr2A8XUEJiCp741X1z3ULJqg \n=TmPK \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87633nbldc.fsf@merciadriluca-eee.WORKGROUP", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: Light automatically and randomly reduces some secs. after it  has been set to its maximum level"
+}

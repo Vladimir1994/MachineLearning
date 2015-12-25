@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, Sep 06, 2002 at 10:09:19AM -0700, bugzilla-daemon@hughes-family.org wrote:\n> another (or would look terrible). Let's just use a letter. If\n> aesthetics are your concern, I think an \"x\" will look just fine.\n\n\"x\" is fine, but let's not take out the config option. if people really\nwant to have it be something else, we shouldn't hinder them.\n\n-- \nRandomly Generated Tagline:\n\"And the next time you consider complaining that running Lucid Emacs\n 19.05 via NFS from a remote Linux machine in Paraguay doesn't seem to\n get the background colors right, you'll know who to thank.\"\n (By Matt Welsh)", 
+    "to": [
+        "bugzilla-daemon@hughes-family.org"
+    ], 
+    "is_spam": false, 
+    "from": "Theo Van Dinter <felicity@kluge.net>", 
+    "subject": "Re: [SAdev] [Bug 840] spam_level_char option change/removal"
+}

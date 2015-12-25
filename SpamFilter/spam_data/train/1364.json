@@ -1,0 +1,9 @@
+{
+    "body": "Like an alias for each list that points to the nonspamtrap address.\n\nJ\n\n\nAt 10:50 AM -0700 8/22/02, Craig R.Hughes wrote:\n>Are you filtering the nonspamtrap for spam when those newsletters \n>sold your address to someone you didn't sign up with? You should \n>probably manually verify that all the mail in the trap is in fact \n>nonspam!\n>\n>C\n>\n>On Thursday, August 22, 2002, at 07:59 AM, Justin Mason wrote:\n>\n>>\n>>Justin Shore said:\n>>\n>>>I just ran across a false positive that scored 8.6. The message was\n>>>a solicited ad from Apple.com on educator deals. I can send a copy\n>>>if anyone wants it.\n>>\n>>Yes, please do send it on, and I'll add it to the non-spam corpus.\n>>\n>>To date, the scores evolved by SpamAssassin are very biased towards\n>>non-HTML, non-newsletter-ish mail. This release should be different, as\n>>I've been spending the last month signing up a \"nonspamtrap\" to every\n>>legit newsletter I can find ;)\n>>\n>>This should mean that tests which match common-enough newsletter practices\n>>will no longer get such high scores once we re-run the GA.\n\n-- \n\n--\nJustin Shore, ES-SS ES-SSR Pittsburg State University\nNetwork & Systems Manager http://www.pittstate.edu/ois/\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Craig R.Hughes\" <craig@deersoft.com>,\n\tjm@jmason.org (Justin Mason)"
+    ], 
+    "is_spam": false, 
+    "from": "Justin Shore <listuser@neo.pittstate.edu>", 
+    "subject": "Re: [SAtalk] Highest-scoring false positive"
+}

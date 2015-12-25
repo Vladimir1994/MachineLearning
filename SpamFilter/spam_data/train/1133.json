@@ -1,0 +1,9 @@
+{
+    "body": "Actually, they do; though they aren't case sensitive. It seems to have some \ntrouble wtih PAP/CHAP authentication as well; you might have to do it by \nscript?\n\nOn Friday 26 July 2002 12:37, Liam Bedford wrote:\n> On Fri, 26 Jul 2002 12:23:24 +0100\n>\n> HAMILTON,DAVID (HP-Ireland,ex2) claiming to think:\n> > Hi All,\n> >\n> > I am trying to find the Oceanfree ISDN dialup number for Dublin.\n> > http://iiu.taint.org/ appears to be down, or at least I can't get to it,\n> > and I don't want to pay oceanfree €10 per second for tech support :-).\n>\n> 01-2434321\n> username: oceanfree\n> password: oceanfree\n>\n> don't think the username and password matter much though.\n>\n> L.\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "Liam Bedford <lbedford@netnoteinc.com>, ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Synnott <r.synnott@oceanfree.net>", 
+    "subject": "Re: [ILUG] [OT] Oceanfree Dial-up Number"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Hesty wrote :\n\n> > Where you can see :\n> > Available rpmbuild rebuild options :\n> > --with : alsa\n> > --without : aalib lirc libdv arts\n> \n> Does this mean when rebuilding the package, I'll\n> simply\n> type: \n> > rpmbuild --rebuild .src.rpm --with alsa ?\n\nYes it does. And if you're missing the dependencies needed for the selected\noptions, you'll even be informed! (for ALSA, you'll need alsa-lib-devel for\nexample)\n\n> > I'd like to aks this on the rpm-zzzlist : Would a new\n> > dependency of 250k, the\n> > alsa-lib package, for many packages (mplayer, ogle,\n> > xine) be a problem for\n> > the freshrpms.net packages users? As I really feel\n> > like blending ALSA in\n> > now, especially since I've just spent some time\n> > recompiling alsa-kernel\n> > package for all the Psyche kernels!!!\n> > \n> \n> I'll have no problem at all with this and you get my\n> vote on this one. \n> \n> One problem with alsa-kernel that I've experienced:\n> everytime RH issues a new kernel update, I have to\n> rebuild my alsa-kernel to match the new kernel.\n\nYup... unfortunately the alsa-kernel needs to be rebuilt for each kernel,\nand there's no way of avoiding it.\n\nMatthias\n\n-- \nMatthias Saou World Trade Center\n------------- Edificio Norte 4 Planta\nSystem and Network Engineer 08039 Barcelona, Spain\nElectronic Group Interactive Phone : +34 936 00 23 23\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "Hesty P <hestyp@yahoo.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@egwn.net>", 
+    "subject": "Re: ALSA Problem with Null kernel"
+}

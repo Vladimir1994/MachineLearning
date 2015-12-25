@@ -1,0 +1,9 @@
+{
+    "body": "Matthias Saou wrote:\n\n>Once upon a time, Roi wrote :\n>\n> \n>\n>>oh xmms didn't work for me also\n>>i used mpg123 i tought its something from me\n>> \n>>\n>\n>Nope, this is \"normal\" as Red Hat removed all mp3 support from 8.0 because\n>of patent and royalty issues :-(\n>On freshrpms.net, you can find the xmms mp3 plugin as I said, but also\n>libmad, lame (mp3 encoder), and soon mpg321 as I often used it myself.\n>Many other players can also play mp3 files, like alsaplayer, xine, mplayer.\n>\n> \n>\n>>like mplayer not working also and gives black screen\n>> \n>>\n>\n>This is not normal though...\n>Try \"mplayer -vo help\" then try usinf various output methods to see if some\n>do work or not.\n>\n>Matthias\n>\n> \n>\n\nmplayer works with dga (if i am root) and works with x11\nand always worked with sdl (but not now with redhat 8)\nnow it gives black screen window and play the music of the movie.\n\nRoi\n\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Roi Dayan <dejavo@punkass.com>", 
+    "subject": "Re: mplayer not working for me"
+}

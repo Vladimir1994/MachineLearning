@@ -1,0 +1,9 @@
+{
+    "body": "Israel Garcia put forth on 4/16/2010 11:11 AM: \n> Hi, maybe OT but, I\\m trying to install debian lenny on a raid5 with \n> 4TB. OS sees one big sda with 4TB, I can particion /boot, / and swap \n> but it only recognize 78GB instead the 4TB available. Is this because \n> the partition in booteable? Can I install debian OS on this hdd with \n> these 3 partitions and use the rest for LVM? Thanks in advance, \n \nWhat PCIe RAID card are you using? \n \n-- \nStan \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC8FCDC.2060007@hardwarefreak.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stan Hoeppner <stan@hardwarefreak.com>", 
+    "subject": "Re: debian on a raid5 (4TB) issues"
+}

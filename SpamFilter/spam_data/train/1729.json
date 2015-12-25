@@ -1,0 +1,9 @@
+{
+    "body": "I am trying to rebuild the recently posted ALSA driver package for my \nkernel. Although I run Red Hat 7.3, I am not using a Red Hat kernel \npackage: my kernel is lovingly downloaded, configured, and built by \nhand. Call me old fashioned.\n\nSadly, the RPM rebuild fails part way through:\n\n % rpm --rebuild alsa-driver-0.9.0rc3-fr6.src.rpm\n\n gcc -DALSA_BUILD -D__KERNEL__ -DMODULE=1 \\\n -I/usr/src/redhat/BUILD/alsa-driver-0.9.0rc3/include \\\n -I/lib/modules/2.4.18/build/include -O2 \\\n -mpreferred-stack-boundary=2 -march=i686 -DLINUX -Wall \\\n -Wstrict-prototypes -fomit-frame-pointer -pipe -DEXPORT_SYMTAB \\\n -c sound.c\n\n sound.c:41: `snd_hack_usb_set_interface' undeclared here (not in a \\\n function)\n\n sound.c:41: initializer element is not constant\n\n sound.c:41: (near initialization for \\\n __ksymtab_snd_hack_usb_set_interface.value')\n\n make[1]: *** [sound.o] Error 1\n\nThe line in question looks like this:\n\n /* USB workaround */\n #if LINUX_VERSION_CODE \nEXPORT_SYMBOL(snd_hack_usb_set_interface);\n #endif\n #endif\n\nAny suggestions?\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ben Liblit <liblit@eecs.berkeley.edu>", 
+    "subject": "alsa-driver rebuild fails with undeclared USB symbol"
+}

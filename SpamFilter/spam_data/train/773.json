@@ -1,0 +1,9 @@
+{
+    "body": "..it's a major release and supports now SGI's FAM technology\n(see http://www.oss.sgi.com/projects/fam/), meaning gentoo will\nnow be aware of changes made to the directories it's viewing.\n\nMore details see emils ChangeLog on \nhttps://sourceforge.net/project/shownotes.php?release_id=103492\n\n--\nregards from Germany\n Matthias\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Haase <matthias_haase@bennewitz.com>", 
+    "subject": "Re: gentoo 0.11.31 relased..."
+}

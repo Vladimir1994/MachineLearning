@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, 28 Aug 2002 17:45:49 -0700\nBrian McNett wrote:\n\n> The first court cases were actually concluded years ago. These \n> include many legal precedents which are used to protect the \n> rights of ISPs to block mail, and to terminate service to \n> spammers.\n\nYeah, but these would be different cases relating to copyright infringements,\nnot about ISP's blocking mail or not.\n\n\n---\nLars Hansson\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Lars Hansson <lars@unet.net.ph>", 
+    "subject": "Re: [SAtalk] O.T. Habeus -- Why?"
+}

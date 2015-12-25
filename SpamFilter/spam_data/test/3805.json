@@ -1,0 +1,8 @@
+{
+    "body": "\"Kerry Nice\" said:\n\n> What about some reality check rules. Yeah, you can pack in lots of things\n> into the header to try and get some negative points, but do they all make\n> sense in combination. Can you have a Pine message id in the same header\n> with an Outlook Express one or a Mutt User-Agent?\n\nYes, this is a big bonus of meta rules (new in 2.40); we can now\ne.g. check for an Outlook-style forwarded message, and not give\nit negative points unless it contains other signs of being from\nOutlook.\n\n> I think the headers should be paid special attention to. The message\n> content of something from the NY Times or Lockergnome might look spammy, but\n> usually they don't forge or fake anything in the header. Tone down the\n> negative scores and ding them extra for any obvious forgeries.\n\nWhen we get more (good) \"nice\" tests, the GA will assign lower\nscores to them. I think the current problem is that there are\nvery few really good nice tests in the current rulebase, and lots\nof +ve tests that those newsletters hit, giving the GA a big\nproblem to solve.\n\n--j.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "\"Kerry Nice\" <kerry_nice@hotmail.com>"
+    ], 
+    "from": "yyyy@spamassassin.taint.org (Justin Mason)", 
+    "subject": "Re: [SAtalk] Trend: Spam disguised as newsletters"
+}

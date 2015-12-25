@@ -1,0 +1,9 @@
+{
+    "body": "El Martes 13 Abril 2010 13:34:13 Edson Marquezani Filho \n escribió: \n \n> \n> I didn't, yet. But I have already seen some documentation about it \n> around. See this[1]. \n> \n> [1] http://amarok.kde.org/wiki/MySQL_HowTo \n \nDid you purged amarok and removed amarok config files in ~/.kde? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201004131401.50187.budinero@csmining.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Facundo Aguilera <budinero@csmining.org>", 
+    "subject": "Re: Amarok's Issues"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Matthias Haase wrote:\n> The bytecode-interpreter *is* disabled on RH8, defined at line 3 in\n> the Specfile of the SRPM.\n\nRight you are. The SRPM includes a patch to enable it, but then the\nspecfile defaults to not applying that patch. I saw the former but\nmissed the later. Egad, what a convoluted maze.\n\nSorry for the misinformation!\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ben Liblit <liblit@eecs.berkeley.edu>", 
+    "subject": "Re: RedHat 8.0 and his own freetype"
+}

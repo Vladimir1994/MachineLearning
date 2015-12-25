@@ -1,0 +1,9 @@
+{
+    "body": "Back when I had regular RH7.3 there was nothing better than \"apt-get upgrade\". But\nnow I'm running (null) beta and I have these questions:\n\nwhich version of \"apt\" can I use, the RH7.3 version or the \"rawhide\" version?\n\nIs there a way to use apt to update (null) with the rpms available for (null)\nthrough up2date, since I prefer apt to that?\n\nIf I can use apt, can I use it to get updates from these 3 different places:\n1. the (null) up2date Redhat upgrades\n2. the (null) files at Freshrpms.net\n3. the regular RH7.3 files from freshrpms.net\n\nAm I asking for too much simplicity in this complicated world?\n\n--\nThat's \"angle\" as in geometry.\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "\"FreshRPMs List\" <rpm-zzzlist@freshrpms.net>"
+    ], 
+    "is_spam": false, 
+    "from": "\"\" Angles \" Puglisi\" <angles@aminvestments.com>", 
+    "subject": "apt and a hybrid system"
+}

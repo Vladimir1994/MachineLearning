@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-08 20:48, Kaicheng Zhang wrote: \n> Hi there, \n> I have to ssh to a server A and then ssh to server B where I do my \n> job. Therefore scp cannot work well when I want transfer files between \n> remote and host machine. \n> I used secureCRT in Windows, and its feature allow me to type \"rz\" \n> in the remote machine and select the file I would like to transfer in \n> a pop up window. \n> I would like to switch to Linux as my host enviornment which is \n> now Debian sid. I am wondering is there any tools for such multiple \n> jumps of ssh connection file transfer? \n \nGoogling \"scp multiple hop\" returns some interesting links. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBE8FA3.3040800@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: How do I transfer file through multiple jumps ssh connections"
+}

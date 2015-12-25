@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-08 Leonardo Meira wrote: \n> Dolphin does not mount my other hard drives. They appear in \"places\" but \n> when I click I get a message \n> \"\"org.freedesktop.Hal.Device.Volume.PermissionDenied: Refusing to mount \n> device /dev/sdaX for uid = 1000\"\". I tried, as read in other forums, create \n> a configuration file for Polkit but in vain. \n> I also saw that this is a common problem in other Distros, possibly a \n> problem with KDE 4.4. \n> Important detail: in earlier versions of KDE 4.x I solved this problem by \n> changing the permissions of the HAL PolicyKit module located in \n> systemsettings but in KDE 4.4 this module is missing, ie has been removed \n \nSearch for a thread named \"PolicyKit Authorization (System Settings) crashes every time\" \nFirst msg can be found here: http://lists.debian.org/debian-kde/2009/12/msg00073.html \nand it continues here: http://lists.debian.org/debian-kde/2010/03/msg00087.html \n \nIt is indeed an issue with KDE 4.4 and has to do with the switch to policykit-1, which is in review \nand will/should be included (again) with KDE 4.5 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005081843.43186.didi.debian@cknow.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Diederik de Haas <didi.debian@cknow.org>", 
+    "subject": "Re: Automount HDD KDE 4.4 Problem"
+}

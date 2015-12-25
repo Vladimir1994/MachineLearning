@@ -1,0 +1,8 @@
+{
+    "body": "On Wednesday 05 May 2010 15:24:49 Ana Guerrero wrote: \n> Following Qt 4.6.2, uploaded a couple of weeks ago, KDE 4.4.3, has finally \n> found its way to unstable in the last 48 hours. \n> Given KDE 4.5.0 is not expected until August, it is likely the next point \n> release, 4.4.4, will be the KDE version included in next Debian stable, \n> Squeeze. \n \nPlease, please, don't do this. \n \nIn 4.4, kmail depends on mysql-server in order to send mail. (kmail -> Akonadi \n-> mysql-server). \n \nIn 4.3, this is not true. From what I hear on upstream mailing lists, this \nwon't be true in 4.5. Upstream is already aware and working on the issue, but \nit falls under \"new feature\" so it won't be included in the 4.4.x line. \n \nFor me, KDE 4.4 is the most broken KDE release since 4.1 (I didn't try 4.0). \nI'd rather have 4.3.x in Squeeze than 4.4. \n \nActually, I like most of KDE 4.4 and am currently using it for day-to-day \nwork. I'm still using kmail/kontact/etc. (basically kdepim) from 4.3 since I \nhave no desire to run yet another RDBMS on my system. (I already run \nPostgreSQL, and have a number of apps that use SQLite installed.) \n \nPlease don't force an \"Akonadi-enabled\" PIM suite on stable users before they \nare provided with an Akonadi that can use something other than MySQL. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

@@ -1,0 +1,8 @@
+{
+    "body": "On 2010-04-14 09:31, Paul E Condon wrote: \n[snip] \n> \n> non-obvious --- to the point that there was an open contest with \n> prizes awarded for the most obfuscated example of C code. The prizes \n> went to the code for which the judges were most surprised on seeing \n> it run after they read the code and tried to figure out what would \n> happen when it was run. \n \nhttp://www1.us.ioccc.org/main.html I guess they got bored looking \nat normal production C code... \n \nThere was also an Obfuscated Perl Contest, but that only ran for 5 \nyears due to the \"Perl\" and \"obfuscation\" being redundant. \n \n> But the union construct is now there in the language in order to allow \n> the professional practitioner to make his code slightly less \n \nUnions have been in C for at least 20 years; probably since the \nEarly Days. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC5FC76.9080206@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: C programming question"
+}

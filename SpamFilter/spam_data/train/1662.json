@@ -1,0 +1,9 @@
+{
+    "body": "On 05/13/2010 08:37 AM, steef wrote: \n> \n> hi list, \n> \n> how do i get rid of the message of a new (of course much valued) \n> maintainer Christian about MTA'S and cron when updating squeeze on the \n> commandline before using startx? apt-get upgrade hangs on this message \n> and i do not know the protocol to go on in this situation (if there is \n> any). so i cannot upgrade. \n> \n> thank you in advance! \n> \n> steef \n> \n> \nHi, \nI'm think by pressing \"Q\". \n \n-- \nBye, \nGoran Dobosevic \nHrvatski: www.dobosevic.com \n English: www.dobosevic.com/en/ \nRegistered Linux User #503414 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BEBD280.9010303@dobosevic.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "godo <goran@dobosevic.com>", 
+    "subject": "Re: stupid question"
+}

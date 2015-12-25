@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday, August 28, 2002, at 01:50 PM, Robin Lynn Frank wrote:\n\n> And if a spammer forges headers???\n\nHeader forgeries are trivially easy to detect. The main way that \nspammers hide their originating IPs is not by forging headers, \nbut by sending through open proxy servers. It used to be that \nspammers used open relay mailserver, but these often betray the \noriginating IP, and the proliferation of open relay blocklists, \nand the introduction of port 25 blocking on the part of many \nISPs make open relays unattractive to spammers.\n\nOne would think, that the combination of a forged Habeas-SWE, \nand mail sent through an anonymizing open proxy would be a \nfairly good indication of spam. Tracking a spammer to his \nmeatspace location is not as difficult as you might think, once \nyou have legal recourse to subpoena records.\n\n--B\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Brian McNett <bmcnett@radparker.com>", 
+    "subject": "Re: [SAtalk] O.T. Habeus -- Why?"
+}

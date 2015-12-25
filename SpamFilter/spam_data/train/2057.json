@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, \"\"Angles\" wrote :\n\n> Matthias Saou (matthias@egwn.net) wrote*:\n> >You're really better off backuping all placed where you know you've hand\n> >edited or installed some files. For me that's only /etc/, /root/ and\n> >/home/. Then you reinstall cleanly, formating \"/\", put your /home/ files\n> >back into place and you're ready to go.\n> \n> Matthias I gotta believe you, I've been using your RPMs for some time now\n> :) That's the way I'll do it.\n\nI'm no \"messiah\", just do what you think suits you the best :-)\n\nMatthias\n\n-- \nClean custom Red Hat Linux rpm packages : http://freshrpms.net/\nRed Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi\nLoad : 0.05 0.06 0.03\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@rpmforge.net>", 
+    "subject": "Re: use new apt to do null to RH8 upgrade?"
+}

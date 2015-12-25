@@ -1,0 +1,9 @@
+{
+    "body": "> -----Original Message-----\n> From: fork-admin@xent.com [mailto:fork-admin@xent.com]On Behalf Of Karl\n> Anderson\n> Sent: Thursday, September 05, 2002 3:50 AM\n> To: bitbitch@magnesium.net\n> Cc: 'fork@spamassassin.taint.org'\n> Subject: Re: Re[2]: Java is for kiddies\n>\n>\n> bitbitch@magnesium.net writes:\n>\n> > SL> \n> > SL> Misc rants about finding jobs, java vs C, what makes a good\n> programmer, etc.\n> > SL> \n> > \n> > SL> Okay, hmm, I thought twice about this, but what the hey,\n> jobs are hard to\n> > SL> come by. There's a company hiring in Mountain View, looking\n> for a few good\n> > \n> >\n> > I give Adam an hour or so to come up with an adequate number of\n> > excuses as to why -this- job isn't worth it. :)\n>\n> http://www.netli.com/careers/index.htm\n>\n> >* Along with your resume, please answer this question: What does\n> this C statement do? #define XY(s, m) (&((s *)0)->m)\n>\n> Besides provide job security?\n\nThis is more useful...\n\n#define CONTAINING_RECORD(address, type, field) ((type *)( \\\n (PCHAR)(address) - \\\n (PCHAR)(&((type\n*)0)->field)))\n\nBill", 
+    "to": [
+        "\"Fork@Xent.Com\" <fork@spamassassin.taint.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Bill Stoddard\" <bill@wstoddard.com>", 
+    "subject": "RE: Re[2]: Java is for kiddies"
+}

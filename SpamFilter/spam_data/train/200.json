@@ -1,0 +1,9 @@
+{
+    "body": "> eh? any reason why? wasn't causing any trouble for me, and\n> seems like a good idea.\n\nBecause every time someone submitted a bug, they'd get a response\nsaying \"Message is held for moderator because of implicit message\ndestination\" or something like that. It annoyed users, it annoyed me,\nand Justin, you never actually got around to accepting the messages :-)\n\n-- \nDuncan Findlay\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "spamassassin-devel@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Duncan Findlay <duncf@debian.org>", 
+    "subject": "Re: [SAdev] Re: Web subscription for spamassassin package"
+}

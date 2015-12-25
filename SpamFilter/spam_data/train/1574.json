@@ -1,0 +1,9 @@
+{
+    "body": "Liam O'Toole writes: \n \n> On 2010-04-14, Paul Chany wrote: \n \n>> I have setup somewhere the JAVA_HOME environment variable, but \n>> don't know where? \n> ---SNIP--- \n> \n> Maybe /etc/environment? \n \nHere on my GNU/Linux Lenny system this file is empty. \n \n-- \nRegards, Paul Chany \nYou can freely correct me in my English. \nhttp://csanyi-pal.info \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87hbne2vqv.fsf@csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Paul Chany <csanyipal@csmining.org>", 
+    "subject": "Re: Where to find setup for env variable?"
+}

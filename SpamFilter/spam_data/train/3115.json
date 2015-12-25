@@ -1,0 +1,9 @@
+{
+    "body": "Please tell us what problems, bugs, or issues KDE 4 that make it \ndifficult to use. Please be very specific so that bugs can be filed \nand the software can be fixed. General statements such as \"KDE4 sux\" \nare not welcome, as they do not give any indication as to what can be \nfixed. \n \nComparisons to KDE 3 are welcome, but please do not simply state \n\"should be like KDE 3\". Rather, please state how KDE 4 behaves, and \nhow you would prefer it to behave (even if that means describing in \ndetail KDE 3 behaviour). \n \nMy intention is to file issues and get bugs fixed, not to fight. \nNobody is ordered to participate in this thread, but all are welcome. \n \n \n-- \nDotan Cohen \n \nhttp://bido.com \nhttp://what-is-what.com \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org", 
+    "to": [
+        "debian-kde <debian-kde@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Dotan Cohen <dotancohen@csmining.org>", 
+    "subject": "What needs to improve in KDE 4?"
+}

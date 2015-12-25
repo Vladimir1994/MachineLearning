@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 20 Aug 2002 17:27:47 CDT, Chris Garrigues said:\n\n> For those who have other sequences defined, the window will widen to display \n> the other sequences. Preferences allow you to say if you want a given \n> sequence display to never show or to always show.\n\nEver tried to get MH to *not* have a 'pseq' sequence? I suspect everybody's\nlooking at a big box that has unseen and pseq in it. Might want to add\n'pseq' to the 'hide by default' list....\n-- \n Valdis Kletnieks\n Computer Systems Senior Engineer\n Virginia Tech", 
+    "to": [
+        "Chris Garrigues <cwg-dated-1030314468.7c7c85@DeepEddy.Com>"
+    ], 
+    "is_spam": false, 
+    "from": "Valdis.Kletnieks@vt.edu", 
+    "subject": "Re: New Sequences Window"
+}

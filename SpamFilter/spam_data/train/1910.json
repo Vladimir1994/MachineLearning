@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, Jul 23, 2002 at 06:06:05PM -0400,\nScott Henderson is thought to have said:\n\n> Thanks, Tabor. How do I install v1 over v2, and where does one\n> get it? (I don't see it at razor.sourceforge.net)\n\nIt's there. Scroll down on the downloads page. However you might\nconsider going the other way and installing SpamAssassin's 2.40\nbleeding-edge code as Razor v2 has a lot of nice features over v1.\n\n-- \n--------------------------------------------------------------------\nTabor J. Wells razor-users@fsckit.net\nFsck It! Just another victim of the ambient morality\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "Scott Henderson <boyhowdy@cyberspace.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Tabor J. Wells\" <razor-users@fsckit.net>", 
+    "subject": "Re: [Razor-users] can't find Razor/Client.pm"
+}

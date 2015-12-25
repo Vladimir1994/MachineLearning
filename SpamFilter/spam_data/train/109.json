@@ -1,0 +1,9 @@
+{
+    "body": "On Sat, Oct 05, 2002 at 06:06:14PM +0100, Padraig Brady mentioned:\n> OK I'm upgrading vorbis on my machine and I'm getting\n> the following:\n> \n> # rpm -U libvorbis-* vorbis-tools-1.0-1.i386.rpm\n> error: failed dependencies:\n> libvorbisfile.so.0 is needed by SDL_mixer-1.2.0-4\n> libvorbisfile.so.0 is needed by xmms-1.2.5-7\n> libvorbisfile.so.0 is needed by tuxracer-0.61-5\n> \n> This is because the new libvorbis.rpm only has libvorbisfile.so.3\n> So is this a problem in the other packages depending on\n> a specific version (libvorbisfile.so.0) rather than on the\n> generic libvorbis.so ?\n\n This is a pain. \n\n The only way you can resolve this, to my knowledge is to download the\noriginal libvorbis rpm and the new one. Remove the old one, then do:\n\n rpm -Uvh libvorbis-*\n\n RPM then assumes that you want both versions installed at the same time,\nand does so. Why you can't do this after you have one library already\ninstalled is beyond me.\n\nKate\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "\"John P. Looney\" <valen@tuatha.org>", 
+    "subject": "Re: [ILUG] rpm dependencies"
+}

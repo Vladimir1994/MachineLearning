@@ -1,0 +1,9 @@
+{
+    "body": "> \n> From: M Christol \n> Subject: File Size & cut \n> \n> I had a 40 minute .mov file. I cut 36 minutes off and the file size \n> remained the same (499MB). \n> I had used h.264 & AAC \n> I exported the movie & the file size went down to what I expected. \n> Why didn't the file size reduce afer the cut? \n \nThe file size will stay the same unless you save as a new self- \ncontained QT movie. \nFrank \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-Users mailing list (QuickTime-Users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "quicktime-users@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Frank Fulchiero <fful@conncoll.edu>", 
+    "subject": "Re: File Size & cut"
+}

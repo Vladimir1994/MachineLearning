@@ -1,0 +1,9 @@
+{
+    "body": "Camaleón wrote: \n> On Sat, 10 Apr 2010 12:25:32 +0200, steef wrote: \n> \n> \n>> Camaleón wrote: \n>> \n> (...) \n> \n> \n>> \n>> \n>> please! some further suggestions?? \n>> \n> Try to load \"nv\" driver and see what happens. \n> \n> Greetings, \n> \n> \n............and that is what i did. kaffeine is still giving trouble \nwith mpeg4-files &&. so i loaded again the intel-driver. this driver or \nchip (x4500) is definitely of better quality than the combination \ngeforce 9400 & and the nv-driver. my conclusion: no hardware-problem, \njust a disastrous by-effect of the latest nvidia-driver from their site \non the hardware-combination (?)of my machine. \n \nso be it till another nvidia-driver will come up or another pci-express \ncard. \n \nthank you very much, you all have illuminated me! \n \nsteef \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBFF50C.8010308@home.nl", 
+    "to": [
+        "debian <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "steef <debian.linux@home.nl>", 
+    "subject": "Re: gforce 9400"
+}

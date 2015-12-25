@@ -1,0 +1,9 @@
+{
+    "body": "Hi, Frank. \nTry to set dhcp pool size in your router to 2 or 3 \nВторник 11 мая 2010 00:06:28 you wrote: \n> Hi guys, \n> \n> I'm having some headaches with our WLAN. We're going online with 2 \n> laptops, that means we try. We do have the following setup: \n> \n> The router is a Speedport W 303V and we do have the folloeing laptops: \n> Asus M6N, Intel ipw2100 driver, Debian/sid with wicd \n> Acer Aspire 5680, Atheros AR2413 with the ath5k driver, Ubuntu 8.10 with \n> network manager \n> \n> When my wife is online with her Acer/Ubuntu system I cannot connect with \n> my Asus/Debian machine. The wireless network is detected but I do not \n> get an IP address.This is from the wicd.log file: \n> No DHCPOFFERS received. \n> No working leases in persistent database - sleeping. \n> DHCP connection failed \n> exiting connection thread \n> Sending connection attempt result dhcp_failed \n> \n> It does work the other way round though! \n> \n> \n> Any ideas on where to look? \n> \n> THX Frank \n>", 
+    "to": [
+        "debian-laptop@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Boris Bobrov <breton.linux@csmining.org>", 
+    "subject": "Re: wireless connection issues"
+}

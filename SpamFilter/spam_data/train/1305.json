@@ -1,0 +1,9 @@
+{
+    "body": "> From: Anders Eriksson \n> Date: Mon, 19 Aug 2002 23:05:30 +0200\n>\n> \n> > > Just cvs up'ed and nowadays Catch-up Unseen is __extremely__ slow on \n> > > large (>100 msgs) unseen sequences. Anybody else having this problem?\n> > \n> > I'll take the blame.\n> > \n> > The reason, I suspect, is that we're needlessly reading the .sequences file \n> > multiple times because of other sequences. I need to make the code much \n> > smarter about handling that file, but first I have a few other fish to fry in \n> > my rather large patch that's on it's way.\n> > \n> \n> No panic,\n> \n> I'm all for cleaning things up before getting it optimized.\n\nOkay, this fix is now checked in.\n\nChris\n\n-- \nChris Garrigues http://www.DeepEddy.Com/~cwg/\nvirCIO http://www.virCIO.Com\n716 Congress, Suite 200\nAustin, TX 78701 +1 512 374 0500\n\n World War III: The Wrong-Doers Vs. the Evil-Doers.", 
+    "to": [
+        "Anders Eriksson <aeriksson@fastmail.fm>"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Garrigues <cwg-exmh@DeepEddy.Com>", 
+    "subject": "Re: CVS report"
+}

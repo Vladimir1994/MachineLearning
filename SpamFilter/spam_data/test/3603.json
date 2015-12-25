@@ -1,0 +1,8 @@
+{
+    "body": "Good day, Fox,\n\nOn Fri, 23 Aug 2002, Fox wrote:\n\n> I recently installed Razor v2.14 and started using it. I am finding it\n> necessary to whitelist a _lot_ of mailing lists. Some, such as yahoogroups,\n> I can't whitelist because the from: address is the person making the post,\n> so I will have to whitelist on another field when I can modify my code to do\n> so. I wonder if someone is not being careful about their submissions, or if\n> these are bad mailing lists that don't drop bad mail addresses that become\n> trollboxes in time.\n\n I've found excellent luck with the X-Been____There header (____'s \nadded to to avoid tripping procmail rules):\n\n____X-Been____There: news@jabber.org\n\n Cheers,\n - Bill\n\n---------------------------------------------------------------------------\n \"Nynex. Iroquois for Moron\"\n -- A well-known Linux kernel hacker.\n--------------------------------------------------------------------------\nWilliam Stearns (wstearns@pobox.com). Mason, Buildkernel, named2hosts, \nand ipfwadm2ipchains are at: http://www.stearns.org\n--------------------------------------------------------------------------\n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "Fox <lds0062@cdc.net>"
+    ], 
+    "from": "William Stearns <wstearns@pobox.com>", 
+    "subject": "Re: [Razor-users] Razor 2.14 - the day after"
+}

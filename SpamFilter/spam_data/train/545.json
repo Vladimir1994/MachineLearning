@@ -1,0 +1,9 @@
+{
+    "body": "If I create an empty (0 length) .xsession or an .xsession file \ncontaining one line, say, echo hello, world, I get this error when I \ntry to log into GNOME. \n \nYour session lasted less than 10 seconds. If you have not logged out \nyourself this could mean there is some installation problem or that you \nmay be out of disk space. Try logging in with one of the failsafe \nsessions to see if you can fix the problem. \n \nThere aren't any errors in .xsession-errors when I try to log in with \nthe 0 length .xsession file. In case of the .xsession file with echo \nhello, world, I see just 'hello, world' in the .xsession-errors file. \n \nWhy does this happen? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/k2q308d4701004140621ibf159f8dycc2bb534b1aeb7bd@mail.csmining.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Disc Magnet <discmagnet@csmining.org>", 
+    "subject": "GNOME crashes when .xsession file is present."
+}

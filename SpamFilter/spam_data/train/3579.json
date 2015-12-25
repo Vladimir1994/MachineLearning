@@ -1,0 +1,9 @@
+{
+    "body": "On 07.04.2010 23:56, Eduardo M KALINOWSKI wrote: \n> On 04/07/2010 05:45 PM, Mart Frauenlob wrote: \n>> \n>> #!/bin/sh \n>> grep -w \"fred\" file || printf \"%s\\n\" \"fred\">>file \n>> \n>> \n> \n> Why not simply use \n> echo \"fred\" >> file \n> for the second command? \n> \n> \n1: I'm used to it. \n \n2: saving me typing (quick web search): \nhttp://unix.derkeiler.com/Newsgroups/comp.unix.shell/2006-12/msg00934.html \n \nI know the example of the OP is simple, but most likely 'fred' will \nbecome a variable. \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BBD8C33.2070908@chello.at", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Mart Frauenlob <mart.frauenlob@chello.at>", 
+    "subject": "Re: OT: Script to add line to file if it doesn't exist"
+}

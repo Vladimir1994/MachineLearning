@@ -1,0 +1,9 @@
+{
+    "body": "James Brown wrote at 2010-04-13 07:59 -0500: \n> I had the dmesg message that I needed use iwllwifi-3945-2 instead \n> iwlwifi-3945-1. \n> I finded the packege firmware-iwlwifi-0.23~bpo50+1 and installed that \n> instead 0.14+lenny2. \n> Now I have the next records in dmesg: \n> [ 49.170257] iwl3945 0000:02:00.0: firmware: requesting \n> iwlwifi-3945-2.ucode \n> [ 49.272362] iwl3945 0000:02:00.0: loaded firmware version 15.32.2.9 \n> Is it wrong?! \n \nLooks fine to me. \n \nRead: \naptitude show firmware-iwlwifi", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "green <greenfreedom10@csmining.org>", 
+    "subject": "Re: Problem with iwl3954"
+}

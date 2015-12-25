@@ -1,0 +1,9 @@
+{
+    "body": "Just when you said that you \"have the same\", I thought this was the full setup, that is Gnome included. Anyway, it does not matter, I tried other window managers in the problematic machine, other user accounts too, and always strange behavior with the middle click. It seemed to be deeply rooted somewhere in the system. As a last resort, I rebooted the machine, and... problem solved! \n \nShould we reboot after updating X11? \n \nThanks, \nPierre \n \n \n \n \n----- Original Message ---- \nFrom: Harald Hanche-Olsen \nTo: pbaguis@yahoo.com \nCc: jeremyhu@apple.com; X11-users@lists.apple.com \nSent: Sun, April 18, 2010 3:54:48 PM \nSubject: Re: Middle button click broken \n \n+ Pierre Baguis : \n \n> I am wondering if Gnome is to blame (but then Harald had not issues). \n \nOh, wait. I don't use Gnome. I don't think I said I did, or at least I did not mean to imply it. Of course, you could try switching back to quartz-wm and see if the problem persists. \n \n- Harald \n \n \n \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nX11-users mailing list (X11-users@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Harald Hanche-Olsen <hanche@math.ntnu.no>"
+    ], 
+    "is_spam": false, 
+    "from": "Pierre Baguis <pbaguis@yahoo.com>", 
+    "subject": "Re: Middle button click broken"
+}

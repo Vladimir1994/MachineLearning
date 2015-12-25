@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 18 Apr 2010 16:20:49 -0300 \nEduardo M KALINOWSKI wrote: \n \nHello Eduardo, \n \n> I see nothing about serial there. Just a plain smart card reader that \n> connects directly via USB. \n \nTrue, but Dotan's neighbour has an RS232 to USB adaptor that the reader \nis connected to. \n \n-- \n Regards _ \n / ) \"The blindingly obvious is \n / _)rad never immediately apparent\" \n \nI don't believe you have to be an idiot to get somewhere these days \nBombsite Boy - The Adverts", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Brad Rogers <brad@fineby.me.uk>", 
+    "subject": "Re: USB device attached via RS232 adaptor"
+}

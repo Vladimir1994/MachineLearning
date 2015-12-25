@@ -1,0 +1,9 @@
+{
+    "body": "On Monday 26 April 2010 15:09:57 Celejar wrote: \n> On Mon, 26 Apr 2010 08:03:24 -0400 \n> \"James P. Wallen\" wrote: \n> > On 01/-10/-28163 02:59 PM, Celejar wrote: \n> > > On Sat, 24 Apr 2010 09:53:27 -0400 \n> > > \"James P. Wallen\" wrote: \n> > >> Heck, I haven't even installed the non-free firmware to make wireless \n> > >> work in a couple of these notebooks. \n> > > \n> > > Firmware runs on the external hardware, not the system, so system \n> > > stability shouldn't be an issue. I assume that here it's just the \n> > > principle of the thing. \n> > \n> \n> What makes the non-free firmware question particularly interesting is \n> that the alternative is often to hardcode the functionality into the \n> hardware. Now, if you had a board with completely closed HW, but that \n> presented an open, well documented interface for the driver, most \n> people would be very happy (although there are, of course, the open \n> hardware crusaders - more power to them!). So, now that they've simply \n> implemented some of that functionality in SW, in the form of firmware \n> which the driver installs on the card, but which has nothing to do with \n> your host machine, are you really any worse off? \n \nAs a distributor you may very well be. If you can't provide the source code, \nyou can't satisfy the terms of the GPL (usually). \n \nFirmware is often simply provided as raw bytes. It is rarely actually \ndeveloped that way. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: The future of \"nv\" driver (was: Linux compatible mainboards -another thought)"
+}

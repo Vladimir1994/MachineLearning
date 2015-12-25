@@ -1,0 +1,9 @@
+{
+    "body": "Ron Johnson wrote: \n> On 2010-04-21 13:04, Camaleón wrote: \n>> On Wed, 21 Apr 2010 12:44:38 -0500, Ron Johnson wrote: \n>> \n>>> On 2010-04-21 12:22, Camaleón wrote: [snip] \n>>>> For GeForce 7600GS you have the following options: \n>>>> \n>>>> 1/ \"nv\" driver (only 2-D) \n>>> Except that Nvidia deprecated this driver a few weeks ago... \n>> \n>> ... only for \"newer\" (fermi) cards ;-) \n> \n> Will they keep it current with X? \n> \n> [snip] \n>> \n>> I agree. I guess from now on nvidia will be pushing their own \n>> proprietary drivers. \n> \n> It is blazingly fast, and narrows the code base they need to work on... \n> \n>>>> I am currently using option #2 for my GeForce 7600GS in Debian lenny \n>>>> and works pretty well. \n>>>> \n>>>> \n>>> I use #3 with a 7300GS in a mixed 32/64-bit environment (totally \n>>> unsupported by Nvidia, but works like a charm). \n>> \n>> I find it a bit more difficult to manage (if you change the kernel, \n>> you need to recompile the driver again). \n>> \n> \n> Eh. I'm still running .31 from December. (Will soon be upgrading to \n> .33, though.) \n> \n \nSo will I, as soon as it gets out of experimental \n \nHugo \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hqnkqe$mio$2@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Hugo Vanwoerkom <hvw59601@care2.com>", 
+    "subject": "Re: Linux compatible mainboards -another thought"
+}

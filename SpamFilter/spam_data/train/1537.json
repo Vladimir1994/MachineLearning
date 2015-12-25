@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, Oct 08, 2002 at 04:36:13PM +0200, Matthias Saou wrote:\n> Two new things today :\n> \n> 1) I've had to install a Red Hat Linux 6.2 server because of an old\n> proprietary IVR software that doesn't work on newer releases :-( So\n> I've recompiled both the latest apt and openssh packages for it, and\n> they are now available with a complete \"os, updates & freshrpms\" apt\n> repository at apt.freshrpms.net, for those who might be interested.\n\nOh, neat.\n\nI have similiar thing in my hands, though it might be migratable if I\nhad the time to try. I've been using another 6.x repository though.\nhttp://apt-rpm.tuxfamily.org/apt\n\nAnyone tried (dist-)upgrade from 6.x to 7? Theoretically it should drop\nin some -compat's (notably libc) and upgrade the rest and after a reboot\nand maybe a new kernel (and grub, but I have long before put those to\nv6's :) run just fine. Haven't had a spare machine to try it on myself,\nthough.\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Harri Haataja <harri.haataja@cs.helsinki.fi>", 
+    "subject": "Re: Zoot apt/openssh & new DVD playing doc"
+}

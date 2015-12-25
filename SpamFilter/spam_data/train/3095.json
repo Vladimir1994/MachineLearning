@@ -1,0 +1,9 @@
+{
+    "body": ">I need to play two movies in sync, compositing them in a custom way. \n>One approach I came up with is to put the movies in QTMovieLayers (Core \n>Animation), and then I can use a Core Image filter for the compositing. \n> Does that sound reasonable, or is there another approach that is \n>likely to perform significantly better? \n \nDepending on how much custom the compositing you need is, I guess you could \ncreate a movie referring to content in those two and maybe use some tweening \ncode too if needed \n \n------------ \nGeorge Birbilis (http://Zoomicon.com) \nMicrosoft MVP J# 2004-2010 \nBorland Spirit of Delphi 2001 \nhttp://birbilis.spaces.live.com \nhttp://twitter.com/zoomicon \n------------ \nInsert QuickTime in PowerPoint, Forms etc.: \nhttp://zoomicon.com/QT4All \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "\"'James Walker'\" <jamesw@frameforge3d.com>,\r\n\t<QuickTime-API@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"George Birbilis\" <birbilis@kagi.com>", 
+    "subject": "RE: Compositing two movies"
+}

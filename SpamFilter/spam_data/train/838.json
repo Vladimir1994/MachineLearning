@@ -1,0 +1,9 @@
+{
+    "body": "On 05/03/2010 06:20 PM, deloptes wrote: \n> Mark Allums wrote: \n> \n>> With 64 bits, you will need more memory, so I suggest you look for a \n>> machine that can use 4 GB of memory. \n>> \n> \n> I also found that people underestimate the importance of L2/3 cache. I'm \n> compiling very often and it's really faster on my developer's notebook with \n> 4M cache then on faster CPU with 512K. The difference is in the terms of \n> 4-8 times. \n> I've noticed that there is only 512K cache in the most netbooks which makes \n> then unsuitable for development. ATM this is stopping me from buying one. \n> Do you know if there are some with larger cache? \n> \n \nJust as a Mini Cooper isn't a dragster or a lorry, netbooks are not \n*designed* for heavy computational abilities. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BDF7E7C.5070304@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: 64-bit netbooks with Debian linux"
+}

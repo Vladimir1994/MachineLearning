@@ -1,0 +1,9 @@
+{
+    "body": "> The problem with postfix is that it runs chrooted and the CA \n> certificates are not copied into the chroot. See #287795¹. \n> \n> Sven \n> \n> ¹ http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=287795 \n \nHi Sven, \n \nThanks for that suggestion. I had seen that bug and discounted it \nbecause the patch is only effective if smtp_tls_CApath is set, and \nmine wasn't set. But your mail prompted another look, and with both \nsmtp_tls_CApath = /etc/ssl/certs and applying the patch from #287795, \nit banished the \"certificate verification failed\" and changed \n\"Untrusted TLS connection established\" to \"Trusted TLS connection \nestablished\". \n \nSo that's progress :-) \n \nUnfortunately it's still failing to authenticate. From mail.log: \nMay 9 21:49:18 rimmer postfix/smtp[8121]: 5DE243A66: to= , relay=NEWSERVER[NEWSERVER-IPADDR]:587, delay=5.5, delays=0.02/0.03/5.4/0, dsn=4.7.3, status=deferred (SASL authentication failed; server NEWSERVER[NEWSERVER-IPADDR] said: 535 5.7.3 Authentication unsuccessful) \n \nThanks, \nClive \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100509223356.GA13107@rimmer.esmertec.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Clive Standbridge <Clive.Standbridge@myriadgroup.com>", 
+    "subject": "Re: Re: Authentication unsuccessful relaying from Postfix to   Microsoft ESMTP MAIL Service"
+}

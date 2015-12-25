@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, May 23, 2010 at 7:34 PM, John Engelhart \n wrote: \n> If you believe otherwise, show your work.  Otherwise, the point is settled. \n \nFact: the C standard does not say anything about machine-level calling \nconventions. \n \nFact: the C standard does not address the behavior which results when \nthe call site of a function sees a prototype whose return type differs \nfrom the return type present at the definition of the function. \n \nConclusion: a conforming C compiler could use completely different \ntechniques for returning 'int' and 'long'. \n \nConclusion: in such an ABI, machine-level code which arranges for \ncallers to see an 'int' return value of 0 could easily be written such \nthat a caller which expects 'long' to see something other than zero. \n \nConclusion: if you're paranoid about portability, you can't assume \nthat messages to nil with a 'long' return type will return 0, with a \nstrict reading of Apple's guarantees. \n \nAnd note that absolutely nothing in the above is even slightly related \nto integer type sizes, type conversions, casts, promotions, the \nbit-level representation of the NULL pointer, or any other such \nthings, so any discussion of them in this context is utterly \npointless. \n \nMike \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nObjc-language mailing list (Objc-language@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "objc-language <objc-language@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Ash <michael.ash@csmining.org>", 
+    "subject": "Re: Nil messaging statement in \"Cocoa Fundimentals Guide\"   misleading?"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "use Perl Daily Newsletter\n\nIn this issue:\n * DynDNS.org Offers Free DNS To Perl Sites\n\n+--------------------------------------------------------------------+\n| DynDNS.org Offers Free DNS To Perl Sites |\n| posted by KM on Tuesday September 10, @08:23 (news) |\n| http://use.perl.org/article.pl?sid=02/09/10/1225228 |\n+--------------------------------------------------------------------+\n\n[0]krellis writes \"[0]DynDNS.org today [1]announced that it will provide\nfree premium DNS services (primary and secondary DNS hosting) to any\ndomains involved in the Perl Community. Read the press release for full\ndetails, [2]create an account, and [3]request credit under the Perl DNS\noffer! Never lose traffic to your Perl site due to failed DNS again!\"\nSweet. Thanks.\n\nDiscuss this story at:\n http://use.perl.org/comments.pl?sid=02/09/10/1225228\n\nLinks:\n 0. http://www.dyndns.org/\n 1. http://www.dyndns.org/news/2002/perl-dns.php\n 2. https://members.dyndns.org/policy.shtml\n 3. https://members.dyndns.org/nic/perl\n\n\n\nCopyright 1997-2002 pudge. All rights reserved.\n\n\n======================================================================\n\nYou have received this message because you subscribed to it\non use Perl. To stop receiving this and other\nmessages from use Perl, or to add more messages\nor change your preferences, please go to your user page.\n\n http://use.perl.org/my/messages/\n\nYou can log in and change your preferences from there.", 
+    "to": [
+        "yyyy-use-perl@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "pudge@perl.org", 
+    "subject": "[use Perl] Stories for 2002-09-11"
+}

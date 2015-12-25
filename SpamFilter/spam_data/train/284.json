@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, 9 Aug 2002, Ryan, Shane wrote:\n\n> Is this something along the same line as ORBS? \n\nSPEWS isnt it. It lists known spam source IPs and netblocks. (and if \nan ISP does nothing more than shift a spammer from IP to IP within the \nISPs netblock, then the ISPs netblock will be listed.)\n\nand there are quite a few ORBS like lists out there - ie known open\nrelay lists.\n\n> I remember not so long ago when eircom was put on the ORBS list,\n> half the ISP's in Europe wouldn't accept mail from my address. Of\n> course, informing Eircom of this did nothing for about 4 months or\n> so.\n\nshame.\n\nget a different ISP so.\n\n> IMHO stopping spammers is a great idea but I'd rather have to hit d\n> or delete rather than have my messages bounced by someone else's\n> ISP.\n\nI'd rather not get spam. sorry.\n\n> Regards,\n> Shane\n\nregards,\n-- \nPaul Jakma Sys Admin Alphyra\n paulj@alphyra.ie\nWarning: /never/ send email to spam@dishone.st or trap@dishone.st\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"Ryan, Shane\" <Shane_Ryan@education.gov.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "Paul Jakma <paulj@alphyra.ie>", 
+    "subject": "RE: [ILUG] TMDA (WAS --> slashdot EW Dijkstra humor]"
+}

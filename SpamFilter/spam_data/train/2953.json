@@ -1,0 +1,9 @@
+{
+    "body": "Hello folks!\nI'm new to Linux, so here goes...\nI've been trying to get connected to the outside world through my modem.\nI've got Debian with kernel 2.4.18.\nI've got this Win-Modem(yes, I know) and managed to locate a proper driver\nfor it.\nMinicom is very much able to dial out.\nBut there seems to be a problem with my PPPD installation.\nWhen I type 'ppp' in the minicom terminal, all I get (after the initial info\nof my dynamic IP, etc) is a ~ and then the NO CARRIER signal.\nThen I looked into calling pppd directly using chat.\nI used this command: pppd call Provider (where Provider is some script\nsomewhere).\nIt dials, it connects, it sends my username & password, and when connection\nis established, it gives the SIGHUP signal and exits.\nThis is confirmed when me friend and I tried to connect through a serial\nport using pppd to connect ttyS0. I ran pppd waiting for a connection, me\nfriend tried connecting and as soon as he did, pppd exited.\n\nSome expert help would be greatly appreciated as I'm sick and tired of\nhaving to reboot, get into Windoze to hook up to the net and then back to\nLinux, mounting this drive to get that file, etc. It'd be nice never have\nto go back to Windoze(except for games, that is).\n\nThanks a million.\nCarlos\n\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "<ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Carlos Luna\" <carlos.luna@steorn.com>", 
+    "subject": "[ILUG] PPPD disconnects on me!"
+}

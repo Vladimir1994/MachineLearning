@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, Apr 15, 2010 at 23:27:41 +0200, Sjoerd Hardeman wrote: \n \n[...] \n \n> Hal is certainly no longer working, see #567389. Yet, udev now also \n> stopped working... \n \nOK, I think I understand a little bit better how this is supposed to be \nworking now. Try to add your touchpad options to the InputClass section \nof the file /usr/lib/X11/xorg.conf.d/10-synaptics.conf as a first test. \n \nThere seems to be a new mechanism that allows for multiple such \nInputClass sections matching the same device, so that its configuration \ncan be spread over several files, with each file being able to add \noptions and to override settings made in previous files. If this works \nas advertised then it should be possible to add your customizations in a \nseparate InputClass section in, say, 99-local.conf and thus make sure \nthat they are not overwritten when the synaptics driver is upgraded. \nThat seems to have all the modularity advantages of the earlier hal/udev \nmethods with the added bonus of the simpler xorg.conf syntax. \n \nI am curious to hear if this actually works because I cannot try it \nmyself. (My up-to-date Sid desktop does not have a touchpad.) \n \n-- \nRegards, | \n Florian | \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100416184645.GA4281@isar.localhost", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Florian Kulzer <florian.kulzer+debian@icfo.es>", 
+    "subject": "Re: xorg synaptics driver no longer working with udev?"
+}

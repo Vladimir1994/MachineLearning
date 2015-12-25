@@ -1,0 +1,9 @@
+{
+    "body": "Ron Johnson wrote: \n> Not enough information. \nSorry. \n> Automounted from a DE, or manually from the CLI? \nAutomounted, but the related folder is still there (in /media/) even \nwhen the USB key is disconnected. \n> What are the ownership and privs on the mount point? And the raw device? \n== \n/media# ls -al \ntotal 28 \ndrwxrwxrwx 6 root root 4096 2010-04-25 13:26 . \ndrwxr-xr-x 23 root root 4096 2010-01-27 11:13 .. \ndrwxr-xr-x 3 root root 4096 2009-09-04 19:30 disk \ndrwxr-xr-x 3 root root 4096 2010-04-25 13:30 disk-1 \nlrwxrwxrwx 1 root root 7 2009-07-17 17:01 floppy -> floppy0 \ndrwxr-xr-x 2 root root 4096 2009-07-17 17:01 floppy0 \n-rw-r--r-- 1 root root 299 2010-04-25 13:26 .hal-mtab \n-rw------- 1 root root 0 2010-04-25 09:31 .hal-mtab-lock \ndrwx------ 2 root root 4096 2009-08-29 22:20 KUBUNTU_LAPTOP22 \n== \n \nIt happens for every removable disk, actually. The raw device is /dev/sde1: \n \n== \n# ls -al | grep sde \nbrw-rw---- 1 root floppy 8, 64 2010-04-25 21:45 sde \nbrw-rw---- 1 root floppy 8, 65 2010-04-25 21:45 sde1 \n== \n \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me. \n \n \nThe nail that sticks up will be hammered down.", 
+    "to": [
+        "Ron Johnson <ron.l.johnson@cox.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: USB key accepts data only as root"
+}

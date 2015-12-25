@@ -1,0 +1,9 @@
+{
+    "body": "Bob\n\nWe are a commercial company who host around 150 web sites on each of it \nservers, we can´t swap with you because we need someone in a similar \nposition.\n\nThank you\n\nJavier\n\nEl Viernes, 30 agosto, 2002, a las 10:25 AM, Bob Musser escribió:\n\n> I'm using Simple DNS from JHSoft.  We support only a few web sites and \n> I'd like to swap secondary services with someone in a similar > position.\n>  \n> We have a static IP, DSL line and a 24/7 set of web, SQL, mail and now \n> a DNS server.  As I said, we are hosting about 10 web sites, web and \n> DNS traffic is almost nothing.  Everything is on lightly loaded APC \n> battery backups so we are very seldom down.\n>  \n> I'd like to swap with someone also using Simple DNS to take advantage \n> of the trusted zone file transfer option.\n>  \n>  \n>  \n> Bob Musser\n> Database Services, Inc.\n> Makers of:\n>    Process Server's Toolbox\n>    Courier Service Toolbox\n> BobM@dbsinfo.com\n> www.dbsinfo.com\n> 106 Longhorn Road\n> Winter Park FL 32792\n> (407) 679-1539\n>  \n>  \n>\n---\nAtentamente\nJavier Cota\nIntegración tecnológica\n52723341\njavier@linkcreations.com.mx", 
+    "to": [
+        "\"DNS-swap\" <DNS-swap@lists.ironclad.net.au>"
+    ], 
+    "is_spam": false, 
+    "from": "Javier Cota <javier@linkcreations.com.mx>", 
+    "subject": "Re: Tiny DNS Swap"
+}

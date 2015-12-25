@@ -1,0 +1,9 @@
+{
+    "body": "Inn Share writes:\n\n> Hi,all:\n> \n> Does anyone know how to list the biggest file in my\n> root directory?or the second biggest ..etc...\n> \n> Because I want to find out what is the reason cause my\n> root all most full.\n\nfind / -xdev -type f -exec du -sk {} \\; | sort -rn | head -5\n\n -xdev will stop find recursing into other filesystems.\n\nCheers\nTiarnan\n\n\n-- \nTiarnán Ó Corráin\nConsultant / System Administrator\nCMG Wireless Data Solutions Ltd.\nTel.: +353 21 4933200\nFax: +353 21 4933201\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "Inn Share <shareinnn@yahoo.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Tiarnan O Corrain <tiarnan.o'corrain@cmg.com>", 
+    "subject": "Re: [ILUG] find the biggest file"
+}

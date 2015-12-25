@@ -1,0 +1,9 @@
+{
+    "body": "> It doesn't matter what the remote system is, as long as it has telnet, \n> which I'm assuming it does, since that's what you originally asked about. \n> To be able to help, we would need to know the output you are getting when \n> you run it, and probably the contents of the expect script that you are \n> using (edit out any passwords). \n> \n> \n> \n> \n> Please find below my simple expect telnet script : \n/usr/bin/expect \n>set name 172.16.17.160 \n>spawn telnet $name \n>set cmd1 command1 \n>set cmd2 logout \n>send \"$cmd1\" \n>send \"$cmd2\" \n>exit \nWhen I try for this procedure , I just see loging in and loging out from the \ntelnet session . Actually , I need to have the output result of issuing \n'command1' on the remote node to be captured on my local host . But when I \ntry manually , say telnet to it and issue the command , I see the output on \nmy screen . Please help me how to modify my simple code to have the desired \nresult? \nThank you", 
+    "to": [
+        "Kevin Ross <kevin@familyross.net>"
+    ], 
+    "is_spam": false, 
+    "from": "hadi motamedi <motamedi24@csmining.org>", 
+    "subject": "Re: How to schedule for a repeated task?"
+}

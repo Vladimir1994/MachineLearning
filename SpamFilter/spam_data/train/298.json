@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, 2002-08-19 at 18:28, Dave Wilson wrote:\n> IIRC, if the query string contains\n> \n> varname=FIRST&varname=SECOND\n> \n> then PHP will create a variable called \"varname\" with result SECOND. \n> However, if the query string contains\n> \n> varname[]=FIRST&varname[]=SECOND\n> \n> then PHP will create an array with varname[1]==FIRST and varname[2]==SECOND\n\nBy far the coolest solution to this would be to \"fix\" php :)\nTake a look at main/php_variables.c in the php source distribution.\nYou could mess around with the variable is_array in\nphp_register_variable_ex() and see if you can force all variables to be\narrays :) As far as I can tell the reason they do this is to save\ntime by not having to work out which variables have multiple values.\n\nNick\n\n\n_______________________________________________\nWebdev mailing list\nWebdev@linux.ie\nhttp://www.linux.ie/mailman/listinfo/webdev", 
+    "to": [
+        "webdev@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Nick Murtagh <nickm@go2.ie>", 
+    "subject": "Re: [Webdev] PHP+Javascript request"
+}

@@ -1,0 +1,8 @@
+{
+    "body": "I'm helping a fella in the UK with a debian build (tiny web) on a small VM \nmachine in a data center. I am trying to compile some c++ code, I have the \nlibs and binaries installed and the compile \"works\", except for this line... \n \nI have a php file used to make the build, and the file contains these \nlines.. \n \n \n system(\"g++ $files $incl $libs >& build.log\"); \n# system(\"g++ $files $incl $libs\"); \n \nThe first line fails with an error \"sh: Syntax error: Bad fd number\". \n \nIf I comment out the first line, and uncomment the second line, I do get my \n\"a.out\" file but the errors/warnings go to the screen... how can I make \nthem go to the 'build.log' file? \n \nI have done full package updates on the system using Webmin, and everything \nas of this morning is current. \n \nThanks kindly for any assistance you can provide. :) \n \nGary \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/ANEAJGKDLNAAPMPGONLKKEAGCBAA.gary.mccallum@shaw.ca", 
+    "to": [
+        "<debian-user@lists.debian.org>"
+    ], 
+    "from": "\"Gary\" <gary.mccallum@shaw.ca>", 
+    "subject": "sh command issue"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "billy@billyglynn.com has been successfully subscribed to Irish\nInternet Users.", 
+    "to": [
+        "yyyy@spamassassin.taint.org, alex@evilal.com, thomas@wibble.to"
+    ], 
+    "is_spam": false, 
+    "from": "mailman-owner@lists.boxhost.net", 
+    "subject": "Irish Internet Users subscription notification"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Sunday 01 September 2002 08:43 pm, Reza B'Far (eBuilt) wrote:\n> 3. Java is not just a programming language!\n\nThe astounding thing about java is that despite all of the many significant \npoints in its favor, it still manages to suck, and break across JVMs.\n\nI was really looking forward to being able to use a better language like \njava and get it compiled to real platform-specific binaries via the GNU \ncompiler collection. But this seems to have never really gotten anywhere \nbecause it would require porting or reimplementing libraries, which are \nprobably not source-available or tolerably licenced. When I looked at \nwhat I had to do to gcc and link \"hello world,\" I lost interest.\n\nWho the hell is writing the runtimes, anyway? Why are Perl/Python/Ruby \nmore reliable? In a world where the Macs all ran emulated 68K code \nutterly reliably, it's just hard to accept that there can't be a single \nportable JVM that just works.\n\nMy opinion is biased because of the disgraceful state of non-Windoze \nbrowser java implementations.\n\nEirikur", 
+    "to": [
+        "FoRK <FoRK@xent.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Eirikur Hallgrimsson <eh@mad.scientist.com>", 
+    "subject": "Re: Java is for kiddies"
+}

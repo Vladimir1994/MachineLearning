@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \nAdam D. Barratt wrote: \n> The next point release for the \"etch\" oldstable distribution, 4.0r9, is \n> scheduled for Saturday, 22nd May. \n \nI guess this is rather a plain \"formality\" than an endorsement by the \nproject that this release is an up-to-date version of \"etch\" (say as far \nas security is concerned). Maybe this should be pointed out more clearly \nin order to avoid misunderstandings. \n \nCheers, \n \nJohannes \n \n- -- \nIn questions of science, the authority of a thousand is not worth the \nhumble reasoning of a single individual. \n- - Galileo Galilei, physicist and astronomer (1564-1642) \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (GNU/Linux) \n \niEYEARECAAYFAkvtCyQACgkQC1NzPRl9qEWmbQCfbzcP/lHqnzkJysd9wC0yKKGi \ngvgAn2GW2R7lSpr/QRjuNxOegEyq1otj \n=hrlU \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BED0B25.8030100@physik.blm.tu-muenchen.de", 
+    "to": [
+        "debian-security@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Johannes Wiedersich <johannes@physik.blm.tu-muenchen.de>", 
+    "subject": "Re: Upcoming etch point release"
+}

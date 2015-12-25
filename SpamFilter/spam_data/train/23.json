@@ -1,0 +1,9 @@
+{
+    "body": "I won't be reading email until Sunday night or so. Good luck with\n2.40 and don't do anything I wouldn't do. ;-)\n\n- Dan", 
+    "to": [
+        "zzzz@example.com, craig@deersoft.com"
+    ], 
+    "is_spam": false, 
+    "from": "Daniel Quinlan <quinlan@pathname.com>", 
+    "subject": "FYI - gone this weekend"
+}

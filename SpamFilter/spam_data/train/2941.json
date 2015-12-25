@@ -1,0 +1,9 @@
+{
+    "body": "This specific application plays movies in a loop. \n \nThere are no problems when I use the following QTMovieDidEndNotification notification handler: \n \n- (void)movieDidEnd: (NSNotification *)notification \n{ \n [self performSelectorOnMainThread: @selector(startNextMovie) withObject: NULL waitUntilDone: NO]; \n} \n \nHowever QTKit does not release the QTMovie objects when I use the GCD version: \n \n- (void)movieDidEnd: (NSNotification *)notification \n{ \n dispatch_async(dispatch_get_main_queue(), ^{ \n [self startNextMovie]; \n }); \n} \n \n-(void) startNextMovie \n{ \n [movieView setMovie: [self nextMovie]]; \n} \n \nNow comes the weird part, the QTMovie objects are released when the user interacts (click in menubar/window etc) with the application. \n \nSince this is a kiosk application that never happens and after a while the application simply runs out of memory. \n \nI this a known issue? \n \n- Henk \n \n \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "quicktime-api list list <quicktime-api@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Henk Kampman <henk.kampman@secondmove.com>", 
+    "subject": "Weird QTKit memory management behavior when using Grand Central   Dispatch"
+}

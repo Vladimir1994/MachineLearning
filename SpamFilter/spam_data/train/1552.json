@@ -1,0 +1,9 @@
+{
+    "body": "The documentation isn't clear, will QTVisualContextCopyImageForTime() block or just return nil if the data isn't there yet. \n \nI'm iterating a movie frame by frame from a secondary thread. Rather than polling/spinning on QTVisualContextIsNewImageAvailable() for each frame, can I just CopyImageForTime() and let it block until the data is available? The alternative is to install a hook via QTVisualContextSetImageAvailableCallback() and trigger a semaphore, but blocking on the Copy call would be much more straightforward. \n \nThanks! \n \nMatt Slot / Bitwise Operator / Ambrosia Software, Inc. -- http://www.AmbrosiaSW.com/ \n \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "quicktime-api@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Matt Slot <fprefect@ambrosiasw.com>", 
+    "subject": "Does QTVisualContextCopyImageForTime block?"
+}

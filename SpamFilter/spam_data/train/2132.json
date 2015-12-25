@@ -1,0 +1,9 @@
+{
+    "body": "Hello all\nI'm looking for advice. My pc has developed a disturbing tendency of trying\nto access IP 62.17.143.253 without my consent. It has got to the stage where\nnormal web-browsing is almost impossible.\nI have checked IP address on RIPE database and I know precisely who is being\ncalled. I contacted that company on 14 July, when the problem first arose\nand asked for a remedy but (surprise) got no reply.\nA helpful person on the ie.comp list suggested Adaware spyware removal. I\nran this and haven't had a problem again until today.\nThe offending program is obviously not in Adaware db. (I run adaware with\ncurrent ref files every day now).\nAny suggestions, please, for removing whatever the f*** is causing this\nfrom my pc?\nBrian\n\n\n_______________________________________________\nIIU mailing list\nIIU@iiu.taint.org\nhttp://iiu.taint.org/mailman/listinfo/iiu", 
+    "to": [
+        "<iiu@taint.org>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Brian O'Brien\" <obrienbrian@eircom.net>", 
+    "subject": "[IIU] spyware calling home?"
+}

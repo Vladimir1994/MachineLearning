@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, May 10, 2010 at 10:40:51PM -0700, evenso wrote: \n> On Tue, May 11, 2010 at 02:43:32AM +0200, deloptes wrote: \n> \n> . . . \n> \n> > \n> > when is squeeze becoming stable?? \n> > \n> \n> According to officialdom, approximately when the number of R-C bugs hits 300. That is the green line \n> here: http://bugs.debian.org/release-critical/ . Process trumps schedules. \n> \n \nOK, started looking around and found a better answer. :-) \n \nhttp://lists.debian.org/debian-devel-announce/2010/05/msg00000.html \n \n-- \nKind Regards, \nFreeman \n \nhttp://bugs.debian.org/release-critical/ \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100511055911.GA17757@Europa.office", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Freeman <evenso@worldwidehtml.com>", 
+    "subject": "Re: Fwd: Re: Kde 3.5 ..."
+}

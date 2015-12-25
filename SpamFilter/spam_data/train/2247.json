@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, Sep 02, 2002 at 06:53:24PM +0100, Justin Mason wrote:\n> - Razor v2 now supported fully\n\nHmmm... I just upgraded from my modified 2.31 to a slightly modified 2.40\n(I add a routine to EvalTests) and get:\n\nSep 2 15:32:24 eclectic spamd[20506]: razor2 check skipped: No such file or directory Can't call method\n\"log\" on unblessed reference at /usr/lib/perl5/site_perl/5.6.1/Razor2/Client/Agent.pm line 211, \nline 22. \n\nI haven't quite figured out why yet, more to come.\n\n-- \nRandomly Generated Tagline:\n\"So on one hand, honey is an amazingly sophisticated and efficient food\n source. On the other hand it's bee backwash.\"\n - Alton Brown, Good Eats, \"Pantry Raid IV: Comb Alone\"", 
+    "to": [
+        "Justin Mason <yyyy@spamassassin.taint.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Theo Van Dinter <felicity@kluge.net>", 
+    "subject": "Re: [SAdev] SpamAssassin v2.40 released (finally)!"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Quoting Eamonn Shinners :\n\n> Hi guys,\n> I'm looking for help on this one. I have a server with SME5.5 installed\n> - used to be e-smith. It's based on RH7.1, has a 3c507 NIC, and is\n> connected to a hub. Also connected to the hub are a laptop and\n> workstation, both with RH7.3 . The server supplies DHCP amongst other\n> things.\n> The problem is interruptions in the network. If I ping the laptop from\n> the workstation, or the other way around, there are no problems, i.e.\n> shows up as 0% loss. If however I ping the server from the laptop or\n> workstation, it will do a few packets, anywhere from 3 to 20, and then\n> stop responding, it will start again after a little while.\n\nIf this is new behaviour in a previously working network, what did you do to it?\n\n Test the cables by switching which machine has which.\n Test the hub ports by switching cables around.\n Run ifconfig on the server - any errors and what kind they are.\n Test the network card... by replacing the thing!\n\nSeriously, if the server has a PCI slot free, something like a Realtek 8139\nbased card costs less than 20 euro. The design is a couple of generations later\n- more memory, less cruft, no *FSCKING* dos config utility, no jumpers on the\ncard and it's PCI. \n\nRonan.\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Ronan Cunniffe <ronan@cunniffe.net>", 
+    "subject": "Re: [ILUG] Network problems"
+}

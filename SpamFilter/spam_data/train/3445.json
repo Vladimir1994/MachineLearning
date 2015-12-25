@@ -1,0 +1,9 @@
+{
+    "body": "On Wed, 2002-07-24 at 07:09, Justin Mason wrote:\n> \n> \"Gordon Mohr\" said:\n> \n> > I still think self-add whitelists are underrated. \n> > A FoRK whitelist would presumably start with\n> > all subscribers, and grow from there. Bouncing\n> > problem mail, in a way that humans can understand\n> > how to whitelist themselves for a resend, avoids \n> > the problem of silent failures without opening the \n> > door to lazy, forged-\"from\" spammers. \n> \n> Big problem I see with this system, is the\n> automatically-generated-but-important mails like online tickets,\n> bills, etc.\n\nBesides lists, this is the reason I can't use such a system. I get more\nthan a few mails from 'dont-respond-to-this-address@' password reminder\ngenerators, for example. SpamAssassin does flag a few of those as spam,\nbut at least I've still got them.\n\nLuis\nhttp://xent.com/mailman/listinfo/fork", 
+    "to": [
+        "fork@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Luis Villa <louie@ximian.com>", 
+    "subject": "Re: HD/ID: High-Def Independence Day"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Today's error(received multiple times) was:\n\nJul 23 21:16:39.288680 report[98557]: [ 2] Razor-Agents v2.12 starting\nrazor-report ./jobspam\nJul 23 21:16:46.597147 report[98558]: [ 1] razor-report error: reportit:\nError 213 while authenticating, aborting.\n\nI really like the concept of Razor but I find myself wondering if it's\nreally a good idea for the developers to be passing off what appears\nto be alpha-quality software as production-ready....\n\n\n/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\\n Patrick Greenwell\n Asking the wrong questions is the leading cause of wrong answers\n\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "razor-users@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Patrick <patrick@stealthgeeks.net>", 
+    "subject": "[Razor-users] Authentication Error"
+}

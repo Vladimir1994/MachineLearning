@@ -1,0 +1,8 @@
+{
+    "body": "On Mon, 2 Sep 2002, Richard Kimber wrote:\n\n> On Mon, 2 Sep 2002 13:20:46 -0700 (PDT)\n> Bart Schaefer wrote:\n> \n> > If you're using \"fetchmail --mda spamassassin\" or the equivlent, then\n> > this change means your current setup will no longer work. \n> \n> Oh well, I guess there are other anti-spam options out there.\n\nWell, (a) you don't HAVE to upgrade, and (b) what you are doing has never\nbeen safe in the first place because SpamAssassin 2.31-and-before doesn't\ndo any kind of file locking while it writes to the mailbox and doesn't\npromise to return the proper failure code on disk-full conditions, etc.\n\nIf you're still willing to live with (b), all you need is a little shell\nscript to run spamassassin:\n\n----------\n#!/bin/sh\n# call this file \"spamassassin-wrapper\" and chmod +x it\n{\necho \"From $1 `date`\"\nsed -e '1{/^From /d;}' | spamassassin\necho ''\n} >> $MAIL\n----------\n\nAnd then use\n\nfetchmail --mda 'spamassassin-wrapper %F'\n\nand you should be all set.\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "Richard Kimber <rkimber@ntlworld.com>"
+    ], 
+    "from": "Bart Schaefer <schaefer@zanshin.com>", 
+    "subject": "Re: [SAtalk] SpamAssassin v2.40 released (finally)!"
+}

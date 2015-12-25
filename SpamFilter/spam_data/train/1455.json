@@ -1,0 +1,9 @@
+{
+    "body": "Hello, \n \nwe have several servers which generate logmails every day. \nHow do you manage these if several people should have access? \nWith a logmail-mailbox, a shared mailbox or a special software? \n \nthx \n \nMoritz \n \n \n-- \nWissen ist das einzige Gut, das sich vermehrt, wenn man es teilt. \n-- \nhttp://www.lagerkochbuch.ch \n \n \n-- \nTo UNSUBSCRIBE, email to debian-isp-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100409071939.GF23814@aletschhorn.itds.ch", 
+    "to": [
+        "debian-isp@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Moritz Kobel <mailinglists@kobelnet.ch>", 
+    "subject": "How To Manage Logmails"
+}

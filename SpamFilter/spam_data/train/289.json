@@ -1,0 +1,9 @@
+{
+    "body": "> As a Debian Maintainer, I can't upload to Volatile. The current Klamav from Testing should work fine if someone cares to upload it. \n> \n \n[...] \n \nScott, we'll need to bump the version number; if you keep the package in some \nVCS it might make sense if you prepare an updated package; otherwise I can take \ncare of that. \n \nBest, \nMichael", 
+    "to": [
+        "Scott Kitterman <scott@kitterman.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Tautschnig <mt@debian.org>", 
+    "subject": "Re: lenny-volatile updates for clamav-related packages"
+}

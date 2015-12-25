@@ -1,0 +1,9 @@
+{
+    "body": "Chris,\n\nI think you are referring to a problem I noticed last October (see \nattached email). If I remember correctly, the binding for SeditBeautify\nis being applied outside of the sedit window and that results in the \nbehavior observed.\n\nKevin\n\nIn message , Chris Garrigues writes:\n> \n> Am I the only one for whom typing control-L to the main window causes this \n> error?\n> \n> I can't figure out why it occurs.\n> \n> Chris\n> \n\n\n\nIt appears that the binding for SeditBeautify applies to\nmore than just the sedit window. Since SeditBeautify assumes\nwe are in a sedit window the routine fails. (Try typing\nctrl-l over the main window to see what I mean).\n\nThe quick fix for this is to make the ^l more restrictive. However, I'd\nsuggest keeping things the way the are and extending ^l to be a\nhighlight toggle. If the window is currently highlighted (sedit or msg)\nre-display without highlighting and vice versa.\n\nWhile I can hack tcl, hacking tk is another story. Translation: I can't \nfix this bug myself. Any volunteers?\n\nKevin\n\n\n\n\n_______________________________________________\nExmh-workers mailing list\nExmh-workers@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-workers", 
+    "to": [
+        "Chris Garrigues <cwg-dated-1027978302.cb328a@DeepEddy.Com>"
+    ], 
+    "is_spam": false, 
+    "from": "kchrist@lsil.com", 
+    "subject": "Re: [fwd: error exmh 2.5 07/13/2001 ]"
+}

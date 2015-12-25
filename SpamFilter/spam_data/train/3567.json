@@ -1,0 +1,9 @@
+{
+    "body": "> if you want a workaround, could you try to put \"akonadictl start\" into \n> autostart? \n \nDoesn't work for me. \nregards \nps sorry for the misprint: \nkillall kaddressbook & kontact \n \n \n-- \nMarco Valli \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005111643.27090.marco@bastardi.net", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Marco Valli <marco@bastardi.net>", 
+    "subject": "Re: Kontack and akonadi: a \"dirty\" workaround"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "http://www.hughes-family.org/bugzilla/show_bug.cgi?id=1052\n\n\n\n\n\n------- Additional Comments From rOD-spamassassin@arsecandle.org 2002-10-03 18:51 -------\nIgnoring the conspiracy theories, can you supply examples of spam which was \nscored with RCVD_IN_BONDEDSENDER? The only mail I have received which scored \nthis were from Amazon.com.\n\n\n\n------- You are receiving this mail because: -------\nYou are the assignee for the bug, or are watching the assignee.\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "spamassassin-devel@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "bugzilla-daemon@hughes-family.org", 
+    "subject": "[SAdev] [Bug 1052] bondedsender.com is a scam"
+}

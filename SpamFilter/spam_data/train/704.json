@@ -1,0 +1,9 @@
+{
+    "body": "Hi Dermot, if have a look at one of the dists. like www.smoothwall.org, it\nwill save you lots of time and effort, and should do eveything you want.\n\nJustin\n\n> -----Original Message-----\n> From: ilug-admin@linux.ie [mailto:ilug-admin@linux.ie]On Behalf Of\n> Dermot Daly\n> Sent: Monday, September 02, 2002 11:46 AM\n> To: ilug@linux.ie\n> Subject: [ILUG] What HOWTOs for SOHO system\n>\n>\n> Hi All,\n> I'm trying to set up the following:\n>\n> 1. A Linux server running with a modem for internet connectivity and an\n> ethernet card for LAN connectivity\n> 2. Other LAN pcs with ethernet cards, using the Linux server for\n> DNS/DHCP etc.\n>\n> Basically, I want to route any non LAN traffic through the ppp0.\n>\n> I've got some of the way, but like a similar post earlier about modem\n> problems, when I am connected to the internet with eht0 up, the routing\n> is all incorrect and noting goes out through ppp0 (eh0 must be the\n> default route or something).\n>\n> Is there standard \"out of the box\" Linux tools that will carry out\n> portmapping on behalf of the LAN PCs ? (I'm planning on non routable\n> addresses 192.168.x.x for the LAN, routed outwards via the ppp0\n> interface).\n>\n> Can someone point me at the right HOWTOs or routing documentation I need\n> to follow ?\n> Thanks,\n> Dermot.\n>\n> --\n> Irish Linux Users' Group: ilug@linux.ie\n> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription\n> information.\n> List maintainer: listmaster@linux.ie\n>\n>\n>\n\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"Dermot Daly\" <dermot.daly@itsmobile.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Justin MacCarthy\" <macarthy@iol.ie>", 
+    "subject": "RE: [ILUG] What HOWTOs for SOHO system"
+}

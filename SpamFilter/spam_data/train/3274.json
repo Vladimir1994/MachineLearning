@@ -1,0 +1,9 @@
+{
+    "body": "On 5/13/2010 1:51 AM, Sven Joachim wrote: \n> On 2010-05-12 23:24 +0200, Chris Austin wrote: \n> \n>> I've learned today that when there are circular conflicts while upgrading, e.g. \n>> libcairo2 has to be upgraded to install xulrunner-1.9.1, but upgrading \n>> libcairo2 breaks xulrunner-1.9, it helps to use the dpkg --auto-deconfigure \n>> option before the -i action-parameter, e.g. \n>> \n>> dpkg --auto-deconfigure -i libcairo2_1.8.10-4_i386.deb \n>> \n>> Then dpkg gives a nice message about considering deconfiguration of \n>> xulrunner-1.9, then decides to do it, and it works, or at least, it has done, \n>> the two or three times I have tried it today. \n> \n> This is indeed a nice trick to know, but apt would do this for you \n> automatically. \n \n \nNot always. Apt depends on the dependency graph being consistent, other \nthan perhaps containing a cycle or two. If the Debian maintainers slip \nup and screw up the dependencies (or the user is switching back and \nforth between distributions, say among stable, testing, and unstable), \napt can get confused. It has happened to me several times. In such \ncases, using aptitude sometimes helps. I have also resorted to \ninstalling by hand, though this may not have been strictly necessary. \n \nMAA \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BED2A89.4000902@allums.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Mark Allums <mark@allums.com>", 
+    "subject": "Re: libc6 upgrade lenny to squeeze failed, now dpkg is broken"
+}

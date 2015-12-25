@@ -1,0 +1,9 @@
+{
+    "body": "Folks, \n\nSome of you seem to have hardcoded honor as the default catalogue server.\nThere are three catalogue only servers running now, and honor is acting\nas a nomination only server. Tonight we will be completely turning off\ncatalogue support on honor, so if you are specifying honor with the -rs\noption, please take it out and let the agents discover a closeby\ncatalogue server.\n\ncheers,\nvipul.\n\n\n-- \n\nVipul Ved Prakash | \"The future is here, it's just not \nSoftware Design Artist | widely distributed.\"\nhttp://vipul.net/ | -- William Gibson\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: OSDN - Tired of that same old\ncell phone? Get a new here for FREE!\nhttps://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "razor-users@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Vipul Ved Prakash <mail@vipul.net>", 
+    "subject": "[Razor-users] honor is not in csl"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Once upon a time, Jon wrote :\n\n> Since libdvdcss-1.2.0, I have been unable to play DVDs using ogle, xine,\n> vlc, or mplayer. They all show a scrambled picture with (VERY) choppy\n> audio. When I run xine I see tons of these in the console: \n> \n> liba52: a52_block error\n> liba52: a52_block error\n> liba52: a52_block error\n> liba52: a52_block error\n> audio_out: inserting 5859 0-frames to fill a gap of 10989 pts\n> metronom: audio jump\n> liba52: a52_block error\n> \n> Has anyone seen this before and know how to fix it? Or should I file a\n> bug report? \n\nHi,\n\nFirst of all, sorry for not replying to your private email from last week,\nbut I really don't have a slight idea of what could be causing this!\n- Is this with different DVDs or a single one?\n- Is this using OSS or ALSA? Have you tried both?\n- Is this using binariy packages or recompiling source ones?\n\nI remember a user having trouble with a particular DVD ever since upgrading\nlibdvdcss to a recent version, but haven't heard the end of the story.\n\nMatthias\n\n-- \nClean custom Red Hat Linux rpm packages : http://freshrpms.net/\nRed Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi\nLoad : 0.07 0.20 0.21\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Matthias Saou <matthias@rpmforge.net>", 
+    "subject": "Re: xine cannot play DVDs - \"liba52: a52_block error\""
+}

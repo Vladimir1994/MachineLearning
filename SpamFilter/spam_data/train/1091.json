@@ -1,0 +1,9 @@
+{
+    "body": "I don't know how one can expect better and more secure code from the\ncommunity when this being a security list some post like this shows\nclearly no knowledge of C.\n\nOn Fri, Nov 22, 2002 at 10:27:53PM +0500, Ali Saifullah Khan wrote:\n> Here is a test done on the return of sizes by sizeof() using pointers.\n> \n> #include \n> \n> int main(void) {\n> char *testbuff[1024];\n ^^^^^^^^^^^^^^^^^^^^\n\nRead it like this: new array with 1024 elements of type pointer to char.\nAs a pointer occupies the natural word size (32 bits or 64bits), no wonder\nyou get 4*1024 (sizeof(char *) * numer_of_elements).\n\n> int len = sizeof(testbuff);\n> cout return 0;\n> }\n\n> using \" int len = sizeof((char*)testbuff); \"\nsizeof returns the size of types. You can use it with vars (and then the\nnormal form is sizeof var, not sizeof(var)), but if you're changing the\ntype with the var with a cast, of course you'll get the size of that new\ntype.\n\nRegards,\nLuciano Rocha\n\n-- \nConsciousness: that annoying time between naps.", 
+    "to": [
+        "Ali Saifullah Khan <whipaz@gem.net.pk>"
+    ], 
+    "is_spam": false, 
+    "from": "Luciano Miguel Ferreira Rocha <strange@nsk.no-ip.org>", 
+    "subject": "Re: Are bad developer libraries the problem with M$ software?"
+}

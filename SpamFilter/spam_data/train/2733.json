@@ -1,0 +1,9 @@
+{
+    "body": "checking build system type... i686-pc-linux-gnu\nchecking host system type... i686-pc-linux-gnu\nchecking target system type... Invalid configuration\n`athalon-redhat-linux': machine `athalon-redhat' not recognized\nconfigure: error: /bin/sh admin/config.sub athalon-redhat-linux failed\nerror: Bad exit status from /home/dale/rpmbuild/tmp/rpm-tmp.26673\n(%prep)\n\n\nRPM build errors:\n user jkeating does not exist - using root\n group jkeating does not exist - using root\n user jkeating does not exist - using root\n group jkeating does not exist - using root\n Bad exit status from /home/dale/rpmbuild/tmp/rpm-tmp.26673 (%prep)\n[dale@gandalf dale]$\n\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist <rpm-zzzlist@freshrpms.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Dale Kosan <dale_kosan@fastmail.fm>", 
+    "subject": "Re: K3B"
+}

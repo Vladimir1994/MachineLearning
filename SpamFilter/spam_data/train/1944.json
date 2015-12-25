@@ -1,0 +1,9 @@
+{
+    "body": "> From: Robert Elz \n> Date: Thu, 22 Aug 2002 18:32:00 +0700\n>\n> Date: Wed, 21 Aug 2002 10:54:46 -0500\n> From: Chris Garrigues \n> Message-ID: \n> \n> | I can't reproduce this error.\n> \n> Ah, I think I just found the cause, nmh is broken (which is probably\n> obvious from my previous mail).\n> \n> The man page for pick (and how it always used to work) was that -list\n> would list messages matched. -nolist would supress that. If -sequence\n> is given the default is -nolist, without -sequence the default is -list.\n> \n> That's all fine - but it appears now (which probably means I had never\n> used pick since I upgraded nmh last) that what counts is the order of\n> -list and -sequence - that is, if -sequence comes after -list, the -list\n> gets turned off (-sequence implies -nolist instead of just making -nolist\n> the default).\n> \n> An easy workaround for this is to make sure that -list is the last arg\n> given to pick, so if I run ...\n> \n> delta$ pick +inbox -lbrace -lbrace -subject ftp -rbrace -rbrace 4852-4852 \n> -sequence mercury -list\n> 4852\n> \n> which is just as it should be.\n\nhmmm, I assume you're going to report this to the nmh folks?\n\nChris\n\n-- \nChris Garrigues http://www.DeepEddy.Com/~cwg/\nvirCIO http://www.virCIO.Com\n716 Congress, Suite 200\nAustin, TX 78701 +1 512 374 0500\n\n World War III: The Wrong-Doers Vs. the Evil-Doers.", 
+    "to": [
+        "Robert Elz <kre@munnari.OZ.AU>"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Garrigues <cwg-exmh@DeepEddy.Com>", 
+    "subject": "Re: New Sequences Window"
+}

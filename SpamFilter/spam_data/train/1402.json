@@ -1,0 +1,9 @@
+{
+    "body": "Date: Tue, 06 Aug 2002 09:04:58 +0100\n From: Marc Baaden \n Message-ID: \n\n | Any hints ?\n\nProbably a private sequence has gotten set, the highlighting only\nworks for public ones.\n\nIf \"scan unseen\" works as you'd expect, but highlighting doesn't,\nthat's the usual explanation.\n\nkre\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Robert Elz <kre@munnari.OZ.AU>", 
+    "subject": "Re: inbox mail notification broken"
+}

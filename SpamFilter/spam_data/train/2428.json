@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, May 13, 2010 at 06:49:35PM +0300, Jason Filippou wrote: \n> Hi, \n> \n> I've been trying to set my PATH and CLASSPATH environment variables so that \n> they point to my JDK's bin and some Java source files respectively and this \n> is what I've written in my .profile file: \n> \n> # PATH should also include the latest jdk \"bin\" directory \n> PATH=\"/usr/lib/jvm/java-6-sun-1.6.0.20/bin:$PATH\" \n> \n> # set the CLASSPATH variable to include anything I do with java \n> CLASSPATH=\"/home/jason/code/java:$CLASSPATH\" \n> \n> Yet I don't seem to have much luck, since \"echoing\" both environment \n> variables gives me the old value of PATH for PATH and nothing for CLASSPATH: \n> \n> jason@debian:~$ echo $PATH \n> /usr/lib/eclipse6.0/bin/i386_linux:/home/jason/bin:/usr/local/bin:/usr/bin:/bin:/usr/games \n> jason@debian:~$ echo $CLASSPATH \n> \n> jason@debian:~$ \n> \n> This is strange, especially for PATH, because earlier in my .profile I've \n> written: \n> \n> # set PATH so it includes the eclipse bin directory \n> PATH=\"/usr/lib/eclipse6.0/bin/i386_linux:$PATH\" \n> \n> And if you notice the output produced by \"echo\", this directory is well \n> under the scope of PATH. \n \nPerhaps the eclipse directory is added to PATH elsewhere (eg, in \n.profile in your home directory) or there is a separate \"export\" line \nin /etc/profile. \n \n> \n> What am I doing wrong? Do I need to \"export\" something? \n \nCertainly. \n \nexport PATH=... \nexport CLASSPATH=... \n \n> \n> Thanks. \n \nCheers, \nDavid \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100513201922.GA1830@gennes.augarten", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "David Jardine <david@jardine.de>", 
+    "subject": "Re: Trouble setting environment variables"
+}

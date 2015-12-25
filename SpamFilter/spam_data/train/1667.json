@@ -1,0 +1,9 @@
+{
+    "body": "\"fdisk /mbr\" will not destroy the OS, it will simply restore the windows\nmbr as it was. Running fdisk and deleting a partition would however\ndestroy the OS (bu even then only if you format the disc afterwards).\n\n\nSure wasn't it SoloCDM \nsometime around Wed, 31 Jul 2002 10:48:16 -0600 said:\n \n> I need to ask a question concerning this issue.\n> \n> What if I don't want to get rid of the MBR -- it will destroy the OS\n> on that drive. How do I remove lilo without the above fdisk\n> procedure?\n> \n-- \nPaul Askins \n\nBehind every great man, there is a woman -- urging him on.\n -- Harry Mudd, \"I, Mudd\", stardate 4513.3\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "deedsmis@aculink.net, ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Paul Askins <paul.askins@analog.com>", 
+    "subject": "Re: [ILUG] Re: removing lilo"
+}

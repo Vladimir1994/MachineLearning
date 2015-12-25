@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://www.newsisfree.com/click/-0,8613669,159/\nDate: 2002-10-06T18:12:51+01:00\n\nScripting languages allow rapid development of game behavior without the \npitfalls that await the unwary C++ programmer. Using an existing scripting \nlanguage saves the time and cost of developing a custom language, and typically \ngives you a far more powerful language than you could create on your own. \nPython is an excellent choice for a game scripting language because it is \npowerful, easily embedded, can seamlessly be extended with C/C++ code", 
+    "to": [
+        "yyyy@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "gamasutra <rssfeeds@example.com>", 
+    "subject": "GDC 2002: Game Scripting in Python"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Dear All \nI need to schedule for a repeated task on my Debian server, as the \nfollowings: \n-) Telnet to a remote node \n-) Issue a command \n-) Capture the output in a log \n-) Logout from Telnet \n-) Wait for a prescribed time interval \n-) Then redo , but append the subsequent output in just on file \nCan you please let me know which options do we have to write such a task? \nThank you", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "hadi motamedi <motamedi24@csmining.org>", 
+    "subject": "How to schedule for a repeated task?"
+}

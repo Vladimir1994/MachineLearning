@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \n \nEdson Marquezani Filho a écrit : \n> I'm using SQLite as database backend \n \nYou said you were using squeeze, didn't you ? May I ask you how you \ntweaked amarok to use sqlite instead of mysqle ? \n \nThanks in advance, \n \nphep \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BC49623.40206@toulouse.archi.fr", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Patrice Pillot <patrice.pillot@toulouse.archi.fr>", 
+    "subject": "Re: Amarok's Issues"
+}

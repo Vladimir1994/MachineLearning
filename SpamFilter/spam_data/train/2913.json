@@ -1,0 +1,9 @@
+{
+    "body": "Hi.\n\nMatthias Saou wrote:\n> My main concern is that when rebuilding the recent packages I've made\n> for Psyche on Valhalla, I'd need to lower the \"Release:\" tag (to keep an\n> upgrade working), and that would f*ck up my CVS repository which is on\n> my Valhalla box\n\nSorry, I don't get it. What's wrong with a release tag of fr1?\n\n-- \nDo I look like a freakin' people person?\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ralf Ertzinger <ralf@camperquake.de>", 
+    "subject": "Re: apt 0.5.7 on RH 7.x"
+}

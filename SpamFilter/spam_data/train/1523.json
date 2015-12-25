@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, Aug 13, 2002 at 09:44:33AM -0500, Michael J Humphries wrote:\n> I sent this message already and I am sorry if I am asking the wrong\n> question or if I have been asking stupid questions but I am in an urgent\n> time when people are using my service to spam others and I NEED to stop\n> them quickly.\n\nSounds like you're solving the wrong problem. If untrusted strangers\nare relaying spam through your qmail server, it's a fair bet that\nyou've seriously botched your qmail config (like forgetting to create\nan rcpthosts file or something).\n\nAnyway, if you insist on using razor to resolve this problem, I\nwould suggest tossing qmail-scanner \nand SpamAssassin into the mix as well.\nThe former provides the qmail-integration framework on which the latter\ndoes its work (including razor-check invocations).\n\nFair warning: It'll be far more resource-intensive than simply denying\nrelaying privileges to everyone except the folks you trust. To find\nout how to do that, go to (which, incidentally,\nshould be your first stop for all things qmail) and search for \"qmail\nnewbie's guide to relaying\".\n\n- Adrian\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Dice - The leading online job board\nfor high-tech professionals. Search and apply for tech jobs today!\nhttp://seeker.dice.com/seeker.epl?rel_code=31\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "razor-users@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Adrian Ho <aho-sw-razor@03s.net>", 
+    "subject": "Re: [Razor-users] FW: intigration with qmail"
+}

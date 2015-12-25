@@ -1,0 +1,8 @@
+{
+    "body": "\"Fox\" said:\n\n> Before or after I whitelisted all the legit mailing lists that Razor is\n> tagging? I had one false positive in the last four days. Razor tagged some\n> guys person-to-person message because he used an ostrich-in-your-face jpeg\n> that is probably pretty popular on the net, and -lm 4 means any single\n> attachment in a message that is razored, razors the whole message, if I\n> understand it correctly.\n\nRazor folks: is -lm documented anywhere? BTW, I notice all my *.conf\nfiles in ~/.razor use \"lm = 4\" by default anyway.\n\n> No, I am not keeping official tally of false positives. I need to write a\n> html interface to do it, and then it would be easy. I imagine you want\n> false positive rate per filter. I will work on it tomorrow, and maybe in a\n> week I will have some stats for false positives.\n\nYeah, that'd be cool -- much appreciated! comparing text classifiers\nlike spam filters, without tracking FPs, is not good. After all, \"cat >\n/dev/null\" gets a 100% hit rate, but without the FP rate figure of, let's\nsay 90%, you'd never know it was a bad thing to do ;)\n\n--j.", 
+    "to": [
+        "\"Fox\" <lds0062@cdc.net>"
+    ], 
+    "from": "yyyy@spamassassin.taint.org (Justin Mason)", 
+    "subject": "Re: [Razor-users] HTML Table - Razor Stats using -lm 4 "
+}

@@ -1,0 +1,9 @@
+{
+    "body": "> T o n g : \n>% aptitude upgrade \n>Resolving dependencies... \n>No packages will be installed, upgraded, or removed. \n>0 packages upgraded, 0 newly installed, 0 to remove and 9 not upgraded. \n>How can I know which packages are not upgraded? \n \napt-get upgrade tells and prompt you. \napt-get is no more worse than aptitude. \n \n-- \n Architecte Informatique chez Blueline/Gulfsat: \n Administration Systeme, Recherche & Developpement \n +261 34 29 155 34 / +261 33 11 207 36 \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/20100506195836.2d8cb77d@pbmiha.malagasy.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Mihamina Rakotomandimby <mihamina@gulfsat.mg>", 
+    "subject": "Re: list not upgraded packages"
+}

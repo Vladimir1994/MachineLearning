@@ -1,0 +1,9 @@
+{
+    "body": "El Jueves 06 Mayo 2010 18:01:42 Nate Bargmann escribió: \n> * On 2010 06 May 09:45 -0500, Facundo Aguilera wrote: \n> > El Jueves 06 Mayo 2010 10:22:09 Nate Bargmann escribi?: \n> > > I'm tired of typing this time and again: \n> > > \n> > > No speaker beep in Konsole--dev says, \"Too bad.\" \n> > \n> > Konsole -> settings -> notifications -> bell in current session -> run \n> > \"beep\" \n> > \n> > (aptitude install beep) \n> > \n> > Is this what you want? \n> \n> I have been doing that as a work-around which is not ideal as it is much \n> slower than the PC speaker beep, especially for tab completion. It \n> seems to take some time to load between successive tab key presses. \n> \n> - Nate >> \n \nIf beep doesn't beep in your PC speaker, maybe the problem is your system \nconfiguration. \n \nFacundo \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005061826.32061.budinero@csmining.org", 
+    "to": [
+        "debian-kde@lists.debian.org,\r\n debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Facundo Aguilera <budinero@csmining.org>", 
+    "subject": "Re: Kde 3.5 ..."
+}

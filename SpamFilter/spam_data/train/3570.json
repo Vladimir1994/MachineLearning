@@ -1,0 +1,9 @@
+{
+    "body": "Hi, \nsince this seems to be the time to complain about KDE, I'd like to ask for \nhelp on an old issue: kded4 prevent the plasma weather applets from working. \nWhen I login to my KDE session the weather applets fail to retrieve any data. \nI've confirmed with Wireshark/TCPdump that there is no network traffic at that \ntime. As soon as I kill kded4 the weather applets startk working immedeately. \nIs there are another workaround than killing kded4 (since that messes up some \nother things in KDE) or, even better, a fix available? \n \n-- \nMit freundlichen Grüßen / Best Regards \nDominik", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Dominik Schulz <lkml@ds.gauner.org>", 
+    "subject": "KDED4 blocking Weather Applets"
+}

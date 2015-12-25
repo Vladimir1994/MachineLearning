@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, May 06, 2010 at 08:52:39AM +0800, jidanni@jidanni.org wrote: \n> In /etc/grub.d/00_header we see \n> \n> transform=\"s,x,x,\" \n> grub_prefix=`echo /boot/grub | sed ${transform}` \n> locale_dir=`echo /boot/grub/locale | sed ${transform}` \n> \n> Isn't that sed line one big no-op? \n \nlooks like it to me. \n \n> Should I file a bug to have it removed or at least have a comment added \n> as to its purpose, or have them use a better way to achieve what they \n> are trying to do? \n \nmaybe a question is better than a bug report. I imagine it's just a \nconvenience variable in case someone needs to transform paths for some \nreason. \n \nA", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Andrew Sackville-West <andrew@swclan.homelinux.org>", 
+    "subject": "Re: isn't sed s,x,x, one big no-op?"
+}

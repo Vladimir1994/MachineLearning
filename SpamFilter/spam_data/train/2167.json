@@ -1,0 +1,9 @@
+{
+    "body": "Wojciech Ziniewicz escribió: \n> 2010/4/23 Carlos Bergero : \n> \n>> I copied the old files, but also try to run with the original files of the \n>> install, in both cases i have the same problema and files dont differ much. \n>> \n>> \n> \n> did You copy cyrus database between servers too ? \n> \n> regards \n> \n> \n> \nYup I copied the mail directories and other cyrus directories \n/var/lib/cyrus and /var/run/cyrus , plus config files /etc/cyrus.conf \n/etc/imapd.conf \n \nthink thats all? \n \nCheers, \n Carlos \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BD21384.20607@fcien.edu.uy", 
+    "to": [
+        "Wojciech Ziniewicz <wojciech.ziniewicz@csmining.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Carlos Bergero <rak@fcien.edu.uy>", 
+    "subject": "Re: Cyrus 2.2 imapd in AMD64"
+}

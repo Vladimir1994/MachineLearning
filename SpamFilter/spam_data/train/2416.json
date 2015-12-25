@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-08 Sven Joachim wrote: \n> > Suggestions? \n> \n> File a bug report. \n \nI first want to know if I'm the only one and/or try to find the cause of the issue before filing a bug \nreport. \nBut I'll start a separate thread for it. \n \n> > Since the noveau driver didn't seem capable of rendering kde/kdm properly \n> > I installed the nvidia drivers (the debian way). \n> \n> Does hibernating work with the nvidia driver? BTW, nouveau should work \n> fine if you disable desktop effects. \n \nNope, hibernating does not work with the nvidia driver, but I didn't/couldn't test it with the \nnouveau driver, since I couldn't get a login screen to begin with and Ctl+Alt+F1 didn't respond \neither, so it was unusable for me. \nHad to do Ctl+Alt+SysRq+(REISUB) and boot into single user mode to get my system working again. \n \nDesktop effects seems to be disabled by default on laptops, so that's probably not it. \n \nDiederik \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005082057.11661.didi.debian@cknow.org", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Diederik de Haas <didi.debian@cknow.org>", 
+    "subject": "Re: Best way to install kde-standard"
+}

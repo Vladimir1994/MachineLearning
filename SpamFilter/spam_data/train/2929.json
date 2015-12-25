@@ -1,0 +1,9 @@
+{
+    "body": "Eduardo M KALINOWSKI wrote: \n> On Ter, 18 Mai 2010, Merciadri Luca wrote: \n>> Hi, \n>> \n>> I am getting some Thunderbird message for an IMAP account of mine. This \n>> message tells me that the server's certificate associated to the IMAP \n>> account has expired since ... 2007. I know, it's already far from here, \n>> but I cannot change the server's certificate. How can I get rid of this \n>> message? It annoys me, as there is no box that I could check so that it \n>> does not appear anymore. \n>> \n>> I have contacted the ML related to the server, but I do not even tell \n>> you who owns the server! \n> \n> Is that Thunderbird 2 or 3? In 2 I could not find a way to permanently \n> accept problematic certificates, but this has changed in version 3. \nWell, this is effectively Icedove 2.0.0.22 (20090706). How did you \nmanage to, under Th. 3? \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me.", 
+    "to": [
+        "Eduardo M KALINOWSKI <eduardo@kalinowski.com.br>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: Server certificate has expired"
+}

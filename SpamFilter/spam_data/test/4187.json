@@ -1,0 +1,8 @@
+{
+    "body": "On Wednesday 28 August 2002 16:33 CET Theo Van Dinter wrote:\n> On Wed, Aug 28, 2002 at 04:20:52PM +0200, Malte S. Stretz wrote:\n> > I get about 3 of these per week. A google for trafficmagnet convinces\n> > me that they're worth their own rule...\n>\n> 0 hits here. :(\n\nI recently cleaned my spam corpus from them but these are my current \nresults:\n OVERALL SPAM NONSPAM NAME\n 13929 995 12934 (all messages)\n 13 13 0 T_TRAFFICMAGNET\n\nI put it into cvs_rules_under_test, let's see what the 2.41 GA run thinks \nabout it :)\n\nMalte\n\n-- \n-- Coding is art.\n-- \n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by: Jabber - The world's fastest growing \nreal-time communications platform! Don't just IM. Build it in! \nhttp://www.jabber.com/osdn/xim\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "spamassassin-talk@example.sourceforge.net"
+    ], 
+    "from": "\"Malte S. Stretz\" <msquadrat.nospamplease@gmx.net>", 
+    "subject": "Re: [SAtalk] Too funny"
+}

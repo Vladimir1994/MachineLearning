@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-04-19 16:30, Clive McBarton wrote: \n \n> Ron Johnson wrote: \n>>>> There use to be a \"preloader\", but I don't see it anymore. \n>> There was a feature where GNOME or KDE would pre-load OOo at DE \n>> startup. That way, it *appears* that OOo loads much faster, even though \n>> it was really just shifted. \n> \n> There's still the \"preload\" package. It preloads whatever is needed \n> most, hence presumably also OOo if that is what's run often. \n> \n \nWhich is not the specific-to-OOo package I referred to. \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BCCCCFE.6030207@cox.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: How to remove oowriter delay on opening document?"
+}

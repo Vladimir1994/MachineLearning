@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \n \nOn May 21, 2010, at 9:49 AM, Willis Morse wrote: \n \n> 1) Create a native launcher that queries RAM status and launches \n> the Java executable with an appropriate -Xmx parameter. There are \n> several open-source launcher projects (such as Launch4J) that will \n> do this, but these only support Windows launchers and they will \n> only run under Windows. Has anyone heard of a Mac equivalent? \n \n \nWhat about a java launcher stub. Use Runtime exec to launch a java \nprocess. I think this is what the Apache common launcher project code \namounts to. It is based on the Tomcat or some such product launcher \ncode and uses a ant task approach but I think in the end just amounts \nto Runtime exec'd java. Assuming you can decide at Runtime what \nparameters you want to use. \n \nMike Hall hallmike at att dot net \nhttp://www195.pair.com/mik3hall \nhttp://www195.pair.com/mik3hall/home.html \nhttp://sourceforge.net/projects/macnative \n \n \n \n \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG/MacGPG2 v2.0.14 (Darwin) \n \niJwEAQECAAYFAkv316oACgkQUvk/ZSaThTIUYgQA1mPCmS7+PV50rbyd42CZOsNA \nlFzhnQ9/WVN2bZ4jGtslb/tRWL37M9Rur9+pFYT8ssFjL+V0t4TPO3JJ5Tu0GEAT \nCZUeMVVi1i3qOWYjEAd9E+k7Xv2jl7F5qPiBqNWKLSqS2IcHoAzLtU9oBaH8GmBR \nuL2U2OHgWq3FSj2JrDg= \n=tMkY \n-----END PGP SIGNATURE----- \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nJava-dev mailing list (Java-dev@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "Java Mac List <java-dev@lists.apple.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Michael Hall <hallmike@att.net>", 
+    "subject": "Re: Setting -Xmx dynamically at launch time under 64bit"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Tuesday 27 April 2010 16:03:55 Celejar wrote: \n> I've had to give up lvm snapshots totally as \n> broken, primarily because of this (see my messages in the thread): \n> \n> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=549691 \n \nThat is troublesome, probably to the point of actually being broken. It's \nlikely that something \"behind-the-scenes\" in LVM is actually messing with the \nsnapshot device even when it is not mounted and preventing the removal. \n \nI'm fairly sure the snapshot device has to be updated whenever a write is done \nto a new LE in the original device, and it's possible *that* is causing the \nproblem. I hope this issue gets some attention; I doubt it is a Debian-ism. \n \n> I've also been hit by this, although it *may* be harmless (or not - \n> this stuff could really use decent documentation): \n> \n> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=503268 \n \nMy guess on this one is one of two things: \n1) Udev is taking a little while to unlink \"secondary\" names for the LVs that \nare being removed, and when lvm does its device scan it's hitting \"missing\" \ndevices. \n2) LVM is using device names from its cache for devices that are no longer \npresent for its device scan and, again, hitting \"missing\" devices. \n \nIn either case I think the error messages are annoying, but not indicative of \na real problem. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: backing up LVM volumes"
+}

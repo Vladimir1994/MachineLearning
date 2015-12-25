@@ -1,0 +1,9 @@
+{
+    "body": "Hi All,\n\nAnyone ever try connecting at 1200bps in Linux? I've got a USR 56K\nFaxmodem which is meant to connect to another (same) modem and I have to\nconnect at this speed due to the (NT) port settings on the remote side,\nbut the modem handshake always fails at this speed.\n\nThe modem handshake works at slightly higher speeds (4800bps to\n~57600bps) but that is no good for tx/rx'ing data to the remote server\nas it insists at talking at the speed of treacle/1200bps.\n\nNote Minicom fails to handshake at 1200bps, but HyperTerm in Windows\nworked first time(!?), any ideas?\n\nBaud 1200 7 data bits Even Parity\n\nI am doing a ATZ3 to reset the modem then I send this init string:\n\nAT&F1E1V1Q0X4Y0S32=232&A1&B0&C1&D2&H0&I0&K1&M4&N0&P0&R1&S0&U0&Y1\n\n... which is most of the defaults.\n\nUSR said to set S15=128 (disables v.42)) \n& set S32=98 (disable v.92 & X2)\n\nBut the S15=128 just makes the handshake lockup instead of just giving\nup.\n\nbtw this is a bank's system I am connecting to so reconfiguring their\nmodems may be difficult.\n\nColin.\n\n\n-- \nColin Nevin,\nSoftware Engineer,\nMerit Solutions Ltd. (Dublin),\n5 Goatstown Cross,\nDublin 14.\n------------------------------------------\nPrinted using 100% recycled electrons.\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "ilug@linux.ie"
+    ], 
+    "is_spam": false, 
+    "from": "Colin Nevin <colin.nevin@meritsolutions.ie>", 
+    "subject": "[ILUG] connecting at 1200bps in RH7.3 (help!)"
+}

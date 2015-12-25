@@ -1,0 +1,9 @@
+{
+    "body": "Is there any way to customise the folder table of contents for\nspecific folders?\n\nI know it is possible to do per-folder customisation with components\nand replcomps for message templates, but what about -form format\nfiles for scan?\n\nCheers\nTony\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "Tony Nugent <tony@linuxworks.com.au>", 
+    "subject": "customising FTOC display for specific folders..."
+}

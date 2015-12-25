@@ -1,0 +1,9 @@
+{
+    "body": "> \n>> If I try to create my QTMovie object on a secondary thread, I get the \n>> following exception : \n>> *2010-04-21 20:09:05.949 QTAsyncLoadCmdLine[5123:3303] An uncaught \n>> exception was raised* \n>> *2010-04-21 20:09:05.950 QTAsyncLoadCmdLine[5123:3303] QTMovie_QuickTime \n>> class must be initialized on the main thread.* \n>> * \n>> * \n>> So it's seem's to be impossible to make asynchronous loading on a \n>> secondary thread. \n> \n> \n> I would read that exception as saying that the QTMovie class cannot be initialized on a secondary thread, not that a QTMovie object cannot be initialized on a secondary thread. Try calling [QTMovie class] on the main thread before creating a QTMovie instance on a thread. \n \nNo way, the exception is not anymore raised but the movie doesn't load to full completion. \n \nI think I must try with QuickTime C API. \n \nChristophe \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "quicktime-api@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "Christophe Ducommun <cducommun@mac.com>", 
+    "subject": "Re: Asynchronous load fail with i386 build in a cmd line tool"
+}

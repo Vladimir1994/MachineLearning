@@ -1,0 +1,9 @@
+{
+    "body": "I need to play two movies in sync, compositing them in a custom way. \nOne approach I came up with is to put the movies in QTMovieLayers (Core \nAnimation), and then I can use a Core Image filter for the compositing. \n Does that sound reasonable, or is there another approach that is \nlikely to perform significantly better? \n-- \n James W. Walker, Innoventive Software LLC \n \n _______________________________________________ \nDo not post admin requests to the list. They will be ignored. \nQuickTime-API mailing list (QuickTime-API@lists.apple.com) \nHelp/Unsubscribe/Update your Subscription: \nhttp://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org \n \nThis email sent to mlsubscriber.tech@csmining.org", 
+    "to": [
+        "QuickTime-API@lists.apple.com"
+    ], 
+    "is_spam": false, 
+    "from": "James Walker <jamesw@frameforge3d.com>", 
+    "subject": "Compositing two movies"
+}

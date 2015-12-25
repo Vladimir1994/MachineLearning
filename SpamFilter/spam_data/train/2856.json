@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, 2002-08-22 at 19:10, Troy Engel wrote:\n\n> Anyone have an idea what the heck RedHat did here, and why we're now \n> trying to install a ton of crap I don't want? (I'm hoping someone else \n> has chased this down and could save me time... ;) )\n\nI'm told that even our best people occasionally screw up. And QA had\ntested the rpm on an \"Everything\" install. Expect a fixed version soon,\nand QA procedures have been adjusted to catch this kind of braindamage\nin the future. There is nothing really wrong with the binary inside the\nrpm, so if you want to --nodeps for now it's ok.\n\n-- \nChris Kloiber\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Kloiber <ckloiber@ckloiber.com>", 
+    "subject": "Re: latest php upgrade in 7.3"
+}

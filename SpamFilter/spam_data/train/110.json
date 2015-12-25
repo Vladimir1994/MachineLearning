@@ -1,0 +1,9 @@
+{
+    "body": "Ron Johnson wrote: \n> On 05/18/2010 03:56 PM, Merciadri Luca wrote: \n>> -----BEGIN PGP SIGNED MESSAGE----- \n>> Hash: SHA1 \n>> \n>> Ron Johnson writes: \n>> \n>>> Don't use Nautilus, or reorganize your directory structure. \n>> Okay. Then, for browsing big directories with a GUI, which GUI do you \n>> advice to use? Thanks. \n> \n> I wouldn't. (Real Men use the CLI.) \n> \n> Anyway... there are many lightweight file managers in Debian. I'd \n> install a bunch and see which is the least slow. \n> \nOkay. As I belong to Real Men, I will use CLI(!) \n \n-- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \nI use PGP. If there is an incompatibility problem with your mail \nclient, please contact me.", 
+    "to": [
+        "Ron Johnson <ron.l.johnson@cox.net>"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: Accelerating directory's content's viewing: how, is directory    is huge?"
+}

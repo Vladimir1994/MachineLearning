@@ -1,0 +1,9 @@
+{
+    "body": "On Thu, Aug 08, 2002 at 01:40:30PM +0100, Brian O'Donoghue wrote:\n> One thing that really bugs me is when people say things like.\n> \n> \"On the machies we have these days you don't have to worry about\n> writing optimised code\" or \"don't worry about writing\n> things inline, just use a function\"\n\nOops, I tend to feel like that most times! I tend to feel that if we\nhave extremely good compilation tools, then those tools should be able\nto do the inlining and optimisation far better than I could. That's the\ntheory anyway :) And there's always a tradeoff with inlining between\nspeed and memory bloat (which may sometimes be no tradeoff if swap\nstarts getting involved...)\n\nGary.\n\n-- \nIrish Linux Users' Group: ilug@linux.ie\nhttp://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.\nList maintainer: listmaster@linux.ie", 
+    "to": [
+        "\"'ilug@linux.ie'\" <ilug@linux.ie>"
+    ], 
+    "is_spam": false, 
+    "from": "Gary Coady <gary+dated+1029315155.6bcd09@netsoc.tcd.ie>", 
+    "subject": "Re: [ILUG] slashdot EW Dijkstra humor"
+}

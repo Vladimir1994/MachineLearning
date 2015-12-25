@@ -1,0 +1,9 @@
+{
+    "body": "On Wednesday 05 May 2010 17:58:09 Modestas Vainius wrote: \n> Hello, \n> \n> On ketvirtadienis 06 Gegužė 2010 01:54:06 Boyd Stephen Smith Jr. wrote: \n> > I'm still using kmail/kontact/etc. (basically kdepim) from 4.3 since I \n> > have no desire to run yet another RDBMS on my system. (I already run \n> > PostgreSQL, and have a number of apps that use SQLite installed.) \n> \n> ... \n> \n> > Okay, ending this email here, because thinking about a stable Debian that \n> > includes KDEPIM 4.4 angers and saddens me. \n> \n> How many users have postgres installed on their desktop? Do you complain \n> just because `ps aux | grep mysqld` returns something and you can't stand \n> it or you have any real issues with it? \n \nI have real issues with having to spare the disk space and RAM on my laptop \nfor it. PostgreSQL is for work; I don't get much choice about running that. \n \nI also have a history with MySQL and I *do* *not* *trust* it with my data. \nUPS or not. My email is fairly important for me -- I am probably in KMail \nonly slightly less than I am in a source code editor. When I'm testing or \ndeploying updates, I spend *more* time in KMail. \n \nYes. I agree. The kmail -> mysql-server dependency is not actually an \"RC\" \nbug, for Debian. \n \nIt is for me, but I run an exotic mixed system anyway, so I'll figure \n*something* out. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

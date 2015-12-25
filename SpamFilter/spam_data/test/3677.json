@@ -1,0 +1,8 @@
+{
+    "body": "Thomas Siedlich wrote: \n> Hi Hugo! \n> \n> On 2010-04-06, Hugo Vanwoerkom wrote: \n>> Hugo Vanwoerkom wrote: \n>> OK. What about this. Can anybody explain the following: \n>> \n>> hugo@debian:~$ which mc \n>> /usr/local/bin/mc \n>> hugo@debian:~$ mc -V \n>> GNU Midnight Commander 4.7.0.1 \n> [...] \n>> hugo@debian:~$ /usr/local/bin/mc -V \n>> GNU Midnight Commander 4.6.1 \n> [...] \n> \n> Maybe an alias? \n> \n> What says 'alias mc'? \n> \n \nNot found. \n \nHugo \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/hpg5gr$4l5$1@dough.gmane.org", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "from": "Hugo Vanwoerkom <hvw59601@care2.com>", 
+    "subject": "Re: horrible mc colorscheme"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "On Thursday 13 May 2010 10:49:22 Jozsi Vadkan wrote: \n> 2010. 05. 12, szerda keltezéssel 12.25-kor Hugo Vanwoerkom ezt írta: \n> > Jozsi Vadkan wrote: \n> > > I have a file: \n> > > And i want to only output the first, second, and fourth line to another \n> > > file. \n> > \n> > hugo@debian:~$ sed -n '1,2p;4p' file.txt \n> \n> yes, that's the problem, it only outputs the first, second, and fourth \n> line! \n \nI think that perhaps there is some language barrier. \n \nYour original post indicates that you want lines 1, 2, 4 and no others output. \n\"i want only output the first, second, and fourth line\" \n \nYour most recent post says that is \"the problem\". Which I infer means \nsomething you don't want. \n \nCould you maybe rephrase the question, or at least be a bit more verbose? \n \n... \n \nIf you want the output to go to a file try something like (sed -ne '1,2p;4p' \n\"$input\" > \"$output\"). \n \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: only output the nth line"
+}

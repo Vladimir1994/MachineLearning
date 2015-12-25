@@ -1,0 +1,8 @@
+{
+    "body": "Once upon a time, Roi wrote :\n\n> RPM build errors:\n> user dude does not exist - using root\n> user dude does not exist - using root\n> user dude does not exist - using root\n> user dude does not exist - using root\n> user dude does not exist - using root\n\nThis I would guess is normal, but don't you get it at the very beginning of\nthe build? Isn't this at the end just a reminder?\n\n> File not found: /var/tmp/xine-root/usr/bin/aaxine\n\nArgh, I forgot to exclude aaxine from the %files when using \"--without\naalib\" :-(\nThe current \"fr6.1\" spec file fixes this...\n\nMatthias\n\n-- \nClean custom Red Hat Linux rpm packages : http://freshrpms.net/\nRed Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi\nLoad : 0.02 0.03 0.00\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "from": "Matthias Saou <matthias@rpmforge.net>", 
+    "subject": "Re: xine src packge still gives errors"
+}

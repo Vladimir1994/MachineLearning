@@ -1,0 +1,9 @@
+{
+    "body": "In a message dated: Thu, 22 Aug 2002 13:53:55 CDT\nUlises Ponce said:\n\n>Thanks Paul,\n>That is the way I am doing right now, but I would like to NOT use the mouse \n>for such things. Any other clue?\n\nThe best I can think of is to figure out what the command being \nissued by exmh is that selects and inserts the sig and bind that to a \nkey sequence. That shouldn't be *too* difficult, it's just a matter \nof figuring out the tcl (something my perl-based brain isn't excited \nabout :)\n-- \n\nSeeya,\nPaul\n--\n It may look like I'm just sitting here doing nothing,\n but I'm really actively waiting for all my problems to go away.\n\n If you're not having fun, you're not doing it right!\n\n\n\n\n_______________________________________________\nExmh-users mailing list\nExmh-users@redhat.com\nhttps://listman.redhat.com/mailman/listinfo/exmh-users", 
+    "to": [
+        "exmh-users@example.com"
+    ], 
+    "is_spam": false, 
+    "from": "Paul Lussier <pll@lanminds.com>", 
+    "subject": "Re: Insert signature"
+}

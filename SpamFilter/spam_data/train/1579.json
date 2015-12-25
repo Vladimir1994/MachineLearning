@@ -1,0 +1,9 @@
+{
+    "body": "Monique Y. Mudama wrote: \n> They used to say - you're not a real linux admin until you've \n> completely borked your system and had to wipe and reinstall from \n> scratch at least once. \n> \nAnd then recover all your user data, from your hopefully good backup. \nIt gets really entertaining when a RAID array fails in an odd way. (I \nstill cringe about how I learned that md software raid does not always \nkick bad disks out of an array - if a drive is going bad, and just takes \nlots of tries to read data, everything just slows waaa....aaaay down. \nAnd then unraveling logical volumes on top of software raid can get very \ninteresting.) You learn a lot from such experiences. Sigh.... \n \n-- \nIn theory, there is no difference between theory and practice. \nIn practice, there is. .... Yogi Berra \n \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BD63945.1050005@meetinghouse.net", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Miles Fidelman <mfidelman@meetinghouse.net>", 
+    "subject": "Re: Resources for learning Linux"
+}

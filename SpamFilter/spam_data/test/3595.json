@@ -1,0 +1,6 @@
+{
+    "body": "So then, Guido van Rossum is all like:\n\n> Maybe. I batch messages using fetchmail (don't ask why), and adding\n> .4 seconds per message for a batch of 50 (not untypical) feels like a\n> real wait to me...\n\nYeesh. Sounds like what you need is something to kick up once and score\nan entire mailbox.\n\nWait a second... So *that's* why you wanted -u.\n\nIf you can spare the memory, you might get better performance in this\ncase using the pickle store, since it only has to go to disk once (but\nboy, does it ever go to disk!) I can't think of anything obvious to\nspeed things up once it's all loaded into memory, though. That's\nprofiler territory, and profiling is exactly the kind of optimization\nI just said I wasn't going to do :)\n\nNeale", 
+    "to": [], 
+    "from": "neale@woozle.org (Neale Pickett)", 
+    "subject": "[Spambayes] Ditching WordInfo"
+}

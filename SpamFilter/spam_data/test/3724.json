@@ -1,0 +1,8 @@
+{
+    "body": "On Thu May 6 2010 15:59:39 Boyd Stephen Smith Jr. wrote: \n> I think that KMail requiring MySQL to function in Debian stable is a \n> problem. I request that the Qt/KDE packaging team take steps to ensure that \n> Debian stable users are not stranded with that situation for the lifetime \n> of stable. \n \nI'm curious. When I install MySQL on a Lenny server it thereafter \nautomatically starts the global /var/lib/mysql MySQL server at boot time. \n \nI thought Akonadi was intended to use a private MySQL server process \nrunning in each users' home directory and started as needed. (Maybe \nI misunderstood.) \n \nDoes installing KDE cause a global /var/lib/mysql MySQL server to run on \neach workstation, even when nobody is logged in? \n \n--Mike Bird \n \n \n-- \nTo UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/201005061633.47357.mgb-debian@yosemite.net", 
+    "to": [
+        "debian-kde@lists.debian.org"
+    ], 
+    "from": "Mike Bird <mgb-debian@yosemite.net>", 
+    "subject": "Re: KDE 4.4.3 in unstable"
+}

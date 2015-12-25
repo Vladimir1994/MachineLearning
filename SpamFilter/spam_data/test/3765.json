@@ -1,0 +1,8 @@
+{
+    "body": "Scott MacKenzie wrote:\n\n>There is a software package that is used (or was up through w2k) \n>on MicroSloth for this purpose. Ghost, or some such. One essentially \n>\"takes a picture\" of the machine's proper config, and then upon \n>schedule or demand replaces the machine's current config with the \n>proper picture. It essentially over-writes the entire disk drive. \n>Especially good for student access machines at libraries, etc.\n>\nAnd it is pretty common practice in some environments with public \nworkstations to just wipe and re-install Windows machines on a weekly \n(or even daily) basis. It's easier than trying to maintain Windows.\n\nCrispin\n\n-- \nCrispin Cowan, Ph.D.\nChief Scientist, WireX http://wirex.com/~crispin/\nSecurity Hardened Linux Distribution: http://immunix.org\nAvailable for purchase: http://wirex.com/Products/Immunix/purchase.html", 
+    "to": [
+        "scottm@crystal.ncc.cc.nm.us"
+    ], 
+    "from": "Crispin Cowan <crispin@wirex.com>", 
+    "subject": "Re: FW: use of base image / delta image for automated recovery     from attacks"
+}

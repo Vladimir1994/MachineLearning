@@ -1,0 +1,9 @@
+{
+    "body": "On 2010-05-11 22:11 +0200, Chris Austin wrote: \n \n> I was required to upgrade libc6 from lenny to squeeze in order to meet \n> dependencies to install a package from unstable, but the libc6 upgrade \n> failed because libc-bin was not installed. \n \nHow could this happen, given that libc6 depends on libc-bin? \n \n> Now dpkg is broken. I \n> tried a manual reinstall of the lenny libc6, as suggested in another \n> thread on this list, but it did not work. The result was: \n \n> debian:/home/chris# dpkg -i libc6_2.7-18lenny2_i386.deb \n> dpkg: `ldconfig' not found on PATH. \n> dpkg: 1 expected program(s) not found on PATH. \n> NB: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin. \n> \n> How can this be fixed? \n \nUse the \"--force-bad-path\" option, see \"dpkg --force-help\". \n \n> And shouldn't there be a big warning that trying to upgrade libc6 can \n> break dpkg, on the Debian website page for libc6? \n \nThere is, actually this holds for any package: \n \n,----[ http://packages.debian.org/en/squeeze/i386/libc6/download ] \n| If you are running Debian, it is strongly suggested to use a package \n| manager like aptitude or synaptic to download and install packages, \n| instead of doing so manually via this website. \n`---- \n \nFollow this advice and do not use dpkg directly if you don't know what \nyou're doing. Especially not for required packages. \n \nSven \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87vdaujggp.fsf@turtle.gmx.de", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Sven Joachim <svenjoac@gmx.de>", 
+    "subject": "Re: libc6 upgrade lenny to squeeze failed, now dpkg is broken"
+}

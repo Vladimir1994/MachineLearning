@@ -1,0 +1,9 @@
+{
+    "body": "In , IAN DELANEY wrote: \n>oh, i may have just figured it out. It's using vim. Must be different \n> version perhaps. Once entered the data, I couldn't see how to save and \n> exit. I'm used to nano. The other instance uses nano as a text editor to \n> enter the description.' No matter, let's persevere since I've started. \n \nSetting EDITOR=/usr/bin/nano in your environment will make most Debian \nutilities use it instead of /usr/bin/sensible-editor. \n \n>The bug report: \n \nThat's a decent report, but bug reports don't go to debian-user@l.d.o. They \ngo to submit@b.d.o. \n-- \nBoyd Stephen Smith Jr. ,= ,-_-. =. \nbss@iguanasuicide.net ((_/)o o(\\_)) \nICQ: 514984 YM/AIM: DaTwinkDaddy `-'(. .)`-' \nhttp://iguanasuicide.net/ \\_/", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>", 
+    "subject": "Re: reportug"
+}

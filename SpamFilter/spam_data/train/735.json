@@ -1,0 +1,9 @@
+{
+    "body": "(Let's keep this on-list!!!) \n \nOn 05/17/2010 05:05 PM, Alan Chandler wrote: \n> On 17/05/10 21:11, Ron Johnson wrote: \n> \n>> We use courier-imap and have courier-base 0.64.2-1 installed but don't \n>> seem to have that problem. What's a reproducer? \n>> \n> \n> I am not sure what you mean by this - but I am using Thunderbird on \n> Linux and have used Outlook on Windows 7, and my wife uses Thunderbird \n> on Windows XP, and they all throw up this error. \n> \n \nStep by step, how do I reproduce this error? \n \n-- \nDissent is patriotic, remember? \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/4BF1D705.8090503@cox.net", 
+    "to": [
+        "ML Debian-User <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Ron Johnson <ron.l.johnson@cox.net>", 
+    "subject": "Re: Is there a workaround for bug #578937"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "URL: http://jeremy.zawodny.com/blog/archives/000187.html\nDate: 2002-09-23T11:47:57-08:00\n\nGot a stock ticker for which you'd like to have an RSS news feed? Help test the \nbeta RSS feeds we've put up o Yahoo Finance. Take your favorite ticker, say \nYHOO, and put this URL in your news aggregator:...", 
+    "to": [
+        "yyyy@spamassassin.taint.org"
+    ], 
+    "is_spam": false, 
+    "from": "zawodny <rssfeeds@spamassassin.taint.org>", 
+    "subject": "Yahoo Finance RSS Beta"
+}

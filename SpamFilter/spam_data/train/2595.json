@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, May 17, 2010 at 7:01 AM, Zoran Kolic wrote: \n \n> > > *What I'm doing to mount the media: * \n> > > root@debian:/home/stuckey# mount /dev/sr0 \n> > > mount: block device /dev/sr0 is write-protected, mounting read-only \n> > > mount: wrong fs type, bad option, bad superblock on /dev/sr0, \n> > > missing codepage or helper program, or other error \n> > > (could this be the IDE device where you in fact use \n> > > ide-scsi so that sr0 or sda or so is needed?) \n> > > In some cases useful info is found in syslog - try \n> > > dmesg | tail or so \n> > Is this a data or audio CD (audio CDs can't be mounted, only played)? Is \n> > it possible to test with another OS on the same hardware? \n> \n> As another poster pointed, the device could be wrongly picked up. \n> Also, I'm not sure for udf, made on win. Best bet would be to \n> mount it by the hand, trying all devices out. Further, helps to use \n> dvd/cd that worked as a charm previously. \n> Do you noticed any change in /dev directory after inserting op- \n> tical media in the device? \n> Best regards \n> \n> Zoran \n> \n> \nSometimes I'll get \"mount: no medium found on /dev/sr0\" or it will mount, or \nit will give me the other error message I posted. \n \nI just put a disc in, tried to mount it three times, and got three different \nresults. Now it is mounted and /dev looks like \nhttp://paste.debian.net/73572/ \n \nNow I've taken the disc out and dev looks like: \nhttp://paste.debian.net/73573/ \n \nThey look the same to me.", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Re: Still can't read DVDs/CDs"
+}

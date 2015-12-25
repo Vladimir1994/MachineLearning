@@ -1,0 +1,9 @@
+{
+    "body": "On Fri, Apr 30, 2010 at 5:44 PM, Boyd Stephen Smith Jr. wrote: \n \n> On Friday 30 April 2010 06:16:22 James Stuckey wrote: \n> > The unstable/sid doesn't have to be comment out. Setting the default \n> > release will keep the system tracked to, in this case, testing. \n> \n> Er, mostly. \n> \n> If there is a versioned dependency that can be satisfied from sid but not \n> testing, you will get the package from sid. This shouldn't happen given \n> the \n> way testing is managed, unless you installed at least one package from sid. \n> \n> > How did the packages from sid get installed in the first place? If \n> you're \n> > tracking something, you have to give it an explicit \"aptitude install -t \n> > sid \" command, right? \n> \n> With the official testing and sid repositories that should be true. It \n> would \n> only happen if someone manually fixed up testing and did it wrong. \n> -- \n> \n \nI installed eclipse from sid, since there isn't eclipse in testing.", 
+    "to": [
+        "\"Boyd Stephen Smith Jr.\" <bss@iguanasuicide.net>"
+    ], 
+    "is_spam": false, 
+    "from": "James Stuckey <jhstuckey@csmining.org>", 
+    "subject": "Re: Aptitude Error"
+}

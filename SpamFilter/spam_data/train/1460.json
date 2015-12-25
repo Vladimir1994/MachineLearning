@@ -1,0 +1,9 @@
+{
+    "body": "On Mon, Apr 19, 2010 at 19:04 +0200, Merciadri Luca wrote: \n> I have no answer to your question, but I am wondering... \n> \n> Ionreflex wrote: \n> > [quote] \n> > Linux lol 2.4.27-3-586tsc #1 Tue Dec 5 22:06:26 UTC 2006 i586 GNU/Linux \n> > [/quote] \n> What does `lol' mean here? Is it some version of something, or did you \n> simply put this over there because you have some sense of humor and you \n> like to make your (somewhat old) config appear less depressing to the \n> others' eyes? \n \nA very unique and inventive hostname - if that is the output of 'uname \n-a' \n-- \n .''`. Wolodja Wentland \n : :' : \n `. `'` 4096R/CAF14EFC \n `- 081C B7CD FF04 2BA9 94EA 36B2 8B7F 7D30 CAF1 4EFC", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Wolodja Wentland <wentland@cl.uni-heidelberg.de>", 
+    "subject": "Re: Which kernel for ThinkPad 760XD ?"
+}

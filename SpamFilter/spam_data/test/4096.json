@@ -1,0 +1,8 @@
+{
+    "body": "On Fri, Apr 30, 2010 at 21:14, Boyd Stephen Smith Jr. \n wrote: \n> On Friday 30 April 2010 06:16:22 James Stuckey wrote: \n>> The unstable/sid doesn't have to be comment out. Setting the default \n>>  release will keep the system tracked to, in this case, testing. \n> \n> Er, mostly. \n> \n> If there is a versioned dependency that can be satisfied from sid but not \n> testing, you will get the package from sid.  This shouldn't happen given the \n> way testing is managed, unless you installed at least one package from sid. \n> \n>> How did the packages  from sid get installed in the first place? If you're \n>> tracking something, you have to give it an explicit \"aptitude install -t \n>>  sid \" command, right? \n> \n> With the official testing and sid repositories that should be true.  It would \n> only happen if someone manually fixed up testing and did it wrong. \n> -- \n> Boyd Stephen Smith Jr.                   ,= ,-_-. =. \n> bss@iguanasuicide.net                   ((_/)o o(\\_)) \n> ICQ: 514984 YM/AIM: DaTwinkDaddy         `-'(. .)`-' \n> http://iguanasuicide.net/                    \\_/ \n> \n \nYou could find what all packages from sid are installed in your system by \napt-show-versions | grep unstable \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/g2kd0bf7b0b1004301018p3fb45806we1fd29cf33c2119d@mail.csmining.org", 
+    "to": [
+        "debian-user <debian-user@lists.debian.org>"
+    ], 
+    "from": "Anand Sivaram <aspnair@csmining.org>", 
+    "subject": "Re: Aptitude Error"
+}

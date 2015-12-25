@@ -1,0 +1,8 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nContent-Type: text/plain; charset=us-ascii\n\nAfter a bit of peeking through the exmh tcl and playing with tcl a bit, I got \nthe \"catchup unseen messages before cur\" procedure working. Here's the code \nfor everybody and the list archives in case anyone wants it in the future. \nThanks to John R. LoVerso for putting me on the right track. \n\nproc My_Mark2CurSeen {} {\n global exmh pick msg\n set results {}\n Exmh_Status \"Clearing unseen up to cur...\" red\n Mh_SetCur $exmh(folder) $msg(id)\n set unseen [Mh_Unseen $exmh(folder)]\n foreach elem $unseen {\n if { $elem ", 
+    "to": [
+        "exmh-workers@spamassassin.taint.org"
+    ], 
+    "from": "Ted Cabeen <secabeen@pobox.com>", 
+    "subject": "Working My_Mark2CurSeen"
+}

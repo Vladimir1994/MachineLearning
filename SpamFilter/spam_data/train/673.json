@@ -1,0 +1,9 @@
+{
+    "body": "Hi, List! \n \nI have a few simple questions for you: \n \n1 - I there a better place to get help with dash \n2 - Is there way to detect that a script is running as dash, instead of a \nshell like Solaris' /bin/sh \n3 - Corollary to #2, can I expect dash-as-sh to by a hard link or a sym \nlink? (I would think not, but don't know Debian's policy here) \n4 - Reason for #2, is there a way to list all functions declared in a script \nwith dash? Under Solaris' shell, bash, or the korn shell I can use \n\"typeset\" -- I've searched POSIX and don't see a way that doesn't involve \nparsing the script. \n \nThanks, \nWes \n \n-- \nWesley W. Garland \nDirector, Product Development \nPageMail, Inc. \n+1 613 542 2787 x 102", 
+    "to": [
+        "Debian User List <debian-user@lists.debian.org>"
+    ], 
+    "is_spam": false, 
+    "from": "Wes Garland <wes@page.ca>", 
+    "subject": "dash-as-bin-sh"
+}

@@ -1,0 +1,9 @@
+{
+    "body": "Using Razor2 via SpamAssasin.\n\nSystem is Solaris 2.7, with qmail. Spamassassin run via user's procmail.\nAll users who use SA have run razor-register.\n\nRazor2 is failing, and I can't find anything in the limited docs or on \ngoogle on it,\nand I'm hoping someone can help.\n\nThe error (which doesn't prevent SA from working) is:\n\nOct 2 06:38:22 sancho2 qmail: 1033565902.186041 delivery 4588: success: \nrazor2_check_skipped:_Bad_file_number_Can't_locate_object_m\nethod_\"new\"_via_package_\"Razor2::Client::Agent\"_(perhaps_you_forgot_to_load_\"Razor2::Client::Agent\"?)_at_/usr/local/lib/perl5/site_p\nerl/5.6.1/Mail/SpamAssassin/Dns.pm_line_374./did_0+0+1/\n\nLooking at Dns.pm doesn't really help me, and Razor2::Client::Agent appears \nto be in the right place,\nin /usr/local/lib/perl5/site_perl/5.6.1/Razor2/Client.\n\nIdeas?\n\n...Chris\n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nRazor-users mailing list\nRazor-users@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/razor-users", 
+    "to": [
+        "razor-users@example.sourceforge.net"
+    ], 
+    "is_spam": false, 
+    "from": "Chris Kurtz <blue@rocinante.com>", 
+    "subject": "[Razor-users] Razor2 error: can't find \"new\""
+}

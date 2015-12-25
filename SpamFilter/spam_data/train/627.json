@@ -1,0 +1,9 @@
+{
+    "body": "-----BEGIN PGP SIGNED MESSAGE----- \nHash: SHA1 \n \n\"Boyd Stephen Smith Jr.\" writes: \n \n> On Friday 14 May 2010 12:04:42 Merciadri Luca wrote: \n>> I have many text files (actually .tex files) which contain some \n>> sequence or regexp (it depends on the files) that I would like to \n>> remove. Is there a commandline/GUI for doing this massive edit? \n> \n> (sed -i -e \"s/$regexp//\" \"$file\") for a single file. (GNU sed only.) \n> \n> (find $dir -type f -exec sed -i -e \"s/$regexp//\" {} \\;) for all files in a \n> directory. \nThanks both. (@Andrei: it was in the content of the file, sorry not to \nhave specified it before.) \n \nI am using the second command. The problem is that, for one set of \nfiles (that I have selected, no problem for this), I have to use a \nreally simple expression: I need to find all the occurences of \n`\\paragraph{}' and replace them with nothing (i.e. with `'). I know \nregexps, but replacing `$regexp' with `\\paragraph{}' gives error \nmessages. Any idea? Thanks. \n \n- -- \nMerciadri Luca \nSee http://www.student.montefiore.ulg.ac.be/~merciadri/ \n- -- \n \nThe absent are always in the wrong. \n-----BEGIN PGP SIGNATURE----- \nVersion: GnuPG v1.4.9 (GNU/Linux) \nComment: Processed by Mailcrypt 3.5.8 \n \niEYEARECAAYFAkvtje0ACgkQM0LLzLt8MhzeCgCfUiKS/MXIJ3pQSvPeGEXj2/88 \nzjQAoKWQ7OuTuxQRfe+SZRMI8fPicX// \n=brRM \n-----END PGP SIGNATURE----- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/87vdaqqsk2.fsf@merciadriluca-station.MERCIADRILUCA", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>", 
+    "subject": "Re: Deleting some regexp/simple expression from lots of files in a secure way"
+}

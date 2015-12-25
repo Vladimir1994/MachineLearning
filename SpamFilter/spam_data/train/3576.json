@@ -1,0 +1,9 @@
+{
+    "body": "Thanks Dan. And the changes were very clever. Some of his rule changes \nactually did make thing more readable and he is highly skilled at \nregular expressions. I have found that readability and \nunderstandability is important in maintaining code. I think in a group \nproject that it's more important.\n\nDaniel Quinlan wrote:\n\n>This is not a big deal, but I think Marc has a good point. The\n>performance difference is probably insignificant. On the other hand, we\n>continually have errors in regular expressions, often when \"excessive\n>cleverness\" has been applied.\n>\n>This seems like a pretty good example of premature/excessive\n>optimization. There is no data showing that the relevant code is run\n>for any significant period of time or that these changes produce a\n>measurable improvement in performance. Maybe they do, but it would be\n>nice to know before we complicate every regular expression.\n>\n>In contrast, your changes to the eval loops in PerMsgStatus.pm were\n>great. The code was responsible for a lot of our execution time and\n>there was a huge speed improvement. Even better, the code was just as\n>easy to understand as the original.\n>\n>Dan\n>\n> \n>\n\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-devel mailing list\nSpamassassin-devel@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-devel", 
+    "to": [
+        "Daniel Quinlan <quinlan@pathname.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Marc Perkel <marc@perkel.com>", 
+    "subject": "Re: [SAdev] [Bug 584] New: More general rule cleanup"
+}

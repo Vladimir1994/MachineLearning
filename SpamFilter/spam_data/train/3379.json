@@ -1,0 +1,9 @@
+{
+    "body": "On 21/04/10 06:15, surreal wrote: \n> I wanted to buy a book about Debian, I found that the last book written was \n> way back in 2005 by Martin F. \n> Krafft \n \nThis is hardly a new book. In fact, it was written in the days of Woody. \n(Woody -> Sarge -> Etch -> Lenny -> Squeeze) \nAnd parts of it are obsolete. But the author focuses on the core stuff of \nUnix/Linux, and so most of it is still current. It's an excellent guide \nfor how to accomplish common computing tasks in Linux, usually with a \ncommand line tool, and the author has a clear bent toward Debian. \n \n http://dsl.org/cookbook/cookbook_toc.html \n \nThis is the original version of the book, and it is free. There's an \nexpanded 2nd Edition available in hard copy for a fee. \n \n-- \n .''`. Stephen Powell \n : :' : \n `. `'` \n `- \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/2047298230.199548.1271856862719.JavaMail.root@md01.wow.synacor.com", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Stephen Powell <zlinuxman@wowway.com>", 
+    "subject": "Re: Why are there no latest books written for Debian systems?"
+}

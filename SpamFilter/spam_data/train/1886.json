@@ -1,0 +1,9 @@
+{
+    "body": "I've just replaced gdm with gdm3 and find that it doesn't seem to be \npossible to login as root any more. Does anyone know if this can be \nenabled? \n \nThe old login screen settings included lots of options including 'allow \nadministrator login'. The new version has very few options. \n \n-- \nTixy () The ASCII Ribbon Campaign (www.asciiribbon.org) \n /\\ Against HTML e-mail and proprietary attachments \n \n \n-- \nTo UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/1274381021.3359.7.camel@computer2.home", 
+    "to": [
+        "debian-user@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Tixy <debianuser@tixy.myzen.co.uk>", 
+    "subject": "Is it possible to login as root with GDM3?"
+}

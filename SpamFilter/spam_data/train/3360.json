@@ -1,0 +1,9 @@
+{
+    "body": "On Tue, 2002-10-08 at 00:05, Matthias Saou wrote:\n\n> It's 100% untested, although the build should be ok. The new menu was\n> added, but some configuration files may be better with new or different\n> defaults.\n> \n> Feedback is very welcome!\n\nLooks good to me, just installed it, and ran a local scan, everything\nworked smoothly. Thanks a bunch!\n\n-- \n\\/ille Skyttä\nville.skytta at iki.fi\n\n\n_______________________________________________\nRPM-List mailing list \nhttp://lists.freshrpms.net/mailman/listinfo/rpm-list", 
+    "to": [
+        "rpm-zzzlist@freshrpms.net"
+    ], 
+    "is_spam": false, 
+    "from": "Ville =?ISO-8859-1?Q?Skytt=E4?= <ville.skytta@iki.fi>", 
+    "subject": "Re: Nessus?"
+}

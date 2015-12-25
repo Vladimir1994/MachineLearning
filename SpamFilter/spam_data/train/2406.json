@@ -1,0 +1,9 @@
+{
+    "body": "> For example, take the recent CBC Olympics site: I needed to roll\n> together a telnet client with a tokenizer, perl-regex preprocessing a\n> stream to produce parseable XML, project that XML into relational\n> databases using only the DTD to generate the rdbms schema, and open an\n> XMLRPC interface to read and post items into the news stream. Where\n> can I find C libs for those components?\n\nYou open sourced the new components you developed for this project, so the\nnext person who comes along won't have to reimplement them, right?\n\n- Jim", 
+    "to": [
+        "\"Gary Lawrence Murphy\" <garym@canada.com>"
+    ], 
+    "is_spam": false, 
+    "from": "\"Jim Whitehead\" <ejw@cse.ucsc.edu>", 
+    "subject": "RE: Java is for kiddies"
+}

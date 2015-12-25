@@ -1,0 +1,9 @@
+{
+    "body": "On Sun, 15 Sep 2002, Vernon Webb wrote:\n\n> I'm getting these messages and I'm not sure what they mean. Can anyone clear \n> this up for me? Thanks.\n> \n> Sep 15 11:45:09 linux mailscanner[6128]: RBL Check ORDB-RBL timed out and \n> was killed, consecutive failure 3 of 7\n> Sep 15 11:45:24 linux mailscanner[6128]: SpamAssassin timed out and was \n> killed\n\nYour running mailscanner and the timeout used got to check ORDB-RBL is too \nlow and your timing out. mailscanner will count up to seven timeouts and \nthen automatically disable these checks until it restarts itself (within 4 \nhours).\n\n-- \nGerry\n\n\"The lyfe so short, the craft so long to learne\" Chaucer\n\n\n\n-------------------------------------------------------\nThis sf.net email is sponsored by:ThinkGeek\nWelcome to geek heaven.\nhttp://thinkgeek.com/sf\n_______________________________________________\nSpamassassin-talk mailing list\nSpamassassin-talk@lists.sourceforge.net\nhttps://lists.sourceforge.net/lists/listinfo/spamassassin-talk", 
+    "to": [
+        "Vernon Webb <vernon@comp-wiz.com>"
+    ], 
+    "is_spam": false, 
+    "from": "Gerry Doris <gerry@dorfam.ca>", 
+    "subject": "Re: [SAtalk] RBL timed oiut and Spam Assassin killed"
+}

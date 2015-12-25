@@ -1,0 +1,9 @@
+{
+    "body": "This automatic mail gives an overview over security issues that were recently \nfixed in Debian Testing. The majority of fixed packages migrate to testing \nfrom unstable. If this would take too long, fixed packages are uploaded to the \ntesting-security repository instead. It can also happen that vulnerable \npackages are removed from Debian testing. \n \nMigrated from unstable: \n======================= \nalien-arena 7.33-6 (contrib): \n : alien-arena: server dos \n http://bugs.debian.org/575621 \n \n \n \nHow to update: \n-------------- \nMake sure the line \n \n deb http://security.debian.org squeeze/updates main contrib non-free \n \nis present in your /etc/apt/sources.list. Of course, you also need the line \npointing to your normal squeeze mirror. You can use \n \n aptitude update && aptitude dist-upgrade \n \nto install the updates. \n \n \nMore information: \n----------------- \nMore information about which security issues affect Debian can be found in the \nsecurity tracker: \n \n http://security-tracker.debian.org/tracker/ \n \nA list of all known unfixed security issues is at \n \n http://security-tracker.debian.org/tracker/status/release/testing \n \n \n-- \nTo UNSUBSCRIBE, email to debian-testing-security-announce-request@lists.debian.org \nwith a subject of \"unsubscribe\". Trouble? Contact listmaster@lists.debian.org \nArchive: http://lists.debian.org/E1O7HlS-0005nH-55@soler.debian.org", 
+    "to": [
+        "debian-testing-security-announce@lists.debian.org"
+    ], 
+    "is_spam": false, 
+    "from": "Testing Security Team <secure-testing-team@lists.alioth.debian.org>", 
+    "subject": "Security update for Debian Testing - 2010-04-29"
+}

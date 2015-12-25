@@ -1,0 +1,9 @@
+{
+    "body": "\"Craig R.Hughes\" said:\n\n> Seems like a good idea. We might get one of two other issues \n> raised tomorrow too once US people get back to work tomorrow and \n> start downloading 2.40 in earnest.\n\nyep, I reckon that's likely.\n\nBTW I'm hearing reports about problems resolving spamassassin.org.\nAnyone else noticing this? if it's serious I'll see if I can get\nMark Reynolds to add a 2ndary in the US, to go with the primaries\nin Oz.\n\n> > - looks like there may be a razor2 issue\n\nI think this is a Razor bug/glitch triggered when file permissions\ndon't allow its own log system to work. At least that's the report\nI heard on the Razor list in the past...\n\nTheo, does it work now that you /dev/null'd the logfile?\n\n> > - version number (says \"cvs\")\n> > - tag tree as \"Rel\" this time too\n\nI won't bother tagging with Rel, IMO; I don't think we should\nrely on the version control system inside our code, so I've just\nput a line in Mail/SpamAssassin.pm instead. I will of course\ntag with a release *label* though.\n\n--j.", 
+    "to": [
+        "\"Craig R.Hughes\" <craig@deersoft.com>"
+    ], 
+    "is_spam": false, 
+    "from": "yyyy@example.com (Justin Mason)", 
+    "subject": "Re: [SAdev] 2.41 release? "
+}
