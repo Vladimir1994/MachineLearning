@@ -4,18 +4,18 @@ import os
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn import linear_model
 
-def classify(mail, vectorizer, logreg):
-    vect_mail = vectorizer.transform([mail])
-    res = logreg.predict(vect_mail)
+def classify(mail, vectorizer, classifier):
+    features = vectorizer.transform([mail])
+    res = classifier.predict(features)
     return res[0]
  
-def make_output(test_dir, vectorizer, logreg):
+def make_output(test_dir, vectorizer, classifier):
     with codecs.open('test.txt', 'w', 'utf-8') as out:
         for f in os.listdir(test_dir):
             mail = json.load(open(os.path.join(test_dir, f)), 'utf-8')
             result = classify(mail['from'].encode('ascii','ignore') + ' ' +
                               mail['subject'].encode('ascii','ignore') + ' ' +
-                              mail['body'].encode('ascii','ignore'), vectorizer, logreg)
+                              mail['body'].encode('ascii','ignore'), vectorizer, classifier)
             out.write(u'%s\t%s\n' % (f, result))
 
 def read_train(train_dir):
@@ -24,8 +24,7 @@ def read_train(train_dir):
             mail = json.load(fo, 'utf-8')
             yield mail
 
-if __name__ == '__main__':
-    train_mails = list(read_train('spam_data/train'))
+def train(train_mails):
     corpus = list()
     is_spam = list()
 
@@ -35,7 +34,15 @@ if __name__ == '__main__':
                       mail['body'].encode('ascii','ignore'))
         is_spam.append(mail['is_spam'])
     vectorizer = CountVectorizer()
-    cnt_vect = vectorizer.fit_transform(corpus)
-    logreg = linear_model.LogisticRegression()
-    logreg.fit(cnt_vect, is_spam)
-    make_output('spam_data/test', vectorizer, logreg)
+    features = vectorizer.fit_transform(corpus)
+    classifier = linear_model.LogisticRegression()
+    classifier.fit(features, is_spam)
+    return classifier, vectorizer
+
+def main():
+    train_mails = list(read_train('spam_data/train'))
+    classifier, vectorizer = train(train_mails)
+    make_output('spam_data/test', vectorizer, classifier)
+
+if __name__ == '__main__':
+    main()
