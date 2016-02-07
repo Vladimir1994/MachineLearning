@@ -1,8 +1,7 @@
-__author__ = 'User'
-
 from HoltWintersAdditive import HoltWintersAdditive
 from HoltWintersMultiplicative import HoltWintersMultiplicative
 from math import sqrt
+
 
 def predict(x, seasonPeriod, forecastLen):
     fa = HoltWintersAdditive(x, seasonPeriod, 0)

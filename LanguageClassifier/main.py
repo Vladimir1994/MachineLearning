@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import LinearSVC
 import scipy.sparse as sp
 
+
 def parseTrainData():
     f = codecs.open("data/train.txt", "r", "utf-8")
     data = f.readlines()
@@ -13,10 +14,12 @@ def parseTrainData():
         corpus.append(prepareLine(line.split('\t')[1]))
     return markers, corpus
 
+
 def parseTestData():
     test = codecs.open("data/test.txt", "r", "utf-8")
     testData = test.readlines()
     return testData
+
 
 def prepareLine(line):
     deletingSymbols = '1234567890":;@#$%^*()-_+=,.?!<>\\|/][{}&'
@@ -25,8 +28,9 @@ def prepareLine(line):
     line.lower()
     return line
 
+
 def train(markers, corpus):
-    wordVectorizer = CountVectorizer(binary = True)
+    wordVectorizer = CountVectorizer(binary=True)
     charVectorizer = CountVectorizer(analyzer='char')
     wordFeatures = wordVectorizer.fit_transform(corpus)
     charFeatures = charVectorizer.fit_transform(corpus)
@@ -35,6 +39,7 @@ def train(markers, corpus):
     classifier.fit(features, markers)
     return classifier, wordVectorizer, charVectorizer
 
+
 def classify(classifier, wordVectorizer, charVectorizer, line):
     wordFeatures = wordVectorizer.transform([line])
     charFeatures = charVectorizer.transform([line])
@@ -42,17 +47,21 @@ def classify(classifier, wordVectorizer, charVectorizer, line):
     classificationResult = classifier.predict(features)
     return classificationResult[0]
 
+
 def makeOutput(classifier, wordVectorizer, charVectorizer, testData):
     o = open("data/output.txt", "w")
     for line in testData:
-        o.write("%s\n" % classify(classifier, wordVectorizer, charVectorizer, prepareLine(line)))
+        o.write("%s\n" % classify(classifier, wordVectorizer, charVectorizer,
+                                  prepareLine(line)))
     o.close()
+
 
 def main():
     markers, corpus = parseTrainData()
     classifier, wordVectorizer, charVectorizer = train(markers, corpus)
     testData = parseTestData()
     makeOutput(classifier, wordVectorizer, charVectorizer, testData)
+
 
 if __name__ == "__main__":
     main()

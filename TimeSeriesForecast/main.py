@@ -1,15 +1,15 @@
-__author__ = 'User'
-
 import matplotlib.pyplot as plt
 from predict import predict
 from numpy import random
+
 
 def main():
     x = []
     yA = []
     yM = []
 
-    season = [0.0000, 0.0003, 0.0111, 0.1353, 0.6065, 1.0000, 0.6065, 0.1353, 0.0111, 0.0003, 0.0000]
+    season = [0.0000, 0.0003, 0.0111, 0.1353, 0.6065, 1.0000, 0.6065, 0.1353,
+              0.0111, 0.0003, 0.0000]
     noise = 0 * random.randn(200)
 
     for i in range(-100, 100):
@@ -29,6 +29,7 @@ def main():
     plt.plot(yM)
     plt.plot(forecast_2)
     plt.show()
+
 
 if __name__ == "__main__":
     main()
