@@ -19,8 +19,8 @@ def countAccuracy(trainMarkers, trainFeatures, testMarkers,
 
 
 def main():
-    trainData = np.loadtxt('perceptron_train.csv', delimiter=',')
-    testData = np.loadtxt('perceptron_test.csv', delimiter=',')
+    trainData = np.loadtxt('perceptron-train.csv', delimiter=',')
+    testData = np.loadtxt('perceptron-test.csv', delimiter=',')
     trainMarkers = trainData[:, 0]
     trainFeatures = trainData[:, 1:]
     testMarkers = testData[:, 0]
