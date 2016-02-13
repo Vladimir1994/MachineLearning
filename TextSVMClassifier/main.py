@@ -5,6 +5,7 @@ from sklearn.cross_validation import KFold
 from sklearn.svm import SVC
 from sklearn.grid_search import GridSearchCV
 
+
 def readData():
     newsgroups = datasets.fetch_20newsgroups(subset='all',
                                              categories=['alt.atheism',
@@ -30,6 +31,7 @@ def main():
     top10Indices = sortedScoresIndices[-10:]
     featureNames = numpy.asarray(vectorizer.get_feature_names())[top10Indices]
     print " ".join(numpy.sort(featureNames))
+
 
 if __name__ == "__main__":
     main()
