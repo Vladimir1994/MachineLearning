@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cross_validation import KFold, cross_val_score
 from sklearn.preprocessing import scale
-
+from sklearn.grid_search import GridSearchCV
 
 def preprocessData(data):
     markers = data[:, 0]
@@ -12,17 +12,12 @@ def preprocessData(data):
 
 
 def crossVal(markers, features):
+    grid = {'n_neighbors': range(1, 50)}
     crossval = KFold(n=len(markers), n_folds=5, shuffle=True, random_state=42)
-    kfoldResult = np.array([])
-    for k in range(1, 50):
-        clf = KNeighborsClassifier(n_neighbors=k)
-        meanScore = np.mean(cross_val_score(clf, features, markers,
-                            cv=crossval))
-        kfoldResult = np.hstack((kfoldResult, meanScore))
-
-    minLoss = kfoldResult.max()
-    optimalK = kfoldResult.argmax() + 1
-    return minLoss, optimalK
+    clf = KNeighborsClassifier()
+    gs = GridSearchCV(clf, grid, scoring='accuracy', cv=crossval)
+    gs.fit(features, markers)
+    return gs.best_score_, gs.best_params_
 
 
 def main():
