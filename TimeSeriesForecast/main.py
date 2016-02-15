@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
-from predict import predict
 from numpy import random
+
+from predict import predict
 
 
 def main():

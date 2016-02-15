@@ -1,5 +1,6 @@
 from scipy.optimize import minimize
 from numpy import array
+
 from rmseHoltWintersMultiplicative import rmseHoltWintersMultiplicative
 
 

@@ -1,6 +1,7 @@
+from math import sqrt
+
 from HoltWintersAdditive import HoltWintersAdditive
 from HoltWintersMultiplicative import HoltWintersMultiplicative
-from math import sqrt
 
 
 def predict(x, seasonPeriod, forecastLen):
