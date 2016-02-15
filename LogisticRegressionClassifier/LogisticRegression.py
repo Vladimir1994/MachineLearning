@@ -35,8 +35,11 @@ class LogisticRegression:
 
         return np.sign(np.dot(features, self.coef_))
 
+
     def countScore(self, features):
         yScore = np.array([])
         for f in features:
             yScore = np.append(yScore, sigmoid(np.dot(f, self.coef_)))
         return yScore
+
+    
