@@ -42,4 +42,3 @@ class LogisticRegression:
             yScore = np.append(yScore, sigmoid(np.dot(f, self.coef_)))
         return yScore
 
-    

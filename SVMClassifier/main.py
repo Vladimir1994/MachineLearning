@@ -9,7 +9,7 @@ def main():
     clf = SVC(C=100000, kernel='linear', random_state=241)
     clf.fit(features, markers)
     supIdx = clf.support_
-    print("".join([str(el + 1) + " " for el in supIdx]))
+    print(" ".join([str(el + 1) for el in supIdx]))
 
 
 if __name__ == "__main__":

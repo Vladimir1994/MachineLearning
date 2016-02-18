@@ -91,7 +91,7 @@ SV
 EN
 ES
 SV
-PL
+EN
 FI
 LT
 EE
@@ -114,9 +114,9 @@ FI
 PL
 NL
 SV
-DE
-FI
 SV
+FI
+FR
 SV
 FR
 LT
@@ -304,8 +304,8 @@ FI
 NL
 ES
 PL
-IT
 CS
+CS
 DE
 IT
 DE
@@ -326,7 +326,7 @@ FR
 FR
 ES
 SV
-IT
+SV
 NL
 HU
 EE
@@ -389,7 +389,7 @@ EE
 CS
 ES
 FR
-FR
+SV
 DA
 FR
 DE
@@ -455,7 +455,7 @@ EN
 CS
 LT
 NL
-PL
+EN
 SV
 FR
 NL
@@ -569,7 +569,7 @@ ES
 LT
 IT
 DA
-IT
+CS
 LV
 EN
 SV
@@ -597,7 +597,7 @@ IT
 EN
 PL
 CS
-IT
+FI
 LV
 HU
 EE
@@ -626,7 +626,7 @@ FR
 EN
 LT
 EN
-DE
+HU
 LV
 DE
 EE
@@ -687,7 +687,7 @@ IT
 EE
 SV
 FI
-FR
+CS
 EE
 LT
 EE
@@ -766,7 +766,7 @@ PL
 ES
 SV
 SV
-DE
+HU
 NL
 LT
 EN
@@ -862,7 +862,7 @@ LT
 DE
 SV
 FR
-FI
+EE
 PL
 EE
 FR
@@ -977,7 +977,7 @@ NL
 LV
 NL
 LV
-IT
+NL
 IT
 LV
 HU
@@ -1186,7 +1186,7 @@ DA
 FR
 CS
 LT
-EN
+CS
 EE
 DE
 LT
@@ -1283,7 +1283,7 @@ FI
 CS
 FI
 ES
-EN
+FR
 DE
 EN
 SV
@@ -1304,7 +1304,7 @@ SV
 NL
 DA
 IT
-FR
+ES
 ES
 DA
 DE
@@ -1352,7 +1352,7 @@ LT
 SV
 EE
 FR
-DA
+SV
 DA
 SV
 FI
@@ -1418,7 +1418,7 @@ DE
 ES
 DA
 HU
-PL
+HU
 PL
 EE
 LV
@@ -1540,7 +1540,7 @@ LV
 FI
 FR
 DA
-FI
+DE
 HU
 SV
 EN
@@ -1584,7 +1584,7 @@ NL
 EN
 IT
 FI
-PL
+FR
 ES
 SV
 PL
@@ -1677,7 +1677,7 @@ SV
 IT
 HU
 PL
-FR
+ES
 FI
 IT
 EE
@@ -1808,7 +1808,7 @@ DA
 IT
 ES
 LT
-DE
+IT
 PL
 EE
 LT
@@ -1939,7 +1939,7 @@ ES
 FR
 EE
 LV
-DA
+SV
 DA
 ES
 LV
@@ -1955,9 +1955,9 @@ HU
 LT
 FI
 FR
-EE
+FI
 ES
-EE
+FI
 CS
 LV
 LV
@@ -2061,7 +2061,7 @@ LV
 ES
 HU
 NL
-HU
+PL
 IT
 LT
 EE
@@ -2085,8 +2085,8 @@ DE
 SV
 NL
 SV
-FR
 ES
+ES
 DE
 SV
 ES
@@ -2137,7 +2137,7 @@ IT
 PL
 FR
 ES
-LV
+EE
 CS
 EN
 SV
@@ -2403,7 +2403,7 @@ HU
 EE
 ES
 SV
-EN
+DE
 LT
 CS
 EE
@@ -2501,7 +2501,7 @@ DE
 PL
 DA
 DE
-EE
+SV
 FI
 DE
 LT
@@ -2738,7 +2738,7 @@ ES
 HU
 DA
 NL
-HU
+PL
 EE
 DA
 IT
@@ -2783,7 +2783,7 @@ CS
 IT
 FI
 HU
-HU
+EN
 FI
 LV
 EE
@@ -3025,8 +3025,8 @@ EN
 IT
 ES
 LV
-HU
 FI
+FI
 LV
 ES
 FI
@@ -3040,7 +3040,7 @@ LV
 LT
 PL
 FR
-ES
+LT
 IT
 PL
 EN
@@ -3118,7 +3118,7 @@ DA
 IT
 CS
 FR
-DE
+HU
 FR
 EE
 LT
@@ -3145,7 +3145,7 @@ FI
 NL
 DA
 DE
-LT
+EE
 FI
 FI
 FI
@@ -3386,7 +3386,7 @@ HU
 SV
 EN
 EN
-HU
+PL
 CS
 CS
 IT
@@ -3530,8 +3530,8 @@ IT
 FR
 LV
 DA
-FI
 FI
+EE
 LT
 NL
 EE
@@ -3606,7 +3606,7 @@ FI
 CS
 EE
 LV
-PL
+LT
 LT
 EN
 NL
@@ -3806,7 +3806,7 @@ LV
 ES
 DA
 FR
-PL
+CS
 SV
 NL
 FI
@@ -3903,7 +3903,7 @@ EE
 PL
 EE
 DA
-CS
+DE
 FR
 FI
 PL
@@ -3940,7 +3940,7 @@ CS
 HU
 NL
 DA
-DA
+SV
 DA
 DA
 NL
@@ -3958,7 +3958,7 @@ HU
 IT
 DA
 DE
-CS
+HU
 EN
 ES
 ES
@@ -3987,7 +3987,7 @@ FI
 FR
 NL
 LV
-SV
+EN
 ES
 PL
 DA
@@ -4098,7 +4098,7 @@ NL
 EN
 IT
 LT
-EN
+LT
 FR
 EN
 LV
@@ -4191,7 +4191,7 @@ DA
 PL
 HU
 DE
-PL
+IT
 FI
 FI
 LV
@@ -4431,7 +4431,7 @@ FR
 LT
 DE
 IT
-FI
+EE
 CS
 CS
 DA
@@ -4578,7 +4578,7 @@ SV
 LV
 DE
 FR
-FR
+NL
 FI
 LV
 NL
@@ -4627,7 +4627,7 @@ SV
 IT
 LT
 EE
-HU
+NL
 CS
 CS
 PL
@@ -4640,7 +4640,7 @@ DA
 FI
 HU
 PL
-NL
+PL
 LT
 FR
 FR
@@ -4765,7 +4765,7 @@ IT
 ES
 FI
 EN
-FR
+SV
 DA
 CS
 NL
@@ -4790,7 +4790,7 @@ SV
 EN
 LV
 IT
-FI
+CS
 DA
 DA
 FI
@@ -4827,8 +4827,8 @@ PL
 CS
 FI
 EE
-NL
 SV
+SV
 DA
 ES
 FR
@@ -4844,7 +4844,7 @@ EN
 ES
 DA
 SV
-DE
+SV
 EN
 NL
 EE
@@ -4876,7 +4876,7 @@ HU
 ES
 HU
 EE
-PL
+EN
 CS
 EE
 EE
@@ -4902,7 +4902,7 @@ ES
 LV
 ES
 LV
-CS
+DA
 DE
 DE
 LT
@@ -5029,8 +5029,8 @@ ES
 NL
 EN
 ES
-FI
 EE
+EE
 FR
 DE
 SV
@@ -5085,7 +5085,7 @@ FI
 PL
 HU
 SV
-HU
+CS
 DE
 LV
 DA
@@ -5114,7 +5114,7 @@ FI
 NL
 FI
 FI
-DE
+HU
 DA
 EE
 EN
@@ -5405,7 +5405,7 @@ LV
 LV
 DE
 DE
-PL
+HU
 FI
 ES
 ES
@@ -5500,7 +5500,7 @@ NL
 ES
 EE
 DE
-CS
+PL
 EN
 NL
 EE
@@ -5514,7 +5514,7 @@ HU
 LT
 FI
 FR
-EE
+FI
 DA
 DA
 FI
@@ -5523,11 +5523,11 @@ EE
 EE
 ES
 FR
-FI
+IT
 DE
 FI
 ES
-DA
+SV
 FR
 FI
 EE
@@ -5565,7 +5565,7 @@ FR
 EE
 EE
 HU
-FR
+ES
 IT
 CS
 DE
@@ -5647,7 +5647,7 @@ LT
 PL
 SV
 EN
-IT
+SV
 IT
 DE
 EE
@@ -6065,7 +6065,7 @@ EE
 LV
 HU
 EN
-DA
+SV
 PL
 DA
 NL
@@ -6086,12 +6086,12 @@ DA
 CS
 IT
 PL
-DE
+CS
 EN
 EN
 PL
 FR
-DA
+SV
 ES
 SV
 LV
@@ -6184,7 +6184,7 @@ CS
 EE
 IT
 SV
-DA
+DE
 HU
 NL
 HU
@@ -6203,7 +6203,7 @@ NL
 IT
 DE
 DE
-IT
+HU
 CS
 ES
 EN
@@ -6388,7 +6388,7 @@ DA
 SV
 NL
 DE
-SV
+DA
 IT
 PL
 NL
@@ -6406,7 +6406,7 @@ DA
 HU
 EN
 LT
-EN
+IT
 DE
 EE
 ES
@@ -6469,7 +6469,7 @@ NL
 SV
 DA
 IT
-DE
+EN
 LV
 EN
 HU
@@ -6531,7 +6531,7 @@ FI
 SV
 PL
 DE
-CS
+FI
 DE
 FI
 EN
@@ -6644,7 +6644,7 @@ DA
 SV
 DE
 DA
-ES
+PL
 ES
 FR
 SV
@@ -6710,7 +6710,7 @@ LT
 PL
 SV
 HU
-DE
+IT
 NL
 IT
 EE
@@ -6931,7 +6931,7 @@ DA
 EE
 SV
 EE
-EE
+FI
 LV
 SV
 FR
@@ -7026,7 +7026,7 @@ FR
 LT
 EE
 LV
-SV
+DA
 DE
 HU
 IT
@@ -7103,7 +7103,7 @@ DE
 ES
 EE
 EN
-FI
+EE
 ES
 LT
 NL
@@ -7248,7 +7248,7 @@ HU
 HU
 PL
 LV
-IT
+HU
 EE
 HU
 EN
@@ -7261,7 +7261,7 @@ FR
 SV
 LV
 LT
-HU
+CS
 IT
 EE
 HU
@@ -7304,7 +7304,7 @@ DA
 IT
 ES
 PL
-EN
+ES
 LT
 FR
 FR
@@ -7392,7 +7392,7 @@ LT
 PL
 FR
 NL
-EN
+ES
 HU
 FI
 HU
@@ -7425,13 +7425,13 @@ NL
 ES
 FR
 FR
-DE
+EN
 LT
 ES
 CS
 DA
 DE
-SV
+DA
 IT
 LV
 EN
@@ -7566,8 +7566,8 @@ NL
 HU
 PL
 CS
-SV
 CS
+CS
 DE
 EN
 DE
@@ -7577,7 +7577,7 @@ SV
 DA
 DE
 FI
-SV
+HU
 DE
 IT
 ES
@@ -7689,7 +7689,7 @@ EN
 LV
 PL
 FI
-FR
+CS
 ES
 PL
 NL
@@ -7701,7 +7701,7 @@ EN
 FR
 FI
 SV
-CS
+HU
 EE
 ES
 CS
@@ -7727,8 +7727,8 @@ ES
 DE
 SV
 CS
-NL
 PL
+PL
 EE
 LV
 SV
@@ -7780,8 +7780,8 @@ PL
 ES
 LV
 CS
-LT
-HU
+FI
+CS
 SV
 DE
 CS
@@ -7889,7 +7889,7 @@ NL
 DE
 LV
 LV
-DA
+NL
 FR
 SV
 DE
@@ -8066,7 +8066,7 @@ PL
 CS
 DA
 NL
-DA
+CS
 ES
 PL
 HU
@@ -8192,7 +8192,7 @@ IT
 LV
 NL
 FR
-HU
+DA
 FI
 HU
 DE
@@ -8224,7 +8224,7 @@ LV
 DA
 FI
 LV
-HU
+NL
 CS
 LT
 ES
@@ -8267,7 +8267,7 @@ ES
 CS
 LT
 FI
-PL
+ES
 NL
 SV
 PL
@@ -8298,7 +8298,7 @@ ES
 CS
 PL
 DA
-EE
+FI
 CS
 HU
 NL
@@ -8307,7 +8307,7 @@ NL
 DA
 NL
 CS
-LV
+EE
 EE
 DE
 FI
@@ -8626,7 +8626,7 @@ LT
 CS
 EN
 EE
-LV
+LT
 DE
 LT
 FR
@@ -8659,8 +8659,8 @@ FI
 SV
 DE
 HU
-NL
 FI
+FI
 PL
 HU
 DE
@@ -8923,7 +8923,7 @@ EE
 DE
 HU
 PL
-DE
+DA
 EN
 IT
 SV
@@ -8938,7 +8938,7 @@ DA
 FR
 CS
 DE
-ES
+FR
 LV
 LV
 FI
@@ -8955,7 +8955,7 @@ SV
 LV
 PL
 DA
-DE
+FR
 NL
 DA
 SV
@@ -9161,7 +9161,7 @@ IT
 IT
 FI
 IT
-DE
+EN
 LT
 FR
 CS
@@ -9227,7 +9227,7 @@ ES
 PL
 LV
 SV
-PL
+EN
 HU
 EE
 FR
@@ -9312,7 +9312,7 @@ LV
 CS
 NL
 HU
-FI
+CS
 PL
 FI
 DA
@@ -9502,7 +9502,7 @@ LT
 EN
 DE
 IT
-FI
+EE
 LT
 EE
 PL
@@ -9518,7 +9518,7 @@ EE
 DE
 HU
 DA
-FR
+CS
 DE
 CS
 CS
@@ -9536,7 +9536,7 @@ CS
 FI
 LV
 LT
-EE
+LT
 NL
 LT
 ES
@@ -9608,7 +9608,7 @@ FI
 EE
 FR
 HU
-SV
+DA
 LV
 LT
 NL
@@ -9650,7 +9650,7 @@ FR
 NL
 SV
 IT
-DE
+ES
 SV
 EN
 FR
@@ -9746,7 +9746,7 @@ EE
 FR
 PL
 FR
-HU
+DE
 EE
 EN
 DE
@@ -9817,7 +9817,7 @@ HU
 FR
 HU
 NL
-DA
+SV
 EE
 DA
 HU
@@ -9882,7 +9882,7 @@ DA
 SV
 SV
 LV
-DE
+ES
 EE
 EE
 HU
@@ -10035,7 +10035,7 @@ ES
 LT
 DA
 LV
-DA
+LT
 HU
 FI
 LT
@@ -10304,7 +10304,7 @@ EN
 ES
 DE
 DA
-EE
+LT
 PL
 LV
 ES
@@ -10590,7 +10590,7 @@ LT
 EE
 LT
 DA
-FI
+SV
 FI
 HU
 DA
@@ -10621,7 +10621,7 @@ EE
 EN
 EN
 PL
-FR
+ES
 ES
 DE
 DA
@@ -10695,7 +10695,7 @@ LV
 PL
 LV
 FR
-DE
+HU
 FR
 IT
 LV
@@ -10724,8 +10724,8 @@ HU
 PL
 DE
 FI
-FR
 FR
+CS
 SV
 FR
 LT
@@ -10784,7 +10784,7 @@ PL
 IT
 FR
 IT
-HU
+FI
 SV
 ES
 LV
@@ -11143,7 +11143,7 @@ EE
 PL
 FR
 DA
-SV
+DA
 PL
 CS
 PL
@@ -11376,7 +11376,7 @@ LV
 ES
 DA
 LT
-LT
+FI
 IT
 DE
 EN
@@ -11475,7 +11475,7 @@ HU
 CS
 NL
 EE
-LT
+CS
 DA
 EE
 LT
@@ -11542,7 +11542,7 @@ IT
 NL
 PL
 ES
-EE
+DE
 NL
 EE
 CS
@@ -11551,7 +11551,7 @@ SV
 LT
 CS
 LV
-DA
+DE
 LV
 PL
 EN
@@ -11599,7 +11599,7 @@ FI
 LV
 LT
 LT
-EE
+LT
 ES
 LV
 SV
@@ -11615,9 +11615,9 @@ NL
 ES
 PL
 PL
-EN
 SV
 SV
+SV
 DE
 LT
 LT
@@ -11649,7 +11649,7 @@ PL
 SV
 EE
 FI
-DA
+SV
 DE
 DA
 DA
@@ -11663,7 +11663,7 @@ DE
 LV
 DA
 FI
-FR
+NL
 CS
 EN
 DE
@@ -11829,7 +11829,7 @@ CS
 NL
 FR
 DA
-DE
+SV
 HU
 CS
 NL
@@ -11861,7 +11861,7 @@ DE
 DA
 PL
 DE
-FR
+ES
 CS
 ES
 PL
@@ -12013,7 +12013,7 @@ EE
 FR
 LT
 CS
-DA
+EN
 EE
 IT
 FI
@@ -12037,7 +12037,7 @@ FR
 PL
 IT
 IT
-SV
+CS
 FI
 LV
 EE
@@ -12208,7 +12208,7 @@ FR
 SV
 NL
 EN
-HU
+FR
 CS
 DE
 PL
@@ -12282,7 +12282,7 @@ DA
 ES
 PL
 ES
-DA
+SV
 IT
 DE
 NL
@@ -12323,7 +12323,7 @@ ES
 EE
 ES
 ES
-IT
+FI
 EE
 SV
 LT
@@ -12559,14 +12559,14 @@ FR
 LT
 FI
 ES
-EN
+SV
 CS
 DE
-LT
+CS
 LV
 FI
 LT
-FI
+DA
 EN
 EE
 SV
@@ -12593,7 +12593,7 @@ ES
 DA
 IT
 NL
-NL
+LT
 IT
 FR
 CS
@@ -12609,7 +12609,7 @@ HU
 EE
 CS
 DA
-DE
+IT
 LV
 FR
 DA
@@ -12644,7 +12644,7 @@ IT
 HU
 ES
 CS
-NL
+DE
 HU
 PL
 FI
@@ -12688,7 +12688,7 @@ DE
 DE
 EE
 FR
-DA
+SV
 LT
 LV
 IT
@@ -12797,7 +12797,7 @@ EN
 PL
 EE
 CS
-HU
+PL
 EE
 HU
 LV
@@ -12872,7 +12872,7 @@ EE
 EE
 EN
 FI
-DE
+DA
 EE
 LV
 DE
@@ -12936,7 +12936,7 @@ CS
 EN
 FR
 CS
-ES
+FR
 LV
 SV
 FR
@@ -13062,7 +13062,7 @@ PL
 HU
 CS
 ES
-EN
+FI
 IT
 ES
 CS
@@ -13095,7 +13095,7 @@ LV
 FR
 CS
 LV
-CS
+HU
 DA
 DE
 DA
@@ -13130,7 +13130,7 @@ SV
 EN
 FR
 DA
-IT
+DE
 LV
 EN
 CS
@@ -13162,14 +13162,14 @@ LT
 ES
 CS
 ES
-DA
+FI
 DE
 DE
 LT
 EE
 FI
 LT
-SV
+DA
 EN
 FR
 PL
@@ -13331,7 +13331,7 @@ PL
 EE
 SV
 DE
-FR
+ES
 SV
 IT
 NL
@@ -13532,8 +13532,8 @@ FI
 EE
 LV
 FR
-EE
 LT
+LT
 HU
 FR
 SV
@@ -13555,7 +13555,7 @@ EE
 IT
 FI
 ES
-FI
+LV
 HU
 DA
 FR
@@ -13677,7 +13677,7 @@ EN
 NL
 DA
 DA
-PL
+LT
 PL
 PL
 SV
@@ -13689,7 +13689,7 @@ FR
 SV
 LV
 DA
-DE
+DA
 IT
 LV
 PL
@@ -13700,7 +13700,7 @@ FR
 FI
 EN
 IT
-LT
+NL
 SV
 SV
 NL
@@ -13827,7 +13827,7 @@ LV
 PL
 LT
 DA
-DE
+DA
 PL
 ES
 LT
@@ -14080,7 +14080,7 @@ FI
 DE
 LT
 FI
-FI
+EE
 EN
 FR
 LT
@@ -14297,7 +14297,7 @@ FI
 EE
 CS
 SV
-SV
+IT
 EE
 EE
 SV
@@ -14347,7 +14347,7 @@ EN
 FI
 EE
 LV
-EN
+DA
 PL
 DA
 DE
@@ -14363,7 +14363,7 @@ LT
 LV
 NL
 FR
-HU
+FI
 HU
 NL
 EE
@@ -14456,7 +14456,7 @@ LT
 CS
 IT
 ES
-FR
+ES
 CS
 PL
 NL
@@ -14740,7 +14740,7 @@ ES
 NL
 SV
 LT
-SV
+DA
 FR
 CS
 PL
@@ -14879,7 +14879,7 @@ EN
 PL
 LV
 CS
-FI
+IT
 HU
 LT
 NL
@@ -14906,7 +14906,7 @@ PL
 EN
 FR
 LT
-CS
+FI
 LV
 DA
 NL
@@ -14941,7 +14941,7 @@ ES
 LV
 CS
 LV
-DE
+FI
 IT
 SV
 LT
@@ -14962,7 +14962,7 @@ FR
 EE
 IT
 LV
-DE
+EN
 EE
 LT
 LT
@@ -14973,7 +14973,7 @@ EE
 SV
 FI
 FI
-DA
+SV
 EE
 HU
 NL

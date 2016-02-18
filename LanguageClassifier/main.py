@@ -1,4 +1,6 @@
 import codecs
+import re
+
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import LinearSVC
 import scipy.sparse as sp
@@ -22,9 +24,7 @@ def parseTestData():
 
 
 def prepareLine(line):
-    deletingSymbols = '1234567890":;@#$%^*()-_+=,.?!<>\\|/][{}&'
-    for sym in deletingSymbols:
-        line = line.replace(sym, ' ')
+    line = re.sub('[^a-zA-Z0-9]', ' ', line)
     line.lower()
     return line
 
