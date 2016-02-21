@@ -3,6 +3,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.cross_validation import KFold, cross_val_score
 from sklearn.preprocessing import scale
 from sklearn.datasets import load_boston
+from sklearn.grid_search import GridSearchCV
 
 
 def loadData():
@@ -14,18 +15,14 @@ def loadData():
 
 
 def crossVal(markers, features):
+    grid = {'p': np.linspace(1, 10, 200)}
     crossval = KFold(n=len(markers), n_folds=5, shuffle=True, random_state=42)
-    kfoldResult = np.array([])
-    for p in np.linspace(1, 10, 200):
-        clf = KNeighborsRegressor(n_neighbors=5, weights='distance',
-                                  metric='minkowski', p=p)
-        meanScore = np.mean(cross_val_score(clf, features, markers,
-                            cv=crossval, scoring='mean_squared_error'))
-        kfoldResult = np.hstack((kfoldResult, meanScore))
 
-    minLoss = kfoldResult.max()
-    optimalP = kfoldResult.argmax() + 1
-    return minLoss, optimalP
+    reg = KNeighborsRegressor(n_neighbors=5, weights='distance',
+                              metric='minkowski')
+    gs = GridSearchCV(reg, grid, scoring='mean_squared_error', cv=crossval)
+    gs.fit(features, markers)
+    return gs.best_score_, gs.best_params_
 
 
 def main():
