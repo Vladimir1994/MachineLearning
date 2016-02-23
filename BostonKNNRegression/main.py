@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.cross_validation import KFold, cross_val_score
+from sklearn.cross_validation import KFold
 from sklearn.preprocessing import scale
 from sklearn.datasets import load_boston
 from sklearn.grid_search import GridSearchCV
