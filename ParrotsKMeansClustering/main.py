@@ -19,7 +19,7 @@ def main():
 
         seg_image_mean = np.zeros_like(image)
         seg_image_median = np.zeros_like(image)
-        for cluster_marker in range(n_clusters - 1):
+        for cluster_marker in range(n_clusters):
             mean_col = np.mean(features[markers == cluster_marker], axis=0)
             median_col = np.median(features[markers == cluster_marker], axis=0)
             seg_mask = markers.reshape((image.shape[0], image.shape[1])) == \
@@ -36,3 +36,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
