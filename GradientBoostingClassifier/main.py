@@ -56,5 +56,6 @@ def main():
     print("log_loss for random forest", log_loss(markers_test, y_pred_proba))
     pyplot.show()
 
+
 if __name__ == "__main__":
     main()
