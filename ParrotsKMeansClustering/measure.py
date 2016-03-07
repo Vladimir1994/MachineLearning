@@ -58,3 +58,4 @@ def compare_psnr(im_true, im_test, dynamic_range=None):
 
     err = compare_mse(im_true, im_test)
     return 10 * np.log10((dynamic_range ** 2) / err)
+
