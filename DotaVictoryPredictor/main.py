@@ -25,7 +25,7 @@ def remove_categorical_features(features):
     return features.drop(categorial_features, 1)
 
 
-def add_word_package(features, features_remcat, unique_names):
+def add_bag_of_words(features, features_remcat, unique_names):
     features_pick = np.zeros((features.shape[0], max(unique_names)))
     for i, match_id in enumerate(features.index):
         for p in range(0, 5):
@@ -109,9 +109,9 @@ def logitreg_task(features, markers):
 
     print("Task 2.4")
     features_remcat = remove_categorical_features(features)
-    features_remcat_wp = add_word_package(features, features_remcat,
+    features_remcat_bw = add_bag_of_words(features, features_remcat,
                                           unique_names)
-    features_remcat_wp_scaled = scaler.fit_transform(features_remcat_wp)
+    features_remcat_wp_scaled = scaler.fit_transform(features_remcat_bw)
     start_time = datetime.datetime.now()
     gs.fit(features_remcat_wp_scaled, markers)
     t = datetime.datetime.now() - start_time
@@ -123,11 +123,11 @@ def logitreg_task(features, markers):
     features_test = pandas.read_csv('features_test.csv', index_col='match_id')
     features_test = features_test.fillna(0)
     features_test_remcat = remove_categorical_features(features_test)
-    features_test_remcat_wp = add_word_package(features_test,
+    features_test_remcat_bw = add_bag_of_words(features_test,
                                                features_test_remcat,
                                                unique_names)
     features_test_remcat_wp_scaled = \
-        scaler.fit_transform(features_test_remcat_wp)
+        scaler.fit_transform(features_test_remcat_bw)
     markers_pred = gs.best_estimator_.\
         predict_proba(features_test_remcat_wp_scaled)
     print("Maximum prediction value: " + str(max(markers_pred[:, 0])))
