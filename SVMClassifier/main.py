@@ -8,8 +8,8 @@ def main():
     features = data[:, 1:]
     clf = SVC(C=100000, kernel='linear', random_state=241)
     clf.fit(features, markers)
-    supIdx = clf.support_
-    print(" ".join([str(el + 1) for el in supIdx]))
+    sup_idx = clf.support_
+    print(" ".join([str(el + 1) for el in sup_idx]))
 
 
 if __name__ == "__main__":

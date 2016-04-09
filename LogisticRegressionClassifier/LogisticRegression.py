@@ -7,25 +7,26 @@ class LogisticRegression:
     def __init__(self):
         self.coef_ = np.array([])
 
-    def fit(self, features, markers, gradStep=0.1, regCoef=0):
+    def fit(self, features, markers, grad_step=0.1, reg_coef=0):
         if features.shape[0] != len(markers):
             raise ValueError("Features rows count must be equal to"
                              " markers length.")
 
         accuracy = 1e-5
         self.coef_ = np.zeros(features.shape[1])
-        stopCond = True
+        stop_cond = True
 
-        while stopCond:
-            prevCoef = np.copy(self.coef_)
+        while stop_cond:
+            prev_coef = np.copy(self.coef_)
             for j in range(len(self.coef_)):
                 sum = 0
                 for i in range(features.shape[0]):
-                    sum += markers[i] * features[i, j] * (1 - \
-                          sigmoid(markers[i] * np.dot(features[i], prevCoef)))
-                self.coef_[j] += gradStep / features.shape[0] * sum - \
-                                 gradStep * regCoef * prevCoef[j]
-            stopCond = distance.euclidean(prevCoef, self.coef_) > accuracy
+                    sum += markers[i] * features[i, j] * (1 -
+                           sigmoid(markers[i] * np.dot(features[i],
+                                                       prev_coef)))
+                self.coef_[j] += grad_step / features.shape[0] * sum - \
+                                 grad_step * reg_coef * prev_coef[j]
+            stop_cond = distance.euclidean(prev_coef, self.coef_) > accuracy
 
 
     def predict(self, features):
@@ -36,9 +37,9 @@ class LogisticRegression:
         return np.sign(np.dot(features, self.coef_))
 
 
-    def countScore(self, features):
-        yScore = np.array([])
+    def count_score(self, features):
+        y_score = np.array([])
         for f in features:
-            yScore = np.append(yScore, sigmoid(np.dot(f, self.coef_)))
-        return yScore
+            y_score = np.append(y_score, sigmoid(np.dot(f, self.coef_)))
+        return y_score
 

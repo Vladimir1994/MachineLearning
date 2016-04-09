@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 
 
-def preprocessData(data):
+def preprocess_data(data):
     data = data[['Survived', 'Sex', 'Age', 'Fare', 'Pclass']].dropna(axis=0)
 
     sex = list(data['Sex'])
@@ -22,7 +22,7 @@ def preprocessData(data):
 
 def main():
     data = pandas.read_csv('titanic.csv', index_col='PassengerId')
-    markers, features = preprocessData(data)
+    markers, features = preprocess_data(data)
     clf = DecisionTreeClassifier()
     clf.fit(features, markers)
     importances = clf.feature_importances_

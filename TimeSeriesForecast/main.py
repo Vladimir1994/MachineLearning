@@ -6,8 +6,8 @@ from predict import predict
 
 def main():
     x = []
-    yA = []
-    yM = []
+    y_additive = []
+    y_multiplicative = []
 
     season = [0.0000, 0.0003, 0.0111, 0.1353, 0.6065, 1.0000, 0.6065, 0.1353,
               0.0111, 0.0003, 0.0000]
@@ -15,19 +15,19 @@ def main():
 
     for i in range(-100, 100):
         x.append(float(i) / 10)
-        yA.append(1.3 ** x[-1])
-        yM.append(1.3 ** x[-1])
+        y_additive.append(1.3 ** x[-1])
+        y_multiplicative.append(1.3 ** x[-1])
 
     for i in range(len(x)):
-        yA[i] = yA[i] + season[i % 10] + noise[i]
-        yM[i] = yM[i] * season[i % 10] + noise[i]
+        y_additive[i] = y_additive[i] + season[i % 10] + noise[i]
+        y_multiplicative[i] = y_multiplicative[i] * season[i % 10] + noise[i]
 
-    forecast_1 = predict(yA[:-20], 10, 19)
-    forecast_2 = predict(yM[:-20], 10, 19)
+    forecast_1 = predict(y_additive[:-20], 10, 19)
+    forecast_2 = predict(y_multiplicative[:-20], 10, 19)
     plt.plot(forecast_1)
-    plt.plot(yA)
+    plt.plot(y_additive)
     plt.figure(2)
-    plt.plot(yM)
+    plt.plot(y_multiplicative)
     plt.plot(forecast_2)
     plt.show()
 

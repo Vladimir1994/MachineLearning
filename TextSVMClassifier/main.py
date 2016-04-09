@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 from sklearn.grid_search import GridSearchCV
 
 
-def readData():
+def read_data():
     newsgroups = datasets.fetch_20newsgroups(subset='all',
                                              categories=['alt.atheism',
                                                          'sci.space'])
@@ -18,7 +18,7 @@ def readData():
 
 
 def main():
-    markers, features, vectorizer = readData()
+    markers, features, vectorizer = read_data()
     grid = {'C': numpy.power(10.0, numpy.arange(-5, 6))}
     cv = KFold(markers.size, n_folds=5, shuffle=True, random_state=241)
     clf = SVC(kernel='linear', random_state=241)
@@ -26,11 +26,13 @@ def main():
     gs.fit(features, markers)
     print(gs.best_score_)
     print(gs.best_params_)
-    scoresAbs = abs(gs.best_estimator_.coef_.data)
-    sortedScoresIndices = gs.best_estimator_.coef_.indices[scoresAbs.argsort()]
-    top10Indices = sortedScoresIndices[-10:]
-    featureNames = numpy.asarray(vectorizer.get_feature_names())[top10Indices]
-    print " ".join(numpy.sort(featureNames))
+    scores_abs = abs(gs.best_estimator_.coef_.data)
+    sorted_scores_indices = gs.best_estimator_. \
+        coef_.indices[scores_abs.argsort()]
+    top10_indices = sorted_scores_indices[-10:]
+    feature_names = \
+        numpy.asarray(vectorizer.get_feature_names())[top10_indices]
+    print " ".join(numpy.sort(feature_names))
 
 
 if __name__ == "__main__":

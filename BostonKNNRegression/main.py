@@ -6,7 +6,7 @@ from sklearn.datasets import load_boston
 from sklearn.grid_search import GridSearchCV
 
 
-def loadData():
+def load_data():
     data = load_boston()
     markers = data.target
     features = data.data
@@ -14,7 +14,7 @@ def loadData():
     return markers, features
 
 
-def crossVal(markers, features):
+def cross_val(markers, features):
     grid = {'p': np.linspace(1, 10, 200)}
     crossval = KFold(n=len(markers), n_folds=5, shuffle=True, random_state=42)
 
@@ -26,9 +26,9 @@ def crossVal(markers, features):
 
 
 def main():
-    markers, features = loadData()
-    minLoss, optimalP = crossVal(markers, features)
-    print(minLoss, optimalP)
+    markers, features = load_data()
+    min_loss, p_optimal = cross_val(markers, features)
+    print(min_loss, p_optimal)
 
 
 if __name__ == "__main__":
